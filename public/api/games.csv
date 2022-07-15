@@ -1,0 +1,602 @@
+Date,Time,Sport,Opponent,Level,Game Type
+8/12/2022,6:00 PM,Football,TBA - Tustin - PV - La Serna,Varsity,Scrimmage
+8/12/2022,4:00 PM,Football,TBA - Tustin - PV - La Serna,Junior Varsity,Scrimmage
+8/12/2022,3:00 PM,Football,TBA - Tustin - PV - La Serna,Freshman,Scrimmage
+8/16/2022,4:00 PM,"Volleyball, Girls",@Aliso Niguel,Frosh/Soph,Non-League
+8/16/2022,4:00 PM,"Volleyball, Girls",@Aliso Niguel,Junior Varsity,Non-League
+8/16/2022,5:30 PM,"Volleyball, Girls",@Aliso Niguel,Varsity,Non-League
+8/18/2022,3:15 PM,Football,@Cypress,Junior Varsity,Non-League
+8/18/2022,3:15 PM,Football,Cypress,Freshman,Non-League
+8/18/2022,4:30 PM,"Volleyball, Girls",St. Margarets Episcopal,Frosh/Soph,Non-League
+8/18/2022,4:30 PM,"Volleyball, Girls",St. Margarets Episcopal,Junior Varsity,Non-League
+8/18/2022,6:00 PM,"Volleyball, Girls",St. Margarets Episcopal,Varsity,Non-League
+8/19/2022,7:00 PM,Football,Cypress,Varsity,Non-League
+8/23/2022,5:00 PM,"Volleyball, Girls",@San Clemente,Frosh/Soph,Non-League
+8/23/2022,5:00 PM,"Volleyball, Girls",@San Clemente,Junior Varsity,Non-League
+8/23/2022,6:15 PM,"Volleyball, Girls",@San Clemente,Varsity,Non-League
+8/25/2022,3:15 PM,Football,Tustin,Junior Varsity,Non-League
+8/25/2022,3:15 PM,Football,@Tustin,Freshman,Non-League
+8/25/2022,4:30 PM,"Volleyball, Girls",Capistrano Valley,Frosh/Soph,Non-League
+8/25/2022,4:30 PM,"Volleyball, Girls",Capistrano Valley,Junior Varsity,Non-League
+8/25/2022,6:00 PM,"Volleyball, Girls",Capistrano Valley,Varsity,Non-League
+8/25/2022,3:15 PM,"Water Polo, Boys",@Carlsbad,All Levels,Non-League
+8/26/2022,7:00 PM,Football,@Tustin,Varsity,Non-League
+8/29/2022,3:30 PM,"Volleyball, Girls",@Dana Hills,Frosh/Soph,Non-League
+8/29/2022,4:45 PM,"Volleyball, Girls",@Dana Hills,Junior Varsity,Non-League
+8/29/2022,6:00 PM,"Volleyball, Girls",@Dana Hills,Varsity,Non-League
+8/30/2022,4:30 PM,"Volleyball, Girls",Laguna Beach,Frosh/Soph,Non-League
+8/30/2022,4:30 PM,"Volleyball, Girls",Laguna Beach,Junior Varsity,Non-League
+8/30/2022,6:00 PM,"Volleyball, Girls",Laguna Beach,Varsity,Non-League
+8/30/2022,3:15 PM,"Water Polo, Boys",@Corona Del Mar,All Levels,Non-League
+9/1/2022,3:15 PM,Football,@TBA - Bye,Junior Varsity,Non-League
+9/1/2022,3:15 PM,Football,Paramount,Freshman,Non-League
+9/1/2022,3:15 PM,"Water Polo, Boys",Oaks Christian,All Levels,Non-League
+9/2/2022,7:00 PM,Football,@Galena,Varsity,Non-League
+9/2/2022,3:00 PM,"Water Polo, Boys",@TBA - San Clemente F/S Tourname,Frosh/Soph,Tournament
+9/3/2022,3:00 PM,"Water Polo, Boys",@TBA - San Clemente F/S Tourname,Frosh/Soph,Tournament
+9/6/2022,3:30 PM,"Volleyball, Girls",@Mater Dei,Frosh/Soph,Non-League
+9/6/2022,4:30 PM,"Volleyball, Girls",@Mater Dei,Junior Varsity,Non-League
+9/6/2022,5:45 PM,"Volleyball, Girls",@Mater Dei,Varsity,Non-League
+9/7/2022,3:15 PM,"Water Polo, Boys",Newport Harbor,All Levels,Non-League
+9/8/2022,3:15 PM,Football,Troy,Junior Varsity,Non-League
+9/8/2022,3:15 PM,Football,@Troy,Freshman,Non-League
+9/9/2022,7:00 PM,Football,@Troy,Varsity,Non-League
+9/9/2022,2:00 PM,"Volleyball, Girls",@Edison,Varsity,Tournament
+9/10/2022,8:00 AM,"Volleyball, Girls",@Edison,Varsity,Tournament
+9/10/2022,TBA,"Lacrosse, Boys",@ TBA - Laguna Hills Invitational,All Levels,Non-League
+9/10/2022,TBA,"Lacrosse, Girls",@ TBA - Laguna Hills Invitational,All Levels,Non-League
+9/13/2022,TBA,"Volleyball, Girls",@Esperanza,Frosh/Soph,League
+9/13/2022,TBA,"Volleyball, Girls",@Esperanza,Junior Varsity,League
+9/13/2022,TBA,"Volleyball, Girls",@Esperanza,Varsity,League
+9/13/2022,6:00 PM,"Volleyball, Girls",@Esperanza,Varsity,League
+9/13/2022,4:40 PM,"Volleyball, Girls",@Esperanza,Junior Varsity,League
+9/13/2022,3:15 PM,"Volleyball, Girls",@Esperanza,Frosh/Soph,League
+9/13/2022,3:00 PM,"Golf, Girls",@Canyon/Anaheim,Varsity,League
+9/13/2022,3:00 PM,"Golf, Girls",Canyon/Anaheim,Junior Varsity,League
+9/15/2022,4:30 PM,"Volleyball, Girls",El Dorado,Frosh/Soph,League
+9/15/2022,4:30 PM,"Volleyball, Girls",El Dorado,Junior Varsity,League
+9/15/2022,6:00 PM,"Volleyball, Girls",El Dorado,Varsity,League
+9/15/2022,3:00 PM,"Water Polo, Boys","@ TBA, TBA - South Coast Tournament",Varsity,Tournament
+9/15/2022,6:00 PM,"Volleyball, Girls",El Dorado,Varsity,League
+9/15/2022,4:40 PM,"Volleyball, Girls",El Dorado,Junior Varsity,League
+9/15/2022,3:15 PM,"Volleyball, Girls",El Dorado,Frosh/Soph,League
+9/15/2022,3:00 PM,"Golf, Girls",@Yorba Linda,Junior Varsity,League
+9/15/2022,3:00 PM,"Golf, Girls",Yorba Linda,Varsity,League
+9/16/2022,8:00 AM,"Volleyball, Girls",@TBA,Varsity,Tournament
+9/16/2022,3:00 PM,"Water Polo, Boys",@ - South Coast Tournament,Varsity,Tournament
+9/16/2022,3:00 PM,"Water Polo, Boys","@ TBA, TBA - Irvine JV tournmant",Junior Varsity,Tournament
+9/17/2022,8:00 AM,"Volleyball, Girls",@Edison,Junior Varsity,Tournament
+9/17/2022,8:00 AM,"Volleyball, Girls",@TBA,Varsity,Tournament
+9/17/2022,3:00 PM,"Water Polo, Boys",@ - South Coast Tournament,Varsity,Tournament
+9/17/2022,3:00 PM,"Water Polo, Boys",@ - Irvine JV tournmant,Junior Varsity,Tournament
+9/17/2022,TBA,"Lacrosse, Boys",@TBA - Woodbridge Cross Country,All Levels,Non-League
+9/17/2022,TBA,"Lacrosse, Girls",@TBA - Woodbridge Cross Country,All Levels,Non-League
+9/20/2022,TBA,"Volleyball, Girls",@Yorba Linda,Frosh/Soph,League
+9/20/2022,TBA,"Volleyball, Girls",@Yorba Linda,Junior Varsity,League
+9/20/2022,TBA,"Volleyball, Girls",@Yorba Linda,Varsity,League
+9/20/2022,3:15 PM,"Water Polo, Boys",Palos Verdes,All Levels,Non-League
+9/20/2022,6:00 PM,"Volleyball, Girls",@Yorba Linda,Varsity,League
+9/20/2022,4:40 PM,"Volleyball, Girls",@Yorba Linda,Junior Varsity,League
+9/20/2022,3:15 PM,"Volleyball, Girls",@Yorba Linda,Frosh/Soph,League
+9/20/2022,3:00 PM,"Golf, Girls",El Dorado,Junior Varsity,League
+9/20/2022,3:00 PM,"Tennis, Girls",Brea Olinda,Varsity,League
+9/20/2022,3:00 PM,"Tennis, Girls",@Brea Olinda,Junior Varsity,League
+9/20/2022,3:00 PM,"Golf, Girls",@El Dorado,Varsity,League
+9/21/2022,TBA,"Cross Country, Girls",@TBA - Preview Meet Yorba Region,Varsity,League
+9/21/2022,TBA,"Cross Country, Boys",@TBA - Preview Meet Yorba Region,Varsity,League
+9/21/2022,TBA,"Lacrosse, Boys",@TBA - Century League Cluster,All Levels,Non-League
+9/21/2022,TBA,"Cross Country, Girls",@TBA - Century League Cluster,All Levels,Non-League
+9/22/2022,3:15 PM,Football,@Chino Hills,Junior Varsity,Non-League
+9/22/2022,3:15 PM,Football,Chino Hills,Freshman,Non-League
+9/22/2022,TBA,"Volleyball, Girls",@Villa Park,Frosh/Soph,League
+9/22/2022,TBA,"Volleyball, Girls",@Villa Park,Junior Varsity,League
+9/22/2022,TBA,"Volleyball, Girls",@Villa Park,Varsity,League
+9/22/2022,6:00 PM,"Volleyball, Girls",@Villa Park,Varsity,League
+9/22/2022,4:40 PM,"Volleyball, Girls",@Villa Park,Junior Varsity,League
+9/22/2022,3:15 PM,"Volleyball, Girls",@Villa Park,Frosh/Soph,League
+9/22/2022,3:00 PM,"Golf, Girls",Esperanza,Varsity,League
+9/22/2022,3:00 PM,"Golf, Girls",@Esperanza,Junior Varsity,League
+9/22/2022,3:00 PM,"Tennis, Girls",@Esperanza,Varsity,League
+9/22/2022,3:00 PM,"Tennis, Girls",Esperanza,Junior Varsity,League
+9/23/2022,7:00 PM,Football,Chino Hills,Varsity,Non-League
+9/24/2022,8:00 AM,"Volleyball, Girls",@Edison,Frosh/Soph,Tournament
+9/24/2022,8:00 AM,"Volleyball, Girls",@Portola,Junior Varsity,Tournament
+9/24/2022,TBA,"Cross Country, Boys",@TBA - Dana Hills Invitational,All Levels,Non-League
+9/24/2022,TBA,"Cross Country, Girls",@TBA - Dana Hills Invitational,All Levels,Non-League
+9/27/2022,4:30 PM,"Volleyball, Girls",Canyon/Anaheim,Frosh/Soph,League
+9/27/2022,4:30 PM,"Volleyball, Girls",Canyon/Anaheim,Junior Varsity,League
+9/27/2022,6:00 PM,"Volleyball, Girls",Canyon/Anaheim,Varsity,League
+9/27/2022,6:00 PM,"Volleyball, Girls",Canyon/Anaheim,Varsity,League
+9/27/2022,4:40 PM,"Volleyball, Girls",Canyon/Anaheim,Junior Varsity,League
+9/27/2022,3:15 PM,"Volleyball, Girls",Canyon/Anaheim,Frosh/Soph,League
+9/27/2022,3:00 PM,"Golf, Girls",@El Modena,Varsity,League
+9/27/2022,3:00 PM,"Golf, Girls",Brea Olinda,Varsity,League
+9/27/2022,3:00 PM,"Golf, Girls",El Modena,Junior Varsity,League
+9/27/2022,3:00 PM,"Golf, Girls",@Brea Olinda,Junior Varsity,League
+9/27/2022,3:00 PM,"Tennis, Girls",El Modena,Varsity,League
+9/27/2022,4:15 PM,"Water Polo, Boys",@Villa Park,Varsity,League
+9/27/2022,3:00 PM,"Tennis, Girls",@El Modena,Junior Varsity,League
+9/27/2022,3:15 PM,"Water Polo, Boys",@Villa Park,Frosh/Soph,League
+9/27/2022,5:15 PM,"Water Polo, Boys",@Villa Park,Junior Varsity,League
+9/29/2022,3:15 PM,Football,Canyon/Anaheim,Junior Varsity,Non-League
+9/29/2022,3:15 PM,Football,@Canyon/Anaheim,Freshman,Non-League
+9/29/2022,TBA,"Volleyball, Girls",@Brea Olinda,Frosh/Soph,League
+9/29/2022,TBA,"Volleyball, Girls",@Brea Olinda,Junior Varsity,League
+9/29/2022,TBA,"Volleyball, Girls",@Brea Olinda,Varsity,League
+9/29/2022,6:00 PM,"Water Polo, Boys",Stevenson School,Varsity,Non-League
+9/29/2022,6:00 PM,"Volleyball, Girls",@Brea Olinda,Varsity,League
+9/29/2022,4:40 PM,"Volleyball, Girls",@Brea Olinda,Junior Varsity,League
+9/29/2022,3:15 PM,"Volleyball, Girls",@Brea Olinda,Frosh/Soph,League
+9/29/2022,3:00 PM,"Golf, Girls",Villa Park,Varsity,League
+9/29/2022,3:00 PM,"Golf, Girls",@Villa Park,Junior Varsity,League
+9/29/2022,3:00 PM,"Tennis, Girls",@El Dorado,Varsity,League
+9/29/2022,3:00 PM,"Tennis, Girls",El Dorado,Junior Varsity,League
+9/30/2022,7:00 PM,Football,@Canyon/Anaheim,Varsity,Non-League
+9/30/2022,3:00 PM,"Water Polo, Boys",@ TBA - S & R Sport Cup,Varsity,Tournament
+10/1/2022,8:00 AM,"Volleyball, Girls",@Portola,Frosh/Soph,Tournament
+10/1/2022,3:00 PM,"Water Polo, Boys",@ - S & R Sport Cup,Varsity,Tournament
+10/1/2022,TBA,"Cross Country, Boys",@ TBA - Temecula Twilight Invite,All Levels,Non-League
+10/1/2022,TBA,"Cross Country, Girls",@ TBA - Temecula Twilight Invite,All Levels,Non-League
+10/4/2022,4:30 PM,"Volleyball, Girls",El Modena,Frosh/Soph,League
+10/4/2022,4:30 PM,"Volleyball, Girls",El Modena,Junior Varsity,League
+10/4/2022,6:00 PM,"Volleyball, Girls",El Modena,Varsity,League
+10/4/2022,6:00 PM,"Volleyball, Girls",El Modena,Varsity,League
+10/4/2022,4:40 PM,"Volleyball, Girls",El Modena,Junior Varsity,League
+10/4/2022,3:15 PM,"Volleyball, Girls",El Modena,Frosh/Soph,League
+10/4/2022,3:00 PM,"Golf, Girls",@El Modena,Varsity,League
+10/4/2022,3:00 PM,"Golf, Girls",El Modena,Junior Varsity,League
+10/4/2022,3:00 PM,"Tennis, Girls",Yorba Linda,Varsity,League
+10/4/2022,4:15 PM,"Water Polo, Boys",Esperanza,Varsity,League
+10/4/2022,3:00 PM,"Tennis, Girls",@Yorba Linda,Junior Varsity,League
+10/4/2022,3:15 PM,"Water Polo, Boys",Esperanza,Frosh/Soph,League
+10/4/2022,5:15 PM,"Water Polo, Boys",Esperanza,Junior Varsity,League
+10/6/2022,3:15 PM,Football,El Modena,Freshman,Non-League
+10/6/2022,4:30 PM,"Volleyball, Girls",Esperanza,Frosh/Soph,League
+10/6/2022,4:30 PM,"Volleyball, Girls",Esperanza,Junior Varsity,League
+10/6/2022,6:00 PM,"Volleyball, Girls",Esperanza,Varsity,League
+10/6/2022,6:00 PM,"Volleyball, Girls",Esperanza,Varsity,League
+10/6/2022,4:40 PM,"Volleyball, Girls",Esperanza,Junior Varsity,League
+10/6/2022,3:15 PM,"Volleyball, Girls",Esperanza,Frosh/Soph,League
+10/6/2022,3:00 PM,"Golf, Girls",@Brea Olinda,Varsity,League
+10/6/2022,3:00 PM,"Golf, Girls",Brea Olinda,Junior Varsity,League
+10/6/2022,3:00 PM,"Tennis, Girls",Villa Park,Varsity,League
+10/6/2022,3:00 PM,"Tennis, Girls",@Villa Park,Junior Varsity,League
+10/7/2022,3:15 PM,Football,@El Modena,Junior Varsity,Non-League
+10/7/2022,3:15 PM,"Water Polo, Boys",@Los Alamitos,All Levels,Non-League
+10/7/2022,TBA,"Cross Country, Boys",@ TBA - Clovis Invite,Varsity,Tournament
+10/7/2022,TBA,"Cross Country, Girls",@ TBA - Clovis Invite,Varsity,Tournament
+10/8/2022,7:00 PM,Football,El Modena,Varsity,Non-League
+10/8/2022,TBA,"Cross Country, Boys",@ TBA - Clovis Invite,Varsity,Tournament
+10/8/2022,TBA,"Cross Country, Girls",@ TBA - Clovis Invite,Varsity,Tournament
+10/10/2022,TBA,"Volleyball, Girls",@El Dorado,Frosh/Soph,League
+10/10/2022,TBA,"Volleyball, Girls",@El Dorado,Junior Varsity,League
+10/10/2022,TBA,"Volleyball, Girls",@El Dorado,Varsity,League
+10/10/2022,6:00 PM,"Volleyball, Girls",@El Dorado,Varsity,League
+10/10/2022,4:40 PM,"Volleyball, Girls",@El Dorado,Junior Varsity,League
+10/10/2022,3:15 PM,"Volleyball, Girls",@El Dorado,Frosh/Soph,League
+10/11/2022,3:00 PM,"Golf, Girls",@Villa Park,Varsity,League
+10/11/2022,3:00 PM,"Golf, Girls",Villa Park,Junior Varsity,League
+10/11/2022,4:15 PM,"Water Polo, Boys",Yorba Linda,Varsity,League
+10/11/2022,3:00 PM,"Tennis, Girls",@Canyon/Anaheim,Varsity,League
+10/11/2022,3:00 PM,"Tennis, Girls",Canyon/Anaheim,Junior Varsity,League
+10/11/2022,3:15 PM,"Water Polo, Boys",Yorba Linda,Frosh/Soph,League
+10/11/2022,5:15 PM,"Water Polo, Boys",Yorba Linda,Junior Varsity,League
+10/12/2022,4:30 PM,"Volleyball, Girls",Yorba Linda,Frosh/Soph,League
+10/12/2022,4:30 PM,"Volleyball, Girls",Yorba Linda,Junior Varsity,League
+10/12/2022,6:00 PM,"Volleyball, Girls",Yorba Linda,Varsity,League
+10/12/2022,3:15 PM,"Water Polo, Boys",Mira Costa,All Levels,Non-League
+10/12/2022,6:00 PM,"Volleyball, Girls",Yorba Linda,Varsity,League
+10/12/2022,4:40 PM,"Volleyball, Girls",Yorba Linda,Junior Varsity,League
+10/12/2022,3:15 PM,"Volleyball, Girls",Yorba Linda,Frosh/Soph,League
+10/13/2022,3:15 PM,Football,Brea Olinda,Junior Varsity,League
+10/13/2022,3:15 PM,Football,@Brea Olinda,Freshman,League
+10/13/2022,3:00 PM,"Golf, Girls",El Modena,Varsity,League
+10/13/2022,3:00 PM,"Golf, Girls",@El Modena,Junior Varsity,League
+10/13/2022,3:00 PM,"Tennis, Girls",@Yorba Linda,Varsity,League
+10/13/2022,3:00 PM,"Tennis, Girls",Yorba Linda,Junior Varsity,League
+10/14/2022,7:00 PM,Football,@Brea Olinda,Varsity,League
+10/14/2022,3:00 PM,"Water Polo, Boys","@ TBA, TBA - Gray Lunde F/S Tournament",Frosh/Soph,Tournament
+10/15/2022,3:00 PM,"Water Polo, Boys",@ - Gray Lunde F/S Tournament,Frosh/Soph,Tournament
+10/18/2022,4:15 PM,"Water Polo, Boys",Brea Olinda,Varsity,League
+10/18/2022,3:00 PM,"Tennis, Girls",@Villa Park,Varsity,League
+10/18/2022,3:00 PM,"Tennis, Girls",Villa Park,Junior Varsity,League
+10/18/2022,3:15 PM,"Water Polo, Boys",Brea Olinda,Frosh/Soph,League
+10/18/2022,5:15 PM,"Water Polo, Boys",Brea Olinda,Junior Varsity,League
+10/20/2022,3:15 PM,Football,Yorba Linda,Junior Varsity,League
+10/20/2022,3:15 PM,Football,@Yorba Linda,Freshman,League
+10/20/2022,3:00 PM,"Tennis, Girls",Canyon/Anaheim,Varsity,League
+10/20/2022,3:00 PM,"Tennis, Girls",@Canyon/Anaheim,Junior Varsity,League
+10/21/2022,7:00 PM,Football,@Yorba Linda,Varsity,League
+10/21/2022,2:00 PM,"Water Polo, Boys","@ TBA, TBA - Cal State Memorial Cup (B",Varsity,Tournament
+10/22/2022,2:00 PM,"Water Polo, Boys",@ - Cal State Memorial Cup (B,Varsity,Tournament
+10/22/2022,TBA,"Cross Country, Boys",@TBA - Mt. SAC Invitational,All Levels,Tournament
+10/22/2022,TBA,"Cross Country, Girls",@TBA - Mt. SAC Invitational,All Levels,Tournament
+10/25/2022,4:15 PM,"Water Polo, Boys",@El Dorado,Varsity,League
+10/25/2022,3:15 PM,"Water Polo, Boys",@El Dorado,Frosh/Soph,League
+10/25/2022,5:15 PM,"Water Polo, Boys",@El Dorado,Junior Varsity,League
+10/27/2022,7:00 PM,Football,Villa Park,Varsity,League
+10/27/2022,3:15 PM,Football,Villa Park,Freshman,League
+10/28/2022,3:15 PM,Football,@Villa Park,Junior Varsity,League
+10/29/2022,11:00 AM,"Water Polo, Boys",Harvard-Westlake,Varsity,Non-League
+11/2/2022,TBA,"Cross Country, Boys",@ TBA - Century League Finals,All Levels,League
+11/2/2022,TBA,"Cross Country, Girls",@ TBA - Century League Finals,All Levels,League
+11/12/2022,TBA,"Cross Country, Boys",TBA - CIF Prelims,All Levels,Playoffs
+11/12/2022,TBA,"Cross Country, Girls",TBA - CIF Prelims,All Levels,Playoffs
+11/19/2022,TBA,"Cross Country, Boys",TBA - CIF Finals,All Levels,Playoffs
+11/19/2022,TBA,"Cross Country, Girls",TBA - CIF Finals,All Levels,Playoffs
+11/25/2022,TBA,"Cross Country, Girls",@ TBA - CIF State Championship F,Varsity,State
+11/25/2022,TBA,"Cross Country, Boys",@ TBA - CIF State Championship F,Varsity,State
+11/26/2022,TBA,"Cross Country, Boys",@TBA - CIF State Championship F,Varsity,State
+11/26/2022,TBA,"Cross Country, Girls",@ TBA - CIF State Championship F,Varsity,State
+12/1/2022,3:00 PM,"Soccer, Girls",Santa Margarita,Varsity,Non-League
+12/1/2022,3:00 PM,"Soccer, Girls",Santa Margarita,Junior Varsity,Non-League
+12/1/2022,4:30 PM,"Soccer, Girls",Santa Margarita,Frosh/Soph,Non-League
+12/6/2022,TBA,"Soccer, Girls",@TBA - Cathedral Catholic Tourna,Varsity,Tournament
+12/7/2022,TBA,"Soccer, Girls",@TBA - Cathedral Catholic Tourna,Varsity,Tournament
+12/8/2022,TBA,"Soccer, Girls",@TBA - Cathedral Catholic Tourna,Varsity,Tournament
+12/9/2022,TBA,"Soccer, Girls",@TBA - Cathedral Catholic Tourna,Varsity,Tournament
+12/10/2022,TBA,"Soccer, Girls",@TBA - Newport Harbor Tournament,Junior Varsity,Tournament
+12/10/2022,TBA,"Soccer, Girls",@TBA - Newport Harbor Tournament,Frosh/Soph,Tournament
+12/13/2022,4:30 PM,"Soccer, Girls",@San Clemente,Varsity,Non-League
+12/13/2022,3:15 PM,"Soccer, Girls",@San Clemente,Frosh/Soph,Non-League
+12/13/2022,6:00 PM,"Soccer, Girls",@San Clemente,Junior Varsity,Non-League
+12/15/2022,3:00 PM,"Soccer, Girls",Cypress,Varsity,Non-League
+12/15/2022,3:00 PM,"Soccer, Girls",Cypress,Junior Varsity,Non-League
+12/15/2022,4:30 PM,"Soccer, Girls",Cypress,Frosh/Soph,Non-League
+12/16/2022,4:00 PM,"Water Polo, Girls",@Oaks Christian,Junior Varsity,Non-League
+12/16/2022,5:00 PM,"Water Polo, Girls",@Oaks Christian,Varsity,Non-League
+12/17/2022,TBA,"Soccer, Girls",@TBA - Newport Harbor Tournament,Junior Varsity,Tournament
+12/17/2022,TBA,"Soccer, Girls",@TBA - Newport Harbor Tournament,Frosh/Soph,Tournament
+12/17/2022,10:00 AM,"Water Polo, Girls",@San Marcos,Varsity,Non-League
+12/17/2022,9:00 AM,"Water Polo, Girls",@San Marcos,Junior Varsity,Non-League
+12/20/2022,3:00 PM,"Soccer, Girls",Marina,Varsity,Non-League
+12/20/2022,3:00 PM,"Soccer, Girls",Marina,Junior Varsity,Non-League
+12/20/2022,4:30 PM,"Soccer, Girls",Marina,Frosh/Soph,Non-League
+12/22/2022,5:30 PM,"Soccer, Girls",@Corona Del Mar,Junior Varsity,Non-League
+12/22/2022,3:30 PM,"Soccer, Girls",@Corona Del Mar,Varsity,Non-League
+12/27/2022,8:00 AM,"Soccer, Girls",TBA - Excalibur Tournament,All Levels,Tournament
+12/27/2022,TBA,"Soccer, Girls",TBA - Excalibur Tournament,Varsity,Tournament
+12/28/2022,8:00 AM,"Soccer, Girls",TBA - Excalibur Tournament,All Levels,Tournament
+12/28/2022,TBA,"Soccer, Girls",TBA - Excalibur Tournament,Varsity,Tournament
+12/29/2022,8:00 AM,"Soccer, Girls",TBA - Excalibur Tournament,All Levels,Tournament
+12/29/2022,TBA,"Soccer, Girls",TBA - Excalibur Tournament,Varsity,Tournament
+12/29/2022,TBA,"Water Polo, Girls",TBA - Bill Barnett Holiday Cup,Varsity,Tournament
+12/29/2022,TBA,"Water Polo, Girls",TBA - Bill Barnett Holiday Cup,Varsity,Tournament
+12/30/2022,TBA,"Water Polo, Girls",TBA - Bill Barnett Holiday Cup,Varsity,Tournament
+12/30/2022,TBA,"Water Polo, Girls",TBA - Bill Barnett Holiday Cup,Varsity,Tournament
+1/3/2023,4:00 PM,"Water Polo, Girls",Esperanza,Varsity,Non-League
+1/3/2023,5:00 PM,"Water Polo, Girls",Esperanza,Junior Varsity,Non-League
+1/3/2023,5:00 PM,"Water Polo, Girls",Esperanza,Junior Varsity,League
+1/3/2023,4:00 PM,"Water Polo, Girls",Esperanza,Varsity,League
+1/3/2023,6:00 PM,"Basketball, Girls",@El Modena,Frosh/Soph,League
+1/3/2023,7:00 PM,"Basketball, Boys",El Modena,Varsity,League
+1/3/2023,3:00 PM,"Soccer, Boys",@El Modena,Frosh/Soph,League
+1/3/2023,3:00 PM,"Water Polo, Girls",Esperanza,Frosh/Soph,League
+1/3/2023,5:30 PM,"Basketball, Girls",El Modena,Varsity,League
+1/3/2023,3:00 PM,"Soccer, Boys",@El Modena,Varsity,League
+1/3/2023,4:30 PM,"Basketball, Boys",@El Modena,Junior Varsity,League
+1/3/2023,4:00 PM,"Basketball, Girls",El Modena,Junior Varsity,League
+1/3/2023,3:00 PM,"Soccer, Boys",@El Modena,Junior Varsity,League
+1/3/2023,3:00 PM,"Basketball, Boys",@El Modena,Frosh/Soph,League
+1/4/2023,3:15 PM,"Soccer, Girls",Villa Park,Varsity,League
+1/4/2023,3:00 PM,"Soccer, Girls",Villa Park,Frosh/Soph,League
+1/4/2023,3:00 PM,"Soccer, Girls",Villa Park,Junior Varsity,League
+1/4/2023,6:00 PM,Wrestling,El Dorado,Varsity,League
+1/5/2023,3:00 PM,"Soccer, Boys",Yorba Linda,Frosh/Soph,League
+1/5/2023,3:00 PM,"Soccer, Boys",Yorba Linda,Varsity,League
+1/5/2023,3:00 PM,"Soccer, Boys",Yorba Linda,Junior Varsity,League
+1/6/2023,6:00 PM,"Basketball, Girls",El Dorado,Frosh/Soph,League
+1/6/2023,3:15 PM,"Soccer, Girls",@Canyon/Anaheim,Varsity,League
+1/6/2023,7:00 PM,"Basketball, Boys",@Canyon/Anaheim,Varsity,League
+1/6/2023,3:00 PM,"Soccer, Girls",@Canyon/Anaheim,Frosh/Soph,League
+1/6/2023,5:30 PM,"Basketball, Girls",@El Dorado,Varsity,League
+1/6/2023,4:30 PM,"Basketball, Boys",Canyon/Anaheim,Junior Varsity,League
+1/6/2023,3:00 PM,"Soccer, Girls",@Canyon/Anaheim,Junior Varsity,League
+1/6/2023,4:00 PM,"Basketball, Girls",@El Dorado,Junior Varsity,League
+1/6/2023,3:00 PM,"Basketball, Boys",Canyon/Anaheim,Frosh/Soph,League
+1/10/2023,5:00 PM,"Water Polo, Girls",@Brea Olinda,Junior Varsity,Non-League
+1/10/2023,4:00 PM,"Water Polo, Girls",@Brea Olinda,Varsity,Non-League
+1/10/2023,5:00 PM,"Water Polo, Girls",@Brea Olinda,Junior Varsity,League
+1/10/2023,4:00 PM,"Water Polo, Girls",@Brea Olinda,Varsity,League
+1/10/2023,6:00 PM,"Basketball, Girls",@Brea Olinda,Frosh/Soph,League
+1/10/2023,7:00 PM,"Basketball, Boys",Villa Park,Varsity,League
+1/10/2023,3:00 PM,"Soccer, Boys",@Canyon/Anaheim,Frosh/Soph,League
+1/10/2023,3:00 PM,"Water Polo, Girls",@Brea Olinda,Frosh/Soph,League
+1/10/2023,5:30 PM,"Basketball, Girls",Brea Olinda,Varsity,League
+1/10/2023,3:00 PM,"Soccer, Boys",@Canyon/Anaheim,Varsity,League
+1/10/2023,4:30 PM,"Basketball, Boys",Villa Park,Junior Varsity,League
+1/10/2023,4:00 PM,"Basketball, Girls",Brea Olinda,Junior Varsity,League
+1/10/2023,3:00 PM,"Soccer, Boys",@Canyon/Anaheim,Junior Varsity,League
+1/10/2023,3:00 PM,"Basketball, Boys",Villa Park,Frosh/Soph,League
+1/11/2023,3:15 PM,"Soccer, Girls",Esperanza,Varsity,League
+1/11/2023,3:00 PM,"Soccer, Girls",Esperanza,Frosh/Soph,League
+1/11/2023,6:00 PM,Wrestling,Canyon/Anaheim,Varsity,League
+1/11/2023,3:00 PM,"Soccer, Girls",Esperanza,Junior Varsity,League
+1/12/2023,5:00 PM,"Water Polo, Girls",Harvard-Westlake,Varsity,Non-League
+1/12/2023,3:00 PM,"Soccer, Boys",Villa Park,Frosh/Soph,League
+1/12/2023,3:00 PM,"Soccer, Boys",Villa Park,Varsity,League
+1/12/2023,3:00 PM,"Soccer, Boys",Villa Park,Junior Varsity,League
+1/13/2023,TBA,"Water Polo, Girls",TBA - Tournament of Champions -,Varsity,Tournament
+1/13/2023,TBA,"Water Polo, Girls",TBA - Tournament of Champions -,Varsity,Tournament
+1/13/2023,3:00 PM,"Basketball, Boys",Esperanza,Frosh/Soph,League
+1/13/2023,6:00 PM,"Basketball, Girls",Esperanza,Frosh/Soph,League
+1/13/2023,3:15 PM,"Soccer, Girls",@Brea Olinda,Varsity,League
+1/13/2023,7:00 PM,"Basketball, Boys",@Esperanza,Varsity,League
+1/13/2023,5:30 PM,"Basketball, Girls",@Esperanza,Varsity,League
+1/13/2023,3:00 PM,"Soccer, Girls",@Brea Olinda,Frosh/Soph,League
+1/13/2023,4:30 PM,"Basketball, Boys",Esperanza,Junior Varsity,League
+1/13/2023,4:00 PM,"Basketball, Girls",@Esperanza,Junior Varsity,League
+1/13/2023,3:00 PM,"Soccer, Girls",@Brea Olinda,Junior Varsity,League
+1/14/2023,TBA,"Water Polo, Girls",TBA - Tournament of Champions -,Varsity,Tournament
+1/14/2023,TBA,"Water Polo, Girls",TBA - Tournament of Champions -,Varsity,Tournament
+1/17/2023,4:00 PM,"Water Polo, Girls",Canyon/Anaheim,Varsity,League
+1/17/2023,5:00 PM,"Water Polo, Girls",Canyon/Anaheim,Junior Varsity,League
+1/17/2023,5:00 PM,"Water Polo, Girls",Canyon/Anaheim,Junior Varsity,League
+1/17/2023,4:00 PM,"Water Polo, Girls",Canyon/Anaheim,Varsity,League
+1/17/2023,3:00 PM,"Basketball, Boys",@El Dorado,Frosh/Soph,League
+1/17/2023,6:00 PM,"Basketball, Girls",@El Dorado,Frosh/Soph,League
+1/17/2023,7:00 PM,"Basketball, Boys",El Dorado,Varsity,League
+1/17/2023,3:00 PM,"Soccer, Boys",@El Dorado,Frosh/Soph,League
+1/17/2023,3:00 PM,"Water Polo, Girls",Canyon/Anaheim,Frosh/Soph,League
+1/17/2023,5:30 PM,"Basketball, Girls",El Dorado,Varsity,League
+1/17/2023,3:00 PM,"Soccer, Boys",@El Dorado,Varsity,League
+1/17/2023,4:30 PM,"Basketball, Boys",@El Dorado,Junior Varsity,League
+1/17/2023,4:00 PM,"Basketball, Girls",El Dorado,Junior Varsity,League
+1/17/2023,3:00 PM,"Soccer, Boys",@El Dorado,Junior Varsity,League
+1/18/2023,3:15 PM,"Soccer, Girls",@El Modena,Varsity,League
+1/18/2023,3:00 PM,"Soccer, Girls",@El Modena,Frosh/Soph,League
+1/18/2023,6:00 PM,Wrestling,@Brea Olinda,Varsity,League
+1/18/2023,3:00 PM,"Soccer, Girls",@El Modena,Junior Varsity,League
+1/19/2023,TBA,"Water Polo, Girls",TBA - Newport Invite,Varsity,Tournament
+1/19/2023,3:00 PM,"Soccer, Boys",@Brea Olinda,Junior Varsity,League
+1/19/2023,3:00 PM,"Soccer, Boys",@Brea Olinda,Frosh/Soph,League
+1/19/2023,3:00 PM,"Soccer, Boys",@Brea Olinda,Varsity,League
+1/20/2023,TBA,"Water Polo, Girls",TBA - Newport Invite,Varsity,Tournament
+1/20/2023,TBA,"Water Polo, Girls",TBA - Newport Invite,Varsity,Tournament
+1/20/2023,3:00 PM,"Basketball, Boys",Brea Olinda,Frosh/Soph,League
+1/20/2023,3:15 PM,"Soccer, Girls",El Dorado,Varsity,League
+1/20/2023,6:00 PM,"Basketball, Girls",Canyon/Anaheim,Frosh/Soph,League
+1/20/2023,7:00 PM,"Basketball, Boys",@Brea Olinda,Varsity,League
+1/20/2023,3:00 PM,"Soccer, Girls",El Dorado,Frosh/Soph,League
+1/20/2023,5:30 PM,"Basketball, Girls",@Canyon/Anaheim,Varsity,League
+1/20/2023,4:30 PM,"Basketball, Boys",Brea Olinda,Junior Varsity,League
+1/20/2023,3:00 PM,"Soccer, Girls",El Dorado,Junior Varsity,League
+1/20/2023,4:00 PM,"Basketball, Girls",@Canyon/Anaheim,Junior Varsity,League
+1/21/2023,TBA,"Water Polo, Girls",TBA - Newport Invite,Varsity,Tournament
+1/21/2023,TBA,"Water Polo, Girls",TBA - Newport Invite,Varsity,Tournament
+1/24/2023,5:00 PM,"Water Polo, Girls",@El Dorado,Junior Varsity,League
+1/24/2023,4:00 PM,"Water Polo, Girls",@El Dorado,Varsity,League
+1/24/2023,5:00 PM,"Water Polo, Girls",@El Dorado,Junior Varsity,League
+1/24/2023,4:00 PM,"Water Polo, Girls",@El Dorado,Varsity,League
+1/24/2023,3:00 PM,"Soccer, Boys",Esperanza,Junior Varsity,League
+1/24/2023,3:00 PM,"Basketball, Boys",@Yorba Linda,Frosh/Soph,League
+1/24/2023,6:00 PM,"Basketball, Girls",@Esperanza,Frosh/Soph,League
+1/24/2023,7:00 PM,"Basketball, Boys",Yorba Linda,Varsity,League
+1/24/2023,3:00 PM,"Soccer, Boys",Esperanza,Frosh/Soph,League
+1/24/2023,3:00 PM,"Water Polo, Girls",@El Dorado,Frosh/Soph,League
+1/24/2023,5:30 PM,"Basketball, Girls",Esperanza,Varsity,League
+1/24/2023,3:00 PM,"Soccer, Boys",Esperanza,Varsity,League
+1/24/2023,4:30 PM,"Basketball, Boys",@Yorba Linda,Junior Varsity,League
+1/24/2023,4:00 PM,"Basketball, Girls",Esperanza,Junior Varsity,League
+1/25/2023,3:15 PM,"Soccer, Girls",@Yorba Linda,Varsity,League
+1/25/2023,3:00 PM,"Soccer, Girls",@Yorba Linda,Frosh/Soph,League
+1/25/2023,3:00 PM,"Soccer, Girls",@Yorba Linda,Junior Varsity,League
+1/26/2023,3:00 PM,"Soccer, Boys",Canyon/Anaheim,Junior Varsity,League
+1/26/2023,3:00 PM,"Soccer, Boys",Canyon/Anaheim,Frosh/Soph,League
+1/26/2023,3:00 PM,"Soccer, Boys",Canyon/Anaheim,Varsity,League
+1/27/2023,3:00 PM,"Basketball, Boys",@Canyon/Anaheim,Frosh/Soph,League
+1/27/2023,6:00 PM,"Basketball, Girls",@Canyon/Anaheim,Frosh/Soph,League
+1/27/2023,3:15 PM,"Soccer, Girls",@Esperanza,Varsity,League
+1/27/2023,7:00 PM,"Basketball, Boys",Canyon/Anaheim,Varsity,League
+1/27/2023,5:30 PM,"Basketball, Girls",Canyon/Anaheim,Varsity,League
+1/27/2023,3:00 PM,"Soccer, Girls",@Esperanza,Frosh/Soph,League
+1/27/2023,4:30 PM,"Basketball, Boys",@Canyon/Anaheim,Junior Varsity,League
+1/27/2023,4:00 PM,"Basketball, Girls",Canyon/Anaheim,Junior Varsity,League
+1/27/2023,3:00 PM,"Soccer, Girls",@Esperanza,Junior Varsity,League
+1/30/2023,3:00 PM,"Soccer, Boys",@Villa Park,Junior Varsity,League
+1/30/2023,3:15 PM,"Soccer, Girls",Brea Olinda,Varsity,League
+1/30/2023,3:00 PM,"Soccer, Boys",@Villa Park,Frosh/Soph,League
+1/30/2023,3:00 PM,"Soccer, Girls",Brea Olinda,Frosh/Soph,League
+1/30/2023,3:00 PM,"Soccer, Boys",@Villa Park,Varsity,League
+1/30/2023,3:00 PM,"Soccer, Girls",Brea Olinda,Junior Varsity,League
+1/31/2023,4:00 PM,"Water Polo, Girls",@Villa Park,Varsity,League
+1/31/2023,5:00 PM,"Water Polo, Girls",@Villa Park,Junior Varsity,League
+1/31/2023,5:00 PM,"Water Polo, Girls",@Villa Park,Junior Varsity,League
+1/31/2023,4:00 PM,"Water Polo, Girls",@Villa Park,Varsity,League
+1/31/2023,3:00 PM,"Basketball, Boys",Villa Park,Frosh/Soph,League
+1/31/2023,6:00 PM,"Basketball, Girls",Villa Park,Frosh/Soph,League
+1/31/2023,7:00 PM,"Basketball, Boys",@Villa Park,Varsity,League
+1/31/2023,3:00 PM,"Water Polo, Girls",@Villa Park,Frosh/Soph,League
+1/31/2023,5:30 PM,"Basketball, Girls",@Villa Park,Varsity,League
+1/31/2023,4:30 PM,"Basketball, Boys",Villa Park,Junior Varsity,League
+1/31/2023,4:00 PM,"Basketball, Girls",@Villa Park,Junior Varsity,League
+2/1/2023,3:00 PM,"Soccer, Girls",El Modena,Junior Varsity,League
+2/1/2023,3:00 PM,"Soccer, Boys",El Dorado,Junior Varsity,League
+2/1/2023,3:15 PM,"Soccer, Girls",El Modena,Varsity,League
+2/1/2023,3:00 PM,"Soccer, Boys",El Dorado,Frosh/Soph,League
+2/1/2023,3:00 PM,"Soccer, Girls",El Modena,Frosh/Soph,League
+2/1/2023,3:00 PM,"Soccer, Boys",El Dorado,Varsity,League
+2/2/2023,4:00 PM,"Basketball, Girls",@Yorba Linda,Junior Varsity,League
+2/2/2023,3:00 PM,"Basketball, Boys",Yorba Linda,Frosh/Soph,League
+2/2/2023,6:00 PM,"Basketball, Girls",Yorba Linda,Frosh/Soph,League
+2/2/2023,7:00 PM,"Basketball, Boys",@Yorba Linda,Varsity,League
+2/2/2023,5:30 PM,"Basketball, Girls",@Yorba Linda,Varsity,League
+2/2/2023,4:30 PM,"Basketball, Boys",Yorba Linda,Junior Varsity,League
+2/28/2023,3:15 PM,"Volleyball, Boys",@Villa Park,Frosh/Soph,League
+2/28/2023,6:00 PM,"Volleyball, Boys",@Villa Park,Varsity,League
+2/28/2023,4:30 PM,"Volleyball, Boys",@Villa Park,Junior Varsity,League
+3/1/2023,3:15 PM,Baseball,Esperanza,Frosh/Soph,League
+3/1/2023,3:00 PM,"Swimming & Diving, Girls",@El Dorado,Varsity,League
+3/1/2023,3:00 PM,"Swimming & Diving, Girls",@El Dorado,Junior Varsity,League
+3/1/2023,3:00 PM,"Swimming & Diving, Boys",@El Dorado,Open,League
+3/1/2023,3:00 PM,"Swimming & Diving, Girls",@El Dorado,Open,League
+3/1/2023,3:00 PM,"Swimming & Diving, Boys",@El Dorado,Junior Varsity,League
+3/1/2023,3:00 PM,"Swimming & Diving, Boys",@El Dorado,Varsity,League
+3/1/2023,3:15 PM,Baseball,@Esperanza,Varsity,League
+3/1/2023,3:15 PM,Baseball,Esperanza,Junior Varsity,League
+3/2/2023,3:15 PM,"Volleyball, Boys",Esperanza,Frosh/Soph,League
+3/2/2023,6:00 PM,"Volleyball, Boys",Esperanza,Varsity,League
+3/2/2023,4:30 PM,"Volleyball, Boys",Esperanza,Junior Varsity,League
+3/3/2023,3:15 PM,Baseball,@Yorba Linda,Frosh/Soph,League
+3/3/2023,3:15 PM,Baseball,Yorba Linda,Varsity,League
+3/3/2023,3:15 PM,Baseball,@Yorba Linda,Junior Varsity,League
+3/7/2023,3:00 PM,"Tennis, Boys",@El Modena,Varsity,League
+3/7/2023,3:15 PM,"Volleyball, Boys",@El Dorado,Frosh/Soph,League
+3/7/2023,3:00 PM,"Tennis, Boys",El Modena,Junior Varsity,League
+3/7/2023,6:00 PM,"Volleyball, Boys",@El Dorado,Varsity,League
+3/7/2023,TBA,"Lacrosse, Girls",Canyon/Anaheim,Junior Varsity,League
+3/7/2023,3:15 PM,Softball,@Esperanza,Junior Varsity,Non-League
+3/7/2023,TBA,"Lacrosse, Girls",Canyon/Anaheim,Varsity,League
+3/7/2023,4:30 PM,"Volleyball, Boys",@El Dorado,Junior Varsity,League
+3/7/2023,3:15 PM,Softball,@Esperanza,Varsity,Non-League
+3/8/2023,3:00 PM,"Swimming & Diving, Girls",El Modena,Varsity,League
+3/8/2023,3:15 PM,Baseball,Canyon/Anaheim,Frosh/Soph,League
+3/8/2023,3:00 PM,"Swimming & Diving, Girls",El Modena,Junior Varsity,League
+3/8/2023,3:00 PM,"Swimming & Diving, Boys",El Modena,Open,League
+3/8/2023,3:00 PM,"Swimming & Diving, Girls",El Modena,Open,League
+3/8/2023,3:00 PM,"Swimming & Diving, Boys",El Modena,Junior Varsity,League
+3/8/2023,3:00 PM,"Swimming & Diving, Boys",El Modena,Varsity,League
+3/8/2023,3:15 PM,Baseball,@Canyon/Anaheim,Varsity,League
+3/8/2023,3:15 PM,Baseball,Canyon/Anaheim,Junior Varsity,League
+3/9/2023,3:00 PM,"Tennis, Boys",El Dorado,Varsity,League
+3/9/2023,3:15 PM,"Volleyball, Boys",Brea Olinda,Frosh/Soph,League
+3/9/2023,TBA,"Lacrosse, Boys",Canyon/Anaheim,Junior Varsity,League
+3/9/2023,6:00 PM,"Volleyball, Boys",Brea Olinda,Varsity,League
+3/9/2023,3:00 PM,"Tennis, Boys",@El Dorado,Junior Varsity,League
+3/9/2023,3:15 PM,Softball,@Canyon/Anaheim,Junior Varsity,Non-League
+3/9/2023,4:30 PM,"Volleyball, Boys",Brea Olinda,Junior Varsity,League
+3/9/2023,3:15 PM,Softball,Canyon/Anaheim,Varsity,Non-League
+3/10/2023,3:15 PM,Baseball,@Brea Olinda,Frosh/Soph,League
+3/10/2023,3:15 PM,Baseball,Brea Olinda,Varsity,League
+3/10/2023,3:15 PM,Baseball,@Brea Olinda,Junior Varsity,League
+3/14/2023,3:15 PM,Softball,@El Modena,Varsity,Non-League
+3/14/2023,3:00 PM,"Tennis, Boys",@Brea Olinda,Varsity,League
+3/14/2023,3:15 PM,"Volleyball, Boys",@El Modena,Frosh/Soph,League
+3/14/2023,3:00 PM,"Tennis, Boys",Brea Olinda,Junior Varsity,League
+3/14/2023,6:00 PM,"Volleyball, Boys",@El Modena,Varsity,League
+3/14/2023,TBA,"Lacrosse, Girls",@Yorba Linda,Junior Varsity,League
+3/14/2023,3:15 PM,Softball,@El Modena,Junior Varsity,Non-League
+3/14/2023,TBA,"Lacrosse, Girls",@Yorba Linda,Varsity,League
+3/14/2023,4:30 PM,"Volleyball, Boys",@El Modena,Junior Varsity,League
+3/15/2023,3:00 PM,"Swimming & Diving, Girls",Brea Olinda,Varsity,League
+3/15/2023,3:00 PM,"Swimming & Diving, Girls",Brea Olinda,Junior Varsity,League
+3/15/2023,3:00 PM,"Swimming & Diving, Boys",Brea Olinda,Open,League
+3/15/2023,3:00 PM,"Swimming & Diving, Girls",Brea Olinda,Open,League
+3/15/2023,3:00 PM,"Swimming & Diving, Boys",Brea Olinda,Junior Varsity,League
+3/15/2023,3:00 PM,"Swimming & Diving, Boys",Brea Olinda,Varsity,League
+3/16/2023,3:15 PM,Softball,Brea Olinda,Varsity,League
+3/16/2023,3:15 PM,"Volleyball, Boys",Canyon/Anaheim,Frosh/Soph,League
+3/16/2023,3:00 PM,"Tennis, Boys",Esperanza,Varsity,League
+3/16/2023,TBA,"Lacrosse, Boys",@Yorba Linda,Junior Varsity,League
+3/16/2023,6:00 PM,"Volleyball, Boys",Canyon/Anaheim,Varsity,League
+3/16/2023,3:00 PM,"Tennis, Boys",@Esperanza,Junior Varsity,League
+3/16/2023,3:15 PM,Softball,Brea Olinda,Junior Varsity,League
+3/16/2023,4:30 PM,"Volleyball, Boys",Canyon/Anaheim,Junior Varsity,League
+3/17/2023,3:15 PM,Baseball,Villa Park,Frosh/Soph,League
+3/17/2023,3:15 PM,Baseball,@Villa Park,Varsity,League
+3/17/2023,3:15 PM,Baseball,Villa Park,Junior Varsity,League
+3/22/2023,3:15 PM,Baseball,@El Modena,Frosh/Soph,League
+3/22/2023,3:15 PM,Baseball,El Modena,Varsity,League
+3/22/2023,3:15 PM,Baseball,@El Modena,Junior Varsity,League
+3/24/2023,3:15 PM,Baseball,El Dorado,Frosh/Soph,League
+3/24/2023,3:15 PM,Baseball,@El Dorado,Varsity,League
+3/24/2023,3:15 PM,Baseball,El Dorado,Junior Varsity,League
+3/28/2023,3:15 PM,Softball,Yorba Linda,Varsity,League
+3/28/2023,3:15 PM,Baseball,@Villa Park,Frosh/Soph,League
+3/28/2023,3:15 PM,Softball,Yorba Linda,Junior Varsity,League
+3/28/2023,3:15 PM,Baseball,Villa Park,Varsity,League
+3/28/2023,3:15 PM,Baseball,@Villa Park,Junior Varsity,League
+3/30/2023,3:00 PM,"Track & Field, Boys",Esperanza,Varsity,League
+3/30/2023,3:00 PM,"Track & Field, Girls",Esperanza,Frosh/Soph,League
+3/30/2023,3:00 PM,"Track & Field, Girls",Esperanza,Junior Varsity,League
+3/30/2023,3:00 PM,"Track & Field, Girls",Esperanza,Varsity,League
+3/30/2023,3:00 PM,"Track & Field, Boys",Esperanza,Frosh/Soph,League
+3/30/2023,3:00 PM,"Track & Field, Boys",Esperanza,Junior Varsity,League
+3/30/2023,3:15 PM,Baseball,Villa Park,Junior Varsity,League
+3/30/2023,3:15 PM,Softball,@El Dorado,Varsity,League
+3/30/2023,3:15 PM,Baseball,Villa Park,Frosh/Soph,League
+3/30/2023,3:15 PM,Softball,@El Dorado,Junior Varsity,League
+3/30/2023,3:15 PM,Baseball,@Villa Park,Varsity,League
+4/4/2023,3:15 PM,Softball,Villa Park,Varsity,Non-League
+4/4/2023,3:15 PM,Softball,Villa Park,Junior Varsity,Non-League
+4/6/2023,3:00 PM,"Track & Field, Boys",El Modena,Varsity,League
+4/6/2023,3:00 PM,"Track & Field, Girls",El Modena,Frosh/Soph,League
+4/6/2023,3:00 PM,"Track & Field, Girls",El Modena,Junior Varsity,League
+4/6/2023,3:00 PM,"Track & Field, Girls",El Modena,Varsity,League
+4/6/2023,3:00 PM,"Track & Field, Boys",El Modena,Frosh/Soph,League
+4/6/2023,3:00 PM,"Track & Field, Boys",El Modena,Junior Varsity,League
+4/11/2023,3:15 PM,Softball,El Dorado,Varsity,League
+4/11/2023,3:00 PM,"Tennis, Boys",@Yorba Linda,Varsity,League
+4/11/2023,3:15 PM,"Volleyball, Boys",@Yorba Linda,Frosh/Soph,League
+4/11/2023,TBA,"Lacrosse, Girls",@Esperanza,Junior Varsity,League
+4/11/2023,3:00 PM,"Tennis, Boys",Yorba Linda,Junior Varsity,League
+4/11/2023,6:00 PM,"Volleyball, Boys",@Yorba Linda,Varsity,League
+4/11/2023,TBA,"Lacrosse, Girls",@Esperanza,Varsity,League
+4/11/2023,3:15 PM,Softball,El Dorado,Junior Varsity,League
+4/11/2023,4:30 PM,"Volleyball, Boys",@Yorba Linda,Junior Varsity,League
+4/12/2023,3:00 PM,"Swimming & Diving, Girls",@Esperanza,Varsity,League
+4/12/2023,3:00 PM,"Swimming & Diving, Girls",@Esperanza,Junior Varsity,League
+4/12/2023,3:00 PM,"Swimming & Diving, Boys",@Esperanza,Open,League
+4/12/2023,3:00 PM,"Swimming & Diving, Girls",@Esperanza,Open,League
+4/12/2023,3:00 PM,"Swimming & Diving, Boys",@Esperanza,Junior Varsity,League
+4/12/2023,3:00 PM,"Swimming & Diving, Boys",@Esperanza,Varsity,League
+4/13/2023,3:00 PM,"Track & Field, Boys",@El Dorado,Junior Varsity,League
+4/13/2023,4:30 PM,"Volleyball, Boys",El Modena,Junior Varsity,League
+4/13/2023,3:00 PM,"Track & Field, Boys",@El Dorado,Varsity,League
+4/13/2023,3:15 PM,Softball,@Yorba Linda,Varsity,League
+4/13/2023,3:00 PM,"Tennis, Boys",@Villa Park,Varsity,League
+4/13/2023,3:15 PM,"Volleyball, Boys",El Modena,Frosh/Soph,League
+4/13/2023,TBA,"Lacrosse, Boys",@Esperanza,Junior Varsity,League
+4/13/2023,3:00 PM,"Tennis, Boys",Villa Park,Junior Varsity,League
+4/13/2023,6:00 PM,"Volleyball, Boys",El Modena,Varsity,League
+4/13/2023,3:00 PM,"Track & Field, Girls",@El Dorado,Frosh/Soph,League
+4/13/2023,3:00 PM,"Track & Field, Girls",@El Dorado,Junior Varsity,League
+4/13/2023,3:15 PM,Softball,@Yorba Linda,Junior Varsity,League
+4/13/2023,3:00 PM,"Track & Field, Girls",@El Dorado,Varsity,League
+4/13/2023,3:00 PM,"Track & Field, Boys",@El Dorado,Frosh/Soph,League
+4/17/2023,4:30 PM,"Volleyball, Boys",@Canyon/Anaheim,Junior Varsity,League
+4/17/2023,3:15 PM,"Volleyball, Boys",@Canyon/Anaheim,Frosh/Soph,League
+4/17/2023,6:00 PM,"Volleyball, Boys",@Canyon/Anaheim,Varsity,League
+4/18/2023,3:15 PM,Softball,@Brea Olinda,Varsity,League
+4/18/2023,3:00 PM,"Tennis, Boys",Canyon/Anaheim,Varsity,League
+4/18/2023,TBA,"Lacrosse, Girls",El Modena,Junior Varsity,League
+4/18/2023,3:00 PM,"Tennis, Boys",@Canyon/Anaheim,Junior Varsity,League
+4/18/2023,TBA,"Lacrosse, Girls",El Modena,Varsity,League
+4/18/2023,3:15 PM,Softball,@Brea Olinda,Junior Varsity,League
+4/19/2023,3:15 PM,Baseball,@El Modena,Varsity,League
+4/19/2023,3:15 PM,Baseball,El Modena,Junior Varsity,League
+4/19/2023,4:30 PM,"Volleyball, Boys",Yorba Linda,Junior Varsity,League
+4/19/2023,3:00 PM,"Swimming & Diving, Girls",@Canyon/Anaheim,Varsity,League
+4/19/2023,3:15 PM,"Volleyball, Boys",Yorba Linda,Frosh/Soph,League
+4/19/2023,3:15 PM,Baseball,El Modena,Frosh/Soph,League
+4/19/2023,3:00 PM,"Swimming & Diving, Girls",@Canyon/Anaheim,Junior Varsity,League
+4/19/2023,3:00 PM,"Swimming & Diving, Boys",@Canyon/Anaheim,Open,League
+4/19/2023,3:00 PM,"Swimming & Diving, Girls",@Canyon/Anaheim,Open,League
+4/19/2023,3:00 PM,"Swimming & Diving, Boys",@Canyon/Anaheim,Junior Varsity,League
+4/19/2023,6:00 PM,"Volleyball, Boys",Yorba Linda,Varsity,League
+4/19/2023,3:00 PM,"Swimming & Diving, Boys",@Canyon/Anaheim,Varsity,League
+4/20/2023,3:15 PM,Softball,@El Dorado,Varsity,League
+4/20/2023,3:00 PM,"Tennis, Boys",Yorba Linda,Varsity,League
+4/20/2023,TBA,"Lacrosse, Boys",El Modena,Junior Varsity,League
+4/20/2023,3:00 PM,"Tennis, Boys",@Yorba Linda,Junior Varsity,League
+4/20/2023,3:15 PM,Softball,@El Dorado,Junior Varsity,League
+4/21/2023,3:15 PM,Baseball,El Modena,Varsity,League
+4/21/2023,3:15 PM,Baseball,@El Modena,Junior Varsity,League
+4/21/2023,3:15 PM,Baseball,@El Modena,Frosh/Soph,League
+4/24/2023,3:15 PM,Softball,Yorba Linda,Varsity,League
+4/24/2023,3:15 PM,Softball,Yorba Linda,Junior Varsity,League
+4/25/2023,3:15 PM,Baseball,El Dorado,Varsity,League
+4/25/2023,3:15 PM,Baseball,@El Dorado,Junior Varsity,League
+4/25/2023,3:00 PM,"Tennis, Boys",Villa Park,Varsity,League
+4/25/2023,3:15 PM,Baseball,@El Dorado,Frosh/Soph,League
+4/25/2023,TBA,"Lacrosse, Girls",@El Dorado,Junior Varsity,League
+4/25/2023,3:00 PM,"Tennis, Boys",@Villa Park,Junior Varsity,League
+4/25/2023,TBA,"Lacrosse, Girls",@El Dorado,Varsity,League
+4/26/2023,3:15 PM,Softball,Brea Olinda,Varsity,League
+4/26/2023,TBA,"Lacrosse, Boys",@El Dorado,Junior Varsity,League
+4/26/2023,3:15 PM,Softball,Brea Olinda,Junior Varsity,League
+4/27/2023,3:15 PM,Baseball,@El Dorado,Varsity,League
+4/27/2023,3:15 PM,Baseball,El Dorado,Junior Varsity,League
+4/27/2023,3:00 PM,"Tennis, Boys",@Canyon/Anaheim,Varsity,League
+4/27/2023,3:15 PM,Baseball,El Dorado,Frosh/Soph,League
+4/27/2023,3:00 PM,"Tennis, Boys",Canyon/Anaheim,Junior Varsity,League
