@@ -8,16 +8,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout repo content
+      - name: setup
         uses: actions/checkout@v2
-      - name: setup python
-        uses: actions/setup-python@v2
+      - uses: actions/setup-python@v2
         with:
           python-version: 3.10.4
-      - name: execute py script
+      - uses: BSFishy/pip-action@v1
+        with:
+          packages: |
+            Jinja2
+      - name: execute
         run: |
           python today.py
-      - name: save today file
+      - name: save
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: automatic update
