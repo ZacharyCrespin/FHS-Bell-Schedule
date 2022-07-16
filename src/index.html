@@ -7,22 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2 id="date">7/16/2022</h2>
+    <h2 id="date">{{ date }}</h2>
     <div class="schedule">
-        <h1 id="scheduleName">No School</h1>
-        <div id="schedule"><p>Enjoy your weekend</p></div>
+        <h1 id="scheduleName">{{ scheduleName }}</h1>
+        <div id="schedule">{{ scheduleHTML }}</div>
     </div>
     <div class="list">
         <h2>Todays Games</h2>
         <ul id="games">
-        
+        {% for value in games %}
+            <li>
+                <p><b>Date:</b> {{ value["Date"] }}</p>
+                <p><b>Time:</b> {{ value["Time"] }}</p>
+                <p><b>Sport:</b> {{ value["Sport"] }}</p>
+                <p><b>Opponent:</b> {{ value["Opponent"] }}</p>
+                <p><b>Level:</b> {{ value["Level"] }}</p>
+                <p><b>Game Type:</b> {{ value["GameType"] }}</p>
+            </li>
+        {% endfor %}
         </ul>
         <a href="games.html">View All Games</a>
     </div>
     <div class="list">
         <h2>Todays Events</h2>
         <ul id="events">
-        
+        {% for value in events %}
+            <li>
+                <p>{{ value["Event"] }}</p>
+            </li>
+        {% endfor %}
         </ul>
         <a href="events.html">View All Events</a>
     </div>

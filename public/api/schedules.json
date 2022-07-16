@@ -1,11 +1,11 @@
 {
     "regular": {
         "name": "Regular",
-        "html": "<table><tbody><tr><td><h4>0</h4></td><td><h4>7:28 - 8:23</h4></td></tr><tr><td><h4>1</h4></td><td><h4>8:30 - 9:25</h4></td></tr><tr><td><h4>2</h4></td><td><h4>9:32 - 10:27</h4></td></tr><tr><td><h4>FTV</h4></td><td><h4>10:34- 10:42</h4></td></tr><tr><td><h4>3</h4></td><td><h4>10:42 - 11:37</h4></td></tr><tr><td><h4>Lunch</h4></td><td><h4>11:37 - 12:07</h4></td></tr><tr><td><h4>4</h4></td><td><h4>12:12 - 1:07</h4></td></tr><tr><td><h4>5</h4></td><td><h4>1:14- 2:09</h4></td></tr><tr><td><h4>Break</h4></td><td><h4>2:09 - 2:24</h4></td></tr><tr><td><h4>6</h4></td><td><h4>2:30 - 3:25</h4></td></tr></tbody></table>"
+        "html": "<table><tbody><tr><td><p>0</p></td><td><p>7:28 - 8:23</p></td></tr><tr><td><p>1</p></td><td><p>8:30 - 9:25</p></td></tr><tr><td><p>2</p></td><td><p>9:32 - 10:27</p></td></tr><tr><td><p>FTV</p></td><td><p>10:34- 10:42</p></td></tr><tr><td><p>3</p></td><td><p>10:42 - 11:37</p></td></tr><tr><td><p>Lunch</p></td><td><p>11:37 - 12:07</p></td></tr><tr><td><p>4</p></td><td><p>12:12 - 1:07</p></td></tr><tr><td><p>5</p></td><td><p>1:14- 2:09</p></td></tr><tr><td><p>Break</p></td><td><p>2:09 - 2:24</p></td></tr><tr><td><p>6</p></td><td><p>2:30 - 3:25</p></td></tr></tbody></table>"
     },
     "latestart": {
         "name": "Late Start",
-        "html": "<table><tbody><tr><td><h4>Staff Meeting</h4></td><td><h4>7:30 - 8:30</h4></td></tr><tr><td><h4>0</h4></td><td><h4>8:37 - 9:23</h4></td></tr><tr><td><h4>1</h4></td><td><h4>9:30 - 10:16</h4></td></tr><tr><td><h4>2</h4></td><td><h4>10:23 - 11:09</h4></td></tr><tr><td><h4>3</h4></td><td><h4>11:16 - 12:02</h4></td></tr><tr><td><h4>Lunch</h4></td><td><h4>12:02 - 12:32</h4></td></tr><tr><td><h4>4</h4></td><td><h4>12:39 - 1:25</h4></td></tr><tr><td><h4>5</h4></td><td><h4>1:32 - 2:18</h4></td></tr><tr><td><h4>Break</h4></td><td><h4>2:18 - 2:33</h4></td></tr><tr><td><h4>6</h4></td><td><h4>2:40 - 3:26</h4></td></tr></tbody></table>"
+        "html": "<table><tbody><tr><td><p>Staff Meeting</p></td><td><p>7:30 - 8:30</p></td></tr><tr><td><p>0</p></td><td><p>8:37 - 9:23</p></td></tr><tr><td><p>1</p></td><td><p>9:30 - 10:16</p></td></tr><tr><td><p>2</p></td><td><p>10:23 - 11:09</p></td></tr><tr><td><p>3</p></td><td><p>11:16 - 12:02</p></td></tr><tr><td><p>Lunch</p></td><td><p>12:02 - 12:32</p></td></tr><tr><td><p>4</p></td><td><p>12:39 - 1:25</p></td></tr><tr><td><p>5</p></td><td><p>1:32 - 2:18</p></td></tr><tr><td><p>Break</p></td><td><p>2:18 - 2:33</p></td></tr><tr><td><p>6</p></td><td><p>2:40 - 3:26</p></td></tr></tbody></table>"
     },
     "weekend": {
         "name": "No School",
@@ -13,6 +13,6 @@
     },
     "minimum": {
         "name": "Minimum Day",
-        "html": "<table><tbody><tr><td><h4>0</h4></td><td><h4>7:30 - 8:18</h4></td></tr><tr><td><h4>1</h4></td><td><h4>8:30 - 9:07</h4></td></tr><tr><td><h4>2</h4></td><td><h4>9:13 - 9:50</h4></td></tr><tr><td><h4>3</h4></td><td><h4>9:56 - 10:33</h4></td></tr><tr><td><h4><b>Break</b></h4></td><td><h4>10:33 - 10:48</h4></td></tr><tr><td><h4>4</h4></td><td><h4>10:54 - 11:31</h4></td></tr><tr><td><h4>5</h4></td><td><h4>11:37 - 12:14</h4></td></tr><tr><td><h4>6</h4></td><td><h4>12:20 - 12:57</h4></td></tr></tbody></table>"
+        "html": "<table><tbody><tr><td><p>0</p></td><td><p>7:30 - 8:18</p></td></tr><tr><td><p>1</p></td><td><p>8:30 - 9:07</p></td></tr><tr><td><p>2</p></td><td><p>9:13 - 9:50</p></td></tr><tr><td><p>3</p></td><td><p>9:56 - 10:33</p></td></tr><tr><td><p><b>Break</b></p></td><td><p>10:33 - 10:48</p></td></tr><tr><td><p>4</p></td><td><p>10:54 - 11:31</p></td></tr><tr><td><p>5</p></td><td><p>11:37 - 12:14</p></td></tr><tr><td><p>6</p></td><td><p>12:20 - 12:57</p></td></tr></tbody></table>"
     }
 }

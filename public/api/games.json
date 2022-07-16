@@ -5,7 +5,7 @@
     "Sport": "Football",
     "Opponent": "TBA - Tustin - PV - La Serna",
     "Level": "Varsity",
-    "Game Type": "Scrimmage"
+    "GameType": "Scrimmage"
   },
   {
     "Date": "8/12/2022",
@@ -13,7 +13,7 @@
     "Sport": "Football",
     "Opponent": "TBA - Tustin - PV - La Serna",
     "Level": "Junior Varsity",
-    "Game Type": "Scrimmage"
+    "GameType": "Scrimmage"
   },
   {
     "Date": "8/12/2022",
@@ -21,7 +21,7 @@
     "Sport": "Football",
     "Opponent": "TBA - Tustin - PV - La Serna",
     "Level": "Freshman",
-    "Game Type": "Scrimmage"
+    "GameType": "Scrimmage"
   },
   {
     "Date": "8/16/2022",
@@ -29,7 +29,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Aliso Niguel",
     "Level": "Frosh/Soph",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/16/2022",
@@ -37,7 +37,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Aliso Niguel",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/16/2022",
@@ -45,7 +45,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Aliso Niguel",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/18/2022",
@@ -53,7 +53,7 @@
     "Sport": "Football",
     "Opponent": "@Cypress",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/18/2022",
@@ -61,7 +61,7 @@
     "Sport": "Football",
     "Opponent": "Cypress",
     "Level": "Freshman",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/18/2022",
@@ -69,7 +69,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "St. Margarets Episcopal",
     "Level": "Frosh/Soph",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/18/2022",
@@ -77,7 +77,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "St. Margarets Episcopal",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/18/2022",
@@ -85,7 +85,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "St. Margarets Episcopal",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/19/2022",
@@ -93,7 +93,7 @@
     "Sport": "Football",
     "Opponent": "Cypress",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/23/2022",
@@ -101,7 +101,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@San Clemente",
     "Level": "Frosh/Soph",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/23/2022",
@@ -109,7 +109,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@San Clemente",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/23/2022",
@@ -117,7 +117,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@San Clemente",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/25/2022",
@@ -125,7 +125,7 @@
     "Sport": "Football",
     "Opponent": "Tustin",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/25/2022",
@@ -133,7 +133,7 @@
     "Sport": "Football",
     "Opponent": "@Tustin",
     "Level": "Freshman",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/25/2022",
@@ -141,7 +141,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Capistrano Valley",
     "Level": "Frosh/Soph",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/25/2022",
@@ -149,7 +149,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Capistrano Valley",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/25/2022",
@@ -157,7 +157,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Capistrano Valley",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/25/2022",
@@ -165,7 +165,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@Carlsbad",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/26/2022",
@@ -173,7 +173,7 @@
     "Sport": "Football",
     "Opponent": "@Tustin",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/29/2022",
@@ -181,7 +181,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Dana Hills",
     "Level": "Frosh/Soph",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/29/2022",
@@ -189,7 +189,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Dana Hills",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/29/2022",
@@ -197,7 +197,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Dana Hills",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/30/2022",
@@ -205,7 +205,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Laguna Beach",
     "Level": "Frosh/Soph",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/30/2022",
@@ -213,7 +213,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Laguna Beach",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/30/2022",
@@ -221,7 +221,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Laguna Beach",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "8/30/2022",
@@ -229,7 +229,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@Corona Del Mar",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/1/2022",
@@ -237,7 +237,7 @@
     "Sport": "Football",
     "Opponent": "@TBA - Bye",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/1/2022",
@@ -245,7 +245,7 @@
     "Sport": "Football",
     "Opponent": "Paramount",
     "Level": "Freshman",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/1/2022",
@@ -253,7 +253,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "Oaks Christian",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/2/2022",
@@ -261,7 +261,7 @@
     "Sport": "Football",
     "Opponent": "@Galena",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/2/2022",
@@ -269,7 +269,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@TBA - San Clemente F/S Tourname",
     "Level": "Frosh/Soph",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "9/3/2022",
@@ -277,7 +277,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@TBA - San Clemente F/S Tourname",
     "Level": "Frosh/Soph",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "9/6/2022",
@@ -285,7 +285,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Mater Dei",
     "Level": "Frosh/Soph",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/6/2022",
@@ -293,7 +293,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Mater Dei",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/6/2022",
@@ -301,7 +301,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Mater Dei",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/7/2022",
@@ -309,7 +309,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "Newport Harbor",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/8/2022",
@@ -317,7 +317,7 @@
     "Sport": "Football",
     "Opponent": "Troy",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/8/2022",
@@ -325,7 +325,7 @@
     "Sport": "Football",
     "Opponent": "@Troy",
     "Level": "Freshman",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/9/2022",
@@ -333,7 +333,7 @@
     "Sport": "Football",
     "Opponent": "@Troy",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/9/2022",
@@ -341,7 +341,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Edison",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "9/10/2022",
@@ -349,7 +349,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Edison",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "9/10/2022",
@@ -357,7 +357,7 @@
     "Sport": "Lacrosse, Boys",
     "Opponent": "@ TBA - Laguna Hills Invitational",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/10/2022",
@@ -365,7 +365,7 @@
     "Sport": "Lacrosse, Girls",
     "Opponent": "@ TBA - Laguna Hills Invitational",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/13/2022",
@@ -373,7 +373,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/13/2022",
@@ -381,7 +381,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/13/2022",
@@ -389,7 +389,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/13/2022",
@@ -397,7 +397,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/13/2022",
@@ -405,7 +405,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/13/2022",
@@ -413,7 +413,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/13/2022",
@@ -421,7 +421,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/13/2022",
@@ -429,7 +429,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/15/2022",
@@ -437,7 +437,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/15/2022",
@@ -445,7 +445,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/15/2022",
@@ -453,7 +453,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/15/2022",
@@ -461,7 +461,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@ TBA, TBA - South Coast Tournament",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "9/15/2022",
@@ -469,7 +469,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/15/2022",
@@ -477,7 +477,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/15/2022",
@@ -485,7 +485,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/15/2022",
@@ -493,7 +493,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/15/2022",
@@ -501,7 +501,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/16/2022",
@@ -509,7 +509,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@TBA",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "9/16/2022",
@@ -517,7 +517,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@ - South Coast Tournament",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "9/16/2022",
@@ -525,7 +525,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@ TBA, TBA - Irvine JV tournmant",
     "Level": "Junior Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "9/17/2022",
@@ -533,7 +533,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Edison",
     "Level": "Junior Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "9/17/2022",
@@ -541,7 +541,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@TBA",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "9/17/2022",
@@ -549,7 +549,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@ - South Coast Tournament",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "9/17/2022",
@@ -557,7 +557,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@ - Irvine JV tournmant",
     "Level": "Junior Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "9/17/2022",
@@ -565,7 +565,7 @@
     "Sport": "Lacrosse, Boys",
     "Opponent": "@TBA - Woodbridge Cross Country",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/17/2022",
@@ -573,7 +573,7 @@
     "Sport": "Lacrosse, Girls",
     "Opponent": "@TBA - Woodbridge Cross Country",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/20/2022",
@@ -581,7 +581,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/20/2022",
@@ -589,7 +589,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/20/2022",
@@ -597,7 +597,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/20/2022",
@@ -605,7 +605,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "Palos Verdes",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/20/2022",
@@ -613,7 +613,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/20/2022",
@@ -621,7 +621,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/20/2022",
@@ -629,7 +629,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/20/2022",
@@ -637,7 +637,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/20/2022",
@@ -645,7 +645,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/20/2022",
@@ -653,7 +653,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/20/2022",
@@ -661,7 +661,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/21/2022",
@@ -669,7 +669,7 @@
     "Sport": "Cross Country, Girls",
     "Opponent": "@TBA - Preview Meet Yorba Region",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/21/2022",
@@ -677,7 +677,7 @@
     "Sport": "Cross Country, Boys",
     "Opponent": "@TBA - Preview Meet Yorba Region",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/21/2022",
@@ -685,7 +685,7 @@
     "Sport": "Lacrosse, Boys",
     "Opponent": "@TBA - Century League Cluster",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/21/2022",
@@ -693,7 +693,7 @@
     "Sport": "Cross Country, Girls",
     "Opponent": "@TBA - Century League Cluster",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/22/2022",
@@ -701,7 +701,7 @@
     "Sport": "Football",
     "Opponent": "@Chino Hills",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/22/2022",
@@ -709,7 +709,7 @@
     "Sport": "Football",
     "Opponent": "Chino Hills",
     "Level": "Freshman",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/22/2022",
@@ -717,7 +717,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Villa Park",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/22/2022",
@@ -725,7 +725,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/22/2022",
@@ -733,7 +733,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/22/2022",
@@ -741,7 +741,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/22/2022",
@@ -749,7 +749,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/22/2022",
@@ -757,7 +757,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Villa Park",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/22/2022",
@@ -765,7 +765,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/22/2022",
@@ -773,7 +773,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "@Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/22/2022",
@@ -781,7 +781,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "@Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/22/2022",
@@ -789,7 +789,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/23/2022",
@@ -797,7 +797,7 @@
     "Sport": "Football",
     "Opponent": "Chino Hills",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/24/2022",
@@ -805,7 +805,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Edison",
     "Level": "Frosh/Soph",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "9/24/2022",
@@ -813,7 +813,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Portola",
     "Level": "Junior Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "9/24/2022",
@@ -821,7 +821,7 @@
     "Sport": "Cross Country, Boys",
     "Opponent": "@TBA - Dana Hills Invitational",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/24/2022",
@@ -829,7 +829,7 @@
     "Sport": "Cross Country, Girls",
     "Opponent": "@TBA - Dana Hills Invitational",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/27/2022",
@@ -837,7 +837,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/27/2022",
@@ -845,7 +845,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/27/2022",
@@ -853,7 +853,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/27/2022",
@@ -861,7 +861,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/27/2022",
@@ -869,7 +869,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/27/2022",
@@ -877,7 +877,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/27/2022",
@@ -885,7 +885,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "@El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/27/2022",
@@ -893,7 +893,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/27/2022",
@@ -901,7 +901,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/27/2022",
@@ -909,7 +909,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/27/2022",
@@ -917,7 +917,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/27/2022",
@@ -925,7 +925,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/27/2022",
@@ -933,7 +933,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "@El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/27/2022",
@@ -941,7 +941,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@Villa Park",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/27/2022",
@@ -949,7 +949,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/29/2022",
@@ -957,7 +957,7 @@
     "Sport": "Football",
     "Opponent": "Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/29/2022",
@@ -965,7 +965,7 @@
     "Sport": "Football",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Freshman",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/29/2022",
@@ -973,7 +973,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/29/2022",
@@ -981,7 +981,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/29/2022",
@@ -989,7 +989,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/29/2022",
@@ -997,7 +997,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "Stevenson School",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/29/2022",
@@ -1005,7 +1005,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/29/2022",
@@ -1013,7 +1013,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/29/2022",
@@ -1021,7 +1021,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/29/2022",
@@ -1029,7 +1029,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/29/2022",
@@ -1037,7 +1037,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "@Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/29/2022",
@@ -1045,7 +1045,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/29/2022",
@@ -1053,7 +1053,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "9/30/2022",
@@ -1061,7 +1061,7 @@
     "Sport": "Football",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "9/30/2022",
@@ -1069,7 +1069,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@ TBA - S & R Sport Cup",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "10/1/2022",
@@ -1077,7 +1077,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@Portola",
     "Level": "Frosh/Soph",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "10/1/2022",
@@ -1085,7 +1085,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@ - S & R Sport Cup",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "10/1/2022",
@@ -1093,7 +1093,7 @@
     "Sport": "Cross Country, Boys",
     "Opponent": "@ TBA - Temecula Twilight Invite",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "10/1/2022",
@@ -1101,7 +1101,7 @@
     "Sport": "Cross Country, Girls",
     "Opponent": "@ TBA - Temecula Twilight Invite",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "10/4/2022",
@@ -1109,7 +1109,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "El Modena",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/4/2022",
@@ -1117,7 +1117,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/4/2022",
@@ -1125,7 +1125,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/4/2022",
@@ -1133,7 +1133,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/4/2022",
@@ -1141,7 +1141,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/4/2022",
@@ -1149,7 +1149,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "El Modena",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/4/2022",
@@ -1157,7 +1157,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "@El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/4/2022",
@@ -1165,7 +1165,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/4/2022",
@@ -1173,7 +1173,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/4/2022",
@@ -1181,7 +1181,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/4/2022",
@@ -1189,7 +1189,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/4/2022",
@@ -1197,7 +1197,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/4/2022",
@@ -1205,7 +1205,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/6/2022",
@@ -1213,7 +1213,7 @@
     "Sport": "Football",
     "Opponent": "El Modena",
     "Level": "Freshman",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "10/6/2022",
@@ -1221,7 +1221,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/6/2022",
@@ -1229,7 +1229,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/6/2022",
@@ -1237,7 +1237,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/6/2022",
@@ -1245,7 +1245,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/6/2022",
@@ -1253,7 +1253,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/6/2022",
@@ -1261,7 +1261,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/6/2022",
@@ -1269,7 +1269,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/6/2022",
@@ -1277,7 +1277,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/6/2022",
@@ -1285,7 +1285,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/6/2022",
@@ -1293,7 +1293,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "@Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/7/2022",
@@ -1301,7 +1301,7 @@
     "Sport": "Football",
     "Opponent": "@El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "10/7/2022",
@@ -1309,7 +1309,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@Los Alamitos",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "10/7/2022",
@@ -1317,7 +1317,7 @@
     "Sport": "Cross Country, Boys",
     "Opponent": "@ TBA - Clovis Invite",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "10/7/2022",
@@ -1325,7 +1325,7 @@
     "Sport": "Cross Country, Girls",
     "Opponent": "@ TBA - Clovis Invite",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "10/8/2022",
@@ -1333,7 +1333,7 @@
     "Sport": "Football",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "10/8/2022",
@@ -1341,7 +1341,7 @@
     "Sport": "Cross Country, Boys",
     "Opponent": "@ TBA - Clovis Invite",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "10/8/2022",
@@ -1349,7 +1349,7 @@
     "Sport": "Cross Country, Girls",
     "Opponent": "@ TBA - Clovis Invite",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "10/10/2022",
@@ -1357,7 +1357,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/10/2022",
@@ -1365,7 +1365,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/10/2022",
@@ -1373,7 +1373,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/10/2022",
@@ -1381,7 +1381,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/10/2022",
@@ -1389,7 +1389,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/10/2022",
@@ -1397,7 +1397,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "@El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/11/2022",
@@ -1405,7 +1405,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "@Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/11/2022",
@@ -1413,7 +1413,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/11/2022",
@@ -1421,7 +1421,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/11/2022",
@@ -1429,7 +1429,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/11/2022",
@@ -1437,7 +1437,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/11/2022",
@@ -1445,7 +1445,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "Yorba Linda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/11/2022",
@@ -1453,7 +1453,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/12/2022",
@@ -1461,7 +1461,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Yorba Linda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/12/2022",
@@ -1469,7 +1469,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/12/2022",
@@ -1477,7 +1477,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/12/2022",
@@ -1485,7 +1485,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "Mira Costa",
     "Level": "All Levels",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "10/12/2022",
@@ -1493,7 +1493,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/12/2022",
@@ -1501,7 +1501,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/12/2022",
@@ -1509,7 +1509,7 @@
     "Sport": "Volleyball, Girls",
     "Opponent": "Yorba Linda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/13/2022",
@@ -1517,7 +1517,7 @@
     "Sport": "Football",
     "Opponent": "Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/13/2022",
@@ -1525,7 +1525,7 @@
     "Sport": "Football",
     "Opponent": "@Brea Olinda",
     "Level": "Freshman",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/13/2022",
@@ -1533,7 +1533,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/13/2022",
@@ -1541,7 +1541,7 @@
     "Sport": "Golf, Girls",
     "Opponent": "@El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/13/2022",
@@ -1549,7 +1549,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/13/2022",
@@ -1557,7 +1557,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/14/2022",
@@ -1565,7 +1565,7 @@
     "Sport": "Football",
     "Opponent": "@Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/14/2022",
@@ -1573,7 +1573,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@ TBA, TBA - Gray Lunde F/S Tournament",
     "Level": "Frosh/Soph",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "10/15/2022",
@@ -1581,7 +1581,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@ - Gray Lunde F/S Tournament",
     "Level": "Frosh/Soph",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "10/18/2022",
@@ -1589,7 +1589,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/18/2022",
@@ -1597,7 +1597,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "@Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/18/2022",
@@ -1605,7 +1605,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/18/2022",
@@ -1613,7 +1613,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "Brea Olinda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/18/2022",
@@ -1621,7 +1621,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/20/2022",
@@ -1629,7 +1629,7 @@
     "Sport": "Football",
     "Opponent": "Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/20/2022",
@@ -1637,7 +1637,7 @@
     "Sport": "Football",
     "Opponent": "@Yorba Linda",
     "Level": "Freshman",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/20/2022",
@@ -1645,7 +1645,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/20/2022",
@@ -1653,7 +1653,7 @@
     "Sport": "Tennis, Girls",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/21/2022",
@@ -1661,7 +1661,7 @@
     "Sport": "Football",
     "Opponent": "@Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/21/2022",
@@ -1669,7 +1669,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@ TBA, TBA - Cal State Memorial Cup (B",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "10/22/2022",
@@ -1677,7 +1677,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@ - Cal State Memorial Cup (B",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "10/22/2022",
@@ -1685,7 +1685,7 @@
     "Sport": "Cross Country, Boys",
     "Opponent": "@TBA - Mt. SAC Invitational",
     "Level": "All Levels",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "10/22/2022",
@@ -1693,7 +1693,7 @@
     "Sport": "Cross Country, Girls",
     "Opponent": "@TBA - Mt. SAC Invitational",
     "Level": "All Levels",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "10/25/2022",
@@ -1701,7 +1701,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/25/2022",
@@ -1709,7 +1709,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/25/2022",
@@ -1717,7 +1717,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/27/2022",
@@ -1725,7 +1725,7 @@
     "Sport": "Football",
     "Opponent": "Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/27/2022",
@@ -1733,7 +1733,7 @@
     "Sport": "Football",
     "Opponent": "Villa Park",
     "Level": "Freshman",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/28/2022",
@@ -1741,7 +1741,7 @@
     "Sport": "Football",
     "Opponent": "@Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "10/29/2022",
@@ -1749,7 +1749,7 @@
     "Sport": "Water Polo, Boys",
     "Opponent": "Harvard-Westlake",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "11/2/2022",
@@ -1757,7 +1757,7 @@
     "Sport": "Cross Country, Boys",
     "Opponent": "@ TBA - Century League Finals",
     "Level": "All Levels",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "11/2/2022",
@@ -1765,7 +1765,7 @@
     "Sport": "Cross Country, Girls",
     "Opponent": "@ TBA - Century League Finals",
     "Level": "All Levels",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "11/12/2022",
@@ -1773,7 +1773,7 @@
     "Sport": "Cross Country, Boys",
     "Opponent": "TBA - CIF Prelims",
     "Level": "All Levels",
-    "Game Type": "Playoffs"
+    "GameType": "Playoffs"
   },
   {
     "Date": "11/12/2022",
@@ -1781,7 +1781,7 @@
     "Sport": "Cross Country, Girls",
     "Opponent": "TBA - CIF Prelims",
     "Level": "All Levels",
-    "Game Type": "Playoffs"
+    "GameType": "Playoffs"
   },
   {
     "Date": "11/19/2022",
@@ -1789,7 +1789,7 @@
     "Sport": "Cross Country, Boys",
     "Opponent": "TBA - CIF Finals",
     "Level": "All Levels",
-    "Game Type": "Playoffs"
+    "GameType": "Playoffs"
   },
   {
     "Date": "11/19/2022",
@@ -1797,7 +1797,7 @@
     "Sport": "Cross Country, Girls",
     "Opponent": "TBA - CIF Finals",
     "Level": "All Levels",
-    "Game Type": "Playoffs"
+    "GameType": "Playoffs"
   },
   {
     "Date": "11/25/2022",
@@ -1805,7 +1805,7 @@
     "Sport": "Cross Country, Girls",
     "Opponent": "@ TBA - CIF State Championship F",
     "Level": "Varsity",
-    "Game Type": "State"
+    "GameType": "State"
   },
   {
     "Date": "11/25/2022",
@@ -1813,7 +1813,7 @@
     "Sport": "Cross Country, Boys",
     "Opponent": "@ TBA - CIF State Championship F",
     "Level": "Varsity",
-    "Game Type": "State"
+    "GameType": "State"
   },
   {
     "Date": "11/26/2022",
@@ -1821,7 +1821,7 @@
     "Sport": "Cross Country, Boys",
     "Opponent": "@TBA - CIF State Championship F",
     "Level": "Varsity",
-    "Game Type": "State"
+    "GameType": "State"
   },
   {
     "Date": "11/26/2022",
@@ -1829,7 +1829,7 @@
     "Sport": "Cross Country, Girls",
     "Opponent": "@ TBA - CIF State Championship F",
     "Level": "Varsity",
-    "Game Type": "State"
+    "GameType": "State"
   },
   {
     "Date": "12/1/2022",
@@ -1837,7 +1837,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Santa Margarita",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/1/2022",
@@ -1845,7 +1845,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Santa Margarita",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/1/2022",
@@ -1853,7 +1853,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Santa Margarita",
     "Level": "Frosh/Soph",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/6/2022",
@@ -1861,7 +1861,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@TBA - Cathedral Catholic Tourna",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/7/2022",
@@ -1869,7 +1869,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@TBA - Cathedral Catholic Tourna",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/8/2022",
@@ -1877,7 +1877,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@TBA - Cathedral Catholic Tourna",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/9/2022",
@@ -1885,7 +1885,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@TBA - Cathedral Catholic Tourna",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/10/2022",
@@ -1893,7 +1893,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@TBA - Newport Harbor Tournament",
     "Level": "Junior Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/10/2022",
@@ -1901,7 +1901,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@TBA - Newport Harbor Tournament",
     "Level": "Frosh/Soph",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/13/2022",
@@ -1909,7 +1909,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@San Clemente",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/13/2022",
@@ -1917,7 +1917,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@San Clemente",
     "Level": "Frosh/Soph",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/13/2022",
@@ -1925,7 +1925,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@San Clemente",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/15/2022",
@@ -1933,7 +1933,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Cypress",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/15/2022",
@@ -1941,7 +1941,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Cypress",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/15/2022",
@@ -1949,7 +1949,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Cypress",
     "Level": "Frosh/Soph",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/16/2022",
@@ -1957,7 +1957,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@Oaks Christian",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/16/2022",
@@ -1965,7 +1965,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@Oaks Christian",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/17/2022",
@@ -1973,7 +1973,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@TBA - Newport Harbor Tournament",
     "Level": "Junior Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/17/2022",
@@ -1981,7 +1981,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@TBA - Newport Harbor Tournament",
     "Level": "Frosh/Soph",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/17/2022",
@@ -1989,7 +1989,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@San Marcos",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/17/2022",
@@ -1997,7 +1997,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@San Marcos",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/20/2022",
@@ -2005,7 +2005,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Marina",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/20/2022",
@@ -2013,7 +2013,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Marina",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/20/2022",
@@ -2021,7 +2021,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Marina",
     "Level": "Frosh/Soph",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/22/2022",
@@ -2029,7 +2029,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@Corona Del Mar",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/22/2022",
@@ -2037,7 +2037,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@Corona Del Mar",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "12/27/2022",
@@ -2045,7 +2045,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "TBA - Excalibur Tournament",
     "Level": "All Levels",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/27/2022",
@@ -2053,7 +2053,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "TBA - Excalibur Tournament",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/28/2022",
@@ -2061,7 +2061,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "TBA - Excalibur Tournament",
     "Level": "All Levels",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/28/2022",
@@ -2069,7 +2069,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "TBA - Excalibur Tournament",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/29/2022",
@@ -2077,7 +2077,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "TBA - Excalibur Tournament",
     "Level": "All Levels",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/29/2022",
@@ -2085,7 +2085,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "TBA - Excalibur Tournament",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/29/2022",
@@ -2093,7 +2093,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "TBA - Bill Barnett Holiday Cup",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/29/2022",
@@ -2101,7 +2101,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "TBA - Bill Barnett Holiday Cup",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/30/2022",
@@ -2109,7 +2109,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "TBA - Bill Barnett Holiday Cup",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "12/30/2022",
@@ -2117,7 +2117,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "TBA - Bill Barnett Holiday Cup",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "1/3/2023",
@@ -2125,7 +2125,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "Esperanza",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "1/3/2023",
@@ -2133,7 +2133,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "1/3/2023",
@@ -2141,7 +2141,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/3/2023",
@@ -2149,7 +2149,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/3/2023",
@@ -2157,7 +2157,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "@El Modena",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/3/2023",
@@ -2165,7 +2165,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/3/2023",
@@ -2173,7 +2173,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "@El Modena",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/3/2023",
@@ -2181,7 +2181,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/3/2023",
@@ -2189,7 +2189,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/3/2023",
@@ -2197,7 +2197,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "@El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/3/2023",
@@ -2205,7 +2205,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "@El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/3/2023",
@@ -2213,7 +2213,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/3/2023",
@@ -2221,7 +2221,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "@El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/3/2023",
@@ -2229,7 +2229,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "@El Modena",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/4/2023",
@@ -2237,7 +2237,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/4/2023",
@@ -2245,7 +2245,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Villa Park",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/4/2023",
@@ -2253,7 +2253,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/4/2023",
@@ -2261,7 +2261,7 @@
     "Sport": "Wrestling",
     "Opponent": "El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/5/2023",
@@ -2269,7 +2269,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "Yorba Linda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/5/2023",
@@ -2277,7 +2277,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/5/2023",
@@ -2285,7 +2285,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/6/2023",
@@ -2293,7 +2293,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/6/2023",
@@ -2301,7 +2301,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/6/2023",
@@ -2309,7 +2309,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/6/2023",
@@ -2317,7 +2317,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/6/2023",
@@ -2325,7 +2325,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/6/2023",
@@ -2333,7 +2333,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/6/2023",
@@ -2341,7 +2341,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/6/2023",
@@ -2349,7 +2349,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/6/2023",
@@ -2357,7 +2357,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "Canyon/Anaheim",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/10/2023",
@@ -2365,7 +2365,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "1/10/2023",
@@ -2373,7 +2373,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "1/10/2023",
@@ -2381,7 +2381,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/10/2023",
@@ -2389,7 +2389,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/10/2023",
@@ -2397,7 +2397,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/10/2023",
@@ -2405,7 +2405,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/10/2023",
@@ -2413,7 +2413,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/10/2023",
@@ -2421,7 +2421,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/10/2023",
@@ -2429,7 +2429,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/10/2023",
@@ -2437,7 +2437,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/10/2023",
@@ -2445,7 +2445,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/10/2023",
@@ -2453,7 +2453,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/10/2023",
@@ -2461,7 +2461,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/10/2023",
@@ -2469,7 +2469,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "Villa Park",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/11/2023",
@@ -2477,7 +2477,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/11/2023",
@@ -2485,7 +2485,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/11/2023",
@@ -2493,7 +2493,7 @@
     "Sport": "Wrestling",
     "Opponent": "Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/11/2023",
@@ -2501,7 +2501,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/12/2023",
@@ -2509,7 +2509,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "Harvard-Westlake",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "1/12/2023",
@@ -2517,7 +2517,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "Villa Park",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/12/2023",
@@ -2525,7 +2525,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/12/2023",
@@ -2533,7 +2533,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/13/2023",
@@ -2541,7 +2541,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "TBA - Tournament of Champions -",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "1/13/2023",
@@ -2549,7 +2549,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "TBA - Tournament of Champions -",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "1/13/2023",
@@ -2557,7 +2557,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/13/2023",
@@ -2565,7 +2565,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/13/2023",
@@ -2573,7 +2573,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/13/2023",
@@ -2581,7 +2581,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "@Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/13/2023",
@@ -2589,7 +2589,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "@Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/13/2023",
@@ -2597,7 +2597,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/13/2023",
@@ -2605,7 +2605,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/13/2023",
@@ -2613,7 +2613,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "@Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/13/2023",
@@ -2621,7 +2621,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/14/2023",
@@ -2629,7 +2629,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "TBA - Tournament of Champions -",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "1/14/2023",
@@ -2637,7 +2637,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "TBA - Tournament of Champions -",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "1/17/2023",
@@ -2645,7 +2645,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/17/2023",
@@ -2653,7 +2653,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/17/2023",
@@ -2661,7 +2661,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/17/2023",
@@ -2669,7 +2669,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/17/2023",
@@ -2677,7 +2677,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "@El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/17/2023",
@@ -2685,7 +2685,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "@El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/17/2023",
@@ -2693,7 +2693,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/17/2023",
@@ -2701,7 +2701,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "@El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/17/2023",
@@ -2709,7 +2709,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/17/2023",
@@ -2717,7 +2717,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/17/2023",
@@ -2725,7 +2725,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/17/2023",
@@ -2733,7 +2733,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/17/2023",
@@ -2741,7 +2741,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/17/2023",
@@ -2749,7 +2749,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/18/2023",
@@ -2757,7 +2757,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/18/2023",
@@ -2765,7 +2765,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@El Modena",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/18/2023",
@@ -2773,7 +2773,7 @@
     "Sport": "Wrestling",
     "Opponent": "@Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/18/2023",
@@ -2781,7 +2781,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/19/2023",
@@ -2789,7 +2789,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "TBA - Newport Invite",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "1/19/2023",
@@ -2797,7 +2797,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "@Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/19/2023",
@@ -2805,7 +2805,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "@Brea Olinda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/19/2023",
@@ -2813,7 +2813,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "@Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/20/2023",
@@ -2821,7 +2821,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "TBA - Newport Invite",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "1/20/2023",
@@ -2829,7 +2829,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "TBA - Newport Invite",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "1/20/2023",
@@ -2837,7 +2837,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "Brea Olinda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/20/2023",
@@ -2845,7 +2845,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/20/2023",
@@ -2853,7 +2853,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/20/2023",
@@ -2861,7 +2861,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "@Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/20/2023",
@@ -2869,7 +2869,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/20/2023",
@@ -2877,7 +2877,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/20/2023",
@@ -2885,7 +2885,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/20/2023",
@@ -2893,7 +2893,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/20/2023",
@@ -2901,7 +2901,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/21/2023",
@@ -2909,7 +2909,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "TBA - Newport Invite",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "1/21/2023",
@@ -2917,7 +2917,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "TBA - Newport Invite",
     "Level": "Varsity",
-    "Game Type": "Tournament"
+    "GameType": "Tournament"
   },
   {
     "Date": "1/24/2023",
@@ -2925,7 +2925,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/24/2023",
@@ -2933,7 +2933,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/24/2023",
@@ -2941,7 +2941,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/24/2023",
@@ -2949,7 +2949,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/24/2023",
@@ -2957,7 +2957,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/24/2023",
@@ -2965,7 +2965,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "@Yorba Linda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/24/2023",
@@ -2973,7 +2973,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "@Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/24/2023",
@@ -2981,7 +2981,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/24/2023",
@@ -2989,7 +2989,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/24/2023",
@@ -2997,7 +2997,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/24/2023",
@@ -3005,7 +3005,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/24/2023",
@@ -3013,7 +3013,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/24/2023",
@@ -3021,7 +3021,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "@Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/24/2023",
@@ -3029,7 +3029,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/25/2023",
@@ -3037,7 +3037,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/25/2023",
@@ -3045,7 +3045,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/25/2023",
@@ -3053,7 +3053,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/26/2023",
@@ -3061,7 +3061,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/26/2023",
@@ -3069,7 +3069,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "Canyon/Anaheim",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/26/2023",
@@ -3077,7 +3077,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/27/2023",
@@ -3085,7 +3085,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/27/2023",
@@ -3093,7 +3093,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/27/2023",
@@ -3101,7 +3101,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/27/2023",
@@ -3109,7 +3109,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/27/2023",
@@ -3117,7 +3117,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/27/2023",
@@ -3125,7 +3125,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/27/2023",
@@ -3133,7 +3133,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/27/2023",
@@ -3141,7 +3141,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/27/2023",
@@ -3149,7 +3149,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "@Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/30/2023",
@@ -3157,7 +3157,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "@Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/30/2023",
@@ -3165,7 +3165,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/30/2023",
@@ -3173,7 +3173,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "@Villa Park",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/30/2023",
@@ -3181,7 +3181,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Brea Olinda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/30/2023",
@@ -3189,7 +3189,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "@Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/30/2023",
@@ -3197,7 +3197,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/31/2023",
@@ -3205,7 +3205,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/31/2023",
@@ -3213,7 +3213,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/31/2023",
@@ -3221,7 +3221,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/31/2023",
@@ -3229,7 +3229,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/31/2023",
@@ -3237,7 +3237,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "Villa Park",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/31/2023",
@@ -3245,7 +3245,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "Villa Park",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/31/2023",
@@ -3253,7 +3253,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "@Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/31/2023",
@@ -3261,7 +3261,7 @@
     "Sport": "Water Polo, Girls",
     "Opponent": "@Villa Park",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/31/2023",
@@ -3269,7 +3269,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "@Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/31/2023",
@@ -3277,7 +3277,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "1/31/2023",
@@ -3285,7 +3285,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "@Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "2/1/2023",
@@ -3293,7 +3293,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "2/1/2023",
@@ -3301,7 +3301,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "2/1/2023",
@@ -3309,7 +3309,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "2/1/2023",
@@ -3317,7 +3317,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "2/1/2023",
@@ -3325,7 +3325,7 @@
     "Sport": "Soccer, Girls",
     "Opponent": "El Modena",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "2/1/2023",
@@ -3333,7 +3333,7 @@
     "Sport": "Soccer, Boys",
     "Opponent": "El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "2/2/2023",
@@ -3341,7 +3341,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "2/2/2023",
@@ -3349,7 +3349,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "Yorba Linda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "2/2/2023",
@@ -3357,7 +3357,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "Yorba Linda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "2/2/2023",
@@ -3365,7 +3365,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "@Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "2/2/2023",
@@ -3373,7 +3373,7 @@
     "Sport": "Basketball, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "2/2/2023",
@@ -3381,7 +3381,7 @@
     "Sport": "Basketball, Boys",
     "Opponent": "Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "2/28/2023",
@@ -3389,7 +3389,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "@Villa Park",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "2/28/2023",
@@ -3397,7 +3397,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "@Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "2/28/2023",
@@ -3405,7 +3405,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "@Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/1/2023",
@@ -3413,7 +3413,7 @@
     "Sport": "Baseball",
     "Opponent": "Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/1/2023",
@@ -3421,7 +3421,7 @@
     "Sport": "Swimming & Diving, Girls",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/1/2023",
@@ -3429,7 +3429,7 @@
     "Sport": "Swimming & Diving, Girls",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/1/2023",
@@ -3437,7 +3437,7 @@
     "Sport": "Swimming & Diving, Boys",
     "Opponent": "@El Dorado",
     "Level": "Open",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/1/2023",
@@ -3445,7 +3445,7 @@
     "Sport": "Swimming & Diving, Girls",
     "Opponent": "@El Dorado",
     "Level": "Open",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/1/2023",
@@ -3453,7 +3453,7 @@
     "Sport": "Swimming & Diving, Boys",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/1/2023",
@@ -3461,7 +3461,7 @@
     "Sport": "Swimming & Diving, Boys",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/1/2023",
@@ -3469,7 +3469,7 @@
     "Sport": "Baseball",
     "Opponent": "@Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/1/2023",
@@ -3477,7 +3477,7 @@
     "Sport": "Baseball",
     "Opponent": "Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/2/2023",
@@ -3485,7 +3485,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/2/2023",
@@ -3493,7 +3493,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/2/2023",
@@ -3501,7 +3501,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/3/2023",
@@ -3509,7 +3509,7 @@
     "Sport": "Baseball",
     "Opponent": "@Yorba Linda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/3/2023",
@@ -3517,7 +3517,7 @@
     "Sport": "Baseball",
     "Opponent": "Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/3/2023",
@@ -3525,7 +3525,7 @@
     "Sport": "Baseball",
     "Opponent": "@Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/7/2023",
@@ -3533,7 +3533,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "@El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/7/2023",
@@ -3541,7 +3541,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "@El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/7/2023",
@@ -3549,7 +3549,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/7/2023",
@@ -3557,7 +3557,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/7/2023",
@@ -3565,7 +3565,7 @@
     "Sport": "Lacrosse, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/7/2023",
@@ -3573,7 +3573,7 @@
     "Sport": "Softball",
     "Opponent": "@Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "3/7/2023",
@@ -3581,7 +3581,7 @@
     "Sport": "Lacrosse, Girls",
     "Opponent": "Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/7/2023",
@@ -3589,7 +3589,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/7/2023",
@@ -3597,7 +3597,7 @@
     "Sport": "Softball",
     "Opponent": "@Esperanza",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "3/8/2023",
@@ -3605,7 +3605,7 @@
     "Sport": "Swimming & Diving, Girls",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/8/2023",
@@ -3613,7 +3613,7 @@
     "Sport": "Baseball",
     "Opponent": "Canyon/Anaheim",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/8/2023",
@@ -3621,7 +3621,7 @@
     "Sport": "Swimming & Diving, Girls",
     "Opponent": "El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/8/2023",
@@ -3629,7 +3629,7 @@
     "Sport": "Swimming & Diving, Boys",
     "Opponent": "El Modena",
     "Level": "Open",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/8/2023",
@@ -3637,7 +3637,7 @@
     "Sport": "Swimming & Diving, Girls",
     "Opponent": "El Modena",
     "Level": "Open",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/8/2023",
@@ -3645,7 +3645,7 @@
     "Sport": "Swimming & Diving, Boys",
     "Opponent": "El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/8/2023",
@@ -3653,7 +3653,7 @@
     "Sport": "Swimming & Diving, Boys",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/8/2023",
@@ -3661,7 +3661,7 @@
     "Sport": "Baseball",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/8/2023",
@@ -3669,7 +3669,7 @@
     "Sport": "Baseball",
     "Opponent": "Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/9/2023",
@@ -3677,7 +3677,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/9/2023",
@@ -3685,7 +3685,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "Brea Olinda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/9/2023",
@@ -3693,7 +3693,7 @@
     "Sport": "Lacrosse, Boys",
     "Opponent": "Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/9/2023",
@@ -3701,7 +3701,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/9/2023",
@@ -3709,7 +3709,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/9/2023",
@@ -3717,7 +3717,7 @@
     "Sport": "Softball",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "3/9/2023",
@@ -3725,7 +3725,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/9/2023",
@@ -3733,7 +3733,7 @@
     "Sport": "Softball",
     "Opponent": "Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "3/10/2023",
@@ -3741,7 +3741,7 @@
     "Sport": "Baseball",
     "Opponent": "@Brea Olinda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/10/2023",
@@ -3749,7 +3749,7 @@
     "Sport": "Baseball",
     "Opponent": "Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/10/2023",
@@ -3757,7 +3757,7 @@
     "Sport": "Baseball",
     "Opponent": "@Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/14/2023",
@@ -3765,7 +3765,7 @@
     "Sport": "Softball",
     "Opponent": "@El Modena",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "3/14/2023",
@@ -3773,7 +3773,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "@Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/14/2023",
@@ -3781,7 +3781,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "@El Modena",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/14/2023",
@@ -3789,7 +3789,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/14/2023",
@@ -3797,7 +3797,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "@El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/14/2023",
@@ -3805,7 +3805,7 @@
     "Sport": "Lacrosse, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/14/2023",
@@ -3813,7 +3813,7 @@
     "Sport": "Softball",
     "Opponent": "@El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "3/14/2023",
@@ -3821,7 +3821,7 @@
     "Sport": "Lacrosse, Girls",
     "Opponent": "@Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/14/2023",
@@ -3829,7 +3829,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "@El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/15/2023",
@@ -3837,7 +3837,7 @@
     "Sport": "Swimming & Diving, Girls",
     "Opponent": "Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/15/2023",
@@ -3845,7 +3845,7 @@
     "Sport": "Swimming & Diving, Girls",
     "Opponent": "Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/15/2023",
@@ -3853,7 +3853,7 @@
     "Sport": "Swimming & Diving, Boys",
     "Opponent": "Brea Olinda",
     "Level": "Open",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/15/2023",
@@ -3861,7 +3861,7 @@
     "Sport": "Swimming & Diving, Girls",
     "Opponent": "Brea Olinda",
     "Level": "Open",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/15/2023",
@@ -3869,7 +3869,7 @@
     "Sport": "Swimming & Diving, Boys",
     "Opponent": "Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/15/2023",
@@ -3877,7 +3877,7 @@
     "Sport": "Swimming & Diving, Boys",
     "Opponent": "Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/16/2023",
@@ -3885,7 +3885,7 @@
     "Sport": "Softball",
     "Opponent": "Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/16/2023",
@@ -3893,7 +3893,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "Canyon/Anaheim",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/16/2023",
@@ -3901,7 +3901,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/16/2023",
@@ -3909,7 +3909,7 @@
     "Sport": "Lacrosse, Boys",
     "Opponent": "@Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/16/2023",
@@ -3917,7 +3917,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/16/2023",
@@ -3925,7 +3925,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "@Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/16/2023",
@@ -3933,7 +3933,7 @@
     "Sport": "Softball",
     "Opponent": "Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/16/2023",
@@ -3941,7 +3941,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/17/2023",
@@ -3949,7 +3949,7 @@
     "Sport": "Baseball",
     "Opponent": "Villa Park",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/17/2023",
@@ -3957,7 +3957,7 @@
     "Sport": "Baseball",
     "Opponent": "@Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/17/2023",
@@ -3965,7 +3965,7 @@
     "Sport": "Baseball",
     "Opponent": "Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/22/2023",
@@ -3973,7 +3973,7 @@
     "Sport": "Baseball",
     "Opponent": "@El Modena",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/22/2023",
@@ -3981,7 +3981,7 @@
     "Sport": "Baseball",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/22/2023",
@@ -3989,7 +3989,7 @@
     "Sport": "Baseball",
     "Opponent": "@El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/24/2023",
@@ -3997,7 +3997,7 @@
     "Sport": "Baseball",
     "Opponent": "El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/24/2023",
@@ -4005,7 +4005,7 @@
     "Sport": "Baseball",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/24/2023",
@@ -4013,7 +4013,7 @@
     "Sport": "Baseball",
     "Opponent": "El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/28/2023",
@@ -4021,7 +4021,7 @@
     "Sport": "Softball",
     "Opponent": "Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/28/2023",
@@ -4029,7 +4029,7 @@
     "Sport": "Baseball",
     "Opponent": "@Villa Park",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/28/2023",
@@ -4037,7 +4037,7 @@
     "Sport": "Softball",
     "Opponent": "Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/28/2023",
@@ -4045,7 +4045,7 @@
     "Sport": "Baseball",
     "Opponent": "Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/28/2023",
@@ -4053,7 +4053,7 @@
     "Sport": "Baseball",
     "Opponent": "@Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/30/2023",
@@ -4061,7 +4061,7 @@
     "Sport": "Track & Field, Boys",
     "Opponent": "Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/30/2023",
@@ -4069,7 +4069,7 @@
     "Sport": "Track & Field, Girls",
     "Opponent": "Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/30/2023",
@@ -4077,7 +4077,7 @@
     "Sport": "Track & Field, Girls",
     "Opponent": "Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/30/2023",
@@ -4085,7 +4085,7 @@
     "Sport": "Track & Field, Girls",
     "Opponent": "Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/30/2023",
@@ -4093,7 +4093,7 @@
     "Sport": "Track & Field, Boys",
     "Opponent": "Esperanza",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/30/2023",
@@ -4101,7 +4101,7 @@
     "Sport": "Track & Field, Boys",
     "Opponent": "Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/30/2023",
@@ -4109,7 +4109,7 @@
     "Sport": "Baseball",
     "Opponent": "Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/30/2023",
@@ -4117,7 +4117,7 @@
     "Sport": "Softball",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/30/2023",
@@ -4125,7 +4125,7 @@
     "Sport": "Baseball",
     "Opponent": "Villa Park",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/30/2023",
@@ -4133,7 +4133,7 @@
     "Sport": "Softball",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "3/30/2023",
@@ -4141,7 +4141,7 @@
     "Sport": "Baseball",
     "Opponent": "@Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/4/2023",
@@ -4149,7 +4149,7 @@
     "Sport": "Softball",
     "Opponent": "Villa Park",
     "Level": "Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "4/4/2023",
@@ -4157,7 +4157,7 @@
     "Sport": "Softball",
     "Opponent": "Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "Non-League"
+    "GameType": "Non-League"
   },
   {
     "Date": "4/6/2023",
@@ -4165,7 +4165,7 @@
     "Sport": "Track & Field, Boys",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/6/2023",
@@ -4173,7 +4173,7 @@
     "Sport": "Track & Field, Girls",
     "Opponent": "El Modena",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/6/2023",
@@ -4181,7 +4181,7 @@
     "Sport": "Track & Field, Girls",
     "Opponent": "El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/6/2023",
@@ -4189,7 +4189,7 @@
     "Sport": "Track & Field, Girls",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/6/2023",
@@ -4197,7 +4197,7 @@
     "Sport": "Track & Field, Boys",
     "Opponent": "El Modena",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/6/2023",
@@ -4205,7 +4205,7 @@
     "Sport": "Track & Field, Boys",
     "Opponent": "El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/11/2023",
@@ -4213,7 +4213,7 @@
     "Sport": "Softball",
     "Opponent": "El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/11/2023",
@@ -4221,7 +4221,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "@Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/11/2023",
@@ -4229,7 +4229,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "@Yorba Linda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/11/2023",
@@ -4237,7 +4237,7 @@
     "Sport": "Lacrosse, Girls",
     "Opponent": "@Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/11/2023",
@@ -4245,7 +4245,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/11/2023",
@@ -4253,7 +4253,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "@Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/11/2023",
@@ -4261,7 +4261,7 @@
     "Sport": "Lacrosse, Girls",
     "Opponent": "@Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/11/2023",
@@ -4269,7 +4269,7 @@
     "Sport": "Softball",
     "Opponent": "El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/11/2023",
@@ -4277,7 +4277,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "@Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/12/2023",
@@ -4285,7 +4285,7 @@
     "Sport": "Swimming & Diving, Girls",
     "Opponent": "@Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/12/2023",
@@ -4293,7 +4293,7 @@
     "Sport": "Swimming & Diving, Girls",
     "Opponent": "@Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/12/2023",
@@ -4301,7 +4301,7 @@
     "Sport": "Swimming & Diving, Boys",
     "Opponent": "@Esperanza",
     "Level": "Open",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/12/2023",
@@ -4309,7 +4309,7 @@
     "Sport": "Swimming & Diving, Girls",
     "Opponent": "@Esperanza",
     "Level": "Open",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/12/2023",
@@ -4317,7 +4317,7 @@
     "Sport": "Swimming & Diving, Boys",
     "Opponent": "@Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/12/2023",
@@ -4325,7 +4325,7 @@
     "Sport": "Swimming & Diving, Boys",
     "Opponent": "@Esperanza",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/13/2023",
@@ -4333,7 +4333,7 @@
     "Sport": "Track & Field, Boys",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/13/2023",
@@ -4341,7 +4341,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/13/2023",
@@ -4349,7 +4349,7 @@
     "Sport": "Track & Field, Boys",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/13/2023",
@@ -4357,7 +4357,7 @@
     "Sport": "Softball",
     "Opponent": "@Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/13/2023",
@@ -4365,7 +4365,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "@Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/13/2023",
@@ -4373,7 +4373,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "El Modena",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/13/2023",
@@ -4381,7 +4381,7 @@
     "Sport": "Lacrosse, Boys",
     "Opponent": "@Esperanza",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/13/2023",
@@ -4389,7 +4389,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/13/2023",
@@ -4397,7 +4397,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/13/2023",
@@ -4405,7 +4405,7 @@
     "Sport": "Track & Field, Girls",
     "Opponent": "@El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/13/2023",
@@ -4413,7 +4413,7 @@
     "Sport": "Track & Field, Girls",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/13/2023",
@@ -4421,7 +4421,7 @@
     "Sport": "Softball",
     "Opponent": "@Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/13/2023",
@@ -4429,7 +4429,7 @@
     "Sport": "Track & Field, Girls",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/13/2023",
@@ -4437,7 +4437,7 @@
     "Sport": "Track & Field, Boys",
     "Opponent": "@El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/17/2023",
@@ -4445,7 +4445,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/17/2023",
@@ -4453,7 +4453,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/17/2023",
@@ -4461,7 +4461,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/18/2023",
@@ -4469,7 +4469,7 @@
     "Sport": "Softball",
     "Opponent": "@Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/18/2023",
@@ -4477,7 +4477,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/18/2023",
@@ -4485,7 +4485,7 @@
     "Sport": "Lacrosse, Girls",
     "Opponent": "El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/18/2023",
@@ -4493,7 +4493,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/18/2023",
@@ -4501,7 +4501,7 @@
     "Sport": "Lacrosse, Girls",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/18/2023",
@@ -4509,7 +4509,7 @@
     "Sport": "Softball",
     "Opponent": "@Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/19/2023",
@@ -4517,7 +4517,7 @@
     "Sport": "Baseball",
     "Opponent": "@El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/19/2023",
@@ -4525,7 +4525,7 @@
     "Sport": "Baseball",
     "Opponent": "El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/19/2023",
@@ -4533,7 +4533,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/19/2023",
@@ -4541,7 +4541,7 @@
     "Sport": "Swimming & Diving, Girls",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/19/2023",
@@ -4549,7 +4549,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "Yorba Linda",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/19/2023",
@@ -4557,7 +4557,7 @@
     "Sport": "Baseball",
     "Opponent": "El Modena",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/19/2023",
@@ -4565,7 +4565,7 @@
     "Sport": "Swimming & Diving, Girls",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/19/2023",
@@ -4573,7 +4573,7 @@
     "Sport": "Swimming & Diving, Boys",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Open",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/19/2023",
@@ -4581,7 +4581,7 @@
     "Sport": "Swimming & Diving, Girls",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Open",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/19/2023",
@@ -4589,7 +4589,7 @@
     "Sport": "Swimming & Diving, Boys",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/19/2023",
@@ -4597,7 +4597,7 @@
     "Sport": "Volleyball, Boys",
     "Opponent": "Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/19/2023",
@@ -4605,7 +4605,7 @@
     "Sport": "Swimming & Diving, Boys",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/20/2023",
@@ -4613,7 +4613,7 @@
     "Sport": "Softball",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/20/2023",
@@ -4621,7 +4621,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/20/2023",
@@ -4629,7 +4629,7 @@
     "Sport": "Lacrosse, Boys",
     "Opponent": "El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/20/2023",
@@ -4637,7 +4637,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "@Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/20/2023",
@@ -4645,7 +4645,7 @@
     "Sport": "Softball",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/21/2023",
@@ -4653,7 +4653,7 @@
     "Sport": "Baseball",
     "Opponent": "El Modena",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/21/2023",
@@ -4661,7 +4661,7 @@
     "Sport": "Baseball",
     "Opponent": "@El Modena",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/21/2023",
@@ -4669,7 +4669,7 @@
     "Sport": "Baseball",
     "Opponent": "@El Modena",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/24/2023",
@@ -4677,7 +4677,7 @@
     "Sport": "Softball",
     "Opponent": "Yorba Linda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/24/2023",
@@ -4685,7 +4685,7 @@
     "Sport": "Softball",
     "Opponent": "Yorba Linda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/25/2023",
@@ -4693,7 +4693,7 @@
     "Sport": "Baseball",
     "Opponent": "El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/25/2023",
@@ -4701,7 +4701,7 @@
     "Sport": "Baseball",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/25/2023",
@@ -4709,7 +4709,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "Villa Park",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/25/2023",
@@ -4717,7 +4717,7 @@
     "Sport": "Baseball",
     "Opponent": "@El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/25/2023",
@@ -4725,7 +4725,7 @@
     "Sport": "Lacrosse, Girls",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/25/2023",
@@ -4733,7 +4733,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "@Villa Park",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/25/2023",
@@ -4741,7 +4741,7 @@
     "Sport": "Lacrosse, Girls",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/26/2023",
@@ -4749,7 +4749,7 @@
     "Sport": "Softball",
     "Opponent": "Brea Olinda",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/26/2023",
@@ -4757,7 +4757,7 @@
     "Sport": "Lacrosse, Boys",
     "Opponent": "@El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/26/2023",
@@ -4765,7 +4765,7 @@
     "Sport": "Softball",
     "Opponent": "Brea Olinda",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/27/2023",
@@ -4773,7 +4773,7 @@
     "Sport": "Baseball",
     "Opponent": "@El Dorado",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/27/2023",
@@ -4781,7 +4781,7 @@
     "Sport": "Baseball",
     "Opponent": "El Dorado",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/27/2023",
@@ -4789,7 +4789,7 @@
     "Sport": "Tennis, Boys",
     "Opponent": "@Canyon/Anaheim",
     "Level": "Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/27/2023",
@@ -4797,7 +4797,7 @@
     "Sport": "Baseball",
     "Opponent": "El Dorado",
     "Level": "Frosh/Soph",
-    "Game Type": "League"
+    "GameType": "League"
   },
   {
     "Date": "4/27/2023",
@@ -4805,6 +4805,6 @@
     "Sport": "Tennis, Boys",
     "Opponent": "Canyon/Anaheim",
     "Level": "Junior Varsity",
-    "Game Type": "League"
+    "GameType": "League"
   }
 ]

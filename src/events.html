@@ -7,24 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2 id="date">7/16/2022</h2>
-    <div class="schedule">
-        <h1 id="scheduleName">No School</h1>
-        <div id="schedule"><p>Enjoy your weekend</p></div>
-    </div>
+    <a href="index.html" id="back">
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+            <path d="M24 40 8 24 24 8l2.1 2.1-12.4 12.4H40v3H13.7l12.4 12.4Z"/>
+        </svg>
+    </a>
+    <h1>Upcomming Events</h1>
     <div class="list">
-        <h2>Todays Games</h2>
-        <ul id="games">
-        
-        </ul>
-        <a href="games.html">View All Games</a>
-    </div>
-    <div class="list">
-        <h2>Todays Events</h2>
         <ul id="events">
-        
+        {% for value in events %}
+            <li>
+                <p><b>Date:</b> {{ value["Date"] }}</p>
+                <p><b>Event:</b> {{ value["Event"] }}</p>
+            </li>
+        {% endfor %}
         </ul>
-        <a href="events.html">View All Events</a>
     </div>
     <footer>
         <a href="https://github.com/ZacharyCrespin/FHS-Bell-Schedule" target="_blank" id="git">Github</a></a>

@@ -1,14 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+/* * {
+    border: 1px solid red;
+} */
 body {
     margin: 0;
-    padding: 2rem;
+    padding: 2em;
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    background-color: #f0f1f2;
 }
-h1 {
-    font-size: 250%;
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+#date {
+    font-weight: 300;
+}
+.schedule, .list {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.2)
 }
 table {
-    margin: auto;
+    max-width: max-content;
+    margin: 0 auto;
 }
 table td {
-    padding: 0 2rem;
+    padding: .25em 1em;
+}
+ul {
+    text-align: left;
+    width: max-content;
+    margin: auto;
+}
+ul li {
+    margin: 2em;
+}
+a {
+    color: gray;
+}
+a:hover {
+    color: black;
+}
+#git {
+    position: fixed;
+    bottom: .5rem;
+    left: .5rem;
+}
+#back {
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
 }
