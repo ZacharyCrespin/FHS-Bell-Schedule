@@ -13,20 +13,15 @@
         </svg>
     </a>
     <h1>Upcomming Games</h1>
-    <div class="list">
-        <ul id="games">
-        {% for value in games %}
-            <li>
-                <p><b>Date:</b> {{ value["Date"] }}</p>
-                <p><b>Time:</b> {{ value["Time"] }}</p>
-                <p><b>Sport:</b> {{ value["Sport"] }}</p>
-                <p><b>Opponent:</b> {{ value["Opponent"] }}</p>
-                <p><b>Level:</b> {{ value["Level"] }}</p>
-                <p><b>Game Type:</b> {{ value["GameType"] }}</p>
-            </li>
-        {% endfor %}
-        </ul>
-    </div>
+{% for value in games %}
+    <div class="game">
+        <p><b>Date:</b> {{ value["Date"] }}</p>
+        <p><b>Time:</b> {{ value["Time"] }}</p>
+        <p><b>Sport:</b> {{ value["Sport"] }}</p>
+        <p><b>Opponent:</b> {{ value["Opponent"] }}</p>
+        <p><b>Level:</b> {{ value["Level"] }}</p>
+        <p><b>Game Type:</b> {{ value["GameType"] }}</p>
+    </div>{% endfor %}
     <footer>
         <a href="https://github.com/ZacharyCrespin/FHS-Bell-Schedule" target="_blank" id="git">Github</a></a>
     </footer>

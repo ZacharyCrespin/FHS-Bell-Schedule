@@ -13,16 +13,11 @@
         </svg>
     </a>
     <h1>Upcomming Events</h1>
-    <div class="list">
-        <ul id="events">
-        {% for value in events %}
-            <li>
-                <p><b>Date:</b> {{ value["Date"] }}</p>
-                <p><b>Event:</b> {{ value["Event"] }}</p>
-            </li>
-        {% endfor %}
-        </ul>
-    </div>
+{% for value in events %}
+    <div class="event">
+        <p><b>Date:</b> {{ value["Date"] }}</p>
+        <p><b>Event:</b> {{ value["Event"] }}</p>
+    </div>{% endfor %}
     <footer>
         <a href="https://github.com/ZacharyCrespin/FHS-Bell-Schedule" target="_blank" id="git">Github</a></a>
     </footer>

@@ -14,12 +14,10 @@ with open('public/api/schedules.json') as schedules:
 
 # Get todays date
 today = date.today().strftime("%#m/%#d/%Y")
-print(today)
 
 # Get day of the week
 daysOfTheWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 day = daysOfTheWeek[date.today().weekday()]
-print(day)
 
 # Cheak for custom schedule
 for Date in dates:
@@ -29,7 +27,7 @@ for Date in dates:
         todayScheduleName = Date["Schedule"]["name"]
         todayScheduleHTML = Date["Schedule"]["html"]
     else:
-        print("Custom Not Schedule Found")
+        print("No Custom Schedule Found")
         # defalt
         todayScheduleID = "regular"
 

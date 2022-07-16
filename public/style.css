@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
-
-/* * {
-    border: 1px solid red;
-} */
+:root {
+    --background: hsl(0, 0%, 100%);
+    --step1: hsl(0, 0%, 98%);
+    --step2: hsl(0, 0%, 96%);
+    --text: black;
+    --shadow: 0 0 .25em rgba(0, 0, 0, 0.25);
+    --corner: 16px;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: hsl(0, 0%, 0%);
+        --step1: hsl(0, 0%, 2%);
+        --step2: hsl(0, 0%, 4%);
+        --text: white;
+        --shadow: 0 0 .25em rgba(255, 255, 255, 0.25);
+    }
+}
 body {
     margin: 0;
-    padding: 2em;
+    padding: 1em 0;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
-    background-color: #f0f1f2;
+    background-color: var(--background);
+    color: var(--text);
 }
 h1, h2, h3 {
     margin: 0;
@@ -19,11 +33,19 @@ h1, h2, h3 {
     font-weight: 300;
 }
 .schedule, .list {
-    margin: 1rem 0;
-    padding: 1rem;
-    border-radius: 15px;
-    background-color: white;
-    box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.2)
+    margin: 1em;
+    padding: 1em 0;
+    border-radius: var(--corner);
+    background-color: var(--step1);
+    box-shadow: var(--shadow);
+}
+.game, .event {
+    margin: 1em;
+    padding: 1em;
+    background-color: var(--step1);
+    box-shadow: var(--shadow);
+    border-radius: var(--corner);
+    text-align: left;
 }
 table {
     max-width: max-content;
@@ -38,13 +60,13 @@ ul {
     margin: auto;
 }
 ul li {
-    margin: 2em;
+    margin: 1em;
 }
 a {
-    color: gray;
+    color: rgb(127.5, 127.5, 127.5);
 }
 a:hover {
-    color: black;
+    color: var(--text);
 }
 #git {
     position: fixed;
@@ -55,4 +77,7 @@ a:hover {
     position: absolute;
     top: .5rem;
     left: .5rem;
+}
+#back svg {
+    fill: var(--text);
 }
