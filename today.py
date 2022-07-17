@@ -43,19 +43,43 @@ for Date in dates:
         todayScheduleName = schedules[todayScheduleID]["name"]
         todayScheduleHTML = schedules[todayScheduleID]["html"]
 
-# are there games today if so add it to the array
+# games
 todayGames = []
+upcommingGames = []
 for Game in games:
-    if Game["Date"] == today:
+    from datetime import datetime
+    a = datetime.strptime(Game["Date"], "%m/%d/%Y")
+    b = datetime.strptime(today, "%m/%d/%Y")
+    delta = a - b
+    daysFromToday = delta.days
+
+    if daysFromToday == 0:
         todayGames.append(Game)
 
-# are there events today if so add it to the array
+    if daysFromToday < 30:
+        if daysFromToday > 0:
+            upcommingGames.append(Game)
+            # print (daysFromToday)
+
+# events
 todayEvents = []
+upcommingEvents = []
 for Event in events:
-    if Event["Date"] == today:
+    from datetime import datetime
+    a = datetime.strptime(Event["Date"], "%m/%d/%Y")
+    b = datetime.strptime(today, "%m/%d/%Y")
+    delta = a - b
+    daysFromToday = delta.days
+
+    if daysFromToday == 0:
         todayEvents.append(Event)
 
-# make the today file
+    if daysFromToday < 30:
+        if daysFromToday > 0:
+            upcommingEvents.append(Event)
+            # print (daysFromToday)
+
+# Write today.json
 dictionary = {
     "date": today,
     "schedule": {
@@ -66,13 +90,8 @@ dictionary = {
     "games": todayGames,
     "events": todayEvents
 }
-
-# write JSON
 with open("public/api/today.json", "w") as outfile:
     json.dump(dictionary, outfile)
-
-print(todayGames)
-print(todayEvents)
 
 # Write index.html
 outputfile = 'public/index.html'
@@ -87,7 +106,7 @@ with open(outputfile, 'w') as f:
 outputfile = 'public/games.html'
 subs = jinja2.Environment(
     loader=jinja2.FileSystemLoader('./')
-).get_template('src/games.html').render(games=games)
+).get_template('src/games.html').render(games=upcommingGames)
 # lets write the substitution to a file
 with open(outputfile, 'w') as f:
     f.write(subs)
@@ -96,7 +115,7 @@ with open(outputfile, 'w') as f:
 outputfile = 'public/events.html'
 subs = jinja2.Environment(
     loader=jinja2.FileSystemLoader('./')
-).get_template('src/events.html').render(events=events)
+).get_template('src/events.html').render(events=upcommingEvents)
 # lets write the substitution to a file
 with open(outputfile, 'w') as f:
     f.write(subs)
