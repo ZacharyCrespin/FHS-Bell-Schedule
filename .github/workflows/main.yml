@@ -20,7 +20,9 @@ jobs:
       - name: execute
         run: |
           python today.py
-      - name: save
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: deploy
+        uses: w9jds/firebase-action@master
         with:
-          commit_message: automatic update
+          args: deploy --only hosting:fhsbellschedule
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
