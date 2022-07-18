@@ -16,7 +16,7 @@ with open('public/api/schedules.json') as schedules:
 uspdatetime = datetime.now(pytz.timezone('US/Pacific'))
 
 # Get todays date
-today = uspdatetime.strftime("%#m/%#d/%Y")
+today = uspdatetime.strftime("%-m/%-d/%Y") # - for linux # for windows
 print("date:",today)
 
 # Get day of the week
