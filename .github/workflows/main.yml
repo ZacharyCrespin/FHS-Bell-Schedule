@@ -17,6 +17,7 @@ jobs:
         with:
           packages: |
             Jinja2
+            pytz
       - name: execute
         run: |
           python today.py
