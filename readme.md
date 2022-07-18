@@ -7,7 +7,9 @@
 `py today.py`
 
 ## API
-todays info: `/api/today.json`
+today: `/api/today.json`
+
+upcomming: `/api/upcomming.json`
 
 all games: `/api/games.json` or `/api/games.csv`
 

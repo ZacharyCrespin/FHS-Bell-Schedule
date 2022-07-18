@@ -16,7 +16,8 @@ with open('public/api/schedules.json') as schedules:
 uspdatetime = datetime.now(pytz.timezone('US/Pacific'))
 
 # Get todays date
-today = uspdatetime.strftime("%-m/%-d/%Y") # - for linux # for windows
+today = uspdatetime.strftime("%-m/%-d/%Y") # for linux
+# today = uspdatetime.strftime("%#m/%#d/%Y") # for windows
 print("date:",today)
 
 # Get day of the week
@@ -42,7 +43,8 @@ for Date in dates:
 
         if day == "Wednesday":
             todayScheduleID = "latestart"
-        
+
+        # If its summer overwrite
         a = datetime.strptime("8/16/2022", "%m/%d/%Y")
         b = datetime.strptime(today, "%m/%d/%Y")
         delta = a - b
@@ -52,7 +54,7 @@ for Date in dates:
 
         todayScheduleName = schedules[todayScheduleID]["name"]
         todayScheduleHTML = schedules[todayScheduleID]["html"]
-print("schedule:",todayScheduleName)
+print("schedule:",todayScheduleName,"(",todayScheduleID,")")
 
 # games
 todayGames = []
@@ -112,6 +114,14 @@ subs = jinja2.Environment(
 # lets write the substitution to a file
 with open(outputfile, 'w') as f:
     f.write(subs)
+
+# Write upcomming.json
+dictionary = {
+    "games": upcommingGames,
+    "events": upcommingEvents
+}
+with open("public/api/upcomming.json", "w") as outfile:
+    json.dump(dictionary, outfile)
 
 # Write games.html
 outputfile = 'public/games.html'
