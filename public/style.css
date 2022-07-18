@@ -68,11 +68,6 @@ a {
 a:hover {
     color: var(--text);
 }
-#git {
-    position: fixed;
-    bottom: .5rem;
-    left: .5rem;
-}
 #back {
     position: absolute;
     top: .5rem;

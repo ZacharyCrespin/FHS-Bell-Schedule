@@ -1,5 +1,5 @@
 # Foothill Bell Schedule and daily events
-<https://fhs-bell-schedule.netlify.app/>
+<https://fhsbellschedule.web.app>
 
 ## Setup
 `pip install Jinja2`
