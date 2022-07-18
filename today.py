@@ -1,5 +1,4 @@
 import json
-from datetime import date
 from datetime import datetime
 import pytz
 import jinja2
@@ -43,6 +42,13 @@ for Date in dates:
 
         if day == "Wednesday":
             todayScheduleID = "latestart"
+        
+        a = datetime.strptime("8/16/2022", "%m/%d/%Y")
+        b = datetime.strptime(today, "%m/%d/%Y")
+        delta = a - b
+        daysFromToday = delta.days
+        if daysFromToday > 0:
+            todayScheduleID = "summer"
 
         todayScheduleName = schedules[todayScheduleID]["name"]
         todayScheduleHTML = schedules[todayScheduleID]["html"]

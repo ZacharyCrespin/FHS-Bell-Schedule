@@ -9,7 +9,11 @@
     },
     "weekend": {
         "name": "No School",
-        "html": "<p>Enjoy your weekend</p>"
+        "html": "<p>enjoy your weekend</p>"
+    },
+    "summer": {
+        "name": "No School",
+        "html": "<p>untill August 16th</p>"
     },
     "minimum": {
         "name": "Minimum Day",
