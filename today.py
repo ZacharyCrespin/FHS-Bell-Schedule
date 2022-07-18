@@ -1,5 +1,6 @@
 import json
 from datetime import date
+from datetime import datetime
 import jinja2
 
 # Load all json data to variables
@@ -14,20 +15,20 @@ with open('public/api/schedules.json') as schedules:
 
 # Get todays date
 today = date.today().strftime("%#m/%#d/%Y")
+print("date:",today)
 
 # Get day of the week
 daysOfTheWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 day = daysOfTheWeek[date.today().weekday()]
+print("day of the week:",day)
 
 # Cheak for custom schedule
 for Date in dates:
     if Date["Date"] == today:
-        print("Custom Schedule Found")
         todayScheduleID = "custom"
         todayScheduleName = Date["Schedule"]["name"]
         todayScheduleHTML = Date["Schedule"]["html"]
     else:
-        print("No Custom Schedule Found")
         # defalt
         todayScheduleID = "regular"
 
@@ -42,12 +43,12 @@ for Date in dates:
 
         todayScheduleName = schedules[todayScheduleID]["name"]
         todayScheduleHTML = schedules[todayScheduleID]["html"]
+print("schedule:",todayScheduleName)
 
 # games
 todayGames = []
 upcommingGames = []
 for Game in games:
-    from datetime import datetime
     a = datetime.strptime(Game["Date"], "%m/%d/%Y")
     b = datetime.strptime(today, "%m/%d/%Y")
     delta = a - b
@@ -59,13 +60,13 @@ for Game in games:
     if daysFromToday < 30:
         if daysFromToday > 0:
             upcommingGames.append(Game)
-            # print (daysFromToday)
+print(len(games),"games,",len(upcommingGames),"upcomming,",len(todayGames),"today")
+
 
 # events
 todayEvents = []
 upcommingEvents = []
 for Event in events:
-    from datetime import datetime
     a = datetime.strptime(Event["Date"], "%m/%d/%Y")
     b = datetime.strptime(today, "%m/%d/%Y")
     delta = a - b
@@ -78,6 +79,7 @@ for Event in events:
         if daysFromToday > 0:
             upcommingEvents.append(Event)
             # print (daysFromToday)
+print(len(events),"events,",len(upcommingEvents),"upcomming,",len(todayEvents),"today")
 
 # Write today.json
 dictionary = {
