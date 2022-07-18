@@ -1,6 +1,7 @@
 import json
 from datetime import date
 from datetime import datetime
+import pytz
 import jinja2
 
 # Load all json data to variables
@@ -13,13 +14,15 @@ with open('public/api/events.json') as events:
 with open('public/api/schedules.json') as schedules:
     schedules = json.load(schedules)
 
+uspdatetime = datetime.now(pytz.timezone('US/Pacific'))
+
 # Get todays date
-today = date.today().strftime("%#m/%#d/%Y")
+today = uspdatetime.strftime("%#m/%#d/%Y")
 print("date:",today)
 
 # Get day of the week
 daysOfTheWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-day = daysOfTheWeek[date.today().weekday()]
+day = daysOfTheWeek[uspdatetime.weekday()]
 print("day of the week:",day)
 
 # Cheak for custom schedule
