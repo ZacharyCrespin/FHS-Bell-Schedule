@@ -73,6 +73,7 @@ a:hover {
     top: .5rem;
     left: .5rem;
 }
-#back svg {
-    fill: var(--text);
+code {
+    background-color: var(--step2);
+    box-shadow: var(--shadow);
 }
