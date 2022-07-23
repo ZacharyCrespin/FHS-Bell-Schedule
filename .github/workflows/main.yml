@@ -18,6 +18,7 @@ jobs:
           packages: |
             Jinja2
             pytz
+            arrow
       - name: execute
         run: |
           python today.py

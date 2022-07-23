@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2 id="date">{{ date }}</h2>
+    <h2>{{ today }}</h2>
     <div class="schedule">
         <h1 id="scheduleName">{{ scheduleName }}</h1>
-        <div id="schedule">{{ scheduleHTML }}</div>
+        <div id="schedule">
+            {{ scheduleHTML }}
+        </div>
     </div>
     <div class="list">
         <h2>Todays Games</h2>
@@ -26,7 +28,7 @@
             </li>
         {% endfor %}
         </ul>
-        <a href="games.html">View Upcomming Games</a>
+        <a href="games.html">View Upcoming Games</a>
     </div>
     <div class="list">
         <h2>Todays Events</h2>
@@ -37,7 +39,7 @@
             </li>
         {% endfor %}
         </ul>
-        <a href="events.html">View Upcomming Events</a>
+        <a href="events.html">View Upcoming Events</a>
     </div>
 </body>
 </html>

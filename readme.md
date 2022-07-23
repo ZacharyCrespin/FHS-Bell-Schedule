@@ -3,13 +3,14 @@
 
 ## Setup
 `pip install Jinja2`
+`pip install arrow`
 ## Run
 `py today.py`
 
 ## API
 today: `/api/today.json`
 
-upcomming: `/api/upcomming.json`
+upcoming: `/api/upcoming.json`
 
 all games: `/api/games.json` or `/api/games.csv`
 

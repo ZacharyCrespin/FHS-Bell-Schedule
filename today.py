@@ -16,14 +16,22 @@ with open('public/api/schedules.json') as schedules:
 uspdatetime = datetime.now(pytz.timezone('US/Pacific'))
 
 # Get todays date
-today = uspdatetime.strftime("%-m/%-d/%Y") # for linux
-# today = uspdatetime.strftime("%#m/%#d/%Y") # for windows
+# today = uspdatetime.strftime("%-m/%-d/%Y") # for linux
+today = uspdatetime.strftime("%#m/%#d/%Y") # for windows
 print("date:",today)
 
 # Get day of the week
 daysOfTheWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 day = daysOfTheWeek[uspdatetime.weekday()]
 print("day of the week:",day)
+
+import arrow
+from datetime import datetime
+arrow.get(uspdatetime).format('Do')
+
+ordinalDay = arrow.get(uspdatetime).format('Do')
+month = uspdatetime.strftime("%B")
+dateString = day + " " + month + " " + ordinalDay
 
 # Cheak for custom schedule
 for Date in dates:
@@ -58,7 +66,7 @@ print("schedule:",todayScheduleName,"(",todayScheduleID,")")
 
 # games
 todayGames = []
-upcommingGames = []
+upcomingGames = []
 for Game in games:
     a = datetime.strptime(Game["Date"], "%m/%d/%Y")
     b = datetime.strptime(today, "%m/%d/%Y")
@@ -70,13 +78,13 @@ for Game in games:
 
     if daysFromToday < 30:
         if daysFromToday > 0:
-            upcommingGames.append(Game)
-print(len(games),"games,",len(upcommingGames),"upcomming,",len(todayGames),"today")
+            upcomingGames.append(Game)
+print(len(games),"games,",len(upcomingGames),"upcoming,",len(todayGames),"today")
 
 
 # events
 todayEvents = []
-upcommingEvents = []
+upcomingEvents = []
 for Event in events:
     a = datetime.strptime(Event["Date"], "%m/%d/%Y")
     b = datetime.strptime(today, "%m/%d/%Y")
@@ -88,9 +96,9 @@ for Event in events:
 
     if daysFromToday < 30:
         if daysFromToday > 0:
-            upcommingEvents.append(Event)
+            upcomingEvents.append(Event)
             # print (daysFromToday)
-print(len(events),"events,",len(upcommingEvents),"upcomming,",len(todayEvents),"today")
+print(len(events),"events,",len(upcomingEvents),"upcoming,",len(todayEvents),"today")
 
 # Write today.json
 dictionary = {
@@ -110,24 +118,24 @@ with open("public/api/today.json", "w") as outfile:
 outputfile = 'public/index.html'
 subs = jinja2.Environment(
     loader=jinja2.FileSystemLoader('./')
-).get_template('src/index.html').render(date=today, scheduleName=todayScheduleName, scheduleHTML=todayScheduleHTML, games=todayGames, events=todayEvents)
+).get_template('src/index.html').render(today=dateString, scheduleName=todayScheduleName, scheduleHTML=todayScheduleHTML, games=todayGames, events=todayEvents)
 # lets write the substitution to a file
 with open(outputfile, 'w') as f:
     f.write(subs)
 
-# Write upcomming.json
+# Write upcoming.json
 dictionary = {
-    "games": upcommingGames,
-    "events": upcommingEvents
+    "games": upcomingGames,
+    "events": upcomingEvents
 }
-with open("public/api/upcomming.json", "w") as outfile:
+with open("public/api/upcoming.json", "w") as outfile:
     json.dump(dictionary, outfile)
 
 # Write games.html
 outputfile = 'public/games.html'
 subs = jinja2.Environment(
     loader=jinja2.FileSystemLoader('./')
-).get_template('src/games.html').render(games=upcommingGames)
+).get_template('src/games.html').render(games=upcomingGames)
 # lets write the substitution to a file
 with open(outputfile, 'w') as f:
     f.write(subs)
@@ -136,7 +144,7 @@ with open(outputfile, 'w') as f:
 outputfile = 'public/events.html'
 subs = jinja2.Environment(
     loader=jinja2.FileSystemLoader('./')
-).get_template('src/events.html').render(events=upcommingEvents)
+).get_template('src/events.html').render(events=upcomingEvents)
 # lets write the substitution to a file
 with open(outputfile, 'w') as f:
     f.write(subs)
