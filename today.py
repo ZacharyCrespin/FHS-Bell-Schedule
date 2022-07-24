@@ -2,6 +2,7 @@ import json
 from datetime import datetime
 import pytz
 import jinja2
+import arrow
 
 # Load all json data to variables
 with open('public/api/dates.json') as dates:
@@ -13,35 +14,30 @@ with open('public/api/events.json') as events:
 with open('public/api/schedules.json') as schedules:
     schedules = json.load(schedules)
 
+# use Pacific time even when using github actions
 uspdatetime = datetime.now(pytz.timezone('US/Pacific'))
 
 # Get todays date
 today = uspdatetime.strftime("%-m/%-d/%Y") # for linux
 # today = uspdatetime.strftime("%#m/%#d/%Y") # for windows
-print("date:",today)
+print(today)
 
 # Get day of the week
 daysOfTheWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 day = daysOfTheWeek[uspdatetime.weekday()]
-print("day of the week:",day)
 
-import arrow
-from datetime import datetime
-arrow.get(uspdatetime).format('Do')
+# day of the week, month, day of the month
+dateString = day + " " + uspdatetime.strftime("%B") + " " + arrow.get(uspdatetime).format('Do')
+print(dateString)
 
-ordinalDay = arrow.get(uspdatetime).format('Do')
-month = uspdatetime.strftime("%B")
-dateString = day + " " + month + " " + ordinalDay
-
-# Cheak for custom schedule
+# Cheak for a custom schedule
 for Date in dates:
     if Date["Date"] == today:
         todayScheduleID = "custom"
         todayScheduleName = Date["Schedule"]["name"]
         todayScheduleHTML = Date["Schedule"]["html"]
     else:
-        # defalt
-        todayScheduleID = "regular"
+        todayScheduleID = "regular" # defalt
 
         if day == "Saturday":
             todayScheduleID = "weekend"
@@ -60,6 +56,7 @@ for Date in dates:
         if daysFromToday > 0:
             todayScheduleID = "summer"
 
+        # get the rest of the data using the id
         todayScheduleName = schedules[todayScheduleID]["name"]
         todayScheduleHTML = schedules[todayScheduleID]["html"]
 print("schedule:",todayScheduleName,"(",todayScheduleID,")")
