@@ -3,6 +3,7 @@
 
 ## Setup
 `pip install Jinja2`
+
 `pip install arrow`
 ## Run
 `py today.py`
