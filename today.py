@@ -74,7 +74,7 @@ for Game in games:
         todayGames.append(Game)
 
     if daysFromToday < 30:
-        if daysFromToday > 0:
+        if daysFromToday > -1:
             upcomingGames.append(Game)
 print(len(games),"games,",len(upcomingGames),"upcoming,",len(todayGames),"today")
 
@@ -92,7 +92,7 @@ for Event in events:
         todayEvents.append(Event)
 
     if daysFromToday < 30:
-        if daysFromToday > 0:
+        if daysFromToday > -1:
             upcomingEvents.append(Event)
             # print (daysFromToday)
 print(len(events),"events,",len(upcomingEvents),"upcoming,",len(todayEvents),"today")

@@ -16,11 +16,10 @@
         </div>
     </div>
     <div class="list">
-        <h2>Todays Games</h2>
+        <h2>Today's Games</h2>
         <ul id="games">
         {% for value in games %}
             <li>
-                <p><b>Date:</b> {{ value["Date"] }}</p>
                 <p><b>Time:</b> {{ value["Time"] }}</p>
                 <p><b>Sport:</b> {{ value["Sport"] }}</p>
                 <p><b>Opponent:</b> {{ value["Opponent"] }}</p>
@@ -32,7 +31,7 @@
         <a href="games.html">View Upcoming Games</a>
     </div>
     <div class="list">
-        <h2>Todays Events</h2>
+        <h2>Today's Events</h2>
         <ul id="events">
         {% for value in events %}
             <li>
