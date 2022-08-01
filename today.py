@@ -1,3 +1,4 @@
+from asyncio.windows_events import NULL
 import json
 from datetime import datetime
 import pytz
@@ -18,8 +19,8 @@ with open('public/api/schedules.json') as schedules:
 uspdatetime = datetime.now(pytz.timezone('US/Pacific'))
 
 # Get todays date
-today = uspdatetime.strftime("%-m/%-d/%Y") # for linux
-# today = uspdatetime.strftime("%#m/%#d/%Y") # for windows
+# today = uspdatetime.strftime("%-m/%-d/%Y") # for linux
+today = uspdatetime.strftime("%#m/%#d/%Y") # for windows
 print(today)
 
 # Get day of the week
@@ -33,12 +34,13 @@ print(dateString)
 # Cheak for a custom schedule
 for Date in dates:
     if Date["Date"] == today:
-        todayScheduleID = "custom"
-        todayScheduleName = Date["Schedule"]["name"]
-        todayScheduleHTML = Date["Schedule"]["html"]
+        if Date["Schedule"]["id"] == "custom":
+            todayScheduleID = "custom"
+            todayScheduleName = Date["Schedule"]["name"]
+            todayScheduleHTML = Date["Schedule"]["html"]
+        else:
+            todayScheduleID = Date["Schedule"]["id"]
     else:
-        todayScheduleID = "regular" # defalt
-
         if day == "Saturday":
             todayScheduleID = "weekend"
 
@@ -55,6 +57,12 @@ for Date in dates:
         daysFromToday = delta.days
         if daysFromToday > 0:
             todayScheduleID = "summer"
+
+        # if nothing was found use Regular Schedule
+        try:
+            todayScheduleID
+        except NameError:
+            todayScheduleID = "regular"
 
         # get the rest of the data using the id
         todayScheduleName = schedules[todayScheduleID]["name"]
