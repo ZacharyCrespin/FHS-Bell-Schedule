@@ -1,7 +1,7 @@
-name: today
+name: daily update
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "0 7 * * *"
   push:
   workflow_dispatch:
 jobs:
