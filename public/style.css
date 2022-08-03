@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
 :root {
-    --background: hsl(0, 0%, 100%);
-    --step1: hsl(0, 0%, 98%);
-    --step2: hsl(0, 0%, 96%);
-    --text: black;
-    --shadow: 0 0 .25em rgba(0, 0, 0, 0.25);
+    --background: #FFF;
+    --surface: #FFFBFE;
+    --text: #1C1B1F;
+    --link: #49454F;
+    --shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
     --corner: 16px;
 }
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: hsl(0, 0%, 0%);
-        --step1: hsl(0, 0%, 2%);
-        --step2: hsl(0, 0%, 4%);
-        --text: white;
-        --shadow: 0 0 .25em rgba(255, 255, 255, 0.25);
+        --background: #000;
+        --surface: #1C1B1F;
+        --text: #E6E1E5;
+        --link: #CAC4D0;
+        --shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.3);
     }
 }
 body {
@@ -37,13 +37,13 @@ h2 {
     margin: 1em;
     padding: 1em 0;
     border-radius: var(--corner);
-    background-color: var(--step1);
+    background-color: var(--surface);
     box-shadow: var(--shadow);
 }
 .game, .event {
     margin: 1em;
     padding: 1em;
-    background-color: var(--step1);
+    background-color: var(--surface);
     box-shadow: var(--shadow);
     border-radius: var(--corner);
     text-align: left;
@@ -64,10 +64,10 @@ ul li {
     margin: 1em;
 }
 a {
-    color: rgb(127.5, 127.5, 127.5);
+    color: var(--text);
 }
 a:hover {
-    color: var(--text);
+    color: var(--link);
 }
 #back {
     position: absolute;
@@ -75,6 +75,6 @@ a:hover {
     left: .5rem;
 }
 code {
-    background-color: var(--step2);
+    background-color: var(--surface);
     box-shadow: var(--shadow);
 }
