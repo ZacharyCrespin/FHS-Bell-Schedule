@@ -1,10 +1,11 @@
-<html lang="en-US">
+<html lang="en-US" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FHS Bell Schedule</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
     <script type="text/javascript">
         (function(c,l,a,r,i,t,y){
             c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -14,38 +15,58 @@
     </script>
 </head>
 <body>
-    <h2>{{ today }}</h2>
-    <div class="schedule">
-        <h1 id="scheduleName">{{ scheduleName }}</h1>
-        <div id="schedule">
-            {{ scheduleHTML }}
+    <main>
+        <h2 id="today">{{ today }}</h2>
+        <div class="Box">
+            <div class="Box-header">
+                <h1 class="Box-title">
+                    {{ scheduleName }}
+                </h1>
+            </div>
+            <div class="Box-body">
+                {{ scheduleHTML }}
+            </div>
         </div>
-    </div>
-    <div class="list">
-        <h2>Today's Games</h2>
-        <ul id="games">
-        {% for value in games %}
-            <li>
-                <p><b>Time:</b> {{ value["Time"] }}</p>
-                <p><b>Sport:</b> {{ value["Sport"] }}</p>
-                <p><b>Opponent:</b> {{ value["Opponent"] }}</p>
-                <p><b>Level:</b> {{ value["Level"] }}</p>
-                <p><b>Game Type:</b> {{ value["GameType"] }}</p>
-            </li>
-        {% endfor %}
-        </ul>
-        <a href="games.html">View Upcoming Games</a>
-    </div>
-    <div class="list">
-        <h2>Today's Events</h2>
-        <ul id="events">
-        {% for value in events %}
-            <li>
-                <p>{{ value["Event"] }}</p>
-            </li>
-        {% endfor %}
-        </ul>
-        <a href="events.html">View Upcoming Events</a>
-    </div>
+        <div class="Box">
+            <div class="Box-header d-flex flex-items-center">
+                <h2 class="Box-title flex-auto">
+                    Today's Games
+                    <span class="Counter Counter--gray">{{ gamesToday }}</span>
+                </h2>
+                <a href="games.html" class="btn btn-primary btn-sm">View Upcoming Games</a>
+            </div>
+            <div class="Box-body">
+                <ul>
+                    {% for value in games %}
+                    <li>
+                        <p><b>Time:</b> {{ value["Time"] }}</p>
+                        <p><b>Sport:</b> {{ value["Sport"] }}</p>
+                        <p><b>Opponent:</b> {{ value["Opponent"] }}</p>
+                        <p><b>Level:</b> {{ value["Level"] }}</p>
+                        <p><b>Game Type:</b> {{ value["GameType"] }}</p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="Box">
+            <div class="Box-header d-flex flex-items-center">
+                <h2 class="Box-title flex-auto">
+                    Today's Events
+                    <span class="Counter Counter--gray">{{ eventsToday }}</span>
+                </h2>
+                <a href="events.html" class="btn btn-primary btn-sm">View Upcoming Events</a>
+            </div>
+            <div class="Box-body">
+                    <ul>
+                        {% for value in events %}
+                        <li>
+                            <p>{{ value["Event"] }}</p>
+                        </li>
+                        {% endfor %}
+                    </ul>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

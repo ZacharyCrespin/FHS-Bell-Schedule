@@ -1,10 +1,11 @@
-<html lang="en-US">
+<html lang="en-US" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API | FHS Bell Schedule</title>
     <link rel="stylesheet" href="../style.css">
+    <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
     <script type="text/javascript">
         (function(c,l,a,r,i,t,y){
             c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -16,16 +17,22 @@
 <body>
     <a href="../index.html" id="back">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 24L0 12L12 0L13.575 1.575L4.275 10.875H24V13.125H4.275L13.575 22.425L12 24Z" fill="var(--text)"/>
+            <path d="M12 24L0 12L12 0L13.575 1.575L4.275 10.875H24V13.125H4.275L13.575 22.425L12 24Z"/>
         </svg>
     </a>
-    <h1>API</h1>
-    <div class="list">
-        <p>today: <code>/api/today.json</code></p>
-        <p>upcoming: <code>/api/upcoming.json</code></p>
-        <p>all games: <code>/api/games.json</code> or <code>/api/games.csv</code></p>
-        <p>all events: <code>/api/events.json</code> or <code>/api/events.csv</code></p>
-        <p>all schedules: <code>/api/schedules.json</code></p>
-    </div>
+    <header>
+        <h1>API</h1>
+    </header>
+    <main>
+        <div class="Box">
+            <div class="Box-body">
+                <p>today: <a href="https://fhsbellschedule.web.app/api/today.json">/api/today.json</a></p>
+                <p>upcoming: <a href="https://fhsbellschedule.web.app/api/upcoming.json">/api/upcoming.json</a></p>
+                <p>all games: <a href="https://fhsbellschedule.web.app/api/games.json">/api/games.json</a> or <a href="https://fhsbellschedule.web.app/api/games.csv">/api/games.csv</a></p>
+                <p>all events: <a href="https://fhsbellschedule.web.app/api/events.json">/api/events.json</a> or <a href="https://fhsbellschedule.web.app/api/events.csv">/api/events.csv</a></p>
+                <p>all schedules: <a href="https://fhsbellschedule.web.app/api/schedules.json">/api/schedules.json</a></p>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

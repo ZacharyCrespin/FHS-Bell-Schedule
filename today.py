@@ -122,7 +122,7 @@ with open("public/api/today.json", "w") as outfile:
 outputfile = 'public/index.html'
 subs = jinja2.Environment(
     loader=jinja2.FileSystemLoader('./')
-).get_template('src/index.html').render(today=dateString, scheduleName=todayScheduleName, scheduleHTML=todayScheduleHTML, games=todayGames, events=todayEvents)
+).get_template('src/index.html').render(today=dateString, scheduleName=todayScheduleName, scheduleHTML=todayScheduleHTML, games=todayGames, gamesToday=len(todayGames), events=todayEvents, eventsToday=len(todayEvents))
 # lets write the substitution to a file
 with open(outputfile, 'w') as f:
     f.write(subs)

@@ -1,9 +1,10 @@
-<html lang="en-US">
+<html lang="en-US" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upcoming Events | FHS Bell Schedule</title>
+    <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript">
         (function(c,l,a,r,i,t,y){
@@ -19,11 +20,18 @@
             <path d="M12 24L0 12L12 0L13.575 1.575L4.275 10.875H24V13.125H4.275L13.575 22.425L12 24Z" fill="var(--text)"/>
         </svg>
     </a>
-    <h1>Upcoming Events</h1>
-{% for value in events %}
-    <div class="event">
-        <p><b>Date:</b> {{ value["Date"] }}</p>
-        <p><b>Event:</b> {{ value["Event"] }}</p>
-    </div>{% endfor %}
+    <header>
+        <h1>Upcoming Events</h1>
+    </header>
+    <main>
+    {% for value in events %}
+        <div class="Box">
+            <div class="Box-body">
+                <p><b>Date:</b> {{ value["Date"] }}</p>
+                <p><b>Event:</b> {{ value["Event"] }}</p>
+            </div>
+        </div>
+    {% endfor %}
+    </main>
 </body>
 </html>

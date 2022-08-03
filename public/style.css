@@ -1,80 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
-:root {
-    --background: #FFF;
-    --surface: #FFFBFE;
-    --text: #1C1B1F;
-    --link: #49454F;
-    --shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-    --corner: 16px;
+header {
+    padding-top: 1em;
 }
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #000;
-        --surface: #1C1B1F;
-        --text: #E6E1E5;
-        --link: #CAC4D0;
-        --shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.3);
-    }
-}
-body {
-    margin: 0;
-    padding: 1em 0;
+header h1 {
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
-    background-color: var(--background);
-    color: var(--text);
 }
-h1, h2, h3 {
-    margin: 0;
-    padding: 0;
-    font-weight: 400;
+#today {
+    text-align: center;
+    margin: 1rem auto;
 }
-h2 {
-    font-weight: 300;
+main {
+    margin: 0 3rem;
 }
-.schedule, .list {
-    margin: 1em;
-    padding: 1em 0;
-    border-radius: var(--corner);
-    background-color: var(--surface);
-    box-shadow: var(--shadow);
-}
-.game, .event {
-    margin: 1em;
-    padding: 1em;
-    background-color: var(--surface);
-    box-shadow: var(--shadow);
-    border-radius: var(--corner);
-    text-align: left;
-}
-table {
-    max-width: max-content;
-    margin: 0 auto;
-}
-table td {
-    padding: .25em 1em;
+.Box {
+    margin: 1rem;
 }
 ul {
-    text-align: left;
-    width: max-content;
-    margin: auto;
+    margin: 0 2rem;
 }
-ul li {
-    margin: 1em;
-}
-a {
-    color: var(--text);
-}
-a:hover {
-    color: var(--link);
+@media screen and (max-width = 600px) {
+    main {
+        margin: 0 1rem;
+    }
 }
 #back {
-    position: absolute;
+    position: fixed;
     top: .5rem;
     left: .5rem;
+    padding: .5rem;
+    border-radius: 100vmax;
+    background-color: var(--color-canvas-default);
+    border: 1px solid var(--color-border-default);
 }
-code {
-    background-color: var(--surface);
-    box-shadow: var(--shadow);
+#back svg path {
+    fill: var(--color-fg-default);
 }
