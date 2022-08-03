@@ -17,11 +17,6 @@ main {
 ul {
     margin: 0 2rem;
 }
-@media screen and (max-width = 600px) {
-    main {
-        margin: 0 1rem;
-    }
-}
 #back {
     position: fixed;
     top: .5rem;
@@ -33,4 +28,9 @@ ul {
 }
 #back svg path {
     fill: var(--color-fg-default);
+}
+@media only screen and (max-width: 544px) {
+    main {
+        margin: 0;
+    }
 }
