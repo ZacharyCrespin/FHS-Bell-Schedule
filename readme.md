@@ -1,4 +1,4 @@
-# Foothill Bell Schedule and daily events
+# Foothill High School Bell Schedule
 [fhsbellschedule.web.app](https://fhsbellschedule.web.app)
 
 ## Setup
