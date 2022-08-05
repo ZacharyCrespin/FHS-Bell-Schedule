@@ -25,10 +25,13 @@
             {{ scheduleHTML }}
         </div>
         <div class="box">
-            <h2>
-                Today's Games
-                <!-- <span class="counter">{{ gamesToday }}</span> -->
-            </h2>
+            <div class="box-header">
+                <h2>
+                    Today's Games
+                    <!-- <span class="counter">{{ gamesToday }}</span> -->
+                </h2>
+                <a href="games.html" class="btn">View Upcoming Games</a>
+            </div>
             <ul>
                 {% for value in games %}
                 <li>
@@ -40,19 +43,20 @@
                 </li>
                 {% endfor %}
             </ul>
-            <a href="games.html" class="btn">View Upcoming Games</a>
         </div>
         <div class="box">
-            <h2>
-                Today's Events
-                <!-- <span class="counter">{{ eventsToday }}</span> -->
-            </h2>
+            <div class="box-header">
+                <h2>
+                    Today's Events
+                    <!-- <span class="counter">{{ eventsToday }}</span> -->
+                </h2>
+                <a href="events.html" class="btn">View Upcoming Events</a>
+            </div>
             <ul>
                 {% for value in events %}
                 <li><p>{{ value["Event"] }}</p></li>
                 {% endfor %}
             </ul>
-            <a href="events.html" class="btn">View Upcoming Events</a>
         </div>
     </main>
 </body>
