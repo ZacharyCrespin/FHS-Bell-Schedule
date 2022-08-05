@@ -1,5 +1,11 @@
-header {
-    padding-top: 1rem;
+* {
+    margin: .1em;
+    padding: .1em;
+}
+body {
+    background-color: #14191F;
+    color: #E0E7EB;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
 header h1{
     text-align: center;
@@ -7,19 +13,37 @@ header h1{
 main {
     margin: 0 3rem;
 }
-.Box {
+a {
+    color: hsl(202, 22%, 90%);
+}
+a:hover {
+    color: hsl(202, 22%, 75%);
+}
+.box {
     margin: 1rem;
+    padding: 1rem 2rem;
+    border: 1px solid #E0E7EB;
+    border-radius: 6px;
+}
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #E0E7EB;
+    color: #E0E7EB;
+    text-decoration: none;
+    padding: .5em 1em;
+    border-radius: 6px;
+    transition: all ease .2s;
+}
+.btn:hover {
+    background-color: #E0E7EB;
+    color: #14191F;
 }
 ul {
-    margin: 0 2em;
     line-height: 200%;
 }
 table {
-    margin: 0 auto;
     line-height: 200%;
-}
-table td {
-    padding: 0 1em;
 }
 #back {
     position: fixed;
@@ -27,11 +51,21 @@ table td {
     left: .5em;
     padding: .5em;
     border-radius: 6px;
-    background-color: var(--color-canvas-default);
-    border: 1px solid var(--color-border-default);
+    background-color: #14191F;
+    border: 1px solid #E0E7EB;
+    transition: all ease .2s;
+
 }
 #back svg path {
-    fill: var(--color-fg-default);
+    fill: #E0E7EB;
+    transition: all ease .2s;
+}
+#back:hover {
+    cursor: pointer;
+    background-color: #E0E7EB;
+}
+#back:hover svg path {
+    fill: #14191F;
 }
 @media only screen and (max-width: 544px) {
     main {

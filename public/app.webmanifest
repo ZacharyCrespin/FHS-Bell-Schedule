@@ -3,6 +3,10 @@
     "name": "FHS Bell Schedule",
     "icons": [
         {
+            "src": "icon-svg.svg",
+            "sizes": "any"
+        },
+        {
             "src": "icon-192.png",
             "type": "image/png",
             "sizes": "192x192"
@@ -17,5 +21,7 @@
     "display": "standalone",
     "orientation": "portrait",
     "scope": "/",
-    "description": "Foothill High School Bell Schedule"
+    "description": "Foothill High School Bell Schedule",
+    "background_color": "#14191F",
+    "theme_color": "#14191F"
 }

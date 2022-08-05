@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,31 +8,26 @@
     <meta name="description" content="Foothill High School Bell Schedule API">
     <link rel="icon" href="../favicon.svg">
     <link rel="stylesheet" href="../style.css">
-    <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
-    <meta name="color-scheme" content="dark light">
-    <link rel="manifest" href="app.webmanifest">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png"> 
-    <meta name="apple-mobile-web-app-title" content="Schedule">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="color-scheme" content="dark">
+    <link rel="manifest" href="../app.webmanifest">
+    <link rel="../apple-touch-icon" href="../apple-touch-icon.png"> 
+    <meta name="../apple-mobile-web-app-title" content="Schedule">
+    <meta name="../apple-mobile-web-app-capable" content="yes">
 </head>
 <body>
-    <a href="../index.html" id="back">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 24L0 12L12 0L13.575 1.575L4.275 10.875H24V13.125H4.275L13.575 22.425L12 24Z"/>
-        </svg>
-    </a>
+    <button onclick="history.back()" id="back">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 24L0 12L12 0L13.575 1.575L4.275 10.875H24V13.125H4.275L13.575 22.425L12 24Z" fill="black"/></svg>
+    </button>
     <header>
         <h1>API</h1>
     </header>
     <main>
-        <div class="Box">
-            <div class="Box-body">
+        <div class="box">
                 <p>today: <a href="https://fhsbellschedule.web.app/api/today.json">/api/today.json</a></p>
                 <p>upcoming: <a href="https://fhsbellschedule.web.app/api/upcoming.json">/api/upcoming.json</a></p>
                 <p>all games: <a href="https://fhsbellschedule.web.app/api/games.json">/api/games.json</a> or <a href="https://fhsbellschedule.web.app/api/games.csv">/api/games.csv</a></p>
                 <p>all events: <a href="https://fhsbellschedule.web.app/api/events.json">/api/events.json</a> or <a href="https://fhsbellschedule.web.app/api/events.csv">/api/events.csv</a></p>
                 <p>all schedules: <a href="https://fhsbellschedule.web.app/api/schedules.json">/api/schedules.json</a></p>
-            </div>
         </div>
     </main>
 </body>
