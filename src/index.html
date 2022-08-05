@@ -6,18 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FHS Bell Schedule</title>
     <meta name="description" content="Foothill High School Bell Schedule">
+    <link rel="icon" href="favicon.svg">
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
     <meta name="color-scheme" content="dark light">
 </head>
 <body>
+    <header>
+        <h1>FHS Bell Schedule</h1>
+        <h3 style="text-align: center;">{{ today }}</h3>
+    </header>
     <main>
-        <h2 id="today">{{ today }}</h2>
         <div class="Box">
             <div class="Box-header">
-                <h1 class="Box-title">
+                <h2 class="Box-title" style="text-align: center;">
                     {{ scheduleName }}
-                </h1>
+                </h2>
             </div>
             <div class="Box-body">
                 {{ scheduleHTML }}

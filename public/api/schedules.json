@@ -1,6 +1,6 @@
 {
     "regular": {
-        "name": "Regular",
+        "name": "Regular Schedule",
         "html": "<table><tbody><tr><td><p>0</p></td><td><p>7:28 - 8:23</p></td></tr><tr><td><p>1</p></td><td><p>8:30 - 9:25</p></td></tr><tr><td><p>2</p></td><td><p>9:32 - 10:27</p></td></tr><tr><td><p>FTV</p></td><td><p>10:34- 10:42</p></td></tr><tr><td><p>3</p></td><td><p>10:42 - 11:37</p></td></tr><tr><td><p>Lunch</p></td><td><p>11:37 - 12:07</p></td></tr><tr><td><p>4</p></td><td><p>12:12 - 1:07</p></td></tr><tr><td><p>5</p></td><td><p>1:14- 2:09</p></td></tr><tr><td><p>Break</p></td><td><p>2:09 - 2:24</p></td></tr><tr><td><p>6</p></td><td><p>2:30 - 3:25</p></td></tr></tbody></table>"
     },
     "latestart": {
@@ -20,7 +20,7 @@
         "html": "<table><tbody><tr><td><p>0</p></td><td><p>7:30 - 8:18</p></td></tr><tr><td><p>1</p></td><td><p>8:30 - 9:07</p></td></tr><tr><td><p>2</p></td><td><p>9:13 - 9:50</p></td></tr><tr><td><p>3</p></td><td><p>9:56 - 10:33</p></td></tr><tr><td><p><b>Break</b></p></td><td><p>10:33 - 10:48</p></td></tr><tr><td><p>4</p></td><td><p>10:54 - 11:31</p></td></tr><tr><td><p>5</p></td><td><p>11:37 - 12:14</p></td></tr><tr><td><p>6</p></td><td><p>12:20 - 12:57</p></td></tr></tbody></table>"
     },
     "assembly": {
-        "name": "Assembly",
+        "name": "Assembly Schedule",
         "html": "<table><tbody><tr><td><p>0</p></td><td><p>7:36 - 8:24</p></td></tr><tr><td><p>1</p></td><td><p>8:30 - 9:18</p></td></tr><tr><td><p>2</p></td><td><p>9:24- 10:12</p></td></tr><tr><td><p>3 (Assembly A)</p></td><td><p>10:18- 11:08</p></td></tr><tr><td><p>3 (Assembly B)</p></td><td><p>11:08- 11:58</p></td></tr><tr><td><p>Lunch</p></td><td><p>11:58- 12:28</p></td></tr><tr><td><p>4</p></td><td><p>12:34- 1:22</p></td></tr><tr><td><p>5</p></td><td><p>1:28- 2:16</p></td></tr><tr><td><p>Break</p></td><td><p>2:16- 2:31</p></td></tr><tr><td><p>6</p></td><td><p>2:37- 3:25</p></td></tr></tbody></table>"
     },
     "ccr": {
