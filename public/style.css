@@ -1,29 +1,47 @@
+:root {
+    --background: hsl(202, 22%, 90%);
+    --border: hsl(213, 22%, 10%);
+    --light-border: hsl(213, 22%, 85%);
+    --text: hsl(213, 22%, 10%);
+    --link: var(--text);
+    --link-hov: hsl(201, 22%, 25%);
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: hsl(213, 22%, 10%);
+        --border: hsl(202, 22%, 90%);
+        --light-border: hsl(213, 22%, 15%);
+        --text: hsl(202, 22%, 90%);
+        --link: var(--text);
+        --link-hov: hsl(201, 22%, 75%);
+    }
+}
 body {
     text-align: center;
-    background-color: #14191F;
-    color: #E0E7EB;
+    background-color: var(--background);
+    color: var(--text);
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
 main {
     margin: 0 3rem;
 }
 a {
-    color: hsl(202, 22%, 90%);
+    color: var(--text);
 }
 a:hover {
-    color: hsl(202, 22%, 75%);
+    color: var(--link-hov);
 }
 .box {
     margin: 1rem 0;
     padding: 1rem;
-    border: 1px solid #E0E7EB;
+    border: 1px solid var(--border);
     border-radius: 6px;
 }
 .btn {
     display: inline-block;
     background-color: transparent;
-    border: 1px solid #E0E7EB;
-    color: #E0E7EB;
+    border: 1px solid var(--border);
+    color: var(--text);
     text-decoration: none;
     margin: 1em;
     padding: .5em 1em;
@@ -31,8 +49,8 @@ a:hover {
     transition: all ease .2s;
 }
 .btn:hover {
-    background-color: #E0E7EB;
-    color: #14191F;
+    background-color: var(--text);
+    color: var(--background);
     transform: scale(1.05);
 }
 ul {
@@ -43,9 +61,6 @@ table {
     line-height: 200%;
     text-align: left;
     margin: 1rem auto;
-
-    /* border-collapse: separate; */
-    /* text-indent: initial; */
     border-spacing: 0;
 }
 td p {
@@ -53,10 +68,10 @@ td p {
     padding: 0;
 }
 td {
-    border-bottom: 1px solid hsl(213, 22%, 15%);
+    border-bottom: 1px solid var(--light-border);
 }
 tr:nth-child(1) td {
-    border-top: 1px solid hsl(213, 22%, 15%);
+    border-top: 1px solid var(--light-border);
 }
 td:nth-child(1) {
     padding: 0 1em 0 0;
@@ -74,27 +89,27 @@ td:nth-child(2) {
     left: .5em;
     padding: .5em;
     border-radius: 6px;
-    background-color: #14191F;
-    border: 1px solid #E0E7EB;
+    background-color: var(--background);
+    border: 1px solid var(--text);
     transition: all ease .2s;
 
 }
 #back svg path {
-    fill: #E0E7EB;
+    fill: var(--text);
     transition: all ease .2s;
 }
 #back:hover {
     cursor: pointer;
-    background-color: #E0E7EB;
+    background-color: var(--text);
 }
 #back:hover svg path {
-    fill: #14191F;
+    fill: var(--background);
 }
 @media only screen and (max-width: 544px) {
     main {
         margin: 0;
     }
     .box {
-        padding: .5rem;
+        padding: 1rem;
     }
 }
