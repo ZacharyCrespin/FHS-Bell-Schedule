@@ -17,18 +17,18 @@
 <body>
     <header>
         <h1>FHS Bell Schedule</h1>
-        <h3 style="text-align: center;">{{ today }}</h3>
+        <h2>{{ today }}</h2>
     </header>
     <main>
         <div class="box">
-            <h2>{{ scheduleName }}</h2>
+            <h3>{{ scheduleName }}</h3>
             {{ scheduleHTML }}
         </div>
         <div class="box">
-            <h2>
+            <h3>
                 Today's Games
                 <!-- <span class="counter">{{ gamesToday }}</span> -->
-            </h2>
+            </h3>
             <ul>
                 {% for value in games %}
                 <li>
@@ -43,10 +43,10 @@
             <a href="games.html" class="btn">View Upcoming Games</a>
         </div>
         <div class="box">
-            <h2>
+            <h3>
                 Today's Events
                 <!-- <span class="counter">{{ eventsToday }}</span> -->
-            </h2>
+            </h3>
             <ul>
                 {% for value in events %}
                 <li><p>{{ value["Event"] }}</p></li>
