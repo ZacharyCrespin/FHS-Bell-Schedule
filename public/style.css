@@ -1,14 +1,8 @@
-* {
-    margin: .1em;
-    padding: .1em;
-}
 body {
+    text-align: center;
     background-color: #14191F;
     color: #E0E7EB;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-}
-header h1{
-    text-align: center;
 }
 main {
     margin: 0 3rem;
@@ -20,8 +14,8 @@ a:hover {
     color: hsl(202, 22%, 75%);
 }
 .box {
-    margin: 1rem;
-    padding: 1rem 2rem;
+    margin: 1rem 0;
+    padding: 1rem;
     border: 1px solid #E0E7EB;
     border-radius: 6px;
 }
@@ -31,6 +25,7 @@ a:hover {
     border: 1px solid #E0E7EB;
     color: #E0E7EB;
     text-decoration: none;
+    margin: 1em;
     padding: .5em 1em;
     border-radius: 6px;
     transition: all ease .2s;
@@ -42,9 +37,36 @@ a:hover {
 }
 ul {
     line-height: 200%;
+    text-align: left;
 }
 table {
     line-height: 200%;
+    text-align: left;
+    margin: 1rem auto;
+
+    /* border-collapse: separate; */
+    /* text-indent: initial; */
+    border-spacing: 0;
+}
+td p {
+    margin: 0;
+    padding: 0;
+}
+td {
+    border-bottom: 1px solid hsl(213, 22%, 15%);
+}
+tr:nth-child(1) td {
+    border-top: 1px solid hsl(213, 22%, 15%);
+}
+td:nth-child(1) {
+    padding: 0 1em 0 0;
+}
+td:nth-child(2) {
+    text-align: right;
+    padding: 0 0 0 1em;
+}
+.text-left {
+    text-align: left;
 }
 #back {
     position: fixed;
@@ -71,5 +93,8 @@ table {
 @media only screen and (max-width: 544px) {
     main {
         margin: 0;
+    }
+    .box {
+        padding: .5rem;
     }
 }

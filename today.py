@@ -5,17 +5,17 @@ import jinja2
 import arrow
 
 # Load all json data to variables
-with open('public/api/dates.json') as dates:
+with open("public/api/dates.json", encoding="utf-8") as dates:
     dates = json.load(dates)
-with open('public/api/games.json') as games:
+with open("public/api/games.json", encoding="utf-8") as games:
     games = json.load(games)
-with open('public/api/events.json') as events:
+with open("public/api/events.json", encoding="utf-8") as events:
     events = json.load(events)
-with open('public/api/schedules.json') as schedules:
+with open("public/api/schedules.json", encoding="utf-8") as schedules:
     schedules = json.load(schedules)
 
 # use Pacific time even when using github actions
-uspdatetime = datetime.now(pytz.timezone('US/Pacific'))
+uspdatetime = datetime.now(pytz.timezone("US/Pacific"))
 
 # Get todays date
 today = uspdatetime.strftime("%-m/%-d/%Y") # for linux
@@ -27,7 +27,7 @@ daysOfTheWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturd
 day = daysOfTheWeek[uspdatetime.weekday()]
 
 # day of the week, month, day of the month
-dateString = day + " " + uspdatetime.strftime("%B") + " " + arrow.get(uspdatetime).format('Do')
+dateString = day + " " + uspdatetime.strftime("%B") + " " + arrow.get(uspdatetime).format("Do")
 print(dateString)
 
 # Cheak for a custom schedule
@@ -115,16 +115,16 @@ dictionary = {
     "games": todayGames,
     "events": todayEvents
 }
-with open("public/api/today.json", "w") as outfile:
+with open("public/api/today.json", "w", encoding="utf-8") as outfile:
     json.dump(dictionary, outfile)
 
 # Write index.html
-outputfile = 'public/index.html'
+outputfile = "public/index.html"
 subs = jinja2.Environment(
-    loader=jinja2.FileSystemLoader('./')
-).get_template('src/index.html').render(today=dateString, scheduleName=todayScheduleName, scheduleHTML=todayScheduleHTML, games=todayGames, gamesToday=len(todayGames), events=todayEvents, eventsToday=len(todayEvents))
+    loader=jinja2.FileSystemLoader("./")
+).get_template("src/index.html").render(today=dateString, scheduleName=todayScheduleName, scheduleHTML=todayScheduleHTML, games=todayGames, gamesToday=len(todayGames), events=todayEvents, eventsToday=len(todayEvents))
 # lets write the substitution to a file
-with open(outputfile, 'w') as f:
+with open(outputfile, "w", encoding="utf-8") as f:
     f.write(subs)
 
 # Write upcoming.json
@@ -132,23 +132,23 @@ dictionary = {
     "games": upcomingGames,
     "events": upcomingEvents
 }
-with open("public/api/upcoming.json", "w") as outfile:
+with open("public/api/upcoming.json", "w", encoding="utf-8") as outfile:
     json.dump(dictionary, outfile)
 
 # Write games.html
-outputfile = 'public/games.html'
+outputfile = "public/games.html"
 subs = jinja2.Environment(
-    loader=jinja2.FileSystemLoader('./')
-).get_template('src/games.html').render(games=upcomingGames)
+    loader=jinja2.FileSystemLoader("./")
+).get_template("src/games.html").render(games=upcomingGames)
 # lets write the substitution to a file
-with open(outputfile, 'w') as f:
+with open(outputfile, "w", encoding="utf-8") as f:
     f.write(subs)
 
 # Write events.html
-outputfile = 'public/events.html'
+outputfile = "public/events.html"
 subs = jinja2.Environment(
-    loader=jinja2.FileSystemLoader('./')
-).get_template('src/events.html').render(events=upcomingEvents)
+    loader=jinja2.FileSystemLoader("./")
+).get_template("src/events.html").render(events=upcomingEvents)
 # lets write the substitution to a file
-with open(outputfile, 'w') as f:
+with open(outputfile, "w", encoding="utf-8") as f:
     f.write(subs)
