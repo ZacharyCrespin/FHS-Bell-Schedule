@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline</title>
+    <meta name="description" content="Offline">
+    <link rel="icon" href="favicon.ico">
+    <style>
+        :root {
+            --background: hsl(202, 22%, 90%);
+            --border: hsl(213, 22%, 10%);
+            --light-border: hsl(213, 22%, 85%);
+            --text: hsl(213, 22%, 10%);
+            --link: var(--text);
+            --link-hov: hsl(201, 22%, 25%);
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background: hsl(213, 22%, 10%);
+                --border: hsl(202, 22%, 90%);
+                --light-border: hsl(213, 22%, 15%);
+                --text: hsl(202, 22%, 90%);
+                --link: var(--text);
+                --link-hov: hsl(201, 22%, 75%);
+            }
+        }
+        body {
+            text-align: center;
+            background-color: var(--background);
+            color: var(--text);
+            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        }
+        main {
+            margin: 0 3rem;
+        }
+        a {
+            color: var(--text);
+        }
+        a:hover {
+            color: var(--link-hov);
+        }
+        .btn {
+            display: inline-block;
+            background-color: transparent;
+            border: 1px solid var(--border);
+            color: var(--text);
+            text-decoration: none;
+            margin: 1em;
+            padding: .5em 1em;
+            border-radius: 6px;
+            transition: all ease .2s;
+        }
+        .btn:hover {
+            background-color: var(--text);
+            color: var(--background);
+            transform: scale(1.05);
+        }
+        @media only screen and (max-width: 544px) {
+            main {
+                margin: 0;
+            }
+        }
+    </style>
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="hsl(202, 22%, 90%)">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="hsl(213, 22%, 10%)">
+    <link rel="manifest" href="app.webmanifest">
+</head>
+<body>
+    <header>
+        <h1>Offline</h1>
+    </header>
+    <main>
+        <p>Sorry you are offline</p>
+    </main>
+</body>
+</html>

@@ -5,24 +5,90 @@
     "lang": "en-US",
     "icons": [
         {
-            "src": "icon-svg.svg",
-            "sizes": "any"
+            "src": "icons/icon-32.png",
+            "type": "image/png",
+            "sizes": "32x32",
+            "purpose": "any"
         },
         {
-            "src": "icon-192.png",
+            "src": "icons/icon-48.png",
             "type": "image/png",
-            "sizes": "192x192"
+            "sizes": "48x48",
+            "purpose": "any"
         },
         {
-            "src": "icon-512.png",
+            "src": "icons/icon-72.png",
             "type": "image/png",
-            "sizes": "512x512"
+            "sizes": "72x72",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-96.png",
+            "type": "image/png",
+            "sizes": "96x96",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-144.png",
+            "type": "image/png",
+            "sizes": "144x144",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any"
         }
     ],
-    "start_url": "/",
+    "start_url": "/?utm_source=homescreen",
     "display": "standalone",
     "orientation": "portrait",
     "scope": "/",
     "background_color": "#14191F",
-    "theme_color": "#14191F"
+    "theme_color": "#14191F",
+    "shortcuts": [
+        {
+            "name": "Today",
+            "short_name": "Today",
+            "description": "Today",
+            "url": "/?utm_source=homescreen",
+            "icons": [
+                {
+                    "src": "/icons/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Upcoming Games",
+            "short_name": "Games",
+            "description": "Upcoming Games",
+            "url": "/games?utm_source=homescreen",
+            "icons": [
+                {
+                    "src": "/icons/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Upcoming Events",
+            "short_name": "Events",
+            "description": "Upcoming Events",
+            "url": "/events?utm_source=homescreen",
+            "icons": [
+                {
+                    "src": "/icons/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
 }
