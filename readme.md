@@ -1,8 +1,5 @@
 # Foothill High School Bell Schedule
-Production: [fhsbellschedule.web.app](https://fhsbellschedule.web.app)
-
-Dev: [scheduledev.web.app](https://scheduledev.web.app)
-
+[fhsbellschedule.web.app](https://fhsbellschedule.web.app)
 ## Setup
 `pip install Jinja2`
 
