@@ -57,7 +57,7 @@
         {
             "name": "Today",
             "short_name": "Today",
-            "description": "Today",
+            "description": "Today's Schedule",
             "url": "/?utm_source=homescreen",
             "icons": [
                 {
@@ -67,7 +67,7 @@
             ]
         },
         {
-            "name": "Upcoming Games",
+            "name": "Games",
             "short_name": "Games",
             "description": "Upcoming Games",
             "url": "/games?utm_source=homescreen",
@@ -79,7 +79,7 @@
             ]
         },
         {
-            "name": "Upcoming Events",
+            "name": "Events",
             "short_name": "Events",
             "description": "Upcoming Events",
             "url": "/events?utm_source=homescreen",
