@@ -50,23 +50,21 @@ for Date in dates:
         if day == "Wednesday":
             todayScheduleID = "latestart"
 
-        # If its summer overwrite
-        a = datetime.strptime("8/16/2022", "%m/%d/%Y")
-        b = datetime.strptime(today, "%m/%d/%Y")
-        delta = a - b
-        daysFromToday = delta.days
-        if daysFromToday > 0:
-            todayScheduleID = "summer"
+# If its summer overwrite
+a = datetime.strptime("8/16/2022", "%m/%d/%Y")
+b = datetime.strptime(today, "%m/%d/%Y")
+delta = a - b
+daysFromToday = delta.days
+if daysFromToday > 0:
+    todayScheduleID = "summer"
 
-        # if nothing was found use Regular Schedule
-        try:
-            todayScheduleID
-        except NameError:
-            todayScheduleID = "regular"
+# if nothing was found use Regular Schedule
+try: todayScheduleID
+except NameError: todayScheduleID = "regular"
 
-        # get the rest of the data using the id
-        todayScheduleName = schedules[todayScheduleID]["name"]
-        todayScheduleHTML = schedules[todayScheduleID]["html"]
+# get the rest of the data using the id
+todayScheduleName = schedules[todayScheduleID]["name"]
+todayScheduleHTML = schedules[todayScheduleID]["html"]
 print("schedule:",todayScheduleName,"(",todayScheduleID,")")
 
 # games
