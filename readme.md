@@ -6,6 +6,8 @@
 
 `pip install arrow`
 
+`pip install htmlmin`
+
 ## Run
 `py today.py`
 

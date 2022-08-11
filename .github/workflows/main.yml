@@ -20,6 +20,7 @@ jobs:
             Jinja2
             pytz
             arrow
+            htmlmin
       - name: execute
         run: |
           python today.py

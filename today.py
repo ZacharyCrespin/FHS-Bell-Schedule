@@ -3,6 +3,7 @@ from datetime import datetime
 import pytz
 import jinja2
 import arrow
+import htmlmin
 
 # Load all json data to variables
 with open("public/api/dates.json", encoding="utf-8") as dates:
@@ -125,7 +126,7 @@ subs = jinja2.Environment(
 ).get_template("src/index.html").render(today=dateString, scheduleName=todayScheduleName, scheduleHTML=todayScheduleHTML, games=todayGames, gamesToday=len(todayGames), events=todayEvents, eventsToday=len(todayEvents))
 # lets write the substitution to a file
 with open(outputfile, "w", encoding="utf-8") as f:
-    f.write(subs)
+    f.write(htmlmin.minify(subs, remove_empty_space=True))
 
 # Write upcoming.json
 dictionary = {
@@ -142,7 +143,7 @@ subs = jinja2.Environment(
 ).get_template("src/games.html").render(games=upcomingGames)
 # lets write the substitution to a file
 with open(outputfile, "w", encoding="utf-8") as f:
-    f.write(subs)
+    f.write(htmlmin.minify(subs, remove_empty_space=True))
 
 # Write events.html
 outputfile = "public/events.html"
@@ -151,4 +152,13 @@ subs = jinja2.Environment(
 ).get_template("src/events.html").render(events=upcomingEvents)
 # lets write the substitution to a file
 with open(outputfile, "w", encoding="utf-8") as f:
-    f.write(subs)
+    f.write(htmlmin.minify(subs, remove_empty_space=True))
+
+# Write api/index.html
+outputfile = "public/api/index.html"
+subs = jinja2.Environment(
+    loader=jinja2.FileSystemLoader("./")
+).get_template("src/api.html").render()
+# lets write the substitution to a file
+with open(outputfile, "w", encoding="utf-8") as f:
+    f.write(htmlmin.minify(subs, remove_empty_space=True))
