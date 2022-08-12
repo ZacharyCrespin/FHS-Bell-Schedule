@@ -33,7 +33,7 @@ a:hover {
 }
 .box {
     margin: 1rem 0;
-    padding: 1rem;
+    padding: 0 1rem;
     border: 1px solid var(--border);
     border-radius: 6px;
 }
@@ -54,8 +54,13 @@ a:hover {
     transform: scale(1.05);
 }
 ul {
-    line-height: 200%;
     text-align: left;
+}
+ul li {
+    border-bottom: 1px solid var(--light-border);
+}
+ul li:nth-child(1) {
+    border-top: 1px solid var(--light-border);
 }
 table {
     line-height: 200%;

@@ -4,6 +4,7 @@ import pytz
 import jinja2
 import arrow
 import htmlmin
+import platform
 
 # Load all json data to variables
 with open("public/api/dates.json", encoding="utf-8") as dates:
@@ -67,6 +68,8 @@ todayScheduleName = schedules[todayScheduleID]["name"]
 todayScheduleHTML = schedules[todayScheduleID]["html"]
 print("schedule:",todayScheduleName,"(",todayScheduleID,")")
 
+generator = "Python " + platform.python_version()
+
 # games
 todayGames = []
 upcomingGames = []
@@ -83,7 +86,6 @@ for Game in games:
         if daysFromToday > -1:
             upcomingGames.append(Game)
 print(len(games),"games,",len(upcomingGames),"upcoming,",len(todayGames),"today")
-
 
 # events
 todayEvents = []
@@ -121,7 +123,7 @@ with open("public/api/today.json", "w", encoding="utf-8") as outfile:
 outputfile = "public/index.html"
 subs = jinja2.Environment(
     loader=jinja2.FileSystemLoader("./")
-).get_template("src/index.html").render(today=dateString, scheduleName=todayScheduleName, scheduleHTML=todayScheduleHTML, games=todayGames, gamesToday=len(todayGames), events=todayEvents, eventsToday=len(todayEvents))
+).get_template("src/index.html").render(today=dateString, scheduleName=todayScheduleName, scheduleHTML=todayScheduleHTML, games=todayGames, gamesToday=len(todayGames), events=todayEvents, eventsToday=len(todayEvents), generator=generator)
 # lets write the substitution to a file
 with open(outputfile, "w", encoding="utf-8") as f:
     f.write(htmlmin.minify(subs, remove_empty_space=True))
@@ -138,7 +140,7 @@ with open("public/api/upcoming.json", "w", encoding="utf-8") as outfile:
 outputfile = "public/games.html"
 subs = jinja2.Environment(
     loader=jinja2.FileSystemLoader("./")
-).get_template("src/games.html").render(games=upcomingGames)
+).get_template("src/games.html").render(games=upcomingGames, generator=generator)
 # lets write the substitution to a file
 with open(outputfile, "w", encoding="utf-8") as f:
     f.write(htmlmin.minify(subs, remove_empty_space=True))
@@ -147,7 +149,7 @@ with open(outputfile, "w", encoding="utf-8") as f:
 outputfile = "public/events.html"
 subs = jinja2.Environment(
     loader=jinja2.FileSystemLoader("./")
-).get_template("src/events.html").render(events=upcomingEvents)
+).get_template("src/events.html").render(events=upcomingEvents, generator=generator)
 # lets write the substitution to a file
 with open(outputfile, "w", encoding="utf-8") as f:
     f.write(htmlmin.minify(subs, remove_empty_space=True))
@@ -156,7 +158,7 @@ with open(outputfile, "w", encoding="utf-8") as f:
 outputfile = "public/api/index.html"
 subs = jinja2.Environment(
     loader=jinja2.FileSystemLoader("./")
-).get_template("src/api.html").render()
+).get_template("src/api.html").render(generator=generator)
 # lets write the substitution to a file
 with open(outputfile, "w", encoding="utf-8") as f:
     f.write(htmlmin.minify(subs, remove_empty_space=True))
