@@ -1,7 +1,7 @@
 :root {
     --background: hsl(202, 22%, 90%);
     --border: hsl(213, 22%, 10%);
-    --light-border: hsl(213, 22%, 85%);
+    --light-border: hsl(213, 22%, 80%);
     --text: hsl(213, 22%, 10%);
     --link: var(--text);
     --link-hov: hsl(201, 22%, 25%);
@@ -10,7 +10,7 @@
     :root {
         --background: hsl(213, 22%, 10%);
         --border: hsl(202, 22%, 90%);
-        --light-border: hsl(213, 22%, 15%);
+        --light-border: hsl(213, 22%, 20%);
         --text: hsl(202, 22%, 90%);
         --link: var(--text);
         --link-hov: hsl(201, 22%, 75%);
@@ -59,8 +59,8 @@ ul {
 ul li {
     border-bottom: 1px solid var(--light-border);
 }
-ul li:nth-child(1) {
-    border-top: 1px solid var(--light-border);
+ul li:nth-last-child(1) {
+    border-bottom: none;
 }
 table {
     line-height: 200%;
@@ -72,11 +72,11 @@ td p {
     margin: 0;
     padding: 0;
 }
-td {
+tr td {
     border-bottom: 1px solid var(--light-border);
 }
-tr:nth-child(1) td {
-    border-top: 1px solid var(--light-border);
+tr:nth-last-child(1) td {
+    border-bottom: none;
 }
 td:nth-child(1) {
     padding: 0 1em 0 0;
