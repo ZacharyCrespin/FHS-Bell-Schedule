@@ -5,36 +5,6 @@
     "lang": "en-US",
     "icons": [
         {
-            "src": "icons/icon-32.png",
-            "type": "image/png",
-            "sizes": "32x32",
-            "purpose": "any"
-        },
-        {
-            "src": "icons/icon-48.png",
-            "type": "image/png",
-            "sizes": "48x48",
-            "purpose": "any"
-        },
-        {
-            "src": "icons/icon-72.png",
-            "type": "image/png",
-            "sizes": "72x72",
-            "purpose": "any"
-        },
-        {
-            "src": "icons/icon-96.png",
-            "type": "image/png",
-            "sizes": "96x96",
-            "purpose": "any"
-        },
-        {
-            "src": "icons/icon-144.png",
-            "type": "image/png",
-            "sizes": "144x144",
-            "purpose": "any"
-        },
-        {
             "src": "icons/icon-192.png",
             "type": "image/png",
             "sizes": "192x192",
@@ -51,8 +21,8 @@
     "display": "standalone",
     "orientation": "portrait",
     "scope": "/",
-    "background_color": "#14191F",
-    "theme_color": "#14191F",
+    "background_color": "hsl(202, 22%, 90%)",
+    "theme_color": "hsl(213, 22%, 10%)",
     "shortcuts": [
         {
             "name": "Today",
@@ -61,8 +31,12 @@
             "url": "/?utm_source=homescreen",
             "icons": [
                 {
-                    "src": "/icons/icon-192.png",
+                    "src": "icons/icon-192.png",
                     "sizes": "192x192"
+                },
+                {
+                    "src": "icons/icon-512.png",
+                    "sizes": "512x512"
                 }
             ]
         },
@@ -73,8 +47,12 @@
             "url": "/games?utm_source=homescreen",
             "icons": [
                 {
-                    "src": "/icons/icon-192.png",
+                    "src": "icons/icon-192.png",
                     "sizes": "192x192"
+                },
+                {
+                    "src": "icons/icon-512.png",
+                    "sizes": "512x512"
                 }
             ]
         },
@@ -85,8 +63,12 @@
             "url": "/events?utm_source=homescreen",
             "icons": [
                 {
-                    "src": "/icons/icon-192.png",
+                    "src": "icons/icon-192.png",
                     "sizes": "192x192"
+                },
+                {
+                    "src": "icons/icon-512.png",
+                    "sizes": "512x512"
                 }
             ]
         }
