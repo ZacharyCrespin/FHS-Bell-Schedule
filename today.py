@@ -31,7 +31,7 @@ daysOfTheWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturd
 day = daysOfTheWeek[uspdatetime.weekday()]
 
 # day of the week, month, day of the month
-dateString = day + " " + uspdatetime.strftime("%B") + " " + arrow.get(uspdatetime).format("Do")
+dateString = day + ", " + uspdatetime.strftime("%B") + " " + arrow.get(uspdatetime).format("Do")
 print(dateString)
 
 # Cheak for a custom schedule

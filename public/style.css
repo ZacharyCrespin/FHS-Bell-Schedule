@@ -97,7 +97,6 @@ td:nth-child(2) {
     background-color: var(--background);
     border: 1px solid var(--text);
     transition: all ease .2s;
-
 }
 #back svg path {
     fill: var(--text);
