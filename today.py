@@ -155,12 +155,3 @@ subs = jinja2.Environment(
 # lets write the substitution to a file
 with open(outputfile, "w", encoding="utf-8") as f:
     f.write(htmlmin.minify(subs, remove_empty_space=True))
-
-# Write api/index.html
-outputfile = "public/api/index.html"
-subs = jinja2.Environment(
-    loader=jinja2.FileSystemLoader("./")
-).get_template("src/api.html").render(generator=generator)
-# lets write the substitution to a file
-with open(outputfile, "w", encoding="utf-8") as f:
-    f.write(htmlmin.minify(subs, remove_empty_space=True))
