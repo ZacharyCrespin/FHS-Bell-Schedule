@@ -31,6 +31,18 @@
         </div>
         <div class="box">
             <h3>
+                Today's Events
+                <!-- <span class="counter">{{ eventsToday }}</span> -->
+            </h3>
+            <ul>
+                {% for value in events | reverse %}
+                <li><p>{{ value["Event"] }}</p></li>
+                {% endfor %}
+            </ul>
+            <a href="events.html" class="btn">View Upcoming Events</a>
+        </div>
+        <div class="box">
+            <h3>
                 Today's Games
                 <!-- <span class="counter">{{ gamesToday }}</span> -->
             </h3>
@@ -46,18 +58,6 @@
                 {% endfor %}
             </ul>
             <a href="games.html" class="btn">View Upcoming Games</a>
-        </div>
-        <div class="box">
-            <h3>
-                Today's Events
-                <!-- <span class="counter">{{ eventsToday }}</span> -->
-            </h3>
-            <ul>
-                {% for value in events | reverse %}
-                <li><p>{{ value["Event"] }}</p></li>
-                {% endfor %}
-            </ul>
-            <a href="events.html" class="btn">View Upcoming Events</a>
         </div>
     </main>
 </body>

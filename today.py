@@ -72,23 +72,6 @@ print("schedule:",todayScheduleName,"(",todayScheduleID,")")
 
 generator = "Python " + platform.python_version()
 
-# games
-todayGames = []
-upcomingGames = []
-for Game in games:
-    a = datetime.strptime(Game["Date"], "%m/%d/%Y")
-    b = datetime.strptime(today, "%m/%d/%Y")
-    delta = a - b
-    daysFromToday = delta.days
-
-    if daysFromToday == 0:
-        todayGames.append(Game)
-
-    if daysFromToday < 30:
-        if daysFromToday > -1:
-            upcomingGames.append(Game)
-print(len(games),"games,",len(upcomingGames),"upcoming,",len(todayGames),"today")
-
 # events
 todayEvents = []
 upcomingEvents = []
@@ -106,6 +89,23 @@ for Event in events:
             upcomingEvents.append(Event)
             # print (daysFromToday)
 print(len(events),"events,",len(upcomingEvents),"upcoming,",len(todayEvents),"today")
+
+# games
+todayGames = []
+upcomingGames = []
+for Game in games:
+    a = datetime.strptime(Game["Date"], "%m/%d/%Y")
+    b = datetime.strptime(today, "%m/%d/%Y")
+    delta = a - b
+    daysFromToday = delta.days
+
+    if daysFromToday == 0:
+        todayGames.append(Game)
+
+    if daysFromToday < 30:
+        if daysFromToday > -1:
+            upcomingGames.append(Game)
+print(len(games),"games,",len(upcomingGames),"upcoming,",len(todayGames),"today")
 
 # Write today.json
 dictionary = {
@@ -138,20 +138,20 @@ dictionary = {
 with open("public/api/upcoming.json", "w", encoding="utf-8") as outfile:
     json.dump(dictionary, outfile)
 
-# Write games.html
-outputfile = "public/games.html"
-subs = jinja2.Environment(
-    loader=jinja2.FileSystemLoader("./")
-).get_template("src/games.html").render(games=upcomingGames, generator=generator)
-# lets write the substitution to a file
-with open(outputfile, "w", encoding="utf-8") as f:
-    f.write(htmlmin.minify(subs, remove_empty_space=True))
-
 # Write events.html
 outputfile = "public/events.html"
 subs = jinja2.Environment(
     loader=jinja2.FileSystemLoader("./")
 ).get_template("src/events.html").render(events=upcomingEvents, generator=generator)
+# lets write the substitution to a file
+with open(outputfile, "w", encoding="utf-8") as f:
+    f.write(htmlmin.minify(subs, remove_empty_space=True))
+
+# Write games.html
+outputfile = "public/games.html"
+subs = jinja2.Environment(
+    loader=jinja2.FileSystemLoader("./")
+).get_template("src/games.html").render(games=upcomingGames, generator=generator)
 # lets write the substitution to a file
 with open(outputfile, "w", encoding="utf-8") as f:
     f.write(htmlmin.minify(subs, remove_empty_space=True))
