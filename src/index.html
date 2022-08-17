@@ -35,7 +35,7 @@
                 <!-- <span class="counter">{{ eventsToday }}</span> -->
             </h3>
             <ul>
-                {% for value in events | reverse %}
+                {% for value in events %}
                 <li><p>{{ value["Event"] }}</p></li>
                 {% endfor %}
             </ul>
@@ -47,7 +47,7 @@
                 <!-- <span class="counter">{{ gamesToday }}</span> -->
             </h3>
             <ul>
-                {% for value in games | reverse %}
+                {% for value in games %}
                 <li>
                     <p><b>Time:</b> {{ value["Time"] }}</p>
                     <p><b>Sport:</b> {{ value["Sport"] }}</p>
