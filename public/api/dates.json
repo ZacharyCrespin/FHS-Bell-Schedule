@@ -1,5 +1,11 @@
 [
     {
+        "Date": "8/18/2022",
+        "Schedule": {
+            "id": "assembly"
+        }
+    },
+    {
         "Date": "8/19/2022",
         "Schedule": {
             "id": "assembly"
