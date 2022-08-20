@@ -11,9 +11,9 @@
         "name": "No School",
         "html": "<p>enjoy your weekend</p>"
     },
-    "summer": {
+    "noschool" :{
         "name": "No School",
-        "html": "<p>until August 16th</p>"
+        "html": ""
     },
     "minimum": {
         "name": "Minimum Day",

@@ -11,7 +11,7 @@
         :root {
             --background: hsl(202, 22%, 90%);
             --border: hsl(213, 22%, 10%);
-            --light-border: hsl(213, 22%, 85%);
+            --light-border: hsl(213, 22%, 80%);
             --text: hsl(213, 22%, 10%);
             --link: var(--text);
             --link-hov: hsl(201, 22%, 25%);
@@ -20,7 +20,7 @@
             :root {
                 --background: hsl(213, 22%, 10%);
                 --border: hsl(202, 22%, 90%);
-                --light-border: hsl(213, 22%, 15%);
+                --light-border: hsl(213, 22%, 20%);
                 --text: hsl(202, 22%, 90%);
                 --link: var(--text);
                 --link-hov: hsl(201, 22%, 75%);
@@ -67,6 +67,9 @@
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="hsl(202, 22%, 90%)">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="hsl(213, 22%, 10%)">
     <link rel="manifest" href="app.webmanifest">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="Schedule">
+    <meta name="apple-mobile-web-app-capable" content="yes">
 </head>
 <body>
     <header>
@@ -74,6 +77,7 @@
     </header>
     <main>
         <p>Sorry you are offline</p>
+        <button onclick="window.location.reload()" class="btn">Reload</button>
     </main>
 </body>
 </html>
