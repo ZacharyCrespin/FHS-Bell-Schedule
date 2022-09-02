@@ -292,5 +292,11 @@
         "Schedule": {
             "id": "minimum"
         }
+    },
+    {
+        "Date": "6/2/2023",
+        "Schedule": {
+            "id": "minimum"
+        }
     }
 ]
