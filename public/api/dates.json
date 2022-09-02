@@ -12,6 +12,12 @@
         }
     },
     {
+    "Date": "9/2/2022",
+    "Schedule": {
+        "id": "minimum"
+    }
+    },
+    {
         "Date": "9/5/2022",
         "Schedule": {
             "id": "noschool"
