@@ -60,7 +60,7 @@ except NameError: todayScheduleID = "regular"
 # get the rest of the data using the id
 todayScheduleName = schedules[todayScheduleID]["name"]
 todayScheduleHTML = schedules[todayScheduleID]["html"]
-print("schedule:",todayScheduleName,"(",todayScheduleID,")")
+print("schedule:",todayScheduleName,"("+todayScheduleID+")")
 
 generator = "Python " + platform.python_version()
 
