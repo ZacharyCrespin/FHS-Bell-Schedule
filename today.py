@@ -34,24 +34,19 @@ day = daysOfTheWeek[uspdatetime.weekday()]
 dateString = day + ", " + uspdatetime.strftime("%B") + " " + arrow.get(uspdatetime).format("Do")
 print(dateString)
 
+if day == "Saturday":
+    todayScheduleID = "weekend"
+
+if day == "Sunday":
+    todayScheduleID = "weekend"
+
+if day == "Wednesday":
+    todayScheduleID = "latestart"
+
 # Cheak for a custom schedule
 for Date in dates:
     if Date["Date"] == today:
-        if Date["Schedule"]["id"] == "custom":
-            todayScheduleID = "custom"
-            todayScheduleName = Date["Schedule"]["name"]
-            todayScheduleHTML = Date["Schedule"]["html"]
-        else:
-            todayScheduleID = Date["Schedule"]["id"]
-    else:
-        if day == "Saturday":
-            todayScheduleID = "weekend"
-
-        if day == "Sunday":
-            todayScheduleID = "weekend"
-
-        if day == "Wednesday":
-            todayScheduleID = "latestart"
+        todayScheduleID = Date["Schedule"]
 
 # if nothing was found use Regular Schedule
 try: todayScheduleID
