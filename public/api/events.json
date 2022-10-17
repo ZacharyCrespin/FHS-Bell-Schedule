@@ -1,870 +1,870 @@
 [
     {
-        "Date": "7/25/2022",
-        "Event": "Senior Registration"
+        "date": "7/25/2022",
+        "event": "Senior Registration"
     },
     {
-        "Date": "7/26/2022",
-        "Event": "Junior Registration"
+        "date": "7/26/2022",
+        "event": "Junior Registration"
     },
     {
-        "Date": "7/27/2022",
-        "Event": "Sophomore Registration"
+        "date": "7/27/2022",
+        "event": "Sophomore Registration"
     },
     {
-        "Date": "7/28/2022",
-        "Event": "Freshman Registration (last name A-M)"
+        "date": "7/28/2022",
+        "event": "Freshman Registration (last name A-M)"
     },
     {
-        "Date": "7/29/2022",
-        "Event": "Freshman Registration (last name N-Z)"
+        "date": "7/29/2022",
+        "event": "Freshman Registration (last name N-Z)"
     },
     {
-        "Date": "8/1/2022",
-        "Event": "Makeup Registration"
+        "date": "8/1/2022",
+        "event": "Makeup Registration"
     },
     {
-        "Date": "8/2/2022",
-        "Event": "ASB Leadership Camp"
+        "date": "8/2/2022",
+        "event": "ASB Leadership Camp"
     },
     {
-        "Date": "8/3/2022",
-        "Event": "ASB Leadership Camp"
+        "date": "8/3/2022",
+        "event": "ASB Leadership Camp"
     },
     {
-        "Date": "8/4/2022",
-        "Event": "ASB Leadership Camp"
+        "date": "8/4/2022",
+        "event": "ASB Leadership Camp"
     },
     {
-        "Date": "8/5/2022",
-        "Event": "ASB Leadership Camp"
+        "date": "8/5/2022",
+        "event": "ASB Leadership Camp"
     },
     {
-        "Date": "8/11/2022",
-        "Event": "Staff Development Days"
+        "date": "8/11/2022",
+        "event": "Staff Development Days"
     },
     {
-        "Date": "8/12/2022",
-        "Event": "Staff Development Days"
+        "date": "8/12/2022",
+        "event": "Staff Development Days"
     },
     {
-        "Date": "8/15/2022",
-        "Event": "Welcome Back Tailgate & Rally"
+        "date": "8/15/2022",
+        "event": "Welcome Back Tailgate & Rally"
     },
     {
-        "Date": "8/16/2022",
-        "Event": "First Day of School"
+        "date": "8/16/2022",
+        "event": "First Day of School"
     },
     {
-        "Date": "8/16/2022",
-        "Event": "Week of Welcome begins"
+        "date": "8/16/2022",
+        "event": "Week of Welcome begins"
     },
     {
-        "Date": "8/17/2022",
-        "Event": "Week of Welcome"
+        "date": "8/17/2022",
+        "event": "Week of Welcome"
     },
     {
-        "Date": "8/17/2022",
-        "Event": "Senior Sunrise"
+        "date": "8/17/2022",
+        "event": "Senior Sunrise"
     },
     {
-        "Date": "8/18/2022",
-        "Event": "Week of Welcome"
+        "date": "8/18/2022",
+        "event": "Week of Welcome"
     },
     {
-        "Date": "8/19/2022",
-        "Event": "Week of Welcome"
+        "date": "8/19/2022",
+        "event": "Week of Welcome"
     },
     {
-        "Date": "8/19/2022",
-        "Event": "Welcome Back Assembly"
+        "date": "8/19/2022",
+        "event": "Welcome Back Assembly"
     },
     {
-        "Date": "8/20/2022",
-        "Event": "Welcome Back Dance - 8-10 pm"
+        "date": "8/20/2022",
+        "event": "Welcome Back Dance - 8-10 pm"
     },
     {
-        "Date": "8/22/2022",
-        "Event": "Knights Hype Week"
+        "date": "8/22/2022",
+        "event": "Knights Hype Week"
     },
     {
-        "Date": "8/23/2022",
-        "Event": "Knights Hype Week"
+        "date": "8/23/2022",
+        "event": "Knights Hype Week"
     },
     {
-        "Date": "8/24/2022",
-        "Event": "Knights Hype Week"
+        "date": "8/24/2022",
+        "event": "Knights Hype Week"
     },
     {
-        "Date": "8/24/2022",
-        "Event": "Club President Meeting @ Lunch"
+        "date": "8/24/2022",
+        "event": "Club President Meeting @ Lunch"
     },
     {
-        "Date": "8/25/2022",
-        "Event": "Keith Hawkins Assembly - 9th Gr."
+        "date": "8/25/2022",
+        "event": "Keith Hawkins Assembly - 9th Gr."
     },
     {
-        "Date": "8/25/2022",
-        "Event": "Knights Hype Week"
+        "date": "8/25/2022",
+        "event": "Knights Hype Week"
     },
     {
-        "Date": "8/26/2022",
-        "Event": "Knights Hype Week"
+        "date": "8/26/2022",
+        "event": "Knights Hype Week"
     },
     {
-        "Date": "8/26/2022",
-        "Event": "Foothill Pep Rally @ Lunch"
+        "date": "8/26/2022",
+        "event": "Foothill Pep Rally @ Lunch"
     },
     {
-        "Date": "8/27/2022",
-        "Event": "Choir Camp"
+        "date": "8/27/2022",
+        "event": "Choir Camp"
     },
     {
-        "Date": "8/28/2022",
-        "Event": "Choir Camp"
+        "date": "8/28/2022",
+        "event": "Choir Camp"
     },
     {
-        "Date": "8/29/2022",
-        "Event": "Choir Camp"
+        "date": "8/29/2022",
+        "event": "Choir Camp"
     },
     {
-        "Date": "8/31/2022",
-        "Event": "Club Advisor Meeting @ Lunch"
+        "date": "8/31/2022",
+        "event": "Club Advisor Meeting @ Lunch"
     },
     {
-        "Date": "8/31/2022",
-        "Event": "Back to School Night"
+        "date": "8/31/2022",
+        "event": "Back to School Night"
     },
     {
-        "Date": "9/2/2022",
-        "Event": "Minimum Day"
+        "date": "9/2/2022",
+        "event": "Minimum Day"
     },
     {
-        "Date": "9/5/2022",
-        "Event": "Labor Day - No School"
+        "date": "9/5/2022",
+        "event": "Labor Day - No School"
     },
     {
-        "Date": "9/7/2022",
-        "Event": "ICC Club Meeting - Lunch"
+        "date": "9/7/2022",
+        "event": "ICC Club Meeting - Lunch"
     },
     {
-        "Date": "9/14/2022",
-        "Event": "Club Rush @ Lunch"
+        "date": "9/14/2022",
+        "event": "Club Rush @ Lunch"
     },
     {
-        "Date": "9/15/2022",
-        "Event": "Meet ATA Show - 7pm Nightly"
+        "date": "9/15/2022",
+        "event": "Meet ATA Show - 7pm Nightly"
     },
     {
-        "Date": "9/16/2022",
-        "Event": "Meet ATA Show - 7pm Nightly"
+        "date": "9/16/2022",
+        "event": "Meet ATA Show - 7pm Nightly"
     },
     {
-        "Date": "9/16/2022",
-        "Event": "Homecoming Assembly"
+        "date": "9/16/2022",
+        "event": "Homecoming Assembly"
     },
     {
-        "Date": "9/17/2022",
-        "Event": "Band - Pancake Breakfast"
+        "date": "9/17/2022",
+        "event": "Band - Pancake Breakfast"
     },
     {
-        "Date": "9/19/2022",
-        "Event": "Homecoming Spirit Week"
+        "date": "9/19/2022",
+        "event": "Homecoming Spirit Week"
     },
     {
-        "Date": "9/19/2022",
-        "Event": "CSF Membership Drive"
+        "date": "9/19/2022",
+        "event": "CSF Membership Drive"
     },
     {
-        "Date": "9/20/2022",
-        "Event": "Homecoming Spirit Week"
+        "date": "9/20/2022",
+        "event": "Homecoming Spirit Week"
     },
     {
-        "Date": "9/20/2022",
-        "Event": "CSF Membership Drive"
+        "date": "9/20/2022",
+        "event": "CSF Membership Drive"
     },
     {
-        "Date": "9/21/2022",
-        "Event": "Homecoming Spirit Week"
+        "date": "9/21/2022",
+        "event": "Homecoming Spirit Week"
     },
     {
-        "Date": "9/21/2022",
-        "Event": "CSF Membership Drive"
+        "date": "9/21/2022",
+        "event": "CSF Membership Drive"
     },
     {
-        "Date": "9/21/2022",
-        "Event": "Feast & Joust @ Lunch"
+        "date": "9/21/2022",
+        "event": "Feast & Joust @ Lunch"
     },
     {
-        "Date": "9/22/2022",
-        "Event": "Homecoming Spirit Week"
+        "date": "9/22/2022",
+        "event": "Homecoming Spirit Week"
     },
     {
-        "Date": "9/22/2022",
-        "Event": "CSF Membership Drive"
+        "date": "9/22/2022",
+        "event": "CSF Membership Drive"
     },
     {
-        "Date": "9/23/2022",
-        "Event": "Homecoming Spirit Week"
+        "date": "9/23/2022",
+        "event": "Homecoming Spirit Week"
     },
     {
-        "Date": "9/23/2022",
-        "Event": "CSF Membership Drive"
+        "date": "9/23/2022",
+        "event": "CSF Membership Drive"
     },
     {
-        "Date": "9/24/2022",
-        "Event": "Homecoming Dance - 8pm"
+        "date": "9/24/2022",
+        "event": "Homecoming Dance - 8pm"
     },
     {
-        "Date": "10/5/2022",
-        "Event": "ICC Meeting - Lunch"
+        "date": "10/5/2022",
+        "event": "ICC Meeting - Lunch"
     },
     {
-        "Date": "10/7/2022",
-        "Event": "Staff Development Day - No Students"
+        "date": "10/7/2022",
+        "event": "Staff Development Day - No Students"
     },
     {
-        "Date": "10/11/2022",
-        "Event": "Choir - Fall Concert"
+        "date": "10/11/2022",
+        "event": "Choir - Fall Concert"
     },
     {
-        "Date": "10/14/2022",
-        "Event": "AVID Luncheon"
+        "date": "10/14/2022",
+        "event": "AVID Luncheon"
     },
     {
-        "Date": "10/14/2022",
-        "Event": "End of First Quarter"
+        "date": "10/14/2022",
+        "event": "End of First Quarter"
     },
     {
-        "Date": "10/19/2022",
-        "Event": "Report Card Night"
+        "date": "10/19/2022",
+        "event": "Report Card Night"
     },
     {
-        "Date": "10/21/2022",
-        "Event": "Minimum Day"
+        "date": "10/21/2022",
+        "event": "Minimum Day"
     },
     {
-        "Date": "10/24/2022",
-        "Event": "Red Ribbon Week"
+        "date": "10/24/2022",
+        "event": "Red Ribbon Week"
     },
     {
-        "Date": "10/25/2022",
-        "Event": "Red Ribbon Week"
+        "date": "10/25/2022",
+        "event": "Red Ribbon Week"
     },
     {
-        "Date": "10/25/2022",
-        "Event": "Choir - Open Mic Night"
+        "date": "10/25/2022",
+        "event": "Choir - Open Mic Night"
     },
     {
-        "Date": "10/26/2022",
-        "Event": "Red Ribbon Week"
+        "date": "10/26/2022",
+        "event": "Red Ribbon Week"
     },
     {
-        "Date": "10/27/2022",
-        "Event": "Red Ribbon Week"
+        "date": "10/27/2022",
+        "event": "Red Ribbon Week"
     },
     {
-        "Date": "10/27/2022",
-        "Event": "Football vs Villa Park (Senior Night) - 7 pm"
+        "date": "10/27/2022",
+        "event": "Football vs Villa Park (Senior Night) - 7 pm"
     },
     {
-        "Date": "10/28/2022",
-        "Event": "Red Ribbon Week"
+        "date": "10/28/2022",
+        "event": "Red Ribbon Week"
     },
     {
-        "Date": "10/31/2022",
-        "Event": "Senior Munch - Costume Breakfast"
+        "date": "10/31/2022",
+        "event": "Senior Munch - Costume Breakfast"
     },
     {
-        "Date": "11/2/2022",
-        "Event": "ICC Meeting - Lunch"
+        "date": "11/2/2022",
+        "event": "ICC Meeting - Lunch"
     },
     {
-        "Date": "11/6/2022",
-        "Event": "Dino Dash"
+        "date": "11/6/2022",
+        "event": "Dino Dash"
     },
     {
-        "Date": "11/8/2022",
-        "Event": "Band - Veteran's Day Concert"
+        "date": "11/8/2022",
+        "event": "Band - Veteran's Day Concert"
     },
     {
-        "Date": "11/9/2022",
-        "Event": "Orchestra - Veteran's Day Concert"
+        "date": "11/9/2022",
+        "event": "Orchestra - Veteran's Day Concert"
     },
     {
-        "Date": "11/10/2022",
-        "Event": "Staff vs. Students Basketball Game"
+        "date": "11/10/2022",
+        "event": "Staff vs. Students Basketball Game"
     },
     {
-        "Date": "11/11/2022",
-        "Event": "Veterans Day - No School"
+        "date": "11/11/2022",
+        "event": "Veterans Day - No School"
     },
     {
-        "Date": "11/12/2022",
-        "Event": "VEX Robotics Tournament (Events Center)"
+        "date": "11/12/2022",
+        "event": "VEX Robotics Tournament (events Center)"
     },
     {
-        "Date": "11/17/2022",
-        "Event": "ATA One Act Play - 7 pm"
+        "date": "11/17/2022",
+        "event": "ATA One Act Play - 7 pm"
     },
     {
-        "Date": "11/21/2022",
-        "Event": "Thanksgiving Break - No School"
+        "date": "11/21/2022",
+        "event": "Thanksgiving Break - No School"
     },
     {
-        "Date": "11/22/2022",
-        "Event": "Thanksgiving Break - No School"
+        "date": "11/22/2022",
+        "event": "Thanksgiving Break - No School"
     },
     {
-        "Date": "11/23/2022",
-        "Event": "Thanksgiving Break - No School"
+        "date": "11/23/2022",
+        "event": "Thanksgiving Break - No School"
     },
     {
-        "Date": "11/24/2022",
-        "Event": "Thanksgiving Break - No School"
+        "date": "11/24/2022",
+        "event": "Thanksgiving Break - No School"
     },
     {
-        "Date": "11/25/2022",
-        "Event": "Thanksgiving Break - No School"
+        "date": "11/25/2022",
+        "event": "Thanksgiving Break - No School"
     },
     {
-        "Date": "12/1/2022",
-        "Event": "Band - Winter Concert"
+        "date": "12/1/2022",
+        "event": "Band - Winter Concert"
     },
     {
-        "Date": "12/2/2022",
-        "Event": "Senior Munch - Knotts Berry Farm"
+        "date": "12/2/2022",
+        "event": "Senior Munch - Knotts Berry Farm"
     },
     {
-        "Date": "12/6/2022",
-        "Event": "Choir Winter Concert"
+        "date": "12/6/2022",
+        "event": "Choir Winter Concert"
     },
     {
-        "Date": "12/7/2022",
-        "Event": "ICC Meeting - Lunch"
+        "date": "12/7/2022",
+        "event": "ICC Meeting - Lunch"
     },
     {
-        "Date": "12/19/2022",
-        "Event": "Fall Semester Finals"
+        "date": "12/19/2022",
+        "event": "Fall Semester Finals"
     },
     {
-        "Date": "12/20/2022",
-        "Event": "Fall Semester Finals"
+        "date": "12/20/2022",
+        "event": "Fall Semester Finals"
     },
     {
-        "Date": "12/21/2022",
-        "Event": "Fall Semester Finals"
+        "date": "12/21/2022",
+        "event": "Fall Semester Finals"
     },
     {
-        "Date": "12/21/2022",
-        "Event": "End of Second Quarter"
+        "date": "12/21/2022",
+        "event": "End of Second Quarter"
     },
     {
-        "Date": "12/22/2022",
-        "Event": "Teacher Work Day - No Students"
+        "date": "12/22/2022",
+        "event": "Teacher Work Day - No Students"
     },
     {
-        "Date": "12/23/2022",
-        "Event": "Winter Break - No School"
+        "date": "12/23/2022",
+        "event": "Winter Break - No School"
     },
     {
-        "Date": "12/25/2022",
-        "Event": "Winter Break - No School"
+        "date": "12/25/2022",
+        "event": "Winter Break - No School"
     },
     {
-        "Date": "12/25/2022",
-        "Event": "Winter Break - No School"
+        "date": "12/25/2022",
+        "event": "Winter Break - No School"
     },
     {
-        "Date": "12/26/2022",
-        "Event": "Winter Break - No School"
+        "date": "12/26/2022",
+        "event": "Winter Break - No School"
     },
     {
-        "Date": "12/27/2022",
-        "Event": "Winter Break - No School"
+        "date": "12/27/2022",
+        "event": "Winter Break - No School"
     },
     {
-        "Date": "12/28/2022",
-        "Event": "Winter Break - No School"
+        "date": "12/28/2022",
+        "event": "Winter Break - No School"
     },
     {
-        "Date": "12/29/2022",
-        "Event": "Winter Break - No School"
+        "date": "12/29/2022",
+        "event": "Winter Break - No School"
     },
     {
-        "Date": "12/30/2022",
-        "Event": "Winter Break - No School"
+        "date": "12/30/2022",
+        "event": "Winter Break - No School"
     },
     {
-        "Date": "12/31/2022",
-        "Event": "Winter Break - No School"
+        "date": "12/31/2022",
+        "event": "Winter Break - No School"
     },
     {
-        "Date": "1/1/2023",
-        "Event": "Winter Break - No School"
+        "date": "1/1/2023",
+        "event": "Winter Break - No School"
     },
     {
-        "Date": "1/2/2023",
-        "Event": "Winter Break - No School"
+        "date": "1/2/2023",
+        "event": "Winter Break - No School"
     },
     {
-        "Date": "1/3/2023",
-        "Event": "Winter Break - No School"
+        "date": "1/3/2023",
+        "event": "Winter Break - No School"
     },
     {
-        "Date": "1/4/2023",
-        "Event": "Winter Break - No School"
+        "date": "1/4/2023",
+        "event": "Winter Break - No School"
     },
     {
-        "Date": "1/5/2023",
-        "Event": "Winter Break - No School"
+        "date": "1/5/2023",
+        "event": "Winter Break - No School"
     },
     {
-        "Date": "1/6/2023",
-        "Event": "Winter Break - No School"
+        "date": "1/6/2023",
+        "event": "Winter Break - No School"
     },
     {
-        "Date": "1/11/2023",
-        "Event": "ICC Meeting - Lunch"
+        "date": "1/11/2023",
+        "event": "ICC Meeting - Lunch"
     },
     {
-        "Date": "1/16/2023",
-        "Event": "Martin Luther King Jr. Day - No School"
+        "date": "1/16/2023",
+        "event": "Martin Luther King Jr. Day - No School"
     },
     {
-        "Date": "1/18/2023",
-        "Event": "2nd Semester Club Rush @ Lunch"
+        "date": "1/18/2023",
+        "event": "2nd Semester Club Rush @ Lunch"
     },
     {
-        "Date": "1/23/2023",
-        "Event": "CSF Membership Drive"
+        "date": "1/23/2023",
+        "event": "CSF Membership Drive"
     },
     {
-        "Date": "1/24/2023",
-        "Event": "CSF Membership Drive"
+        "date": "1/24/2023",
+        "event": "CSF Membership Drive"
     },
     {
-        "Date": "1/25/2023",
-        "Event": "CSF Membership Drive"
+        "date": "1/25/2023",
+        "event": "CSF Membership Drive"
     },
     {
-        "Date": "1/26/2023",
-        "Event": "CSF Membership Drive"
+        "date": "1/26/2023",
+        "event": "CSF Membership Drive"
     },
     {
-        "Date": "1/27/2023",
-        "Event": "CSF Membership Drive"
+        "date": "1/27/2023",
+        "event": "CSF Membership Drive"
     },
     {
-        "Date": "1/27/2023",
-        "Event": "Winter Assembly"
+        "date": "1/27/2023",
+        "event": "Winter Assembly"
     },
     {
-        "Date": "2/1/2023",
-        "Event": "Care Month Festivities Begin"
+        "date": "2/1/2023",
+        "event": "Care Month Festivities Begin"
     },
     {
-        "Date": "2/1/2023",
-        "Event": "National Signing Day"
+        "date": "2/1/2023",
+        "event": "National Signing Day"
     },
     {
-        "Date": "2/2/2023",
-        "Event": "Club Picture Day"
+        "date": "2/2/2023",
+        "event": "Club Picture Day"
     },
     {
-        "Date": "2/3/2023",
-        "Event": "Winter Color Rush Dance - 8pm"
+        "date": "2/3/2023",
+        "event": "Winter Color Rush Dance - 8pm"
     },
     {
-        "Date": "2/7/2023",
-        "Event": "Choir - Knights on Broadway Show"
+        "date": "2/7/2023",
+        "event": "Choir - Knights on Broadway Show"
     },
     {
-        "Date": "2/7/2023",
-        "Event": "ASB General Election Meeting @ Lunch"
+        "date": "2/7/2023",
+        "event": "ASB General Election Meeting @ Lunch"
     },
     {
-        "Date": "2/8/2023",
-        "Event": "Choir - Knights on Broadway Show"
+        "date": "2/8/2023",
+        "event": "Choir - Knights on Broadway Show"
     },
     {
-        "Date": "2/8/2023",
-        "Event": "ICC Meeting - Lunch"
+        "date": "2/8/2023",
+        "event": "ICC Meeting - Lunch"
     },
     {
-        "Date": "2/9/2023",
-        "Event": "Choir - Knights on Broadway Show"
+        "date": "2/9/2023",
+        "event": "Choir - Knights on Broadway Show"
     },
     {
-        "Date": "2/10/2023",
-        "Event": "Choir - Knights on Broadway Show"
+        "date": "2/10/2023",
+        "event": "Choir - Knights on Broadway Show"
     },
     {
-        "Date": "2/11/2023",
-        "Event": "Choir - Knights on Broadway Show"
+        "date": "2/11/2023",
+        "event": "Choir - Knights on Broadway Show"
     },
     {
-        "Date": "2/14/2023",
-        "Event": "AVID College Road Trip"
+        "date": "2/14/2023",
+        "event": "AVID College Road Trip"
     },
     {
-        "Date": "2/15/2023",
-        "Event": "AVID College Road Trip"
+        "date": "2/15/2023",
+        "event": "AVID College Road Trip"
     },
     {
-        "Date": "2/16/2023",
-        "Event": "AVID College Road Trip"
+        "date": "2/16/2023",
+        "event": "AVID College Road Trip"
     },
     {
-        "Date": "2/17/2023",
-        "Event": "Lincoln’s Birthday - No School"
+        "date": "2/17/2023",
+        "event": "Lincoln’s Birthday - No School"
     },
     {
-        "Date": "2/20/2023",
-        "Event": "Presidents Day - No School"
+        "date": "2/20/2023",
+        "event": "Presidents Day - No School"
     },
     {
-        "Date": "2/21/2023",
-        "Event": "ASB Class Election Meeting @ Lunch"
+        "date": "2/21/2023",
+        "event": "ASB Class Election Meeting @ Lunch"
     },
     {
-        "Date": "2/27/2023",
-        "Event": "ASB General Election Voting"
+        "date": "2/27/2023",
+        "event": "ASB General Election Voting"
     },
     {
-        "Date": "2/28/2023",
-        "Event": "CARE Month Festivities End"
+        "date": "2/28/2023",
+        "event": "CARE Month Festivities End"
     },
     {
-        "Date": "3/1/2023",
-        "Event": "ICC Meeting @ Lunch"
+        "date": "3/1/2023",
+        "event": "ICC Meeting @ Lunch"
     },
     {
-        "Date": "3/8/2023",
-        "Event": "Band - Dinner and Concert - 6 pm"
+        "date": "3/8/2023",
+        "event": "Band - Dinner and Concert - 6 pm"
     },
     {
-        "Date": "3/11/2023",
-        "Event": "Foothill Ed fund Dinner and Auction"
+        "date": "3/11/2023",
+        "event": "Foothill Ed fund Dinner and Auction"
     },
     {
-        "Date": "3/13/2023",
-        "Event": "ASB Class Election Voting"
+        "date": "3/13/2023",
+        "event": "ASB Class Election Voting"
     },
     {
-        "Date": "3/14/2023",
-        "Event": "ASB Appointed Meeting @ Lunch"
+        "date": "3/14/2023",
+        "event": "ASB Appointed Meeting @ Lunch"
     },
     {
-        "Date": "3/17/2023",
-        "Event": "End of Third Quarter"
+        "date": "3/17/2023",
+        "event": "End of Third Quarter"
     },
     {
-        "Date": "3/20/2023",
-        "Event": "Spring Break - No School"
+        "date": "3/20/2023",
+        "event": "Spring Break - No School"
     },
     {
-        "Date": "3/21/2023",
-        "Event": "Spring Break - No School"
+        "date": "3/21/2023",
+        "event": "Spring Break - No School"
     },
     {
-        "Date": "3/22/2023",
-        "Event": "Spring Break - No School"
+        "date": "3/22/2023",
+        "event": "Spring Break - No School"
     },
     {
-        "Date": "3/23/2023",
-        "Event": "Spring Break - No School"
+        "date": "3/23/2023",
+        "event": "Spring Break - No School"
     },
     {
-        "Date": "3/24/2023",
-        "Event": "Spring Break - No School"
+        "date": "3/24/2023",
+        "event": "Spring Break - No School"
     },
     {
-        "Date": "3/29/2023",
-        "Event": "Band - Jazz Band Showcase - 7 pm"
+        "date": "3/29/2023",
+        "event": "Band - Jazz Band Showcase - 7 pm"
     },
     {
-        "Date": "3/30/2023",
-        "Event": "FHS Showcase Night - 5 to 8 pm"
+        "date": "3/30/2023",
+        "event": "FHS Showcase Night - 5 to 8 pm"
     },
     {
-        "Date": "3/31/2023",
-        "Event": "Minimum Day"
+        "date": "3/31/2023",
+        "event": "Minimum Day"
     },
     {
-        "Date": "3/31/2023",
-        "Event": "Senior Munch - Disneyland"
+        "date": "3/31/2023",
+        "event": "Senior Munch - Disneyland"
     },
     {
-        "Date": "4/4/2023",
-        "Event": "Choir - Open Mic Night"
+        "date": "4/4/2023",
+        "event": "Choir - Open Mic Night"
     },
     {
-        "Date": "4/5/2023",
-        "Event": "ICC Meeting - Lunch"
+        "date": "4/5/2023",
+        "event": "ICC Meeting - Lunch"
     },
     {
-        "Date": "4/7/2023",
-        "Event": "Prom Assembly"
+        "date": "4/7/2023",
+        "event": "Prom Assembly"
     },
     {
-        "Date": "4/10/2023",
-        "Event": "CAASPP Testing - Block Scheduling"
+        "date": "4/10/2023",
+        "event": "CAASPP Testing - Block Scheduling"
     },
     {
-        "Date": "4/11/2023",
-        "Event": "CAASPP Testing - Block Scheduling"
+        "date": "4/11/2023",
+        "event": "CAASPP Testing - Block Scheduling"
     },
     {
-        "Date": "4/12/2023",
-        "Event": "CAASPP Testing - Block Scheduling"
+        "date": "4/12/2023",
+        "event": "CAASPP Testing - Block Scheduling"
     },
     {
-        "Date": "4/13/2023",
-        "Event": "CAASPP Testing - Block Scheduling"
+        "date": "4/13/2023",
+        "event": "CAASPP Testing - Block Scheduling"
     },
     {
-        "Date": "4/14/2023",
-        "Event": "CAASPP Testing - Block Scheduling"
+        "date": "4/14/2023",
+        "event": "CAASPP Testing - Block Scheduling"
     },
     {
-        "Date": "4/15/2023",
-        "Event": "CAASPP Testing - Block Scheduling"
+        "date": "4/15/2023",
+        "event": "CAASPP Testing - Block Scheduling"
     },
     {
-        "Date": "4/15/2023",
-        "Event": "Prom Dance - 8 pm"
+        "date": "4/15/2023",
+        "event": "Prom Dance - 8 pm"
     },
     {
-        "Date": "4/16/2023",
-        "Event": "CAASPP Testing - Block Scheduling"
+        "date": "4/16/2023",
+        "event": "CAASPP Testing - Block Scheduling"
     },
     {
-        "Date": "4/17/2023",
-        "Event": "CAASPP Testing - Block Scheduling"
+        "date": "4/17/2023",
+        "event": "CAASPP Testing - Block Scheduling"
     },
     {
-        "Date": "4/18/2023",
-        "Event": "CAASPP Testing - Block Scheduling"
+        "date": "4/18/2023",
+        "event": "CAASPP Testing - Block Scheduling"
     },
     {
-        "Date": "4/19/2023",
-        "Event": "CAASPP Testing - Block Scheduling"
+        "date": "4/19/2023",
+        "event": "CAASPP Testing - Block Scheduling"
     },
     {
-        "Date": "4/20/2023",
-        "Event": "CAASPP Testing - Block Scheduling"
+        "date": "4/20/2023",
+        "event": "CAASPP Testing - Block Scheduling"
     },
     {
-        "Date": "4/21/2023",
-        "Event": "CAASPP Testing - Block Scheduling"
+        "date": "4/21/2023",
+        "event": "CAASPP Testing - Block Scheduling"
     },
     {
-        "Date": "4/24/2023",
-        "Event": "Awards of Excellence"
+        "date": "4/24/2023",
+        "event": "Awards of Excellence"
     },
     {
-        "Date": "4/26/2023",
-        "Event": "Springfest @ Lunch"
+        "date": "4/26/2023",
+        "event": "Springfest @ Lunch"
     },
     {
-        "Date": "4/26/2023",
-        "Event": "ATA: Knights of the Originals - 7 pm nightly"
+        "date": "4/26/2023",
+        "event": "ATA: Knights of the Originals - 7 pm nightly"
     },
     {
-        "Date": "4/27/2023",
-        "Event": "ATA: Knights of the Originals - 7 pm nightly"
+        "date": "4/27/2023",
+        "event": "ATA: Knights of the Originals - 7 pm nightly"
     },
     {
-        "Date": "4/28/2023",
-        "Event": "ATA: Knights of the Originals - 7 pm nightly"
+        "date": "4/28/2023",
+        "event": "ATA: Knights of the Originals - 7 pm nightly"
     },
     {
-        "Date": "4/29/2023",
-        "Event": "ATA: Knights of the Originals - 7 pm nightly"
+        "date": "4/29/2023",
+        "event": "ATA: Knights of the Originals - 7 pm nightly"
     },
     {
-        "Date": "4/30/2023",
-        "Event": "ATA: Knights of the Originals - 7 pm nightly"
+        "date": "4/30/2023",
+        "event": "ATA: Knights of the Originals - 7 pm nightly"
     },
     {
-        "Date": "5/1/2023",
-        "Event": "AP Testing"
+        "date": "5/1/2023",
+        "event": "AP Testing"
     },
     {
-        "Date": "5/1/2023",
-        "Event": "College Acceptance Day"
+        "date": "5/1/2023",
+        "event": "College Acceptance Day"
     },
     {
-        "Date": "5/2/2023",
-        "Event": "AP Testing"
+        "date": "5/2/2023",
+        "event": "AP Testing"
     },
     {
-        "Date": "5/3/2023",
-        "Event": "AP Testing"
+        "date": "5/3/2023",
+        "event": "AP Testing"
     },
     {
-        "Date": "5/3/2023",
-        "Event": "ICC Meeting @ Lunch"
+        "date": "5/3/2023",
+        "event": "ICC Meeting @ Lunch"
     },
     {
-        "Date": "5/4/2023",
-        "Event": "AP Testing"
+        "date": "5/4/2023",
+        "event": "AP Testing"
     },
     {
-        "Date": "5/5/2023",
-        "Event": "AP Testing"
+        "date": "5/5/2023",
+        "event": "AP Testing"
     },
     {
-        "Date": "5/5/2023",
-        "Event": "Band - Spring Concert - 7 pm"
+        "date": "5/5/2023",
+        "event": "Band - Spring Concert - 7 pm"
     },
     {
-        "Date": "5/5/2023",
-        "Event": "IB Testing Window"
+        "date": "5/5/2023",
+        "event": "IB Testing Window"
     },
     {
-        "Date": "5/6/2023",
-        "Event": "AP Testing"
+        "date": "5/6/2023",
+        "event": "AP Testing"
     },
     {
-        "Date": "5/6/2023",
-        "Event": "IB Testing Window"
+        "date": "5/6/2023",
+        "event": "IB Testing Window"
     },
     {
-        "Date": "5/7/2023",
-        "Event": "AP Testing"
+        "date": "5/7/2023",
+        "event": "AP Testing"
     },
     {
-        "Date": "5/7/2023",
-        "Event": "IB Testing Window"
+        "date": "5/7/2023",
+        "event": "IB Testing Window"
     },
     {
-        "Date": "5/8/2023",
-        "Event": "AP Testing"
+        "date": "5/8/2023",
+        "event": "AP Testing"
     },
     {
-        "Date": "5/8/2023",
-        "Event": "IB Testing Window"
+        "date": "5/8/2023",
+        "event": "IB Testing Window"
     },
     {
-        "Date": "5/9/2023",
-        "Event": "AP Testing"
+        "date": "5/9/2023",
+        "event": "AP Testing"
     },
     {
-        "Date": "5/9/2023",
-        "Event": "IB Testing Window"
+        "date": "5/9/2023",
+        "event": "IB Testing Window"
     },
     {
-        "Date": "5/10/2023",
-        "Event": "AP Testing"
+        "date": "5/10/2023",
+        "event": "AP Testing"
     },
     {
-        "Date": "5/10/2023",
-        "Event": "IB Testing Window"
+        "date": "5/10/2023",
+        "event": "IB Testing Window"
     },
     {
-        "Date": "5/11/2023",
-        "Event": "AP Testing"
+        "date": "5/11/2023",
+        "event": "AP Testing"
     },
     {
-        "Date": "5/11/2023",
-        "Event": "IB Testing Window"
+        "date": "5/11/2023",
+        "event": "IB Testing Window"
     },
     {
-        "Date": "5/12/2023",
-        "Event": "AP Testing"
+        "date": "5/12/2023",
+        "event": "AP Testing"
     },
     {
-        "Date": "5/12/2023",
-        "Event": "IB Testing Window"
+        "date": "5/12/2023",
+        "event": "IB Testing Window"
     },
     {
-        "Date": "5/13/2023",
-        "Event": "IB Testing Window"
+        "date": "5/13/2023",
+        "event": "IB Testing Window"
     },
     {
-        "Date": "5/14/2023",
-        "Event": "IB Testing Window"
+        "date": "5/14/2023",
+        "event": "IB Testing Window"
     },
     {
-        "Date": "5/15/2023",
-        "Event": "IB Testing Window"
+        "date": "5/15/2023",
+        "event": "IB Testing Window"
     },
     {
-        "Date": "5/16/2023",
-        "Event": "IB Testing Window"
+        "date": "5/16/2023",
+        "event": "IB Testing Window"
     },
     {
-        "Date": "5/17/2023",
-        "Event": "IB Testing Window"
+        "date": "5/17/2023",
+        "event": "IB Testing Window"
     },
     {
-        "Date": "5/18/2023",
-        "Event": "IB Testing Window"
+        "date": "5/18/2023",
+        "event": "IB Testing Window"
     },
     {
-        "Date": "5/19/2023",
-        "Event": "IB Testing Window"
+        "date": "5/19/2023",
+        "event": "IB Testing Window"
     },
     {
-        "Date": "5/24/2023",
-        "Event": "Senior Finals"
+        "date": "5/24/2023",
+        "event": "Senior Finals"
     },
     {
-        "Date": "5/25/2023",
-        "Event": "Senior Finals"
+        "date": "5/25/2023",
+        "event": "Senior Finals"
     },
     {
-        "Date": "5/25/2023",
-        "Event": "Senior Awards Night"
+        "date": "5/25/2023",
+        "event": "Senior Awards Night"
     },
     {
-        "Date": "5/26/2023",
-        "Event": "Senior Reflections"
+        "date": "5/26/2023",
+        "event": "Senior Reflections"
     },
     {
-        "Date": "5/29/2023",
-        "Event": "Memorial Day - No School"
+        "date": "5/29/2023",
+        "event": "Memorial Day - No School"
     },
     {
-        "Date": "5/30/2023",
-        "Event": "Minimum Day"
+        "date": "5/30/2023",
+        "event": "Minimum Day"
     },
     {
-        "Date": "5/30/2023",
-        "Event": "Graduation Practice"
+        "date": "5/30/2023",
+        "event": "Graduation Practice"
     },
     {
-        "Date": "5/31/2023",
-        "Event": "Spring Final Exams"
+        "date": "5/31/2023",
+        "event": "Spring Final Exams"
     },
     {
-        "Date": "5/31/2023",
-        "Event": "Senior Picnic"
+        "date": "5/31/2023",
+        "event": "Senior Picnic"
     },
     {
-        "Date": "5/31/2023",
-        "Event": "Senior Bowling Knight"
+        "date": "5/31/2023",
+        "event": "Senior Bowling Knight"
     },
     {
-        "Date": "6/1/2023",
-        "Event": "Spring Final Exams"
+        "date": "6/1/2023",
+        "event": "Spring Final Exams"
     },
     {
-        "Date": "6/1/2023",
-        "Event": "Graduation - 6 pm"
+        "date": "6/1/2023",
+        "event": "Graduation - 6 pm"
     },
     {
-        "Date": "6/2/2023",
-        "Event": "Spring Final Exams"
+        "date": "6/2/2023",
+        "event": "Spring Final Exams"
     },
     {
-        "Date": "6/2/2023",
-        "Event": "Last Day of School"
+        "date": "6/2/2023",
+        "event": "Last Day of School"
     },
     {
-        "Date": "6/2/2023",
-        "Event": "End of Fourth Quarter"
+        "date": "6/2/2023",
+        "event": "End of Fourth Quarter"
     }
 ]

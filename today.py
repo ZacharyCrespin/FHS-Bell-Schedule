@@ -1,5 +1,6 @@
 import json
-from datetime import datetime
+import urllib.request
+from datetime import datetime, date, timedelta
 import pytz
 import jinja2
 import arrow
@@ -9,8 +10,8 @@ import platform
 # Load all json data to variables
 with open("public/api/dates.json", encoding="utf-8") as dates:
     dates = json.load(dates)
-with open("public/api/games.json", encoding="utf-8") as games:
-    games = json.load(games)
+games = urllib.request.urlopen("https://www.cifsshome.org/widget/calendar?school_id=175&ajax=1&start=" + str(date.today()) + "T00%3A00%3A00Z&end=" + str(date.today()+timedelta(30)) + "T00%3A00%3A00Z&timeZone=UTC").read()
+games = json.loads(games)
 with open("public/api/events.json", encoding="utf-8") as events:
     events = json.load(events)
 with open("public/api/schedules.json", encoding="utf-8") as schedules:
@@ -45,8 +46,8 @@ if day == "Wednesday":
 
 # Cheak for a custom schedule
 for Date in dates:
-    if Date["Date"] == today:
-        todayScheduleID = Date["Schedule"]
+    if Date["date"] == today:
+        todayScheduleID = Date["schedule"]
 
 # if nothing was found use Regular Schedule
 try: todayScheduleID
@@ -62,35 +63,35 @@ generator = "Python " + platform.python_version()
 # events
 todayEvents = []
 upcomingEvents = []
-for Event in events:
-    a = datetime.strptime(Event["Date"], "%m/%d/%Y")
+for event in events:
+    a = datetime.strptime(event["date"], "%m/%d/%Y")
     b = datetime.strptime(today, "%m/%d/%Y")
     delta = a - b
     daysFromToday = delta.days
 
     if daysFromToday == 0:
-        todayEvents.append(Event)
+        todayEvents.append(event)
 
     if daysFromToday < 30:
         if daysFromToday > -1:
-            upcomingEvents.append(Event)
+            upcomingEvents.append(event)
 print(len(events),"events,",len(upcomingEvents),"upcoming,",len(todayEvents),"today")
 
 # games
 todayGames = []
 upcomingGames = []
-for Game in games:
-    a = datetime.strptime(Game["Date"], "%m/%d/%Y")
+for game in games:
+    a = datetime.strptime(game["date"], "%m/%d/%Y")
     b = datetime.strptime(today, "%m/%d/%Y")
     delta = a - b
     daysFromToday = delta.days
 
     if daysFromToday == 0:
-        todayGames.append(Game)
+        todayGames.append(game)
 
     if daysFromToday < 30:
         if daysFromToday > -1:
-            upcomingGames.append(Game)
+            upcomingGames.append(game)
 print(len(games),"games,",len(upcomingGames),"upcoming,",len(todayGames),"today")
 
 # Write today.json

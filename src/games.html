@@ -29,12 +29,12 @@
     <main>
     {% for value in games %}
         <div class="box text-left">
-            <p><b>Date:</b> {{ value["Date"] }}</p>
-            <p><b>Time:</b> {{ value["Time"] }}</p>
-            <p><b>Sport:</b> {{ value["Sport"] }}</p>
-            <p><b>Opponent:</b> {{ value["Opponent"] }}</p>
-            <p><b>Level:</b> {{ value["Level"] }}</p>
-            <p><b>Game Type:</b> {{ value["GameType"] }}</p>
+            <p>{{ value["level"] }} {{ value["sport"] }} vs {{ value["opponent_schools"] }}</p>
+            <p>{{ value["event_title"] }}</p>
+            <p>{{ value["date"] }}</p>
+            <p>{{ value["time_from"] }}{% if value["time_to"] != "" %} - {{ value["time_to"] }}{% endif %}</p>
+            <p>{{ value["location"] }}</p>
+            <p>{{ value["facility"] }}</p>
         </div>
     {% endfor %}
     </main>

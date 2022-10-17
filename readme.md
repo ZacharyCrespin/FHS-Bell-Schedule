@@ -1,20 +1,10 @@
 # Foothill High School Bell Schedule
 [fhsbellschedule.web.app](https://fhsbellschedule.web.app)
 
-## Setup
-`pip install Jinja2 arrow htmlmin`
-
-## Run
-`py today.py`
-
 ## API
 today: `/api/today.json`
 
 upcoming: `/api/upcoming.json`
-
-all events: `/api/events.json`
-
-all games: `/api/games.json`
 
 schedules: `/api/schedules.json`
 

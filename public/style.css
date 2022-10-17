@@ -53,13 +53,12 @@ a:hover {
     color: var(--background);
     transform: scale(1.05);
 }
-ul {
-    text-align: left;
-}
-ul li {
+.box .box {
+    border: none;
+    border-radius: 0;
     border-bottom: 1px solid var(--light-border);
 }
-ul li:nth-last-child(1) {
+.box .box:last-of-type {
     border-bottom: none;
 }
 table {
@@ -75,7 +74,7 @@ td p {
 tr td {
     border-bottom: 1px solid var(--light-border);
 }
-tr:nth-last-child(1) td {
+tr:last-child td {
     border-bottom: none;
 }
 td:nth-child(1) {
@@ -98,10 +97,11 @@ code {
     position: fixed;
     top: .5em;
     left: .5em;
-    padding: .5em;
-    border-radius: 6px;
-    background-color: var(--background);
-    border: 1px solid var(--text);
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 100vmax;
+    background-color: transparent;
     transition: all ease .2s;
 }
 #back svg path {
