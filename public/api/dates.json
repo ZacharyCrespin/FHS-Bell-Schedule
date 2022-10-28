@@ -40,6 +40,10 @@
         "schedule": "minimum"
     },
     {
+        "date": "10/28/2022",
+        "schedule": "assembly"
+    },
+    {
         "date": "11/9/2022",
         "schedule": "ccr"
     },
