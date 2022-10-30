@@ -93,28 +93,6 @@ code {
     padding: .2em .4em;
     border-radius: 6px;
 }
-#back {
-    position: fixed;
-    top: .5em;
-    left: .5em;
-    width: 48px;
-    height: 48px;
-    border: none;
-    border-radius: 100vmax;
-    background-color: transparent;
-    transition: all ease .2s;
-}
-#back svg path {
-    fill: var(--text);
-    transition: all ease .2s;
-}
-#back:hover {
-    cursor: pointer;
-    background-color: var(--text);
-}
-#back:hover svg path {
-    fill: var(--background);
-}
 @media only screen and (max-width: 544px) {
     main {
         margin: 0;
