@@ -97,6 +97,7 @@ print(len(games),"games,",len(upcomingGames),"upcoming,",len(todayGames),"today"
 # Write today.json
 dictionary = {
     "date": today,
+    "dateString": dateString,
     "schedule": {
         "id": todayScheduleID,
         "name": todayScheduleName,
