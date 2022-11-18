@@ -1,8 +1,3 @@
-window.addEventListener("load", () => {
-  if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("sw.js");
-  }
-});
 function updateClock(){
   var date = new Date();
   var h = date.getHours();
@@ -10,11 +5,11 @@ function updateClock(){
   var s = date.getSeconds();
   var session = "AM";
   if(h == 0){
-      h = 12;
+    h = 12;
   }
   if(h > 12){
-      h = h - 12;
-      session = "PM";
+    h = h - 12;
+    session = "PM";
   }
   if(m < 10){
     m = "0" + m

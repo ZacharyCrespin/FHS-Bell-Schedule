@@ -1,103 +1,124 @@
 :root {
-    --background: hsl(202, 22%, 90%);
-    --border: hsl(213, 22%, 10%);
-    --light-border: hsl(213, 22%, 80%);
-    --text: hsl(213, 22%, 10%);
-    --link: var(--text);
-    --link-hov: hsl(201, 22%, 25%);
+  --background: hsl(202, 22%, 90%);
+  --border: hsl(213, 22%, 10%);
+  --light-border: hsl(213, 22%, 80%);
+  --text: hsl(213, 22%, 10%);
+  --link: var(--text);
+  --link-hov: hsl(201, 22%, 25%);
 }
 @media (prefers-color-scheme: dark) {
-    :root {
-        --background: hsl(213, 22%, 10%);
-        --border: hsl(202, 22%, 90%);
-        --light-border: hsl(213, 22%, 20%);
-        --text: hsl(202, 22%, 90%);
-        --link: var(--text);
-        --link-hov: hsl(201, 22%, 75%);
-    }
+  :root {
+    --background: hsl(213, 22%, 10%);
+    --border: hsl(202, 22%, 90%);
+    --light-border: hsl(213, 22%, 20%);
+    --text: hsl(202, 22%, 90%);
+    --link: var(--text);
+    --link-hov: hsl(201, 22%, 75%);
+  }
 }
+
 body {
-    text-align: center;
-    background-color: var(--background);
-    color: var(--text);
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  text-align: center;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
+
 main {
-    margin: 0 3rem;
+  margin: 0 3rem;
 }
+
 a {
-    color: var(--text);
+  color: var(--text);
 }
 a:hover {
-    color: var(--link-hov);
+  color: var(--link-hov);
 }
-.box {
-    margin: 1rem 0;
-    padding: 0 1rem;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-}
+
 .btn {
-    display: inline-block;
-    background-color: transparent;
-    border: 1px solid var(--border);
-    color: var(--text);
-    text-decoration: none;
-    margin: 1em;
-    padding: .5em 1em;
-    border-radius: 6px;
-    transition: all ease .2s;
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+  margin: 1em;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  transition: all ease .2s;
+}
+.btn .filed {
+  background-color: var(--text);
+  color: var(--background);
 }
 .btn:hover {
-    background-color: var(--text);
-    color: var(--background);
-    transform: scale(1.05);
+  background-color: var(--text);
+  color: var(--background);
+  transform: scale(1.05);
+}
+
+.box {
+  margin: 1rem 0;
+  padding: 0 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
 }
 .box .box {
-    border: none;
-    border-radius: 0;
-    border-bottom: 1px solid var(--light-border);
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid var(--light-border);
+}
+.box .box p {
+  margin: 0.5rem 0;
 }
 .box .box:last-of-type {
-    border-bottom: none;
+  border-bottom: none;
 }
+
 table {
-    line-height: 200%;
-    text-align: left;
-    margin: 1rem auto;
-    border-spacing: 0;
+  line-height: 200%;
+  text-align: left;
+  margin: 1rem auto;
+  border-spacing: 0;
 }
 td p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 tr td {
-    border-bottom: 1px solid var(--light-border);
+  border-bottom: 1px solid var(--light-border);
 }
 tr:last-child td {
-    border-bottom: none;
+  border-bottom: none;
 }
 td:nth-child(1) {
-    padding: 0 1em 0 0;
+  padding: 0 1em 0 0;
 }
 td:nth-child(2) {
-    text-align: right;
-    padding: 0 0 0 1em;
+  text-align: right;
+  padding: 0 0 0 1em;
 }
+
 .text-left {
-    text-align: left;
+  text-align: left;
 }
-code {
-    background-color: var(--text);
-    color: var(--background);
-    padding: .2em .4em;
-    border-radius: 6px;
+
+footer {
+  position: relative;
+  bottom: 0;
 }
+footer p {
+  margin: 0.5rem 0;
+}
+footer .link {
+  margin: 0 0.5rem 0.5rem;
+}
+
 @media only screen and (max-width: 544px) {
-    main {
-        margin: 0;
-    }
-    .box {
-        padding: 1rem;
-    }
+  main {
+    margin: 0;
+  }
+  .box {
+    padding: 1rem;
+  }
 }

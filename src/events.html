@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,28 +11,29 @@
     <meta name="color-scheme" content="light dark">
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="hsl(202, 22%, 90%)">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="hsl(213, 22%, 10%)">
-    <link rel="manifest" href="app.webmanifest">
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png"> 
     <meta name="apple-mobile-web-app-title" content="Schedule">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <script defer src="script.js"></script>
     <meta name="generator" content="{{ generator }}">
     <script async src="https://analytics.zacharyc.site/tracker.js" data-ackee-server="https://analytics.zacharyc.site" data-ackee-domain-id="a6bcdbce-630a-45f0-b9a0-ea3db308595b"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Upcoming Events</h1>
+      <h1>Upcoming Events</h1>
     </header>
     <main>
     {% for value in events %}
-        <div class="box text-left">
-            <p><b>Date:</b> {{ value["date"] }}</p>
-            <p><b>Event:</b> {{ value["event"] }}</p>
-        </div>
+      <div class="box text-left">
+        <p>
+          <b>Date:</b> {{ value["date"] }}<br>
+          <b>Event:</b> {{ value["event"] }}
+        </p>
+      </div>
     {% endfor %}
     </main>
     <footer>
-        <p>Created By <a href="https://zacharyc.site" target="_blank">Zachary Crespin</a> on <a href="https://github.com/ZacharyCrespin/FHS-Bell-Schedule" target="_blank">GitHub</a>.</p>
+      <p>Created By <a href="https://zacharyc.site" target="_blank">Zachary Crespin</a> on <a href="https://github.com/ZacharyCrespin/FHS-Bell-Schedule" target="_blank">GitHub</a>.</p>
+      <p><a href="api/index.html">API</a> · <a href="https://twitter.com/fhsbellschedule" target="_blank">Twiter</a> · <a href="mailto:bellschedule@zacharyc.site" target="_blank">Contact</a></p>
     </footer>
-</body>
+  </body>
 </html>
