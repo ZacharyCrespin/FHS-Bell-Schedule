@@ -55,7 +55,6 @@ except NameError: todayScheduleID = "regular"
 
 # get the rest of the data using the id
 todayScheduleName = schedules[todayScheduleID]["name"]
-todayScheduleJSON = schedules[todayScheduleID]["json"]
 todayScheduleHTML = schedules[todayScheduleID]["html"]
 print("schedule:",todayScheduleName,"("+todayScheduleID+")")
 
@@ -102,7 +101,6 @@ dictionary = {
   "schedule": {
     "id": todayScheduleID,
     "name": todayScheduleName,
-    "json": todayScheduleJSON,
     "html": todayScheduleHTML
   },
   "games": todayGames,
@@ -115,7 +113,7 @@ with open("public/api/today.json", "w", encoding="utf-8") as outfile:
 outputfile = "public/index.html"
 subs = jinja2.Environment(
   loader=jinja2.FileSystemLoader("./")
-).get_template("src/index.html").render(today=dateString, scheduleName=todayScheduleName, scheduleData=todayScheduleJSON, scheduleHTML=todayScheduleHTML, games=todayGames, events=todayEvents, generator=generator)
+).get_template("src/index.html").render(today=dateString, scheduleName=todayScheduleName, scheduleHTML=todayScheduleHTML, games=todayGames, events=todayEvents, generator=generator)
 with open(outputfile, "w", encoding="utf-8") as f:
   f.write(htmlmin.minify(subs, remove_empty_space=True))
 
