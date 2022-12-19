@@ -86,6 +86,6 @@
   "finals": {
     "name": "Finals Schedule",
     "json": [],
-    "html": "<table><tbody><tr><td><p>1st Exam</p><p class='light'>Period 1, 2 or 3</p></td><td><p>8:30 - 10:30</p></td></tr><tr><td><p>Break</p></td><td><p>10:30 - 10:45</p></td></tr><tr><td><p>Passing</p></td><td><p>10:45 - 10:50</p></td></tr><tr><td><p>2nd Exam</p><p class='light'>Period 4, 5 or 6/0</p></td><td><p>10:50 - 12:50</p></td></tr></tbody></table>"
+    "html": "<table><tbody><tr><td><p>1st Exam <span class='light'>(1, 2, 3)</span></p></td><td><p>8:30 - 10:30</p></td></tr><tr><td><p>Break</p></td><td><p>10:30 - 10:45</p></td></tr><tr><td><p>Passing</p></td><td><p>10:45 - 10:50</p></td></tr><tr><td><p>2nd Exam <span class='light'>(4, 5, 6/0)</span></p></td><td><p>10:50 - 12:50</p></td></tr></tbody></table>"
   }
 }
