@@ -85,6 +85,9 @@ td p {
   margin: 0;
   padding: 0;
 }
+.light {
+  color: var(--light-border);
+}
 tr td {
   border-bottom: 1px solid var(--light-border);
 }
