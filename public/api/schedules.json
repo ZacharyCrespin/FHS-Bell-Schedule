@@ -83,14 +83,18 @@
     ],
     "html": "<table><tbody><tr><td><p>0</p></td><td><p>8:50 - 9:31</p></td></tr><tr><td><p>1</p></td><td><p>9:37 - 10:18</p></td></tr><tr><td><p>2</p></td><td><p>10:26 - 11:07</p></td></tr><tr><td><p>3</p></td><td><p>11:14 - 11:55</p></td></tr><tr><td><p>Lunch</p></td><td><p>11:55 - 12:25</p></td></tr><tr><td><p>4 w/CCR</p></td><td><p>12:31 - 1:36</p></td></tr><tr><td><p>5</p></td><td><p>1:42 - 2:23</p></td></tr><tr><td><p>Break</p></td><td><p>2:23 - 2:38</p></td></tr><tr><td><p>6</p></td><td><p>2:44 - 3:25</p></td></tr></tbody></table>"
   },
+  "custom": {
+    "name": "Custom Schedule",
+    "json": [],
+    "html": "<p>cheak the <a href='https://docs.google.com/document/d/1-6RJC9m_UcizT7hnWTvtjExrnIrW577n6YWBoNRmF7I/edit?usp=sharing'>daily bulletin</a> for the schedule</p>"
+  },
   "finals": {
     "name": "Finals Schedule",
     "json": [
       { "block": "1st Exam", "start": "8:30", "end": "10:30" },
       { "block": "Break", "start": "10:30", "end": "10:45" },
-      { "block": "Passing", "start": "10:45", "end": "10:50" },
       { "block": "2nd Exam", "start": "10:50", "end": "12:50" }
     ],
-    "html": "<table><tbody><tr><td><p>1st Exam <span class='light'>(1, 2, 3)</span></p></td><td><p>8:30 - 10:30</p></td></tr><tr><td><p>Break</p></td><td><p>10:30 - 10:45</p></td></tr><tr><td><p>Passing</p></td><td><p>10:45 - 10:50</p></td></tr><tr><td><p>2nd Exam <span class='light'>(4, 5, 6/0)</span></p></td><td><p>10:50 - 12:50</p></td></tr></tbody></table>"
+    "html": "<table><tbody><tr><td><p>1st Exam <span class='light'>(1, 2, 3)</span></p></td><td><p>8:30 - 10:30</p></td></tr><tr><td><p>Break</p></td><td><p>10:30 - 10:45</p></td></tr><tr><td><p>2nd Exam <span class='light'>(4, 5, 6/0)</span></p></td><td><p>10:50 - 12:50</p></td></tr></tbody></table>"
   }
 }

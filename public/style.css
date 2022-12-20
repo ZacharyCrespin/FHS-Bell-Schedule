@@ -2,6 +2,7 @@
   --background: hsl(202, 22%, 90%);
   --border: hsl(213, 22%, 10%);
   --light-border: hsl(213, 22%, 80%);
+  --light: hsl(213, 22%, 60%);
   --text: hsl(213, 22%, 10%);
   --link: var(--text);
   --link-hov: hsl(201, 22%, 25%);
@@ -11,6 +12,7 @@
     --background: hsl(213, 22%, 10%);
     --border: hsl(202, 22%, 90%);
     --light-border: hsl(213, 22%, 20%);
+    --light: hsl(213, 22%, 40%);
     --text: hsl(202, 22%, 90%);
     --link: var(--text);
     --link-hov: hsl(201, 22%, 75%);
@@ -26,6 +28,7 @@ body {
 
 main {
   margin: 0 3rem;
+  min-height: calc(100vh - 8rem);
 }
 
 a {
@@ -35,7 +38,7 @@ a:hover {
   color: var(--link-hov);
 }
 
-.btn {
+.btn, button {
   display: inline-block;
   background-color: transparent;
   border: 1px solid var(--border);
@@ -46,13 +49,14 @@ a:hover {
   border-radius: 6px;
   transition: all ease .2s;
 }
-.btn .filed {
+.btn .filed, button .filed {
   background-color: var(--text);
   color: var(--background);
 }
-.btn:hover {
+.btn:hover, button:hover {
   background-color: var(--text);
   color: var(--background);
+  cursor: pointer;
   transform: scale(1.05);
 }
 
@@ -86,7 +90,7 @@ td p {
   padding: 0;
 }
 .light {
-  color: var(--light-border);
+  color: var(--light);
 }
 tr td {
   border-bottom: 1px solid var(--light-border);
