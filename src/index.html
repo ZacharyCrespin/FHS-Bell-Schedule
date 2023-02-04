@@ -48,11 +48,13 @@
         {% for value in games %}
         <div class="box text-left">
           <p>
-            {% if value["time_from"] != "" %}{{ value["time_from"] }}{% if value["time_to"] != "" %} - {{ value["time_to"] }}{% endif %}<br>{% endif %}
-            {{ value["sport"] }}, {{ value["level"] }}{% if value["opponent_schools"] != "TBA" %} vs {{ value["opponent_schools"] }}{% endif %}<br>
-            {% if value["event_title"] != "" %}{{ value["event_title"] }}<br>{% endif %}
+            {{ value["time_from"] }}{% if value["time_to"] %} - {{ value["time_to"] }}{% endif %}<br>
+            {{ value["sport"] }} {% if value["opponent_schools"] != "TBA" %} vs {{ value["opponent_schools"] }}{% endif %}<br>
+            {% if value["event_title"] %}{{ value["event_title"] }}<br>{% endif %}
+            <b>Level: </b>{{ value["level"] }}<br>
             <b>Game Type: </b>{{ value["game_type"] }}<br>
-            {% if value["facility"] != "" %}<b>Location: </b>{{ value["facility"] }}{% endif %}
+            {% if value["location"] or value["facility"] %}<b>Location: </b>{% endif %}
+            {% if value["location"] %}{{ value["location"] }}{% endif %}{% if value["facility"] %}{% if value["location"] %}, {% endif %}{{ value["facility"] }}{% endif %}
           </p>
         </div>
         {% endfor %}

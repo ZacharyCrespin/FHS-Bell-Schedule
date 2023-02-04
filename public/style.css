@@ -27,12 +27,12 @@ body {
 }
 
 main {
-  margin: 0 3rem;
+  margin: 0 2rem;
   min-height: calc(100vh - 8rem);
 }
 
 a {
-  color: var(--text);
+  color: var(--link);
 }
 a:hover {
   color: var(--link-hov);
@@ -45,7 +45,7 @@ a:hover {
   color: var(--text);
   text-decoration: none;
   margin: 1em;
-  padding: 0.5em 1em;
+  padding: 0.5rem 1rem;
   border-radius: 6px;
   transition: all ease .2s;
 }
