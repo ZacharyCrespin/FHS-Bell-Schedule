@@ -49,7 +49,8 @@ a:hover {
   border-radius: 6px;
   transition: all ease .2s;
 }
-.btn .filed, button .filed {
+button .filed,
+.btn .filed {
   background-color: var(--text);
   color: var(--background);
 }
@@ -99,11 +100,11 @@ tr:last-child td {
   border-bottom: none;
 }
 td:nth-child(1) {
-  padding: 0 1em 0 0;
+  padding: 0 1em 0 1rem;
 }
 td:nth-child(2) {
   text-align: right;
-  padding: 0 0 0 1em;
+  padding: 0 1rem 0 1em;
 }
 
 .text-left {
@@ -113,6 +114,7 @@ td:nth-child(2) {
 footer {
   position: relative;
   bottom: 0;
+  margin-bottom: 1rem;
 }
 footer p {
   margin: 0.5rem 0;
