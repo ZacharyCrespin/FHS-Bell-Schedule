@@ -92,6 +92,7 @@ td p {
 }
 .light {
   color: var(--light);
+  font-size: small;
 }
 tr td {
   border-bottom: 1px solid var(--light-border);

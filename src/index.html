@@ -24,6 +24,9 @@
     </header>
     <main>
       <p id="clock"></p>
+      {% if note != "" %}
+        {{ note }}
+      {% endif %}
       <div class="box">
         <h3>{{ scheduleName }}</h3>
         {{ scheduleHTML }}

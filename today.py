@@ -16,6 +16,8 @@ with open("public/api/events.json", encoding="utf-8") as events:
     events = json.load(events)
 with open("public/api/schedules.json", encoding="utf-8") as schedules:
     schedules = json.load(schedules)
+with open("public/api/notes.json", encoding="utf-8") as notes:
+    notes = json.load(notes)
 
 # use Pacific time even when using github actions
 now = datetime.now(pytz.timezone("US/Pacific"))
@@ -56,6 +58,13 @@ for Date in dates:
 todayScheduleName = schedules[todayScheduleID]["name"]
 todayScheduleHTML = schedules[todayScheduleID]["html"]
 print(f"schedule: {todayScheduleName} ({todayScheduleID})")
+
+# Cheak for a note
+note = ""
+for Note in notes:
+    if Note["date"] == today:
+        note = Note["note"]
+        print("Note:", note)
 
 # events
 todayEvents = []
@@ -114,7 +123,8 @@ subs = jinja2.Environment(
     scheduleName=todayScheduleName,
     scheduleHTML=todayScheduleHTML,
     games=todayGames,
-    events=todayEvents
+    events=todayEvents,
+    note=note
 )
 with open("public/index.html", "w", encoding="utf-8") as f:
     f.write(htmlmin.minify(subs, remove_empty_space=True))
