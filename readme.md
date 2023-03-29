@@ -15,7 +15,5 @@
     py today.py
 
 ## Official Sources
-- [Bell Schedules](https://www.tustin.k12.ca.us/foothill/about-our-school/bell-schedule)
-- [Activities Calendar](https://www.tustin.k12.ca.us/foothill/activities/asb/activities-calendar)
-- [Important Dates](https://www.tustin.k12.ca.us/foothill/about-our-school/calendars/important-dates)
-- [Athletics Calendar](https://www.tustin.k12.ca.us/foothill/athletics/athletics-calendar)
+- [Bell Schedules](https://foothill.tustin.k12.ca.us/about-us/bell-schedule)
+- [Calendars](https://foothill.tustin.k12.ca.us/about-us/calendars)
