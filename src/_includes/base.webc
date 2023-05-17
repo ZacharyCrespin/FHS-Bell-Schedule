@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title @text="title">FHS Bell Schedule</title>
+    <meta name="description" content="Foothill High School Bell Schedule">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="hsl(202, 22%, 90%)">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="hsl(213, 22%, 10%)">
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="Bell Schedule">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="main.css">
+    <style @raw="getBundle('css')" webc:keep></style>
+  </head>
+  <body>
+    <template @raw="content" webc:nokeep></template>
+    <script @raw="getBundle('js')" webc:keep></script>
+    <script async src="https://analytics.zacharyc.site/tracker.js" data-ackee-server="https://analytics.zacharyc.site" data-ackee-domain-id="a6bcdbce-630a-45f0-b9a0-ea3db308595b" webc:keep></script>
+  </body>
+</html>

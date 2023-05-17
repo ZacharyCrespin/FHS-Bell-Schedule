@@ -1,0 +1,7 @@
+<header>
+  <h1 @text="title"></h1>
+</header>
+<main>
+  <template @raw="content" webc:nokeep></template>
+</main>
+<main-footer></main-footer>

@@ -1,5 +1,2 @@
-public/api/today.json
-public/index.html
-public/api/upcoming.json
-public/games.html
-public/events.html
+node_modules
+public

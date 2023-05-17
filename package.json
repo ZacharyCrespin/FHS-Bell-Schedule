@@ -1,0 +1,15 @@
+{
+  "name": "fhs-bell-schedule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve --quiet",
+    "build": "eleventy"
+  },
+  "author": "Zachary Crespin",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1","@11ty/eleventy-plugin-webc": "^0.11.1"
+  }
+}

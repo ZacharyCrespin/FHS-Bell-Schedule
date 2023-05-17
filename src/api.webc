@@ -1,14 +1,17 @@
-<header>
-  <h1></h1>
-</header>
-<main>
-  
+---
+layout: main.webc
+---
+<style>
+  code {
+    background-color: var(--text);
+    color: var(--background);
+    padding: 0.2em 0.4em;
+    border-radius: 6px;
+  }
+</style>
 <div class="box">
   <p>today: <code>/api/today.json</code></p>
   <p>upcoming: <code>/api/upcoming.json</code></p>
   <p>schedules: <code>/api/schedules.json</code></p>
   <p>dates: <code>/api/dates.json</code></p>
 </div>
-
-</main>
-<main-footer></main-footer>

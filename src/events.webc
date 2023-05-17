@@ -1,0 +1,11 @@
+---
+title: FHS Upcoming Events
+description: Foothill High School Upcoming Events
+layout: main.webc
+---
+{% for value in events %}
+  <div class="box text-left">
+    <p><b>Date:</b> {{ value["date"] }}</p>
+    <p><b>Event:</b> {{ value["event"] }}</p>
+  </div>
+{% endfor %}
