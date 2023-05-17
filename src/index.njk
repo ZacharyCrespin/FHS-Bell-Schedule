@@ -1,0 +1,69 @@
+---
+title: FHS Bell Schedule
+description: Foothill High School Bell Schedule
+layout: 'main.njk'
+---
+<h2>{{ today }}</h2>
+<p id="clock"></p>
+<div class="box">
+  <h3>{{ today.scheduleName }}</h3>
+  {{ today.scheduleHTML }}
+</div>
+<div class="box">
+  <h3>Today's Events</h3>
+  {% if not today.events %}
+  <p>No Events Today</p>
+  {% endif %}
+  {% for value in today.events %}
+  <div class="box text-left">
+    <p>{{ value["event"] }}</p>
+  </div>
+  {% endfor %}
+  <a href="/events" class="btn">View Upcoming Events</a>
+</div>
+<div class="box">
+  <h3>Today's Games</h3>
+  {% if not today.games %}
+  <p>No Games Today</p>
+  {% endif %}
+  {% for value in today.games %}
+  <div class="box text-left">
+    <p>
+      {{ value["time_from"] }}{% if value["time_to"] %} - {{ value["time_to"] }}{% endif %}<br>
+      {{ value["sport"] }} {% if value["opponent_schools"] != "TBA" %} vs {{ value["opponent_schools"] }}{% endif %}<br>
+      {% if value["event_title"] %}{{ value["event_title"] }}<br>{% endif %}
+      <b>Level: </b>{{ value["level"] }}<br>
+      <b>Game Type: </b>{{ value["game_type"] }}<br>
+      {% if value["location"] or value["facility"] %}<b>Location: </b>{% endif %}
+      {% if value["location"] %}{{ value["location"] }}{% endif %}{% if value["facility"] %}{% if value["location"] %}, {% endif %}{{ value["facility"] }}{% endif %}
+    </p>
+  </div>
+  {% endfor %}
+  <a href="/games" class="btn">View Upcoming Games</a>
+</div>
+<script>
+  function updateClock(){
+    var date = new Date();
+    var h = date.getHours();
+    var m = date.getMinutes();
+    var s = date.getSeconds();
+    var session = "AM";
+    if(h == 0){
+      h = 12;
+    }
+    if(h > 12){
+      h = h - 12;
+      session = "PM";
+    }
+    if(m < 10){
+      m = "0" + m
+    }
+    if(s < 10){
+      s = "0" + s
+    }
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("clock").innerHTML = time;
+    setTimeout(updateClock, 1000);
+  }
+  updateClock();
+</script>

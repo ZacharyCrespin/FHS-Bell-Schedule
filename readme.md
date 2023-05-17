@@ -2,17 +2,12 @@
 [fhsbellschedule.web.app](https://fhsbellschedule.web.app)
 
 ## API
-- today: `/api/today.json`
-- upcoming: `/api/upcoming.json`
-- schedules: `/api/schedules.json`
-- dates: `/api/dates.json`
-
-## Run Localy
-  ### Setup
-    py -m pip install pytz jinja2 arrow htmlmin
-
-  ### Run
-    py today.py
+- today: `/api/today`
+  - events: `/api/today/events`
+  - games: `/api/today/games`
+- upcoming: `/api/upcoming`
+  - events: `/api/upcomming/events`
+  - games: `/api/upcomming/games`
 
 ## Official Sources
 - [Bell Schedules](https://foothill.tustin.k12.ca.us/about-us/bell-schedule)

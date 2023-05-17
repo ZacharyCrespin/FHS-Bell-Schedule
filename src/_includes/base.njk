@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <meta name="description" content="">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
     <meta name="color-scheme" content="light dark">
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="hsl(202, 22%, 90%)">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="hsl(213, 22%, 10%)">
@@ -16,29 +16,7 @@
     <link rel="stylesheet" href="/main.css">
   </head>
   <body>
-    <header>
-  <h1></h1>
-</header>
-<main>
-  <style>
-  code {
-    background-color: var(--text);
-    color: var(--background);
-    padding: 0.2em 0.4em;
-    border-radius: 6px;
-  }
-</style>
-<div class="box">
-  <p>today: <code>/api/today.json</code></p>
-  <p>upcoming: <code>/api/upcoming.json</code></p>
-  <p>schedules: <code>/api/schedules.json</code></p>
-  <p>dates: <code>/api/dates.json</code></p>
-</div>
-
-</main>
-<footer>
-  <p>Created By <a href="https://zacharyc.site" target="_blank">Zachary Crespin</a> on <a href="https://github.com/ZacharyCrespin/FHS-Bell-Schedule" target="_blank">GitHub</a>.</p>
-</footer>
+    {{ content | safe }}
     <script async src="https://analytics.zacharyc.site/tracker.js" data-ackee-server="https://analytics.zacharyc.site" data-ackee-domain-id="a6bcdbce-630a-45f0-b9a0-ea3db308595b"></script>
   </body>
 </html>
