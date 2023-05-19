@@ -28,7 +28,7 @@ body {
 
 main {
   margin: 0 2rem;
-  min-height: calc(100vh - 8rem);
+  min-height: calc(100vh - 8rem - 4px);
 }
 
 a {

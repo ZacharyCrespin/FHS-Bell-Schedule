@@ -3,10 +3,10 @@ title: FHS Upcoming Events
 description: Foothill High School Upcoming Events
 layout: main.njk
 ---
-{% if not upcoming.events %}
+{% if not today.upcoming.events %}
 <p>No Upcoming Events</p>
 {% endif %}
-{% for value in upcoming.events %}
+{% for value in today.upcoming.events %}
   <div class="box text-left">
     <p><b>Date:</b> {{ value["date"] }}</p>
     <p><b>Event:</b> {{ value["event"] }}</p>
