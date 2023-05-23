@@ -268,7 +268,15 @@
         "schedule": "minimum"
     },
     {
+        "date": "5/31/2023",
+        "schedule": "finals"
+    },
+    {
+        "date": "6/1/2023",
+        "schedule": "finals"
+    },
+    {
         "date": "6/2/2023",
-        "schedule": "minimum"
+        "schedule": "finals"
     }
 ]
