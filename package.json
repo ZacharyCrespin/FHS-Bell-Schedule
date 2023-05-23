@@ -14,6 +14,9 @@
     "@11ty/eleventy-plugin-webc": "^0.11.1"
   },
   "dependencies": {
-    "lissa-ordinal-suffix": "^1.0.2"
+    "axios": "^1.4.0",
+    "lissa-ordinal-suffix": "^1.0.2",
+    "luxon": "^3.3.0",
+    "vdata-parser": "^0.1.5"
   }
 }

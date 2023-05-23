@@ -6,12 +6,12 @@ layout: 'main.njk'
 <h2>{{ today.date.string }}</h2>
 <p id="clock"></p>
 <div class="box">
-  <h3>{{ today.scheduleName }}</h3>
-  {{ today.scheduleHTML }}
+  <h3>{{ today.schedule.name }}</h3>
+  {{ today.schedule.html | safe }}
 </div>
 <div class="box">
   <h3>Today's Events</h3>
-  {% if not today.events %}
+  {% if (today.events.length < 1) %}
   <p>No Events Today</p>
   {% endif %}
   {% for value in today.events %}
@@ -23,7 +23,7 @@ layout: 'main.njk'
 </div>
 <div class="box">
   <h3>Today's Games</h3>
-  {% if not today.games %}
+  {% if (today.games.length < 1) %}
   <p>No Games Today</p>
   {% endif %}
   {% for value in today.games %}
