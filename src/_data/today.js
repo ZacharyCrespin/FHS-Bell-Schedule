@@ -44,7 +44,7 @@ module.exports = async function() {
   const date = DateTime.now().setZone('America/Los_Angeles');
 
   // short string (used for comparisons)
-  const shortDate = date.toFormat('M/d/yyyy');
+  const shortDate = date.toFormat('MM/dd/yyyy');
 
   // day of the week
   const day = date.toFormat('cccc')
@@ -74,7 +74,7 @@ module.exports = async function() {
     scheduleID = dates[customSchedule].schedule
   }
 
-  console.log(`schedule: ${scheduleID}`)
+  console.log(`Schedule: ${schedules[scheduleID].name} (${scheduleID})`)
 
   // Get Games
   const startDate = new Date;
@@ -105,12 +105,26 @@ module.exports = async function() {
   let todayEvents = []
   let upcomingEvents = []
 
+  function formatCalDate(date) {
+    const year = date.value.slice(0, 4);
+    const month = date.value.slice(4, 6);
+    const day = date.value.slice(6, 8);
+    // mm/dd/yyyy
+    return `${month}/${day}/${year}`;
+  }
+
   await axios.get(eventsURL)
   .then(response => {
     let iCalData = response.data;
-    iCalData = parser.fromString(iCalData)
-    const events = iCalData.VCALENDAR.VEVENT
-    upcomingEvents = events
+    iCalData = parser.fromString(iCalData);
+    const events = iCalData.VCALENDAR.VEVENT;
+    const formatedEvents = events
+    .filter(event => event.DTSTART && event.DTSTART.value) // Filter out events without valid dates
+    .map(event => ({
+      date: formatCalDate(event.DTSTART),
+      event: event.SUMMARY
+    }));
+    upcomingEvents = formatedEvents
   })
   .catch(error => {
     console.error('Error fetching iCal file:', error);
