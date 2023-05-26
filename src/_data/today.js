@@ -41,6 +41,7 @@ module.exports = async function() {
   );
 
   // get date
+  const now = new Date;
   const date = DateTime.now().setZone('America/Los_Angeles');
 
   // short string (used for comparisons)
@@ -123,8 +124,23 @@ module.exports = async function() {
     .map(event => ({
       date: formatCalDate(event.DTSTART),
       event: event.SUMMARY
-    }));
-    upcomingEvents = formatedEvents
+    }))
+    formatedEvents.forEach(event => {
+      // Convert the event date string to a Date object
+      const eventDate = new Date(event.date);
+      // Calculate the time difference in milliseconds
+      const timeDifference = eventDate.getTime() - now.getTime();
+      // Convert milliseconds to days
+      const daysDifference = Math.ceil(timeDifference / (1000 * 3600 * 24));
+      // Events in the next 30 days
+      if (daysDifference > -1 && daysDifference < 30) {
+        upcomingEvents.push(event)
+      }
+      // Todays events
+      if (event.date == shortDate) {
+        todayEvents.push(event);
+      }
+    });
   })
   .catch(error => {
     console.error('Error fetching iCal file:', error);
