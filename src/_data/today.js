@@ -39,14 +39,14 @@ module.exports = async function() {
     fs.readFileSync('src/_data/events.json', 'utf-8')
   );
 
-  // get date
+  // get date (in pacific time)
   const date = DateTime.now().setZone('America/Los_Angeles');
 
   // short string (used for comparisons)
   const shortDate = date.toFormat('MM/dd/yyyy');
 
   // day of the week
-  const day = date.toFormat('cccc')
+  const day = date.toFormat('cccc');
 
   // date string: day of the week, month, day of the month (with ordinal suffix)
   const dateString = `${day}, ${date.toFormat('MMMM')} ${getOrdinalSuffix(date.toFormat('d'))}`;
@@ -80,7 +80,7 @@ module.exports = async function() {
   const endDate = new Date();
   endDate.setDate(endDate.getDate() + 30); // 30 days from now
 
-  const gamesURL = "https://www.cifsshome.org/widget/calendar?school_id=175&ajax=1&start=" + startDate.toISOString() + "&end=" + endDate.toISOString() + "&timeZone=UTC";
+  const gamesURL = `https://www.cifsshome.org/widget/calendar?school_id=175&ajax=1&start=${startDate.toISOString()}&end=${endDate.toISOString()}&timeZone=UTC`;
 
   let todayGames = []
   let upcomingGames = []
@@ -104,6 +104,7 @@ module.exports = async function() {
   let todayEvents = []
   let upcomingEvents = []
 
+  // Format iCal Dates
   function formatCalDate(date) {
     const year = date.value.slice(0, 4);
     const month = date.value.slice(4, 6);
@@ -112,18 +113,29 @@ module.exports = async function() {
     return `${month}/${day}/${year}`;
   }
 
+  // Get TUSD Calandar
   await axios.get(eventsURL)
   .then(response => {
-    let iCalData = response.data;
-    iCalData = parser.fromString(iCalData);
-    const events = iCalData.VCALENDAR.VEVENT;
-    const formatedEvents = events
-    .filter(event => event.DTSTART && event.DTSTART.value) // Filter out events without valid dates
+    let tusdEvents = response.data;
+    // Convert to object
+    tusdEvents = parser.fromString(tusdEvents);
+    tusdEvents = tusdEvents.VCALENDAR.VEVENT
+    // Filter out events without valid dates
+    .filter(event => event.DTSTART && event.DTSTART.value)
+    // Format iCal events
     .map(event => ({
       date: formatCalDate(event.DTSTART),
       event: event.SUMMARY
     }))
-    formatedEvents.forEach(event => {
+    // Combine tusd events and local json events
+    let allEvents = tusdEvents.concat(events);
+    // Make sure dates are sorted
+    allEvents = allEvents.sort((a, b) => {
+      const dateA = new Date(a.date);
+      const dateB = new Date(b.date);
+      return dateA - dateB;
+    });
+    allEvents.forEach(event => {
       // Convert the event date string to a Date object
       const eventDate = new Date(event.date);
       // Calculate the time difference in milliseconds
