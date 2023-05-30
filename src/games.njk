@@ -3,7 +3,7 @@ title: FHS Upcoming Games
 description: Foothill High School Upcoming Games
 layout: main.njk
 ---
-{% if today.upcoming.games.length %}
+{% if (today.upcoming.games.length < 1) %}
 <p>No Upcoming Games</p>
 {% endif %}
 {% for value in today.upcoming.games %}
