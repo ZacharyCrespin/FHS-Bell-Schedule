@@ -11,10 +11,10 @@ layout: 'main.njk'
 </div>
 <div class="box">
   <h3>Today's Events</h3>
-  {% if (today.events.length < 1) %}
+  {% if (events.today.length < 1) %}
   <p>No Events Today</p>
   {% endif %}
-  {% for value in today.events %}
+  {% for value in events.today %}
   <div class="box text-left">
     <p>{{ value["event"] }}</p>
   </div>
@@ -23,10 +23,10 @@ layout: 'main.njk'
 </div>
 <div class="box">
   <h3>Today's Games</h3>
-  {% if (today.games.length < 1) %}
+  {% if (games.today.length < 1) %}
   <p>No Games Today</p>
   {% endif %}
-  {% for value in today.games %}
+  {% for value in games.today %}
   <div class="box text-left">
     <p>
       {{ value["time_from"] }}{% if value["time_to"] %} - {{ value["time_to"] }}{% endif %}<br>
