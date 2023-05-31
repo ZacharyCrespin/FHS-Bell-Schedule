@@ -46,6 +46,15 @@ function formatCalDate(date) {
   return `${month}/${day}/${year}`;
 }
 
+// Is a date summer
+function isSummer(dateStr) {
+  const date = DateTime.fromFormat(dateStr, 'MM/dd/yyyy');
+  const start = DateTime.fromObject({ year: 2023, month: 6, day: 2 });
+  const end = DateTime.fromObject({ year: 2023, month: 8, day: 16 });
+
+  return date > start && date < end;
+}
+
 // Convert a MM/dd/yyyy date string to multiple formats
 async function getDate(dateStr) {
   // get date obj
@@ -91,6 +100,11 @@ async function getSchedule(dateStr) {
   if (customSchedule != -1) {
     id = dates[customSchedule].schedule
   }
+
+  if (isSummer(dateStr)) {
+    id = 'summer'
+  }
+
   return {
     id: id,
     name: schedules[id].name,
