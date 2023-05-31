@@ -4,7 +4,7 @@ const getOrdinalSuffix = require('lissa-ordinal-suffix')
 const axios = require('axios')
 var parser = require('vdata-parser')
 
-// Load files 
+// Load Files
 const schedules = JSON.parse(
   fs.readFileSync('src/_data/schedules.json', 'utf-8')
 )
@@ -15,7 +15,7 @@ const localEvents = JSON.parse(
   fs.readFileSync('src/_data/localEvents.json', 'utf-8')
 )
 
-// Global Helper Functions
+// Helper Functions
 // Binary date search
 function singleDateSearch(list, date) {
   low = 0
@@ -55,26 +55,25 @@ function isSummer(dateStr) {
   return date > start && date < end;
 }
 
+// Main Get Functions
 // Convert a MM/dd/yyyy date string to multiple formats
 async function getDate(dateStr) {
   // get date obj
   const date = DateTime.fromFormat(dateStr, 'MM/dd/yyyy')
 
   // short string (used for comparisons)
-  const shortDate = date.toFormat('MM/dd/yyyy')
+  const short = date.toFormat('MM/dd/yyyy')
 
   // day of the week
   const day = date.toFormat('cccc')
 
   // date string: day of the week, month, day of the month (with ordinal suffix)
-  const dateString = `${day}, ${date.toFormat('MMMM')} ${getOrdinalSuffix(date.toFormat('d'))}`
+  const string = `${day}, ${date.toFormat('MMMM')} ${getOrdinalSuffix(date.toFormat('d'))}`
 
   return {
     date,
-    iso: date.toISODate(),
-    shortDate,
-    day,
-    dateString
+    short,
+    string
   }
 }
 
@@ -94,7 +93,7 @@ async function getSchedule(dateStr) {
   }
 
   // search for a custom schedule
-  const customSchedule = singleDateSearch(dates, date.shortDate)
+  const customSchedule = singleDateSearch(dates, date.short)
 
   // if there is a custom schedule set it
   if (customSchedule != -1) {
@@ -128,7 +127,7 @@ async function getGames(dateStr) {
     const games = response.data;
 
     games.forEach(game => {
-      if (game.date === date.shortDate) {
+      if (game.date === date.short) {
         today.push(game)
       }
       upcoming.push(game)
@@ -190,7 +189,7 @@ async function getEvents(dateStr) {
         upcoming.push(event)
       }
       // Todays events
-      if (event.date === date.shortDate) {
+      if (event.date === date.short) {
         today.push(event)
       }
     })
@@ -208,7 +207,7 @@ async function summary() {
   const dateStr = DateTime.now().setZone('America/Los_Angeles').toFormat('MM/dd/yyyy')
 
   const date = await getDate(dateStr)
-  console.log(`${date.dateString} (${date.shortDate})`)
+  console.log(`${date.string} (${date.short})`)
   // Get the schedule
   const schedule = await getSchedule(dateStr)
   console.log(`Schedule: ${schedule.name} (${schedule.id})`)

@@ -5,7 +5,7 @@ layout: 'main.njk'
 ---
 {% for value in upcoming %}
 <div class="box">
-  <h2>{{ value.day }}</h2>
+  <h2>{{ value.date.string }}</h2>
   <h3>{{ value.schedule.name }}</h3>
   {{ value.schedule.html | safe }}
 </div>

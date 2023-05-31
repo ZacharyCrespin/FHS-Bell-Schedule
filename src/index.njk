@@ -8,6 +8,7 @@ layout: 'main.njk'
 <div class="box">
   <h3>{{ today.schedule.name }}</h3>
   {{ today.schedule.html | safe }}
+  <a href="/upcoming/" class="btn">View Upcoming Schedules</a>
 </div>
 <div class="box">
   <h3>Today's Events</h3>
@@ -19,7 +20,7 @@ layout: 'main.njk'
     <p>{{ value["event"] }}</p>
   </div>
   {% endfor %}
-  <a href="/events" class="btn">View Upcoming Events</a>
+  <a href="/upcoming/events/" class="btn">View Upcoming Events</a>
 </div>
 <div class="box">
   <h3>Today's Games</h3>
@@ -39,7 +40,7 @@ layout: 'main.njk'
     </p>
   </div>
   {% endfor %}
-  <a href="/games" class="btn">View Upcoming Games</a>
+  <a href="/upcoming/games/" class="btn">View Upcoming Games</a>
 </div>
 <script>
   function updateClock(){

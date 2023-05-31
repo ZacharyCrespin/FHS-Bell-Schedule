@@ -1,5 +1,5 @@
 const { DateTime } = require('luxon')
-const { getSchedule } = require('../../get')
+const { getDate, getSchedule } = require('../../get')
 
 module.exports = async function() {
   let allData = []
@@ -7,10 +7,10 @@ module.exports = async function() {
   while (i < 6) {
     let date = DateTime.now().plus({ days: i }).setZone('America/Los_Angeles')
     let dateStr = date.toFormat('MM/dd/yyyy')
-    let day = date.toFormat('cccc')
+    const dateData = await getDate(dateStr)
     const scheduleData = await getSchedule(dateStr)
     const data = {
-      day,
+      date: dateData,
       schedule: scheduleData
     }
     allData.push(data)
