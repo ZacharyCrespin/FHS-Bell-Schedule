@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
+    {% if seoTitle %}
+      <title>{{ seoTitle }}{% if not titleOverride %} — FHS Bell Schedule{% endif %}</title>
+    {% else %}
+      <title>{{ title }} — FHS Bell Schedule</title>
+    {% endif %}
     <meta name="description" content="{{ description }}">
     <meta name="color-scheme" content="light dark">
-    <meta name="theme-color" media="(prefers-color-scheme: light)" content="hsl(202, 22%, 90%)">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="hsl(202, 22%, 90%)">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="hsl(213, 22%, 10%)">
     <link rel="icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">

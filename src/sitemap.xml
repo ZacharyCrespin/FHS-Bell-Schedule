@@ -3,6 +3,9 @@
   <loc>https://fhsbellschedule.web.app/</loc>
 </url>
 <url>
+  <loc>https://fhsbellschedule.web.app/all/</loc>
+</url>
+<url>
   <loc>https://fhsbellschedule.web.app/upcoming/</loc>
 </url>
 <url>
@@ -10,8 +13,5 @@
 </url>
 <url>
   <loc>https://fhsbellschedule.web.app/upcoming/games/</loc>
-</url>
-<url>
-  <loc>https://fhsbellschedule.web.app/all/</loc>
 </url>
 </urlset>

@@ -46,7 +46,7 @@ function formatCalDate(date) {
   return `${month}/${day}/${year}`;
 }
 
-// Is a date summer
+// Is a date summer?
 function isSummer(dateStr) {
   const date = DateTime.fromFormat(dateStr, 'MM/dd/yyyy');
   const start = DateTime.fromObject({ year: 2023, month: 6, day: 2 });
@@ -72,6 +72,7 @@ async function getDate(dateStr) {
 
   return {
     date,
+    day,
     short,
     string
   }
@@ -93,11 +94,11 @@ async function getSchedule(dateStr) {
   }
 
   // search for a custom schedule
-  const customSchedule = singleDateSearch(dates, date.short)
+  const custom = singleDateSearch(dates, date.short)
 
   // if there is a custom schedule set it
-  if (customSchedule != -1) {
-    id = dates[customSchedule].schedule
+  if (custom != -1) {
+    id = dates[custom].schedule
   }
 
   if (isSummer(dateStr)) {
@@ -115,9 +116,9 @@ async function getSchedule(dateStr) {
 async function getGames(dateStr) {
   const date = await getDate(dateStr)
 
-  const startDate = date.date.toISODate()
-  const endDate = DateTime.fromISO(startDate).plus({ days: 30 }).toISODate()
-  const gamesURL = `https://www.cifsshome.org/widget/calendar?school_id=175&ajax=1&start=${startDate}&end=${endDate}&timeZone=UTC`
+  const start = date.date.toISODate()
+  const end = DateTime.fromISO(start).plus({ days: 30 }).toISODate()
+  const gamesURL = `https://www.cifsshome.org/widget/calendar?school_id=175&ajax=1&start=${start}&end=${end}&timeZone=UTC`
 
   let today = []
   let upcoming = []
@@ -150,19 +151,19 @@ async function getEvents(dateStr) {
   let today = []
   let upcoming = []
 
-  // TODO: I can't even read my own code
-  // Get TUSD Calandar
+  // Get TUSD calandar events
   try {
     const response = await axios.get(eventsURL);
     let tusdEvents = response.data
-    // Convert to js object
+    // Convert to iCal to js object
     tusdEvents = parser.fromString(tusdEvents)
+    // Get only the event list 
     tusdEvents = tusdEvents.VCALENDAR.VEVENT
 
     // Filter out events without valid dates
     .filter(event => event.DTSTART && event.DTSTART.value)
 
-    // Format iCal events
+    // Format iCal events to match local events
     .map(event => ({
       date: formatCalDate(event.DTSTART),
       event: event.SUMMARY
@@ -176,25 +177,26 @@ async function getEvents(dateStr) {
       const dateB = DateTime.fromFormat(b.date, 'MM/dd/yyyy');
       return dateA.toMillis() - dateB.toMillis();
     });
+
+    // Add events to appropriate lists 
     allEvents.forEach(event => {
       // Convert the event date string to a Date object
       const eventDate = DateTime.fromFormat(event.date, 'MM/dd/yyyy')
-
       // Calculate the time difference in milliseconds
       const timeDifference = eventDate.diff(date.date).as('milliseconds')
       // Convert milliseconds to days
       const daysDifference = Math.ceil(timeDifference / (1000 * 3600 * 24))
       // Events in the next 30 days
-      if (daysDifference > -1 && daysDifference < 30) {
+      if (daysDifference >= 0 && daysDifference < 30) {
         upcoming.push(event)
       }
-      // Todays events
+      // Events today
       if (event.date === date.short) {
         today.push(event)
       }
     })
   } catch (error) {
-    console.error('Error fetching iCal file:', error);
+    console.error('Error Getting Events:', error);
   }
 
   return {
