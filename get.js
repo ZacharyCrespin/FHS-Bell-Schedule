@@ -18,12 +18,12 @@ const localEvents = JSON.parse(
 // Helper Functions
 // Binary date search
 function singleDateSearch(list, date) {
-  low = 0
-  high = list.length - 1
+  let low = 0
+  let high = list.length - 1
 
   while (low <= high) {
-    mid = (low + high)
-    mid_date = list[mid].date
+    let mid = (low + high)
+    let mid_date = list[mid].date
 
     if (mid_date == date) {
       return mid
