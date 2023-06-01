@@ -24,8 +24,6 @@
   "display": "minimal-ui",
   "orientation": "portrait",  
   "scope": "/",
-  "background_color": "hsl(202, 22%, 90%)",
-  "theme_color": "hsl(202, 22%, 90%)",
   "shortcuts": [
     {
       "name": "Today",
