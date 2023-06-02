@@ -128,6 +128,7 @@ footer .link {
   background-color: var(--text);
   color: var(--background);
   border-radius: 6px;
+  padding: 0.125rem 0.25rem;
 }
 
 @media only screen and (max-width: 544px) {
