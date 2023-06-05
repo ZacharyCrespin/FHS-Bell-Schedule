@@ -6,6 +6,7 @@
   --text: hsl(213, 22%, 10%);
   --link: var(--text);
   --link-hov: hsl(201, 22%, 25%);
+  --radius: 6px;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -46,7 +47,7 @@ a:hover {
   text-decoration: none;
   margin: 1em;
   padding: 0.5rem 1rem;
-  border-radius: 6px;
+  border-radius: var(--radius);
   transition: all ease .2s;
 }
 button .filed,
@@ -65,7 +66,7 @@ button .filed,
   margin: 1rem 0;
   padding: 0 1rem;
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: var(--radius);
 }
 .box .box {
   margin: 0;
