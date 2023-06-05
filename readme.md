@@ -1,5 +1,5 @@
 # Foothill High School Bell Schedule
-[fhsbellschedule.web.app](https://fhsbellschedule.web.app)
+[fhsbellschedule.netlify.app](https://fhsbellschedule.netlify.app)
 
 ## Official Sources
 - [Bell Schedules](https://foothill.tustin.k12.ca.us/about-us/bell-schedule)
