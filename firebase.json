@@ -7,6 +7,38 @@
       "**/node_modules/**"
     ],
     "cleanUrls": true,
-    "trailingSlash": false
+    "trailingSlash": false,
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "https://fhsbellschedule.netlify.app/",
+        "type": 301
+      },
+      {
+        "source": "/events",
+        "destination": "https://fhsbellschedule.netlify.app/upcoming/events/",
+        "type": 301
+      },
+      {
+        "source": "/games",
+        "destination": "https://fhsbellschedule.netlify.app/upcoming/games/",
+        "type": 301
+      },
+      {
+        "source": "/all",
+        "destination": "https://fhsbellschedule.netlify.app/all/",
+        "type": 301
+      },
+      {
+        "source": "/api",
+        "destination": "https://fhsbellschedule.netlify.app/api/",
+        "type": 301
+      },
+      {
+        "source": "/404",
+        "destination": "https://fhsbellschedule.netlify.app/",
+        "type": 301
+      }
+    ]
   }
 }
