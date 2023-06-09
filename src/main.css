@@ -7,6 +7,7 @@
   --link: var(--text);
   --link-hov: hsl(201, 22%, 25%);
   --radius: 6px;
+  --max-width: 65ch;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -63,10 +64,11 @@ button .filed,
 }
 
 .box {
-  margin: 1rem 0;
+  margin: 1rem auto;
   padding: 0 1rem;
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  max-width: var(--max-width);
 }
 .box .box {
   margin: 0;
@@ -102,11 +104,11 @@ tr:last-child td {
   border-bottom: none;
 }
 td:nth-child(1) {
-  padding: 0 1em 0 1rem;
+  padding: 0 1em 0 .25em;
 }
 td:nth-child(2) {
   text-align: right;
-  padding: 0 1rem 0 1em;
+  padding: 0 .25em 0 1em;
 }
 
 .text-left {
@@ -132,7 +134,7 @@ footer .link {
   padding: 0.125rem 0.25rem;
 }
 
-@media only screen and (max-width: 544px) {
+@media screen and (width < 544px) {
   main {
     margin: 0;
   }

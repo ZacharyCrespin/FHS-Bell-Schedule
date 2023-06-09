@@ -1,0 +1,12 @@
+{
+  "name": "fhs-bell-schedule-nightly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Zachary Crespin",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.0.0",
+    "node-fetch": "^3.3.1"
+  }
+}
