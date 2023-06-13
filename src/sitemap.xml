@@ -1,17 +1,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://fhsbellschedule.web.app/</loc>
+  <loc>https://fhsbellschedule.netlify.app/</loc>
 </url>
 <url>
-  <loc>https://fhsbellschedule.web.app/all/</loc>
+  <loc>https://fhsbellschedule.netlify.app/upcoming/</loc>
 </url>
 <url>
-  <loc>https://fhsbellschedule.web.app/upcoming/</loc>
+  <loc>https://fhsbellschedule.netlify.app/upcoming/events/</loc>
 </url>
 <url>
-  <loc>https://fhsbellschedule.web.app/upcoming/events/</loc>
+  <loc>https://fhsbellschedule.netlify.app/upcoming/games/</loc>
 </url>
 <url>
-  <loc>https://fhsbellschedule.web.app/upcoming/games/</loc>
+  <loc>https://fhsbellschedule.netlify.app/all/</loc>
+</url>
+<url>
+  <loc>https://fhsbellschedule.netlify.app/api/</loc>
 </url>
 </urlset>
