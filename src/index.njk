@@ -2,7 +2,48 @@
 seoTitle: Today
 title: Today's Schedule
 description: Today's Foothill High School Bell Schedule
-layout: 'main.njk'
+layout: layouts/main.njk
+bodyCode: |
+  <script>
+    async function applySettings() {
+      const savedSettings = JSON.parse(localStorage.getItem("fhsbs-settings"))
+      if (savedSettings) {
+        const events = document.getElementById("events")
+        const games = document.getElementById("games")
+        if (!savedSettings.showEvents) {
+          events.style.display = "none"
+        }
+        if (!savedSettings.showGames) {
+          games.style.display = "none"
+        }
+      }
+    }
+    applySettings()
+    function updateClock(){
+      var date = new Date();
+      var h = date.getHours();
+      var m = date.getMinutes();
+      var s = date.getSeconds();
+      var session = "AM";
+      if(h == 0){
+        h = 12;
+      }
+      if(h > 12){
+        h = h - 12;
+        session = "PM";
+      }
+      if(m < 10){
+        m = "0" + m
+      }
+      if(s < 10){
+        s = "0" + s
+      }
+      var time = h + ":" + m + ":" + s + " " + session;
+      document.getElementById("clock").innerHTML = time;
+      setTimeout(updateClock, 1000);
+    }
+    updateClock();
+  </script>
 ---
 <h2>{{ today.date.string }}</h2>
 <p id="clock"></p>
@@ -11,7 +52,7 @@ layout: 'main.njk'
   {{ today.schedule.html | safe }}
   <!-- <a href="/upcoming/" class="btn">View Upcoming Schedules</a> -->
 </div>
-<div class="box">
+<div class="box" id="events">
   <h3>Today's Events</h3>
   {% if (events.today.length < 1) %}
   <p>No Events Today</p>
@@ -23,7 +64,7 @@ layout: 'main.njk'
   {% endfor %}
   <a href="/upcoming/events/" class="btn">View Upcoming Events</a>
 </div>
-<div class="box">
+<div class="box" id="games">
   <h3>Today's Games</h3>
   {% if (games.today.length < 1) %}
   <p>No Games Today</p>
@@ -43,29 +84,3 @@ layout: 'main.njk'
   {% endfor %}
   <a href="/upcoming/games/" class="btn">View Upcoming Games</a>
 </div>
-<script>
-  function updateClock(){
-    var date = new Date();
-    var h = date.getHours();
-    var m = date.getMinutes();
-    var s = date.getSeconds();
-    var session = "AM";
-    if(h == 0){
-      h = 12;
-    }
-    if(h > 12){
-      h = h - 12;
-      session = "PM";
-    }
-    if(m < 10){
-      m = "0" + m
-    }
-    if(s < 10){
-      s = "0" + s
-    }
-    var time = h + ":" + m + ":" + s + " " + session;
-    document.getElementById("clock").innerHTML = time;
-    setTimeout(updateClock, 1000);
-  }
-  updateClock();
-</script>

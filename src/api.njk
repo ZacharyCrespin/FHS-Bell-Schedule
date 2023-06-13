@@ -1,6 +1,16 @@
 ---
 title: API
-layout: main.njk
+description: Foothill High School Bell Schedules API
+layout: layouts/main.njk
+headCode: |
+  <style>
+    :not(pre) code {
+      background-color: var(--foreground);
+      color: var(--background);
+      border-radius: 6px;
+      padding: 0.125rem 0.25rem;
+    }
+  </style>
 ---
 <p>Today: <a href="/api/today.json"><code>/api/today.json</code></a></p>
 <p>Upcoming: <a href="/api/upcoming.json"><code>/api/upcoming.json</code></a></p>

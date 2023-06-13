@@ -1,0 +1,46 @@
+---
+title: Settings
+layout: layouts/main.njk
+headCode: <link rel="stylesheet" href="/settings.css"/>
+bodyCode: <script src="/settings.js"></script>
+---
+<div class="box">
+  <div class="box">
+    <div class="select">
+      <label for="theme" class="h2">Theam</label>
+      <select name="theme" id="themeSelect" disabled>
+        <option value="system" selected>System Theme</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+        <!-- <option value="custom">Custom</option> -->
+      </select>
+    </div>
+    <div id="custom" hidden>
+      <div class="select">
+        <label for="background">Background</label>
+        <input type="text" name="background" id="backgroundSelect" value="hsl(202 22% 90%)" data-coloris>
+      </div>
+      <div class="select">
+        <label for="foreground">Foreground</label>
+        <input type="text" name="foreground" id="foregroundSelect" value="hsl(213 22% 10%)" data-coloris>
+      </div>
+      <div class="select">
+        <label for="radius">Radius</label>
+        <input type="text" name="radius" id="radiusInput">
+      </div>
+    </div>
+  </div>
+  <div class="box check">
+    <label for="eventsCheckbox">Show Todays Events</label>
+    <div class="switch">
+      <input type="checkbox" name="eventsCheckbox" id="eventsCheckbox" checked disabled>
+    </div>
+  </div>
+  <div class="box check">
+    <label for="gamesCheckbox">Show Todays Games</label>
+    <div class="switch">
+      <input type="checkbox" name="gamesCheckbox" id="gamesCheckbox" checked disabled>
+    </div>
+  </div>
+  <button id="save" disabled>Save</button>
+</div>

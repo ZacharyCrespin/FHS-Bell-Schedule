@@ -1,6 +1,7 @@
 { 
   "extends": ["stylelint-config-standard"],
   "rules": {
-    "rule-empty-line-before": null
+    "rule-empty-line-before": null,
+    "hue-degree-notation": "number"
   }
 }

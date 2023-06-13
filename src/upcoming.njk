@@ -2,8 +2,9 @@
 seoTitle: Upcoming Bell Schedules
 title: Upcoming Schedules
 description: Foothill High School Upcoming Bell Schedules
-layout: 'main.njk'
+layout: layouts/main.njk
 ---
+<a href="/" class="btn">View Today's Schedule</a>
 {% for value in upcoming %}
 <div class="box">
   <h2>{{ value.date.string }}</h2>

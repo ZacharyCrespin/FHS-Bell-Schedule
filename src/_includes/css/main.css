@@ -1,0 +1,286 @@
+:root {
+  --background: hsl(202 22% 90%);
+  --foreground: hsl(213 22% 10%);
+  --secondary: hsl(213 22% 30%); /* light text */
+  --tertiary: hsl(213 22% 70%); /* dividers */
+  --radius: 6px;
+  --max-width: 65ch;
+  --font: "Inter", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: hsl(213 22% 10%);
+    --foreground: hsl(202 22% 90%);
+    --secondary: hsl(213 22% 70%);
+    --tertiary: hsl(213 22% 30%);
+  }
+}
+
+.theme-light {
+  --background: hsl(202 22% 90%);
+  --foreground: hsl(213 22% 10%);
+  --secondary: hsl(213 22% 30%);
+  --tertiary: hsl(213 22% 70%);
+}
+
+.theme-dark {
+  --background: hsl(213 22% 10%);
+  --foreground: hsl(202 22% 90%);
+  --secondary: hsl(213 22% 70%);
+  --tertiary: hsl(213 22% 30%);
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-family: var(--font);
+  background-color: var(--background);
+  color: var(--foreground);
+  text-align: center;
+}
+
+main {
+  margin: 0 2rem;
+  min-height: calc(100vh - 4.5rem);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+a {
+  background-color: transparent;
+  color: var(--foreground);
+}
+p a {
+  margin: 0;
+}
+a:hover, a:focus-visible {
+  color: var(--secondary);
+  cursor: pointer;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--tertiary);
+}
+
+.btn, button {
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid var(--foreground);
+  color: var(--foreground);
+  text-decoration: none;
+  margin: 1em;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  transition: all ease .2s;
+}
+button .filed,
+.btn .filed {
+  background-color: var(--foreground);
+  color: var(--background);
+}
+.btn:hover, button:hover {
+  background-color: var(--foreground);
+  color: var(--background);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.box {
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid var(--foreground);
+  border-radius: var(--radius);
+  max-width: var(--max-width);
+}
+.box .box {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid var(--tertiary);
+}
+.box .box p {
+  margin: 0.5rem 0;
+}
+.box .box:last-of-type {
+  border-bottom: none;
+}
+
+.light {
+  color: var(--secondary);
+  font-size: 80%;
+}
+
+table {
+  line-height: 200%;
+  text-align: left;
+  margin: 1rem auto;
+  border-spacing: 0;
+}
+td p {
+  margin: 0;
+  padding: 0;
+}
+tr td {
+  border-bottom: 1px solid var(--tertiary);
+}
+tr:last-child td {
+  border-bottom: none;
+}
+td:nth-child(1) {
+  padding: 0 1em 0 .25em;
+}
+td:nth-child(2) {
+  text-align: right;
+  padding: 0 .25em 0 1em;
+}
+
+.text-left {
+  text-align: left;
+}
+
+#menu-icon {
+  z-index: 3;
+  position: fixed;
+  top: 0.5rem;
+  right: 2rem;
+  width: 3rem;
+  height: 3rem;
+}
+#menu-icon rect {
+  fill: var(--foreground)
+}
+#menu-icon:hover {
+  cursor: pointer;
+}
+#menu-icon:hover rect {
+  fill: var(--secondary)
+}
+
+header nav#menu {
+  display: flex;
+  height: 100vh;
+  height: 100dvh;
+  flex-direction: column;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  text-align: right;
+  padding: 4rem 2rem 0;
+  background-color: var(--background);
+  transform: translateX(100%);
+  transition: transform ease .2s, opacity ease .2s;
+}
+header nav#menu a {
+  padding: 0.5rem;
+  text-decoration: none;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: transform ease .2s, opacity ease .2s;
+}
+header nav#menu hr {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: transform ease .2s, opacity ease .2s;
+}
+
+/* Menu Animation */
+header nav#menu.open {
+  transform: translateX(0);
+}
+header nav#menu.open a {
+  opacity: 1;
+  transform: translateX(0);
+}
+header nav#menu.open hr {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0.4s;
+}
+header nav#menu.open a:nth-of-type(1) {
+  transition-delay: 0.1s;
+}
+header nav#menu.open a:nth-of-type(2) {
+  transition-delay: 0.15s;
+}
+header nav#menu.open a:nth-of-type(3) {
+  transition-delay: 0.2s;
+}
+header nav#menu.open a:nth-of-type(4) {
+  transition-delay: 0.25s;
+}
+header nav#menu.open a:nth-of-type(5) {
+  transition-delay: 0.3s;
+}
+header nav#menu.open a:nth-of-type(6) {
+  transition-delay: 0.35s;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  margin-bottom: 1rem;
+}
+footer p {
+  margin: 1rem 0;
+}
+footer .link {
+  margin: 0 0.5rem 0.5rem;
+}
+
+input:not([type="radio"], [type="checkbox"], [type="file"]), textarea, select {
+  padding: 0.5rem;
+  border: 1px solid var(--foreground);
+  border-radius: var(--radius);
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  height: 2rem;
+  width: 3.5rem;
+  background-color: var(--background);
+  position: relative;
+  border: 1px solid var(--foreground);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+input[type="checkbox"]::before {
+  content: '';
+  display: block;
+  height: 1.9em;
+  width: 1.9em;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: calc(1.9em/2 + .3em);
+  background-color: var(--background);
+  border: 1px solid var(--foreground);
+  border-radius: var(--radius);
+  transition: .2s ease;
+}
+
+input[type="checkbox"]:checked::before {
+  background-color: var(--foreground);
+  left: calc(100% - (1.9em/2 + .3em));
+}
+
+input[type="checkbox"]:disabled {
+  opacity: 0.7;
+}
+
+@media screen and (width < 544px) {
+  main {
+    margin: 0;
+  }
+  .box {
+    padding: 1rem;
+  }
+}

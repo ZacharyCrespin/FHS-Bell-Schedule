@@ -23,9 +23,12 @@
     <meta name="generator" content="{{ eleventy.generator }}">
     <meta name="author" content="Zachary Crespin">
     <link rel="stylesheet" href="/main.css">
+    {{ headCode | safe }}
   </head>
   <body>
     {{ content | safe }}
+    <script src="/main.js"></script>
+    {{ bodyCode | safe }}
     <script async src="https://analytics.zacharyc.site/tracker.js" data-ackee-server="https://analytics.zacharyc.site" data-ackee-domain-id="a6bcdbce-630a-45f0-b9a0-ea3db308595b"></script>
   </body>
 </html>

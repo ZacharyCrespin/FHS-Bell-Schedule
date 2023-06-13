@@ -1,8 +1,7 @@
 {
   "name": "fhs-bell-schedule",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "eleventy --serve --quiet",
     "build": "eleventy",
@@ -17,6 +16,7 @@
     "stylelint-config-standard": "^33.0.0"
   },
   "dependencies": {
+    "@sherby/eleventy-plugin-files-minifier": "^1.1.1",
     "axios": "^1.4.0",
     "lissa-ordinal-suffix": "^1.0.2",
     "luxon": "^3.3.0",
