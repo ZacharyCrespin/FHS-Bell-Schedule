@@ -5,6 +5,7 @@ title: 404
 description: Page Not Found
 layout: main.webc
 permalink: 404.html
+eleventyExcludeFromCollections: true
 ---
 <h2>Page Not Found</h2>
 <a href="https://fhsbellschedule.netlify.app/" class="btn">Back Home</a>

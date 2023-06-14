@@ -2,3 +2,4 @@ Sitemap: https://fhsbellschedule.netlify.app/sitemap.xml
 
 User-agent: *
 Disallow: /404
+Disallow: /image-page

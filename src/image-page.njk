@@ -1,0 +1,19 @@
+---
+title: Image Page
+layout: base.webc
+eleventyExcludeFromCollections: true
+---
+<div class="box">
+  <h1>{{ today.date.string }}</h1>
+  <h2>{{ today.schedule.name }}</h2>
+  {{ today.schedule.html | safe }}
+</div>
+
+<style>
+  body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+</style>
