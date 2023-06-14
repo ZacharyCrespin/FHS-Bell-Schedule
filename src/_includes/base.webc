@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title webc:if="seoTitle && titleOverride" @text="seoTitle"></title>
+    <title webc:elseif="seoTitle" @text="seoTitle + ' — FHS Bell Schedule'"></title>
+    <title webc:else @text="title + ' — FHS Bell Schedule'"></title>
+    <meta webc:if="description" name="description" :content="description">
+    <meta name="color-scheme" content="light dark">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="hsl(202, 22%, 90%)">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="hsl(213, 22%, 10%)">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="Bell Schedule">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="generator" :content="eleventy.generator">
+    <meta name="author" content="Zachary Crespin">
+    <link rel="stylesheet" href="../css/inter.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <style @raw="getBundle('css')" webc:keep></style>
+  </head>
+  <body>
+    <template @html="content" webc:nokeep></template>
+    <script src="../js/main.js"></script>
+    <script @raw="getBundle('js')" webc:keep></script>
+    <script async webc:keep src="https://analytics.zacharyc.site/tracker.js" data-ackee-server="https://analytics.zacharyc.site" data-ackee-domain-id="a6bcdbce-630a-45f0-b9a0-ea3db308595b"></script>
+  </body>
+</html>

@@ -1,6 +1,14 @@
+const pluginWebc = require("@11ty/eleventy-plugin-webc");
+const pluginJavaScriptFrontMatter = require("./_config/javascriptFrontMatter");
 const filesMinifier = require("@sherby/eleventy-plugin-files-minifier");
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(pluginWebc, {
+		components: [
+			"./src/_components/**/*.webc"
+		]
+	});
+  eleventyConfig.addPlugin(pluginJavaScriptFrontMatter);
   eleventyConfig.addPlugin(filesMinifier);
 
   eleventyConfig.addPassthroughCopy("src/fonts")
