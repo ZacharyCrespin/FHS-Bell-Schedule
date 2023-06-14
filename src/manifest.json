@@ -4,9 +4,9 @@
   "description": "Foothill High School Bell Schedule",
   "icons": [
     {
-      "src": "/icons/icon-svg.svg",
+      "src": "/icons/icon.svg",
       "type": "image/svg+xml",
-      "sizes": "512x512"
+      "sizes": "180x180"
     },
     {
       "src": "/icons/icon-192.png",
@@ -32,9 +32,9 @@
       "url": "/",
       "icons": [
         {
-          "src": "/icons/icon-svg.svg",
+          "src": "/icons/icon.svg",
           "type": "image/svg+xml",
-          "sizes": "512x512"
+          "sizes": "180x180"
         },
         {
           "src": "/icons/icon-192.png",
@@ -55,9 +55,9 @@
       "url": "/upcoming/",
       "icons": [
         {
-          "src": "/icons/icon-svg.svg",
+          "src": "/icons/icon.svg",
           "type": "image/svg+xml",
-          "sizes": "512x512"
+          "sizes": "180x180"
         },
         {
           "src": "/icons/icon-192.png",
@@ -78,9 +78,9 @@
       "url": "/upcoming/events/",
       "icons": [
         {
-          "src": "/icons/icon-svg.svg",
+          "src": "/icons/icon.svg",
           "type": "image/svg+xml",
-          "sizes": "512x512"
+          "sizes": "180x180"
         },
         {
           "src": "/icons/icon-192.png",
@@ -101,9 +101,9 @@
       "url": "/upcoming/games/",
       "icons": [
         {
-          "src": "/icons/icon-svg.svg",
+          "src": "/icons/icon.svg",
           "type": "image/svg+xml",
-          "sizes": "512x512"
+          "sizes": "180x180"
         },
         {
           "src": "/icons/icon-192.png",
