@@ -1,8 +1,6 @@
 ---
 title: Settings
-layout: layouts/main.njk
-headCode: <link rel="stylesheet" href="/settings.css"/>
-bodyCode: <script src="/settings.js"></script>
+layout: main.webc
 ---
 <div class="box">
   <div class="box">
@@ -44,3 +42,20 @@ bodyCode: <script src="/settings.js"></script>
   </div>
   <button id="save" disabled>Save</button>
 </div>
+
+<link rel="stylesheet" href="/css/coloris.min.css"/>
+<script src="/js/coloris.min.js"></script>
+<script src="/js/settings.js"></script>
+<style>
+  .select, .check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select label, .check label {
+  padding: 0.5rem;
+}
+.select input, .check input {
+  padding: 0.5rem;
+}
+</style>

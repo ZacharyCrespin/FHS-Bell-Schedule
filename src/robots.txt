@@ -1,4 +1,4 @@
-Sitemap: https://fhsbellschedule.web.app/sitemap.xml
+Sitemap: https://fhsbellschedule.netlify.app/sitemap.xml
 
 User-agent: *
 Disallow: /404

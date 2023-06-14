@@ -2,48 +2,7 @@
 seoTitle: Today
 title: Today's Schedule
 description: Today's Foothill High School Bell Schedule
-layout: layouts/main.njk
-bodyCode: |
-  <script>
-    async function applySettings() {
-      const savedSettings = JSON.parse(localStorage.getItem("fhsbs-settings"))
-      if (savedSettings) {
-        const events = document.getElementById("events")
-        const games = document.getElementById("games")
-        if (!savedSettings.showEvents) {
-          events.style.display = "none"
-        }
-        if (!savedSettings.showGames) {
-          games.style.display = "none"
-        }
-      }
-    }
-    applySettings()
-    function updateClock(){
-      var date = new Date();
-      var h = date.getHours();
-      var m = date.getMinutes();
-      var s = date.getSeconds();
-      var session = "AM";
-      if(h == 0){
-        h = 12;
-      }
-      if(h > 12){
-        h = h - 12;
-        session = "PM";
-      }
-      if(m < 10){
-        m = "0" + m
-      }
-      if(s < 10){
-        s = "0" + s
-      }
-      var time = h + ":" + m + ":" + s + " " + session;
-      document.getElementById("clock").innerHTML = time;
-      setTimeout(updateClock, 1000);
-    }
-    updateClock();
-  </script>
+layout: main.webc
 ---
 <h2>{{ today.date.string }}</h2>
 <p id="clock"></p>
@@ -84,3 +43,44 @@ bodyCode: |
   {% endfor %}
   <a href="/upcoming/games/" class="btn">View Upcoming Games</a>
 </div>
+
+<script>
+  async function applySettings() {
+    const savedSettings = JSON.parse(localStorage.getItem("fhsbs-settings"))
+    if (savedSettings) {
+      const events = document.getElementById("events")
+      const games = document.getElementById("games")
+      if (!savedSettings.showEvents) {
+        events.style.display = "none"
+      }
+      if (!savedSettings.showGames) {
+        games.style.display = "none"
+      }
+    }
+  }
+  applySettings()
+  function updateClock(){
+    var date = new Date();
+    var h = date.getHours();
+    var m = date.getMinutes();
+    var s = date.getSeconds();
+    var session = "AM";
+    if(h == 0){
+      h = 12;
+    }
+    if(h > 12){
+      h = h - 12;
+      session = "PM";
+    }
+    if(m < 10){
+      m = "0" + m
+    }
+    if(s < 10){
+      s = "0" + s
+    }
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("clock").innerHTML = time;
+    setTimeout(updateClock, 1000);
+  }
+  updateClock();
+</script>
