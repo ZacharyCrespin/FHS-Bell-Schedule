@@ -43,11 +43,6 @@ body {
   text-align: center;
 }
 
-main {
-  min-height: calc(100vh - 6rem);
-  min-height: calc(100dvh - 6rem);
-}
-
 h1, h2, h3, h4, h5 {
   font-family: var(--font);
   font-weight: 400;
