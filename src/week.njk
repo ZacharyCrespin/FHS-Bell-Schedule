@@ -1,0 +1,12 @@
+---
+title: This Week
+description: This Week's Foothill High School Bell Schedules
+layout: main.webc
+---
+{% for value in week %}
+<div class="box">
+  <h2>{{ value.date.string }}</h2>
+  <h3>{{ value.schedule.name }}</h3>
+  {{ value.schedule.html | safe }}
+</div>
+{% endfor %}

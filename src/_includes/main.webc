@@ -1,22 +1,7 @@
 ---
 layout: base.webc
 ---
-<header>
-  <svg id="menu-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="4" y="31" width="40" height="3" rx="1.5" fill="var(--foreground)"/>
-    <rect x="4" y="13" width="40" height="3" rx="1.5" fill="var(--foreground)"/>
-    <rect x="4" y="22" width="40" height="3" rx="1.5" fill="var(--foreground)"/>
-  </svg>
-  <nav id="menu">
-    <a href="/">Today</a>
-    <a href="/upcoming/">Upcoming</a>
-    <a href="/upcoming/events/">Upcoming Events</a>
-    <a href="/upcoming/games/">Upcoming Games</a>
-    <hr>
-    <a href="/all/">All Schedules</a>
-    <a href="/settings/">Settings</a>
-  </nav>
-</header>
+<header></header>
 <main>
   <h1 @text="title"></h1>
   <template @html="content" webc:nokeep></template>

@@ -109,14 +109,12 @@ radiusInput.addEventListener("change", () => {
 })
 
 eventsCheckbox.addEventListener("change", () => {
-  const showEvents = eventsCheckbox.checked
-  settings.showEvents = showEvents
+  settings.showEvents = eventsCheckbox.checked
   saveSettings()
 })
 
 gamesCheckbox.addEventListener("change", () => {
-  const showGames = gamesCheckbox.checked
-  settings.showGames = showGames
+  settings.showGames = gamesCheckbox.checked
   saveSettings()
 })
 

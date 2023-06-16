@@ -21,7 +21,7 @@
   ],
   "id": "/",
   "start_url": "/",
-  "display": "minimal-ui",
+  "display": "standalone",
   "orientation": "portrait",  
   "scope": "/",
   "shortcuts": [

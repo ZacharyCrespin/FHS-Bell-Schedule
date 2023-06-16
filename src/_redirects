@@ -1,3 +1,4 @@
-/today                /
-/events               /upcoming/events
-/games                /upcoming/games
+/today/                /
+/upcoming/             /week/
+/upcoming/events/      /events/
+/upcoming/games/       /games/

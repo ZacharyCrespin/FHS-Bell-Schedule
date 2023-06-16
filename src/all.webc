@@ -4,7 +4,6 @@ title: All Schedules
 description: All Foothill High School Bell Schedules
 layout: main.webc
 ---
-<a href="/" class="btn">View Today's Schedule</a>
 <div class="box" id="regular">
   <h2>Regular Schedule</h2>
   <table><tbody><tr><td><p>0</p></td><td><p>7:29 - 8:24</p></td></tr><tr><td><p>1</p></td><td><p>8:30 - 9:25</p></td></tr><tr><td><p>2</p></td><td><p>9:31 - 10:26</p></td></tr><tr><td><p>FTV</p></td><td><p>10:32 - 10:42</p></td></tr><tr><td><p>3</p></td><td><p>10:42 - 11:37</p></td></tr><tr><td><p>Lunch</p></td><td><p>11:37 - 12:07</p></td></tr><tr><td><p>4</p></td><td><p>12:13 - 1:08</p></td></tr><tr><td><p>5</p></td><td><p>1:14 - 2:09</p></td></tr><tr><td><p>Break</p></td><td><p>2:09 - 2:24</p></td></tr><tr><td><p>6</p></td><td><p>2:30 - 3:25</p></td></tr></tbody></table>

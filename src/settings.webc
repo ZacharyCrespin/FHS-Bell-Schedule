@@ -48,14 +48,14 @@ layout: main.webc
 <script src="/js/settings.js"></script>
 <style>
   .select, .check {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.select label, .check label {
-  padding: 0.5rem;
-}
-.select input, .check input {
-  padding: 0.5rem;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .select label, .check label {
+    padding: 0.5rem;
+  }
+  .select input, .check input {
+    padding: 0.5rem;
+  }
 </style>

@@ -1,6 +1,6 @@
 ---
 title: API
-description: Foothill High School Bell Schedules API
+description: Foothill High School Bell Schedule API
 layout: main.webc
 ---
 <p>Today: <a href="/api/today.json"><code>/api/today.json</code></a></p>

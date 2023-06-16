@@ -31,31 +31,48 @@
   --tertiary: hsl(213 22% 30%);
 }
 
+html {font-size: 100%;} /* 16px */
+
 body {
-  margin: 2rem 0;
-  line-height: 1.5;
-  font-family: var(--font);
+  margin: 0 1rem;
   background-color: var(--background);
   color: var(--foreground);
+  font-family: var(--font);
+  font-weight: 400;
+  line-height: 1.75;
   text-align: center;
 }
 
 main {
-  margin: 0 2rem;
-  min-height: calc(100vh - 5rem);
-  min-height: calc(100dvh - 5rem);
+  min-height: calc(100vh - 6rem);
+  min-height: calc(100dvh - 6rem);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1;
+h1, h2, h3, h4, h5 {
+  font-family: var(--font);
+  font-weight: 400;
+  line-height: 1.3;
 }
+
+h1, h2, h3, h4, h5, p {
+  margin: .25em 0;
+}
+
+h1 {font-size: 2.488rem;}
+
+h2 {font-size: 2.074rem;}
+
+h3 {font-size: 1.728rem;}
+
+h4 {font-size: 1.44rem;}
+
+h5 {font-size: 1.2rem;}
+
+small {font-size: 0.833rem;}
 
 a {
   background-color: transparent;
   color: var(--foreground);
-}
-p a {
-  margin: 0;
 }
 a:hover, a:focus-visible {
   color: var(--secondary);
@@ -144,93 +161,6 @@ td:nth-child(2) {
   text-align: left;
 }
 
-#menu-icon {
-  z-index: 3;
-  position: fixed;
-  top: 0.5rem;
-  right: 2rem;
-  width: 2rem;
-  height: 2rem;
-}
-#menu-icon rect {
-  fill: var(--foreground)
-}
-#menu-icon:hover {
-  cursor: pointer;
-}
-#menu-icon:hover rect {
-  fill: var(--secondary)
-}
-
-header nav#menu {
-  display: flex;
-  height: 100vh;
-  height: 100dvh;
-  flex-direction: column;
-  z-index: 2;
-  position: fixed;
-  top: 0;
-  right: 0;
-  text-align: right;
-  padding: 3rem 2rem 0;
-  background-color: var(--background);
-  transform: translateX(100%);
-  transition: transform ease .2s, opacity ease .2s;
-}
-header nav#menu a {
-  padding: 0.5rem;
-  text-decoration: none;
-  opacity: 0;
-  transform: translateX(100%);
-  transition: transform ease .2s, opacity ease .2s;
-}
-header nav#menu hr {
-  opacity: 0;
-  transform: translateX(100%);
-  transition: transform ease .2s, opacity ease .2s;
-}
-
-/* Menu Animation */
-header nav#menu.open {
-  transform: translateX(0);
-}
-header nav#menu.open a {
-  opacity: 1;
-  transform: translateX(0);
-}
-header nav#menu.open hr {
-  opacity: 1;
-  transform: translateX(0);
-  transition-delay: 0.4s;
-}
-header nav#menu.open a:nth-of-type(1) {
-  transition-delay: 0.1s;
-}
-header nav#menu.open a:nth-of-type(2) {
-  transition-delay: 0.15s;
-}
-header nav#menu.open a:nth-of-type(3) {
-  transition-delay: 0.2s;
-}
-header nav#menu.open a:nth-of-type(4) {
-  transition-delay: 0.25s;
-}
-header nav#menu.open a:nth-of-type(5) {
-  transition-delay: 0.3s;
-}
-header nav#menu.open a:nth-of-type(6) {
-  transition-delay: 0.35s;
-}
-
-footer {
-  position: relative;
-  bottom: 0;
-  margin-top: 1rem;
-}
-footer p {
-  margin: 0;
-}
-
 input:not([type="radio"], [type="checkbox"], [type="file"]), textarea, select {
   padding: 0.5rem;
   border: 1px solid var(--foreground);
@@ -275,10 +205,7 @@ input[type="checkbox"]:disabled {
 }
 
 @media screen and (width < 544px) {
-  main {
+  body {
     margin: 0 0.5rem;
-  }
-  .box {
-    padding: 1rem;
   }
 }

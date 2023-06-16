@@ -1,6 +1,5 @@
 ---
-seoTitle: Today
-title: Today's Schedule
+title: Today
 description: Today's Foothill High School Bell Schedule
 layout: main.webc
 ---
@@ -9,7 +8,6 @@ layout: main.webc
 <div class="box">
   <h3>{{ today.schedule.name }}</h3>
   {{ today.schedule.html | safe }}
-  <!-- <a href="/upcoming/" class="btn">View Upcoming Schedules</a> -->
 </div>
 <div class="box" id="events">
   <h3>Today's Events</h3>
@@ -21,7 +19,6 @@ layout: main.webc
     <p>{{ value["event"] }}</p>
   </div>
   {% endfor %}
-  <a href="/upcoming/events/" class="btn">View Upcoming Events</a>
 </div>
 <div class="box" id="games">
   <h3>Today's Games</h3>
@@ -41,7 +38,6 @@ layout: main.webc
     </p>
   </div>
   {% endfor %}
-  <a href="/upcoming/games/" class="btn">View Upcoming Games</a>
 </div>
 
 <script>
@@ -59,6 +55,7 @@ layout: main.webc
     }
   }
   applySettings()
+
   function updateClock(){
     var date = new Date();
     var h = date.getHours();
