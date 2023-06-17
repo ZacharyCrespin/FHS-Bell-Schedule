@@ -8,6 +8,7 @@
     <title webc:elseif="seoTitle" @text="seoTitle + ' — FHS Bell Schedule'"></title>
     <title webc:else @text="title + ' — FHS Bell Schedule'"></title>
     <meta webc:if="description" name="description" :content="description">
+    <link rel="canonical" :href="'https://fhsbellschedule.netlify.app' + page.url">
     <meta name="color-scheme" content="light dark">
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="hsl(202, 22%, 90%)">
