@@ -3,31 +3,26 @@ title: Today
 description: Today's Foothill High School Bell Schedule
 layout: main.webc
 ---
-<h2>{{ today.date.string }}</h2>
-<p id="clock"></p>
+<h2 @text="today.date.string"></h2>
+<clock></clock>
 <div class="box">
-  <h3>{{ today.schedule.name }}</h3>
-  {{ today.schedule.html | safe }}
+  <h3 @text="today.schedule.name"></h3>
+  <template @html="today.schedule.html"></template>
 </div>
 <div class="box" id="events">
   <h3>Today's Events</h3>
-  {% if (events.today.length < 1) %}
-  <p>No Events Today</p>
-  {% endif %}
-  {% for value in events.today %}
-  <div class="box text-left">
-    <p>{{ value["event"] }}</p>
+  <p webc:if="events.today.length < 1">No Events Today</p>
+  <div webc:for="value of events.today" class="box text-left">
+    <template webc:type="11ty" 11ty:type="njk">
+      <p>{{ value["event"] }}</p>
+    </template>
   </div>
-  {% endfor %}
 </div>
 <div class="box" id="games">
   <h3>Today's Games</h3>
-  {% if (games.today.length < 1) %}
-  <p>No Games Today</p>
-  {% endif %}
-  {% for value in games.today %}
-  <div class="box text-left">
-    <p>
+  <p webc:if="games.today.length < 1">No Games Today</p>
+  <div webc:for="value of games.today" class="box text-left">
+    <template webc:type="11ty" 11ty:type="njk">
       {{ value["time_from"] }}{% if value["time_to"] %} - {{ value["time_to"] }}{% endif %}<br>
       {{ value["sport"] }} {% if value["opponent_schools"] != "TBA" %} vs {{ value["opponent_schools"] }}{% endif %}<br>
       {% if value["event_title"] %}{{ value["event_title"] }}<br>{% endif %}
@@ -36,12 +31,11 @@ layout: main.webc
       {% if value["location"] or value["facility"] %}<b>Location: </b>{% endif %}
       {% if value["location"] %}{{ value["location"] }}{% endif %}{% if value["facility"] %}{% if value["location"] %}, {% endif %}{{ value["facility"] }}{% endif %}
     </p>
-  </div>
-  {% endfor %}
+  </template>
 </div>
 
 <script>
-  async function applySettings() {
+  async function applyHomeSettings() {
     const savedSettings = JSON.parse(localStorage.getItem("fhsbs-settings"))
     if (savedSettings) {
       const events = document.getElementById("events")
@@ -54,30 +48,5 @@ layout: main.webc
       }
     }
   }
-  applySettings()
-
-  function updateClock(){
-    var date = new Date();
-    var h = date.getHours();
-    var m = date.getMinutes();
-    var s = date.getSeconds();
-    var session = "AM";
-    if(h == 0){
-      h = 12;
-    }
-    if(h > 12){
-      h = h - 12;
-      session = "PM";
-    }
-    if(m < 10){
-      m = "0" + m
-    }
-    if(s < 10){
-      s = "0" + s
-    }
-    var time = h + ":" + m + ":" + s + " " + session;
-    document.getElementById("clock").innerHTML = time;
-    setTimeout(updateClock, 1000);
-  }
-  updateClock();
+  applyHomeSettings()
 </script>
