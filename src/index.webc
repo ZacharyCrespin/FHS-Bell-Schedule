@@ -34,19 +34,3 @@ layout: main.webc
   </template>
 </div>
 
-<script>
-  async function applyHomeSettings() {
-    const savedSettings = JSON.parse(localStorage.getItem("fhsbs-settings"))
-    if (savedSettings) {
-      const events = document.getElementById("events")
-      const games = document.getElementById("games")
-      if (!savedSettings.showEvents) {
-        events.style.display = "none"
-      }
-      if (!savedSettings.showGames) {
-        games.style.display = "none"
-      }
-    }
-  }
-  applyHomeSettings()
-</script>

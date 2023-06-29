@@ -3,15 +3,11 @@ const custom = document.getElementById("custom")
 const backgroundSelect = document.getElementById("backgroundSelect")
 const foregroundSelect = document.getElementById("foregroundSelect")
 const radiusInput = document.getElementById("radiusInput")
-const eventsCheckbox = document.getElementById("eventsCheckbox")
-const gamesCheckbox = document.getElementById("gamesCheckbox")
 const save = document.getElementById("save")
 
 let settings = {
   theme: "system",
   customTheme: {},
-  showEvents: true,
-  showGames: true
 }
 
 async function loadSettings() {
@@ -35,23 +31,9 @@ async function loadSettings() {
       custom.hidden = false
     }
     themeSelect.disabled = false
-    if (settings.showEvents) {
-      eventsCheckbox.checked = true
-    } else {
-      eventsCheckbox.checked = false
-    }
-    eventsCheckbox.disabled = false
-    if (settings.showGames) {
-      gamesCheckbox.checked = true
-    } else {
-      gamesCheckbox.checked = false
-    }
-    gamesCheckbox.disabled = false
     save.disabled = false
   } else {
     themeSelect.disabled = false
-    eventsCheckbox.disabled = false
-    gamesCheckbox.disabled = false
     save.disabled = false
   }
 }
@@ -105,16 +87,6 @@ radiusInput.addEventListener("change", () => {
   const radius = radiusInput.value
   document.documentElement.style.setProperty('--radius', radius);
   settings.customTheme.radius = radius
-  saveSettings()
-})
-
-eventsCheckbox.addEventListener("change", () => {
-  settings.showEvents = eventsCheckbox.checked
-  saveSettings()
-})
-
-gamesCheckbox.addEventListener("change", () => {
-  settings.showGames = gamesCheckbox.checked
   saveSettings()
 })
 

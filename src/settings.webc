@@ -28,18 +28,6 @@ layout: main.webc
       </div>
     </div>
   </div>
-  <div class="box check">
-    <label for="eventsCheckbox">Show Todays Events</label>
-    <div class="switch">
-      <input type="checkbox" name="eventsCheckbox" id="eventsCheckbox" checked disabled>
-    </div>
-  </div>
-  <div class="box check">
-    <label for="gamesCheckbox">Show Todays Games</label>
-    <div class="switch">
-      <input type="checkbox" name="gamesCheckbox" id="gamesCheckbox" checked disabled>
-    </div>
-  </div>
   <button id="save" disabled>Save</button>
 </div>
 
