@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title webc:if="seoTitle && titleOverride" @text="seoTitle"></title>
     <title webc:elseif="seoTitle" @text="seoTitle + ' — FHS Bell Schedule'"></title>
     <title webc:else @text="title + ' — FHS Bell Schedule'"></title>
     <meta webc:if="description" name="description" :content="description">
     <link rel="canonical" :href="'https://fhsbellschedule.netlify.app' + page.url">
+    <meta name="generator" :content="eleventy.generator">
+    <meta name="author" content="Zachary Crespin">
+
+    <!-- PWA -->
     <meta name="color-scheme" content="light dark">
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="hsl(202, 22%, 90%)">
@@ -17,11 +22,31 @@
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
     <meta name="apple-mobile-web-app-title" content="Bell Schedule">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="generator" :content="eleventy.generator">
-    <meta name="author" content="Zachary Crespin">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/inter.css">
     <link rel="stylesheet" href="../css/main.css">
     <style @raw="getBundle('css')" webc:keep></style>
+
+    <!-- Open Graph -->
+    <meta property="og:url" content="https://fhsbellschedule.netlify.app/">
+    <meta property="og:type" content="website">
+    <meta webc:if="seoTitle && titleOverride" name="og:title" :content="seoTitle">
+    <meta webc:elseif="seoTitle" name="og:title" :content="seoTitle + ' — FHS Bell Schedule'">
+    <meta webc:else name="og:title" :content="title + ' — FHS Bell Schedule'">
+    <meta property="og:description" :content="description">
+    <meta property="og:image" content="https://fhsbellschedule.netlify.app/icons/icon-192.png">
+    <meta property="og:site_name" content="Zachary Crespin">
+
+    <!-- Twitter -->
+    <meta property="twitter:url" content="https://fhsbellschedule.netlify.app/">
+    <meta webc:if="seoTitle && titleOverride" name="twitter:title" :content="seoTitle">
+    <meta webc:elseif="seoTitle" name="twitter:title" :content="seoTitle + ' — FHS Bell Schedule'">
+    <meta webc:else name="twitter:title" :content="title + ' — FHS Bell Schedule'">
+    <meta name="twitter:description" :content="description">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://fhsbellschedule.netlify.app/icons/icon-192.png">
+    <meta name="twitter:creator" content="@ZacharyCrespin">
   </head>
   <body>
     <template @html="content" webc:nokeep></template>
