@@ -33,11 +33,11 @@
   },
   "weekend": {
     "name": "No School",
-    "html": "<p>enjoy your weekend</p>"
+    "html": "<p>Enjoy your Weekend</p>"
   },
   "noschool": {
     "name": "No School",
-    "html": "<p>enjoy your day off</p>"
+    "html": "<p>Wnjoy your Day Off</p>"
   },
   "summer": {
     "name": "No School",
@@ -45,6 +45,6 @@
   },
   "custom": {
     "name": "Custom Schedule",
-    "html": "<p>Cheak the <a href='https://docs.google.com/document/d/1-6RJC9m_UcizT7hnWTvtjExrnIrW577n6YWBoNRmF7I/edit?usp=sharing'>daily bulletin</a> for the schedule.</p>"
+    "html": "<p>Cheak the <a href='https://docs.google.com/document/d/1-6RJC9m_UcizT7hnWTvtjExrnIrW577n6YWBoNRmF7I/edit?usp=sharing'>daily bulletin</a> for today's schedule.</p>"
   }
 }

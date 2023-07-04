@@ -1,11 +1,22 @@
 :root {
+  /* Colors */
   --background: hsl(202 22% 90%);
   --foreground: hsl(213 22% 10%);
   --secondary: hsl(213 22% 30%); /* light text */
   --tertiary: hsl(213 22% 70%); /* dividers */
-  --radius: 6px;
-  --max-width: 65ch;
+
+  /* Typography */
   --font: "Inter", sans-serif;
+  --font-italic: "Georgia", serif;
+  --font-mono: "Consolas", 'Courier New', monospace;
+
+  /* Borders */
+  --radius: 6px;
+  --stroke-width: 1px;
+  --border: var(--stroke-width) solid var(--foreground);
+
+  /* Page */
+  --max-width: 65ch;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,13 +45,18 @@
 html {font-size: 100%;} /* 16px */
 
 body {
-  margin: 0 1rem;
+  margin: 2rem 1rem;
   background-color: var(--background);
   color: var(--foreground);
   font-family: var(--font);
   font-weight: 400;
   line-height: 1.75;
   text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  max-width: var(--max-width);
 }
 
 h1, h2, h3, h4, h5 {
@@ -53,15 +69,30 @@ h1, h2, h3, h4, h5, p {
   margin: .25em 0;
 }
 
-h1 {font-size: 2.488rem;}
+h1 {
+  font-size: 2.488rem;
+  font-weight: 900;
+}
 
-h2 {font-size: 2.074rem;}
+h2 {
+  font-size: 2.074rem;
+  font-weight: 800;
+}
 
-h3 {font-size: 1.728rem;}
+h3 {
+  font-size: 1.728rem;
+  font-weight: 700;
+}
 
-h4 {font-size: 1.44rem;}
+h4 {
+  font-size: 1.44rem;
+  font-weight: 600;
+}
 
-h5 {font-size: 1.2rem;}
+h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
 
 small {font-size: 0.833rem;}
 
@@ -72,12 +103,6 @@ a {
 a:hover, a:focus-visible {
   color: var(--secondary);
   cursor: pointer;
-}
-
-hr {
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid var(--tertiary);
 }
 
 .btn, button {
@@ -156,47 +181,19 @@ td:nth-child(2) {
   text-align: left;
 }
 
+button, input, select, textarea {
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 1.5;
+}
+
 input:not([type="radio"], [type="checkbox"], [type="file"]), textarea, select {
-  padding: 0.5rem;
+  margin: 1em;
+  padding: 0.5rem 1rem;
   border: 1px solid var(--foreground);
   border-radius: var(--radius);
   background-color: var(--background);
   color: var(--foreground);
-}
-
-input[type="checkbox"] {
-  appearance: none;
-  height: 2rem;
-  width: 3.5rem;
-  background-color: var(--background);
-  position: relative;
-  border: 1px solid var(--foreground);
-  border-radius: var(--radius);
-  cursor: pointer;
-}
-
-input[type="checkbox"]::before {
-  content: '';
-  display: block;
-  height: 1.9em;
-  width: 1.9em;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  top: 50%;
-  left: calc(1.9em/2 + .3em);
-  background-color: var(--background);
-  border: 1px solid var(--foreground);
-  border-radius: var(--radius);
-  transition: .2s ease;
-}
-
-input[type="checkbox"]:checked::before {
-  background-color: var(--foreground);
-  left: calc(100% - (1.9em/2 + .3em));
-}
-
-input[type="checkbox"]:disabled {
-  opacity: 0.7;
 }
 
 @media screen and (width < 544px) {

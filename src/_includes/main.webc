@@ -1,9 +1,8 @@
 ---
 layout: base.webc
 ---
-<header></header>
-<main>
+<header>
   <h1 @text="title"></h1>
-  <template @html="content" webc:nokeep></template>
-</main>
-<footer></footer>
+  <menu webc:nokeep></menu>
+</header>
+<main @html="content"></main>

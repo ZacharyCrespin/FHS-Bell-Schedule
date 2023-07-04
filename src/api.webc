@@ -12,7 +12,8 @@ layout: main.webc
   :not(pre) code {
     background-color: var(--foreground);
     color: var(--background);
-    border-radius: 6px;
-    padding: 0.125rem 0.25rem;
+    border-radius: var(--radius);
+    font-family: var(--font-mono);
+    padding: 0.2em 0.3em;
   }
 </style>

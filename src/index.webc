@@ -7,7 +7,7 @@ layout: main.webc
 <clock></clock>
 <div class="box">
   <h3 @text="today.schedule.name"></h3>
-  <template @html="today.schedule.html"></template>
+  <template @html="today.schedule.html" webc:nokeep></template>
 </div>
 <div class="box" id="events">
   <h3>Today's Events</h3>

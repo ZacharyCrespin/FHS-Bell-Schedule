@@ -1,0 +1,157 @@
+<button id="menu-icon" aria-label="Open Menu">
+  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="4" y="31" width="40" height="3" rx="1.5" fill="var(--foreground)"/>
+    <rect x="4" y="13" width="40" height="3" rx="1.5" fill="var(--foreground)"/>
+    <rect x="4" y="22" width="40" height="3" rx="1.5" fill="var(--foreground)"/>
+  </svg>
+</button>
+<div id="menu">
+  <div id="menu-bg" aria-hidden="true"></div>
+  <nav id="menu-nav" role="navigation" aria-label="Main Menu" aria-hidden="true" hidden>
+    <a href="/">Today</a>
+    <a href="/week/">This Week</a>
+    <a href="/events/">Events</a>
+    <a href="/games/">Games</a>
+    <a href="/all/">All Schedules</a>
+    <!-- <a href="/settings/">Settings</a> -->
+  </nav>
+</div>
+
+<style>
+  /* Menu Icon */
+  #menu-icon {
+    z-index: 3;
+    position: fixed;
+    top: 0.5rem;
+    right: 1rem;
+    border: none;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+  }
+  #menu-icon:hover {
+    background-color: transparent;
+  }
+  #menu-icon svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  #menu-icon svg rect {
+    fill: var(--foreground)
+  }
+  #menu-icon svg:hover {
+    cursor: pointer;
+  }
+  #menu-icon svg:hover rect {
+    fill: var(--secondary)
+  }
+
+  /* Menu Container */
+  #menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: auto max-content;
+    background-color: transparent;
+    pointer-events: none;
+  }
+
+  /* Menu Background */
+  #menu-bg {
+    pointer-events: none;
+  }
+  #menu.open #menu-bg {
+    pointer-events: all;
+  }
+
+  /* Main Nav */
+  #menu nav {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    text-align: right;
+    padding: 3rem 2rem 2rem;
+    background-color: var(--background);
+    pointer-events: all;
+    transform: translateX(100%);
+    visibility: hidden;
+    transition: transform ease .2s, opacity ease .2s;
+  }
+  #menu.open nav {
+    transform: translateX(0);
+    visibility: visible;
+  }
+
+  /* Menu Links */
+  #menu nav > a {
+    padding: 0.5rem;
+    text-decoration: none;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: inherit;
+  }
+  #menu.open nav a {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  #menu.open nav a:nth-of-type(1) {
+    transition-delay: 0.1s;
+  }
+  #menu.open nav a:nth-of-type(2) {
+    transition-delay: 0.15s;
+  }
+  #menu.open nav a:nth-of-type(3) {
+    transition-delay: 0.2s;
+  }
+  #menu.open nav a:nth-of-type(4) {
+    transition-delay: 0.25s;
+  }
+  #menu.open nav a:nth-of-type(5) {
+    transition-delay: 0.3s;
+  }
+  #menu.open nav a:nth-of-type(6) {
+    transition-delay: 0.35s;
+  }
+</style>
+
+<script>
+  const menuIcon = document.getElementById("menu-icon")
+  const menu = document.getElementById("menu")
+  const menuBg = document.getElementById("menu-bg")
+  const menuNav = document.getElementById("menu-nav")
+
+  function openMenu() {
+    menuNav.removeAttribute('hidden')
+    menuNav.setAttribute('aria-hidden', 'false')
+    menu.classList.add("open")
+    menuOpen = true
+  }
+
+  function closeMenu() {
+    menu.classList.remove("open")
+    menuNav.setAttribute('hidden', '')
+    menuNav.setAttribute('aria-hidden', 'true')
+    menuOpen = false
+  }
+
+  let menuOpen = false;
+
+  menuIcon.addEventListener("click", () => {
+    if (menuOpen) {
+      closeMenu()
+    } else {
+      openMenu()
+    }
+  })
+  menuBg.addEventListener("click", () => {
+    if (menuOpen) {
+      closeMenu()
+    }
+  })
+</script>
