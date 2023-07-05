@@ -19,6 +19,10 @@
   --max-width: 65ch;
 }
 
+@supports (font-variation-settings: normal) {
+  body { --font: "Inter var", sans-serif; }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: hsl(213 22% 10%);
