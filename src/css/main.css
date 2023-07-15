@@ -19,10 +19,6 @@
   --max-width: 65ch;
 }
 
-@supports (font-variation-settings: normal) {
-  body { --font: "Inter var", sans-serif; }
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --background: hsl(213 22% 10%);
@@ -32,18 +28,8 @@
   }
 }
 
-.theme-light {
-  --background: hsl(202 22% 90%);
-  --foreground: hsl(213 22% 10%);
-  --secondary: hsl(213 22% 30%);
-  --tertiary: hsl(213 22% 70%);
-}
-
-.theme-dark {
-  --background: hsl(213 22% 10%);
-  --foreground: hsl(202 22% 90%);
-  --secondary: hsl(213 22% 70%);
-  --tertiary: hsl(213 22% 30%);
+@supports (font-variation-settings: normal) {
+  :root { --font: "Inter var", sans-serif; }
 }
 
 html {font-size: 100%;} /* 16px */
@@ -63,37 +49,37 @@ main {
   max-width: var(--max-width);
 }
 
-h1, h2, h3, h4, h5 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   font-family: var(--font);
   font-weight: 400;
   line-height: 1.3;
 }
 
-h1, h2, h3, h4, h5, p {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, p {
   margin: .25em 0;
 }
 
-h1 {
+h1, .h1 {
   font-size: 2.488rem;
   font-weight: 900;
 }
 
-h2 {
+h2, .h2 {
   font-size: 2.074rem;
   font-weight: 800;
 }
 
-h3 {
+h3, .h3 {
   font-size: 1.728rem;
   font-weight: 700;
 }
 
-h4 {
+h4, .h4 {
   font-size: 1.44rem;
   font-weight: 600;
 }
 
-h5 {
+h5, .h5 {
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -107,6 +93,12 @@ a {
 a:hover, a:focus-visible {
   color: var(--secondary);
   cursor: pointer;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 1.5;
 }
 
 .btn, button {
@@ -130,6 +122,36 @@ button .filed,
   color: var(--background);
   cursor: pointer;
   transform: scale(1.05);
+}
+
+input:not([type="radio"], [type="checkbox"], [type="file"]), textarea, select {
+  margin: 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--foreground);
+  border-radius: var(--radius);
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+table {
+  margin: 1rem auto;
+  border-spacing: 0;
+  padding: 0.5rem 1rem;
+}
+td {
+  padding: 0;
+  border-bottom: var(--stroke-width) solid var(--tertiary);
+}
+tr:last-child td {
+  border-bottom: none;
+}
+table tr td:first-of-type {
+  text-align: left;
+  padding: 0 0.5rem;
+}
+table tr td:last-of-type {
+  text-align: right;
+  padding: 0 0.5rem;
 }
 
 .box {
@@ -157,47 +179,8 @@ button .filed,
   font-size: 80%;
 }
 
-table {
-  line-height: 200%;
-  text-align: left;
-  margin: 1rem auto;
-  border-spacing: 0;
-}
-td p {
-  margin: 0;
-  padding: 0;
-}
-tr td {
-  border-bottom: 1px solid var(--tertiary);
-}
-tr:last-child td {
-  border-bottom: none;
-}
-td:nth-child(1) {
-  padding: 0 1em 0 .25em;
-}
-td:nth-child(2) {
-  text-align: right;
-  padding: 0 .25em 0 1em;
-}
-
 .text-left {
   text-align: left;
-}
-
-button, input, select, textarea {
-  font-family: inherit;
-  font-weight: inherit;
-  line-height: 1.5;
-}
-
-input:not([type="radio"], [type="checkbox"], [type="file"]), textarea, select {
-  margin: 1em;
-  padding: 0.5rem 1rem;
-  border: 1px solid var(--foreground);
-  border-radius: var(--radius);
-  background-color: var(--background);
-  color: var(--foreground);
 }
 
 @media screen and (width < 544px) {

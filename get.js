@@ -12,7 +12,7 @@ const dates = JSON.parse(
   fs.readFileSync('src/_data/dates.json', 'utf-8')
 )
 const localEvents = JSON.parse(
-  fs.readFileSync('src/_data/localEvents.json', 'utf-8')
+  fs.readFileSync('events.json', 'utf-8')
 )
 
 // Helper Functions
@@ -25,7 +25,7 @@ function singleDateSearch(list, date) {
     let mid = (low + high)
     let mid_date = list[mid].date
 
-    if (mid_date == date) {
+    if (mid_date === date) {
       return mid
     }
     else if (mid_date < date) {
@@ -46,7 +46,7 @@ function formatCalDate(date) {
   return `${month}/${day}/${year}`;
 }
 
-// Is a date summer?
+// Is a date summer(2023)?
 function isSummer(dateStr) {
   const date = DateTime.fromFormat(dateStr, 'MM/dd/yyyy');
   const start = DateTime.fromObject({ year: 2023, month: 6, day: 2 });
@@ -82,7 +82,7 @@ async function getDate(dateStr) {
 async function getSchedule(dateStr) {
   const date = await getDate(dateStr)
 
-  // Set the default to "regular"
+  // Set the default to 'regular'
   let id = 'regular'
 
   // Check for a day-specific schedule
@@ -93,16 +93,17 @@ async function getSchedule(dateStr) {
     id = 'latestart'
   }
 
-  // search for a custom schedule
-  const custom = singleDateSearch(dates, date.short)
-
-  // if there is a custom schedule set it
-  if (custom != -1) {
-    id = dates[custom].schedule
-  }
-
+  // Cheak if it's summer
   if (isSummer(dateStr)) {
     id = 'summer'
+  }
+
+  // Search for a custom schedule
+  const custom = singleDateSearch(dates, date.short)
+
+  // If there's a custom schedule set it
+  if (custom != -1) {
+    id = dates[custom].schedule
   }
 
   return {
@@ -128,10 +129,20 @@ async function getGames(dateStr) {
     const games = response.data;
 
     games.forEach(game => {
-      if (game.date === date.short) {
-        today.push(game)
+      // Make sure it's actually a game
+      if (game.event_type === 'Game') {
+        if (game.date === date.short) {
+          today.push(game)
+        }
+        upcoming.push(game)
+      } else {
+        // If it's not show it to me
+        console.log(game.event_type,{
+          date: game.date,
+          event: game.title,
+          time: game.startAndEndTime
+        })
       }
-      upcoming.push(game)
     });
   } catch (error) {
     console.error('Error fetching games:', error);
@@ -204,23 +215,6 @@ async function getEvents(dateStr) {
     upcoming,
   }
 }
-
-async function summary() {
-  const dateStr = DateTime.now().setZone('America/Los_Angeles').toFormat('MM/dd/yyyy')
-
-  const date = await getDate(dateStr)
-  console.log(`${date.string} (${date.short})`)
-  // Get the schedule
-  const schedule = await getSchedule(dateStr)
-  console.log(`Schedule: ${schedule.name} (${schedule.id})`)
-  // Get Games
-  const games = await getGames(dateStr)
-  console.log(`${games.upcoming.length} Upcoming Games, ${games.today.length} Today`)
-  // Get Events
-  const events = await getEvents(dateStr)
-  console.log(`${events.upcoming.length} Upcoming Events, ${events.today.length} Today`)
-}
-summary()
 
 module.exports = {
   getDate,
