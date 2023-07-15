@@ -6,8 +6,5 @@ const dateStr = DateTime.now().setZone('America/Los_Angeles').toFormat('MM/dd/yy
 module.exports = async function() {
   const games = await getGames(dateStr)
 
-  return {
-    today: games.today,
-    upcoming: games.upcoming,
-  }
+  return games
 }

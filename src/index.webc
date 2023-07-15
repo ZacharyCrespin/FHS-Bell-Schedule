@@ -14,7 +14,8 @@ layout: main.webc
   <p webc:if="events.today.length < 1">No Events Today</p>
   <div webc:for="value of events.today" class="box text-left">
     <template webc:type="11ty" 11ty:type="njk">
-      <p>{{ value["event"] }}</p>
+      <h4>{{ value["event"] }}</h4>
+      {% if value["time"] %}<p>{{ value["time"] }}</p>{% endif %}
     </template>
   </div>
 </div>
@@ -25,8 +26,8 @@ layout: main.webc
     <template webc:type="11ty" 11ty:type="njk">
       <h4>{{ value["sport"] }} {{ value["level_abbr"] }} {% if value["opponent_schools"] != "TBA" %} vs {{ value["opponent_schools"] }}{% endif %}</h4>
       {% if value["event_title"] %}<h5>{{ value["event_title"] }}</h5>{% endif %}
-      {% if value["startAndEndTime"] %}<p><b>Time: </b>{{ value["startAndEndTime"] }}</p>{% endif %}
-      {% if value["location"] or value["facility"] %}<p><b>Location: </b>{% if value["location"] %}{{ value["location"] }}{% endif %}{% if value["facility"] %}{% if value["location"] %}, {% endif %}{{ value["facility"] }}{% endif %}</p>{% endif %}
+      {% if value["startAndEndTime"] %}<p>{{ value["startAndEndTime"] }}</p>{% endif %}
+      {% if value["location"] or value["facility"] %}<p>{% if value["location"] %}{{ value["location"] }}{% endif %}{% if value["facility"] %}{% if value["location"] %}, {% endif %}{{ value["facility"] }}{% endif %}</p>{% endif %}
     </p>
   </template>
 </div>

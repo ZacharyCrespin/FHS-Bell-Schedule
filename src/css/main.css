@@ -124,15 +124,6 @@ button .filed,
   transform: scale(1.05);
 }
 
-input:not([type="radio"], [type="checkbox"], [type="file"]), textarea, select {
-  margin: 0;
-  padding: 0.5rem 1rem;
-  border: 1px solid var(--foreground);
-  border-radius: var(--radius);
-  background-color: var(--background);
-  color: var(--foreground);
-}
-
 table {
   margin: 1rem auto;
   border-spacing: 0;

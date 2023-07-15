@@ -6,7 +6,8 @@ layout: main.webc
 <p webc:if="events.upcoming.length < 1">No Upcoming Events</p>
 <div webc:for="value of events.upcoming" class="box text-left">
   <template webc:type="11ty" 11ty:type="njk">
-    <p><b>Date:</b> {{ value["date"] }}</p>
-    <p><b>Event:</b> {{ value["event"] }}</p>
+    <h2 class="h4">{{ value["event"] }}</h2>
+    <p>{{ value["date"] }}</p>
+    {% if value["time"] %}<p>{{ value["time"] }}</p>{% endif %}
   </template>
 </div>
