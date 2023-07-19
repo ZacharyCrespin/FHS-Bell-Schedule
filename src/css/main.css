@@ -130,7 +130,6 @@ table {
   padding: 0.5rem 1rem;
 }
 td {
-  padding: 0;
   border-bottom: var(--stroke-width) solid var(--tertiary);
 }
 tr:last-child td {
@@ -138,11 +137,11 @@ tr:last-child td {
 }
 table tr td:first-of-type {
   text-align: left;
-  padding: 0 0.5rem;
+  padding: 0.25em 1em 0.25em 0.5em;
 }
 table tr td:last-of-type {
   text-align: right;
-  padding: 0 0.5rem;
+  padding: 0.25em 0.5em 0.25em 1em;
 }
 
 .box {
