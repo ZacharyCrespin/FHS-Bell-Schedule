@@ -1,27 +1,22 @@
 [
   {
     "date": "08/01/2023",
-    "event": "12th Grade Registration Day",
-    "time": "07:30 AM - 12:00 PM"
+    "event": "12th Grade Registration Day"
   },
   {
     "date": "08/02/2023",
-    "event": "11th Grade Registration Day",
-    "time": "07:30 AM - 12:00 PM"
+    "event": "11th Grade Registration Day"
   },
   {
     "date": "08/03/2023",
-    "event": "10th grade Registration Day",
-    "time": "07:30 AM - 12:00 PM"
+    "event": "10th grade Registration Day"
   },
   {
     "date": "08/04/2023",
-    "event": "9th Grade Registration Day",
-    "time": "07:30 AM - 12:00 PM"
+    "event": "9th Grade Registration Day"
   },
   {
     "date": "08/07/2023",
-    "event": "Make up Registration",
-    "time": "07:30 AM - 12:00 PM"
+    "event": "Make up Registration"
   }
 ]

@@ -175,6 +175,6 @@ table tr td:last-of-type {
 
 @media screen and (width < 544px) {
   body {
-    margin: 0 0.5rem;
+    margin-inline: 0.5rem;
   }
 }
