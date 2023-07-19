@@ -22,16 +22,14 @@ function singleDateSearch(list, date) {
   let high = list.length - 1
 
   while (low <= high) {
-    let mid = (low + high)
+    let mid = Math.floor((low + high) / 2)
     let mid_date = list[mid].date
 
     if (mid_date === date) {
       return mid
-    }
-    else if (mid_date < date) {
+    } else if (mid_date < date) {
       low = mid + 1
-    }
-    else {
+    } else {
       high = mid - 1
     }
   }
