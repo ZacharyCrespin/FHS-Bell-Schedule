@@ -6,10 +6,10 @@ var parser = require('vdata-parser')
 
 // Load Files
 const schedules = JSON.parse(
-  fs.readFileSync('src/_data/schedules.json', 'utf-8')
+  fs.readFileSync('schedules.json', 'utf-8')
 )
 const dates = JSON.parse(
-  fs.readFileSync('src/_data/dates.json', 'utf-8')
+  fs.readFileSync('dates.json', 'utf-8')
 )
 const localEvents = JSON.parse(
   fs.readFileSync('events.json', 'utf-8')
