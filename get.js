@@ -18,16 +18,18 @@ const localEvents = JSON.parse(
 // Helper Functions
 // Binary date search
 function singleDateSearch(list, date) {
+  date = DateTime.fromFormat(date, 'MM/dd/yyyy')
+
   let low = 0
   let high = list.length - 1
 
   while (low <= high) {
     let mid = Math.floor((low + high) / 2)
-    let mid_date = list[mid].date
+    let midDate = DateTime.fromFormat(list[mid].date, 'MM/dd/yyyy')
 
-    if (mid_date === date) {
+    if (midDate.equals(date)) {
       return mid
-    } else if (mid_date < date) {
+    } else if (midDate < date) {
       low = mid + 1
     } else {
       high = mid - 1
