@@ -24,6 +24,10 @@
     "schedule": "assembly"
   },
   {
+    "date": "09/01/2023",
+    "schedule": "minimum"
+  },
+  {
     "date": "09/06/2023",
     "schedule": "regular"
   },
