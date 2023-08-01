@@ -3,17 +3,12 @@ const { DateTime } = require('luxon')
 const getOrdinalSuffix = require('lissa-ordinal-suffix')
 const axios = require('axios')
 var parser = require('vdata-parser')
+const { formatEvents, formatGames} = require('./format')
 
 // Load Files
-const schedules = JSON.parse(
-  fs.readFileSync('schedules.json', 'utf-8')
-)
-const dates = JSON.parse(
-  fs.readFileSync('dates.json', 'utf-8')
-)
-const localEvents = JSON.parse(
-  fs.readFileSync('events.json', 'utf-8')
-)
+const schedules = JSON.parse(fs.readFileSync('schedules.json', 'utf-8'))
+const dates = JSON.parse(fs.readFileSync('dates.json', 'utf-8'))
+const localEvents = JSON.parse(fs.readFileSync('events.json', 'utf-8'))
 
 // Helper Functions
 // Binary date search
@@ -114,11 +109,14 @@ async function getSchedule(dateStr) {
 }
 
 // Get games for a date
-async function getGames(dateStr) {
+async function getGames(dateStr, includeUpcoming = true, format) {
   const date = await getDate(dateStr)
 
   const start = date.date.toISODate()
-  const end = DateTime.fromISO(start).plus({ days: 30 }).toISODate()
+  let end = DateTime.fromISO(start).plus({ days: 30 }).toISODate()
+  if (!includeUpcoming) {
+    end = DateTime.fromISO(start).plus({ days: 1 }).toISODate()
+  }
   const gamesURL = `https://www.cifsshome.org/widget/calendar?school_id=175&ajax=1&start=${start}&end=${end}&timeZone=UTC`
 
   let today = []
@@ -134,18 +132,18 @@ async function getGames(dateStr) {
         if (game.date === date.short) {
           today.push(game)
         }
-        upcoming.push(game)
-      } else {
-        // If it's not show it to me
-        console.log(game.event_type,{
-          date: game.date,
-          event: game.title,
-          time: game.startAndEndTime
-        })
+        if (includeUpcoming) {
+          upcoming.push(game)
+        }
       }
     });
   } catch (error) {
     console.error('Error fetching games:', error);
+  }
+
+  if (format) {
+    today = formatGames(today, format)
+    upcoming = formatGames(upcoming, format)
   }
 
   return {
@@ -155,7 +153,7 @@ async function getGames(dateStr) {
 }
 
 // Get events for a date
-async function getEvents(dateStr) {
+async function getEvents(dateStr, includeUpcoming = true, format) {
   const date = await getDate(dateStr)
   const eventsURL = "https://tustink12caus-2777-us-west1-01.preview.finalsitecdn.com/cf_calendar/feed.cfm?type=ical&feedID=0E73C038C4364952B1D6D90F8D1BCAF1"
 
@@ -198,7 +196,7 @@ async function getEvents(dateStr) {
       // Convert milliseconds to days
       const daysDifference = Math.ceil(timeDifference / (1000 * 3600 * 24))
       // Events in the next 30 days
-      if (daysDifference >= 0 && daysDifference < 30) {
+      if (includeUpcoming && daysDifference >= 0 && daysDifference < 30) {
         upcoming.push(event)
       }
       // Events today
@@ -208,6 +206,11 @@ async function getEvents(dateStr) {
     })
   } catch (error) {
     console.error('Error Getting Events:', error);
+  }
+
+  if (format) {
+    today = formatEvents(today, format)
+    upcoming = formatEvents(upcoming, format)
   }
 
   return {

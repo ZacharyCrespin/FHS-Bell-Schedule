@@ -11,5 +11,6 @@ module.exports = {
     ecmaVersion: 'latest',
   },
   rules: {
+    "comma-dangle": ["warn", "always-multiline"],
   },
 };

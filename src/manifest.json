@@ -27,7 +27,7 @@
   "shortcuts": [
     {
       "name": "Today",
-      "short_name": "Today's Schedule",
+      "short_name": "Today",
       "description": "Today's Foothill High School Bell Schedule",
       "url": "/",
       "icons": [
@@ -49,10 +49,10 @@
       ]
     },
     {
-      "name": "Upcoming Bell Schedules",
-      "short_name": "Upcoming Schedules",
-      "description": "Foothill High School Upcoming Bell Schedules",
-      "url": "/upcoming/",
+      "name": "This Week",
+      "short_name": "This Week",
+      "description": "This Week's Foothill High School Bell Schedules",
+      "url": "/week/",
       "icons": [
         {
           "src": "/icons/icon.svg",
@@ -73,9 +73,9 @@
     },
     {
       "name": "Upcoming Events",
-      "short_name": "Upcoming Events",
+      "short_name": "Events",
       "description": "Foothill High School Upcoming Events",
-      "url": "/upcoming/events/",
+      "url": "/events/",
       "icons": [
         {
           "src": "/icons/icon.svg",
@@ -96,9 +96,9 @@
     },
     {
       "name": "Upcoming Games",
-      "short_name": "Upcoming Games",
+      "short_name": "Games",
       "description": "Foothill High School Upcoming Games",
-      "url": "/upcoming/games/",
+      "url": "/games/",
       "icons": [
         {
           "src": "/icons/icon.svg",

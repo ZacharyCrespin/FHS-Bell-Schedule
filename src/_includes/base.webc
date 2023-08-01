@@ -29,21 +29,14 @@
     <style @raw="getBundle('css')" webc:keep></style>
 
     <!-- Open Graph -->
-    <meta property="og:url" content="https://fhsbellschedule.netlify.app/">
     <meta property="og:type" content="website">
     <meta webc:if="seoTitle && titleOverride" name="og:title" :content="seoTitle">
     <meta webc:elseif="seoTitle" name="og:title" :content="seoTitle + ' — FHS Bell Schedule'">
     <meta webc:else name="og:title" :content="title + ' — FHS Bell Schedule'">
     <meta property="og:description" :content="description">
-    <meta property="og:image" content="https://fhsbellschedule.netlify.app/icons/icon-192.png">
-    <meta property="og:site_name" content="Zachary Crespin">
+    <meta property="og:site_name" content="FHS Bell Schedule">
 
     <!-- Twitter -->
-    <meta property="twitter:url" content="https://fhsbellschedule.netlify.app/">
-    <meta webc:if="seoTitle && titleOverride" name="twitter:title" :content="seoTitle">
-    <meta webc:elseif="seoTitle" name="twitter:title" :content="seoTitle + ' — FHS Bell Schedule'">
-    <meta webc:else name="twitter:title" :content="title + ' — FHS Bell Schedule'">
-    <meta name="twitter:description" :content="description">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="https://fhsbellschedule.netlify.app/icons/icon-192.png">
     <meta name="twitter:creator" content="@ZacharyCrespin">

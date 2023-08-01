@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3c4f7951-42c7-4975-8208-30bd1cc3e387/deploy-status)](https://app.netlify.com/sites/fhsbellschedule/deploys)
 
-# Foothill High School Bell Schedule
+# FHS Bell Schedule
 [fhsbellschedule.netlify.app](https://fhsbellschedule.netlify.app)
 
 ## Official Sources

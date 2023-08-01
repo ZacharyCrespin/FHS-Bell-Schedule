@@ -1,5 +1,5 @@
 const { DateTime } = require('luxon')
-const { getDate, getSchedule } = require('../../get')
+const { getDate, getSchedule, getEvents, getGames } = require('../../get')
 
 async function getWeekDates() {
   const today = DateTime.now().setZone('America/Los_Angeles')
@@ -21,11 +21,17 @@ module.exports = async function() {
   let allData = []
   for (let i = 0; i < dates.length; i++) {
     const date = dates[i];
+
     const dateData = await getDate(date)
     const scheduleData = await getSchedule(date)
+    const eventData = await getEvents(date, false, 'quick')
+    const gameData = await getGames(date, false, 'quick')
+
     const data = {
       date: dateData,
-      schedule: scheduleData
+      schedule: scheduleData,
+      events: eventData.today,
+      games: gameData.today,
     }
     allData.push(data)
   }

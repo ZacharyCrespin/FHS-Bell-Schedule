@@ -126,16 +126,12 @@
   const menuNav = document.getElementById("menu-nav")
 
   function openMenu() {
-    menuNav.removeAttribute('hidden')
-    menuNav.setAttribute('aria-hidden', 'false')
     menu.classList.add("open")
     menuOpen = true
   }
 
   function closeMenu() {
     menu.classList.remove("open")
-    menuNav.setAttribute('hidden', '')
-    menuNav.setAttribute('aria-hidden', 'true')
     menuOpen = false
   }
 

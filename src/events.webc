@@ -7,7 +7,6 @@ layout: main.webc
 <div webc:for="value of events.upcoming" class="box text-left">
   <template webc:type="11ty" 11ty:type="njk">
     <h2 class="h4">{{ value["event"] }}</h2>
-    <p>{{ value["date"] }}</p>
-    {% if value["time"] %}<p>{{ value["time"] }}</p>{% endif %}
+    <p>{{ value["date"] }}{% if value["time"] %} &middot; {{ value["time"] }}</p>{% endif %}</p>
   </template>
 </div>
