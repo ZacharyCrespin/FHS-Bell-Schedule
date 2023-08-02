@@ -22,7 +22,7 @@
   {
     "date": "08/15/2023",
     "event": "Welcome Back Tailgate",
-    "time": "5:00 PM"
+    "time": "5:00 PM - 7:00 PM"
   },
   {
     "date": "08/23/2023",
@@ -46,7 +46,8 @@
   },
   {
     "date": "08/30/2023",
-    "event": "Senior Sunrise"
+    "event": "Senior Sunrise",
+    "time": "6:00 AM"
   },
   {
     "date": "08/30/2023",
@@ -115,7 +116,9 @@
   },
   {
     "date": "10/31/2023",
-    "event": "Senior Munch"
+    "event": "Costume Breakfast · Senior Munch",
+    "time": "7:30 AM - 12:30 PM",
+    "location": "City National Grove of Anaheim"
   },
   {
     "date": "11/01/2023",
@@ -139,7 +142,9 @@
   },
   {
     "date": "12/01/2023",
-    "event": "Senior Munch"
+    "event": "Universal Studios · Senior Munch",
+    "time": "7:30 AM - 4:30 PM",
+    "location": "Universal Studios Hollywood"
   },
   {
     "date": "12/05/2023",
@@ -164,5 +169,15 @@
   {
     "date": "03/18/2024",
     "event": "Showcase Night"
+  },
+  {
+    "date": "05/28/2024",
+    "event": "Senior Picnic",
+    "time": "9:00 AM - 1:00 PM"
+  },
+  {
+    "date": "05/29/2024",
+    "event": "Graduation Practice",
+    "time": "1:00 PM - 3:00 PM"
   }
 ]
