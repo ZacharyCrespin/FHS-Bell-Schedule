@@ -1,0 +1,23 @@
+---
+title: This Week
+description: This Week's Foothill High School Bell Schedules
+layout: main.webc
+---
+<div class="box" webc:for="day of week">
+  <h2 @text="day.date.string"></h2>
+  <h3 @text="day.schedule.name"></h3>
+  <template @raw="day.schedule.html" webc:nokeep></template>
+  <div webc:for="event of day.events" class="box text-left">
+    <p @raw="event"></p>
+  </div>
+  <div webc:for="game of day.games" class="box text-left">
+    <p @raw="game"></p>
+  </div>
+</div>
+
+<style>
+  .box .box:first-of-type {
+    margin-top: 2rem;
+    border-top: 1px solid var(--secondary);
+  }
+</style>

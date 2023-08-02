@@ -6,7 +6,7 @@ function removeDuplicates(arr) {
     index) => arr.indexOf(item) === index);
 }
 
-const shortEvent = '{{ event["event"] }}{% if event["time"] %} · {{ event["time"] }}{% endif %}'
+const shortEvent = '{{ event["event"] }}{% if event["time"] %} &middot; {{ event["time"] }}{% endif %}'
 function formatEvents(data, format) {
   if (format == 'quick') {
     let result =  data.map(eventData => {
@@ -19,7 +19,7 @@ function formatEvents(data, format) {
   }
 }
 
-const shortGame = '{{ game["sport"] }} {% if game["opponent_schools"] != "TBA" %} vs {{ game["opponent_schools"] }}{% endif %}{% if game["event_title"] %} · {{ game["event_title"] }}{% endif %}'
+const shortGame = '{{ game["sport"] }} {% if game["opponent_schools"] != "TBA" %} vs {{ game["opponent_schools"] }}{% endif %}{% if game["event_title"] %} &middot; {{ game["event_title"] }}{% endif %}'
 function formatGames(data, format) {
   if (format == 'quick') {
     let result = data.map(gameData => {
