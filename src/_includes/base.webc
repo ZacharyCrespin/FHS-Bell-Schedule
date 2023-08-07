@@ -26,7 +26,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/inter.css">
     <link rel="stylesheet" href="../css/main.css">
-    <style @raw="getBundle('css')" webc:keep></style>
+    <link rel="stylesheet" :href="getBundleFileUrl('css')" webc:keep>
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
