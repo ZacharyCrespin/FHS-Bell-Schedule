@@ -3,8 +3,15 @@ const { getDate, getSchedule, getEvents, getGames } = require('../../get')
 
 async function getWeekDates() {
   const today = DateTime.now().setZone('America/Los_Angeles')
-  const startOfWeek = today.startOf('week')
-  const endOfWeek = today.endOf('week')
+  let startOfWeek = today.startOf('week')
+  let endOfWeek = today.endOf('week')
+
+  // Make weeks start on Sunday
+  if (today.weekday == 7) {
+    startOfWeek = today.startOf('week').plus({ weeks: 1})
+    endOfWeek = today.endOf('week').plus({ weeks: 1})
+  }
+
   let dates = []
   let day = startOfWeek;
   while (day <= endOfWeek) {

@@ -1,4 +1,6 @@
 const pluginWebc = require("@11ty/eleventy-plugin-webc");
+const { DateTime } = require('luxon')
+const { formatTimeString } = require('./formatTime')
 const filesMinifier = require("@sherby/eleventy-plugin-files-minifier");
 const downloader = require('11ty-external-file-downloader');
 
@@ -30,6 +32,15 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('stringify', function (obj) {
     return JSON.stringify(obj);
+  });
+
+  eleventyConfig.addFilter('formatDate', function (date) {
+    date = DateTime.fromFormat(date, 'MM/dd/yyyy')
+    return date.toFormat('M/dd/yyyy')
+  });
+
+  eleventyConfig.addFilter('formatTime', function (time) {
+    return formatTimeString(time)
   });
 
   return {

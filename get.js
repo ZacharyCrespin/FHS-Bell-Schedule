@@ -69,7 +69,7 @@ async function getDate(dateStr) {
     date,
     day,
     short,
-    string
+    string,
   }
 }
 
@@ -130,6 +130,7 @@ async function getGames(dateStr, includeUpcoming = true, format) {
       // Make sure it's actually a game
       if (game.event_type === 'Game') {
         if (game.date === date.short) {
+          game.today = true
           today.push(game)
         }
         if (includeUpcoming) {
@@ -175,7 +176,8 @@ async function getEvents(dateStr, includeUpcoming = true, format) {
     // Format iCal events to match local events
     .map(event => ({
       date: formatCalDate(event.DTSTART),
-      event: event.SUMMARY
+      event: event.SUMMARY,
+      category: event.CATEGORIES,
     }))
 
     // Combine tusd events and local json events
@@ -201,6 +203,7 @@ async function getEvents(dateStr, includeUpcoming = true, format) {
       }
       // Events today
       if (event.date === date.short) {
+        event.today = true
         today.push(event)
       }
     })

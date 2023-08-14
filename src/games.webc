@@ -4,11 +4,11 @@ description: Foothill High School Upcoming Games
 layout: main.webc
 ---
 <p webc:if="games.upcoming.length < 1">No Upcoming Games</p>
-<div webc:for="value of games.upcoming" class="box text-left">
+<div webc:for="game of games.upcoming" class="box text-left">
   <template webc:type="11ty" 11ty:type="njk">
-    <h2 class="h4">{{ value["sport"] }} {{ value["level_abbr"] }} {% if value["opponent_schools"] != "TBA" %} vs {{ value["opponent_schools"] }}{% endif %}</h2>
-    {% if value["event_title"] %}<h3 class="h5">{{ value["event_title"] }}</h3>{% endif %}
-    <p>{{ value["date"] }}{% if value["startAndEndTime"] %}	&middot; {{ value["startAndEndTime"] }}{% endif %}</p>
-    {% if value["location"] or value["facility"] %}<p>{% if value["location"] %}{{ value["location"] }}{% endif %}{% if value["facility"] %}{% if value["location"] %}, {% endif %}{{ value["facility"] }}{% endif %}</p>{% endif %}
+    <h2 class="h4">{{ game["sport"] }} {{ game["level_abbr"] }} {% if game["opponent_schools"] != "TBA" %} vs {{ game["opponent_schools"] }}{% endif %}</h2>
+    {% if game["event_title"] %}<h3 class="h5">{{ game["event_title"] }}</h3>{% endif %}
+    <p>{{ game["date"] | formatDate }}{% if game["startAndEndTime"] %}	&middot; {{ game["startAndEndTime"] | formatTime }}{% endif %}</p>
+    {% if game["location"] %}<p>{{ game["location"] }}{% if game["facility"] %}, {{ game["facility"] }}{% endif %}</p>{% endif %}
   </template>
 </div>

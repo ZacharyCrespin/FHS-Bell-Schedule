@@ -12,23 +12,21 @@ layout: main.webc
 <div class="box" id="events">
   <h3>Today's Events</h3>
   <p webc:if="events.today.length < 1">No Events Today</p>
-  <div webc:for="value of events.today" class="box text-left">
+  <div webc:for="event of events.today" class="box text-left">
     <template webc:type="11ty" 11ty:type="njk">
-      <h4>{{ value["event"] }}</h4>
-      {% if value["time"] %}<p>{{ value["time"] }}</p>{% endif %}
+      <h4>{{ event["event"] }}</h4>
+      {% if event["time"] or event["location"] %}<p>{{ event["time"] | formatTime }}{% if event["time"] and event["location"] %} &middot;{% endif %}{{ event["location"] }}</p>{% endif %}
     </template>
   </div>
 </div>
 <div class="box" id="games">
   <h3>Today's Games</h3>
   <p webc:if="games.today.length < 1">No Games Today</p>
-  <div webc:for="value of games.today" class="box text-left">
+  <div webc:for="game of games.today" class="box text-left">
     <template webc:type="11ty" 11ty:type="njk">
-      <h4>{{ value["sport"] }} {{ value["level_abbr"] }} {% if value["opponent_schools"] != "TBA" %} vs {{ value["opponent_schools"] }}{% endif %}</h4>
-      {% if value["event_title"] %}<h5>{{ value["event_title"] }}</h5>{% endif %}
-      {% if value["startAndEndTime"] %}<p>{{ value["startAndEndTime"] }}</p>{% endif %}
-      {% if value["location"] or value["facility"] %}<p>{% if value["location"] %}{{ value["location"] }}{% endif %}{% if value["facility"] %}{% if value["location"] %}, {% endif %}{{ value["facility"] }}{% endif %}</p>{% endif %}
+      <h4>{{ game["sport"] }} {{ game["level_abbr"] }} {% if game["opponent_schools"] != "TBA" %} vs {{ game["opponent_schools"] }}{% endif %}</h4>
+      {% if game["event_title"] %}<h5>{{ game["event_title"] }}</h5>{% endif %}
+      {% if game["startAndEndTime"] or game["location"] %}<p>{{ game["startAndEndTime"] | formatTime }}{% if game["location"] %} &middot; {{ game["location"] }}{% if game["facility"] %}, {{ game["facility"] }}{% endif %}{% endif %}</p>{% endif %}
     </p>
   </template>
 </div>
-

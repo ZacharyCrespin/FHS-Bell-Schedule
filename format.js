@@ -6,7 +6,7 @@ function removeDuplicates(arr) {
     index) => arr.indexOf(item) === index);
 }
 
-const shortEvent = '{{ event["event"] }}{% if event["time"] %} &middot; {{ event["time"] }}{% endif %}'
+const shortEvent = '{{ event["event"] }}{% if event["time"] %} &middot; {{ event["time"] }}{% endif %}{% if event["location"] %} &middot; {{ event["location"] }}{% endif %}'
 function formatEvents(data, format) {
   if (format == 'quick') {
     let result =  data.map(eventData => {

@@ -4,9 +4,9 @@ description: Foothill High School Upcoming Events
 layout: main.webc
 ---
 <p webc:if="events.upcoming.length < 1">No Upcoming Events</p>
-<div webc:for="value of events.upcoming" class="box text-left">
+<div webc:for="event of events.upcoming" class="box text-left">
   <template webc:type="11ty" 11ty:type="njk">
-    <h2 class="h4">{{ value["event"] }}</h2>
-    <p>{{ value["date"] }}{% if value["time"] %} &middot; {{ value["time"] }}{% endif %}</p>
+    <h2 class="h4">{{ event["event"] }}</h2>
+    <p>{{ event["date"] | formatDate }}{% if event["time"] %} &middot; {{ event["time"] | formatTime }}{% endif %}{% if event["location"] %} &middot; {{ event["location"] }}{% endif %}</p>
   </template>
 </div>
