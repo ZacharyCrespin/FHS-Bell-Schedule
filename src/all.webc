@@ -5,7 +5,7 @@ layout: main.webc
 ---
 <div class="box" id="regular">
   <h2>Regular</h2>
-  <table><tbody><tr><td>0</td><td>7:25 - 8:23</td></tr><tr><td>1</td><td>8:30 - 9:28</td></tr><tr><td>2</td><td>9:34 - 10:32</td></tr><tr><td>FTV</td><td>10:38 - 10:46</td></tr><tr><td>3</td><td>10:46 - 11:44</td></tr><tr><td>Lunch</td><td>11:44 - 12:14</td></tr><tr><td>4</td><td>12:20 - 1:18</td></tr><tr><td>5</td><td>1:24 - 2:22</td></tr><tr><td>Break</td><td>2:22 - 2:37</td></tr><tr><td>6</td><td>2:37 - 3:35</td></tr></tbody></table>
+  <table><tbody><tr><td>0</td><td>7:25 - 8:22</td></tr><tr><td>1</td><td>8:30 - 9:27</td></tr><tr><td>2</td><td>9:33 - 10:30</td></tr><tr><td>FTV</td><td>10:36 - 10:44</td></tr><tr><td>3</td><td>10:44 - 11:41</td></tr><tr><td>Lunch</td><td>11:41 - 12:11</td></tr><tr><td>4</td><td>12:17 - 1:14</td></tr><tr><td>5</td><td>1:20 - 2:17</td></tr><tr><td>Break</td><td>2:17 - 2:32</td></tr><tr><td>6</td><td>2:38 - 3:35</td></tr></tbody></table>
 </div>
 <div class="box" id="latestart">
   <h2>Late Start</h2>
@@ -25,7 +25,7 @@ layout: main.webc
 </div>
 <div class="box" id="minimum">
   <h2>Minimum Day</h2>
-  <table><tbody><tr><td>0</td><td>7:41 - 8:18</td></tr><tr><td>1</td><td>8:30 - 9:07</td></tr><tr><td>2</td><td>9:13 - 9:50</td></tr><tr><td>3</td><td>9:56 - 10:33</td></tr><tr><td>Break</td><td>10:33 - 10:48</td></tr><tr><td>4</td><td>10:54 - 11:31</td></tr><tr><td>5</td><td>11:37 - 12:14</td></tr><tr><td>6</td><td>12:20 - 12:57</td></tr></tbody></table>
+  <table><tbody><tr><td>0</td><td>7:40 - 8:23</td></tr><tr><td>1</td><td>8:30 - 9:12</td></tr><tr><td>2</td><td>9:18 - 10:00</td></tr><tr><td>3</td><td>10:06 - 10:48</td></tr><tr><td>Break</td><td>10:48 - 11:03</td></tr><tr><td>4</td><td>11:09 - 11:51</td></tr><tr><td>5</td><td>11:57 - 12:39</td></tr><tr><td>6</td><td>12:45 - 1:57</td></tr></tbody></table>
 </div>
 <div class="box" id="extendedlunch">
   <h2>Extended Lunch</h2>
