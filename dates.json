@@ -52,6 +52,10 @@
     "schedule": "noschool"
   },
   {
+    "date": "12/06/2023",
+    "schedule": "regular"
+  },
+  {
     "date": "12/07/2023",
     "schedule": "extendedlunch"
   },
@@ -110,6 +114,18 @@
   {
     "date": "04/11/2024",
     "schedule": "extendedlunch"
+  },
+  {
+    "date": "04/17/2024",
+    "schedule": "regular"
+  },
+  {
+    "date": "04/24/2024",
+    "schedule": "regular"
+  },
+  {
+    "date": "05/22/2024",
+    "schedule": "regular"
   },
   {
     "date": "05/28/2024",
