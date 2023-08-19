@@ -7,11 +7,18 @@ layout: main.webc
   <h2 @text="day.date.string"></h2>
   <h3 @text="day.schedule.name"></h3>
   <template @raw="day.schedule.html" webc:nokeep></template>
-  <div webc:for="event of day.events" class="box text-left">
-    <p @raw="event"></p>
-  </div>
-  <div webc:for="game of day.games" class="box text-left">
-    <p @raw="game"></p>
+    <div webc:for="event of day.events" class="box text-left">
+      <template webc:type="11ty" 11ty:type="njk">
+        <h4>{{ event["event"] }}</h4>
+        {% if event["time"] or event["location"] %}<p>{{ event["time"] | formatTime }}{% if event["time"] and event["location"] %} &middot;{% endif %}{{ event["location"] }}</p>{% endif %}
+      </template>
+    </div>
+    <div webc:for="game of day.games" class="box text-left">
+      <template webc:type="11ty" 11ty:type="njk">
+        <h4>{{ game["sport"] }} {{ game["level_abbr"] }} {% if game["opponent_schools"] != "TBA" %} vs {{ game["opponent_schools"] }}{% endif %}</h4>
+        {% if game["event_title"] %}<h5>{{ game["event_title"] }}</h5>{% endif %}
+        {% if game["startAndEndTime"] or game["location"] %}<p>{{ game["startAndEndTime"] | formatTime }}{% if game["location"] %} &middot; {{ game["location"] }}{% if game["facility"] %}, {{ game["facility"] }}{% endif %}{% endif %}</p>{% endif %}
+    </template>
   </div>
 </div>
 

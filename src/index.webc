@@ -27,6 +27,6 @@ layout: main.webc
       <h4>{{ game["sport"] }} {{ game["level_abbr"] }} {% if game["opponent_schools"] != "TBA" %} vs {{ game["opponent_schools"] }}{% endif %}</h4>
       {% if game["event_title"] %}<h5>{{ game["event_title"] }}</h5>{% endif %}
       {% if game["startAndEndTime"] or game["location"] %}<p>{{ game["startAndEndTime"] | formatTime }}{% if game["location"] %} &middot; {{ game["location"] }}{% if game["facility"] %}, {{ game["facility"] }}{% endif %}{% endif %}</p>{% endif %}
-    </p>
-  </template>
+    </template>
+  </div>
 </div>

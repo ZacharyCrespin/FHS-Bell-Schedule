@@ -3,7 +3,6 @@ const { DateTime } = require('luxon')
 const getOrdinalSuffix = require('lissa-ordinal-suffix')
 const axios = require('axios')
 var parser = require('vdata-parser')
-const { formatEvents, formatGames} = require('./format')
 
 // Load Files
 const schedules = JSON.parse(fs.readFileSync('schedules.json', 'utf-8'))
@@ -67,8 +66,8 @@ async function getDate(dateStr) {
 
   return {
     date,
-    day,
     short,
+    day,
     string,
   }
 }
@@ -109,7 +108,7 @@ async function getSchedule(dateStr) {
 }
 
 // Get games for a date
-async function getGames(dateStr, includeUpcoming = true, format) {
+async function getGames(dateStr, includeUpcoming = true) {
   const date = await getDate(dateStr)
 
   const start = date.date.toISODate()
@@ -142,11 +141,6 @@ async function getGames(dateStr, includeUpcoming = true, format) {
     console.error('Error fetching games:', error);
   }
 
-  if (format) {
-    today = formatGames(today, format)
-    upcoming = formatGames(upcoming, format)
-  }
-
   return {
     today,
     upcoming,
@@ -154,7 +148,7 @@ async function getGames(dateStr, includeUpcoming = true, format) {
 }
 
 // Get events for a date
-async function getEvents(dateStr, includeUpcoming = true, format) {
+async function getEvents(dateStr, includeUpcoming = true) {
   const date = await getDate(dateStr)
   const eventsURL = "https://tustink12caus-2777-us-west1-01.preview.finalsitecdn.com/cf_calendar/feed.cfm?type=ical&feedID=0E73C038C4364952B1D6D90F8D1BCAF1"
 
@@ -178,6 +172,7 @@ async function getEvents(dateStr, includeUpcoming = true, format) {
       date: formatCalDate(event.DTSTART),
       event: event.SUMMARY,
       category: event.CATEGORIES,
+      source: 'tusd',
     }))
 
     // Combine tusd events and local json events
@@ -193,12 +188,9 @@ async function getEvents(dateStr, includeUpcoming = true, format) {
     allEvents.forEach(event => {
       // Convert the event date string to a Date object
       const eventDate = DateTime.fromFormat(event.date, 'MM/dd/yyyy')
-      // Calculate the time difference in milliseconds
-      const timeDifference = eventDate.diff(date.date).as('milliseconds')
-      // Convert milliseconds to days
-      const daysDifference = Math.ceil(timeDifference / (1000 * 3600 * 24))
+      const daysTo = eventDate.diff(date.date).as('days')
       // Events in the next 30 days
-      if (includeUpcoming && daysDifference >= 0 && daysDifference < 30) {
+      if (includeUpcoming && daysTo >= 0 && daysTo <= 30) {
         upcoming.push(event)
       }
       // Events today
@@ -209,11 +201,6 @@ async function getEvents(dateStr, includeUpcoming = true, format) {
     })
   } catch (error) {
     console.error('Error Getting Events:', error);
-  }
-
-  if (format) {
-    today = formatEvents(today, format)
-    upcoming = formatEvents(upcoming, format)
   }
 
   return {

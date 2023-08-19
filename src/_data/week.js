@@ -31,8 +31,8 @@ module.exports = async function() {
 
     const dateData = await getDate(date)
     const scheduleData = await getSchedule(date)
-    const eventData = await getEvents(date, false, 'quick')
-    const gameData = await getGames(date, false, 'quick')
+    const eventData = await getEvents(date, false)
+    const gameData = await getGames(date, false)
 
     const data = {
       date: dateData,

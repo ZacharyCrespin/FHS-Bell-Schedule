@@ -51,7 +51,8 @@
   },
   {
     "date": "08/30/2023",
-    "event": "Make up Picture Day"
+    "event": "Make up Picture Day",
+    "source": "bulletin"
   },
   {
     "date": "08/30/2023",
@@ -59,7 +60,8 @@
   },
   {
     "date": "08/30/2023",
-    "event": "Back to School Night"
+    "event": "Back to School Night",
+    "source": "bulletin"
   },
   {
     "date": "09/06/2023",
@@ -108,7 +110,8 @@
   },
   {
     "date": "10/23/2023",
-    "event": "Out of state College Fair"
+    "event": "Out of state College Fair",
+    "source": "bulletin"
   },
   {
     "date": "10/24/2023",
