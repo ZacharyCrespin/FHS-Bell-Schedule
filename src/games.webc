@@ -8,7 +8,7 @@ layout: main.webc
   <template webc:type="11ty" 11ty:type="njk">
     <h2 class="h4">{{ game["sport"] }} {{ game["level_abbr"] }} {% if game["opponent_schools"] != "TBA" %} vs {{ game["opponent_schools"] }}{% endif %}</h2>
     {% if game["event_title"] %}<h3 class="h5">{{ game["event_title"] }}</h3>{% endif %}
-    <p>{{ game["date"] | formatDate }}{% if game["startAndEndTime"] %}	&middot; {{ game["startAndEndTime"] | formatTime }}{% endif %}</p>
+    <p>{{ game["date"] | formatDate }}{% if game["startAndEndTime"] %} &middot; {{ game["startAndEndTime"] | formatTime }}{% endif %}</p>
     {% if game["location"] %}<p>{{ game["location"] }}{% if game["facility"] %}, {{ game["facility"] }}{% endif %}</p>{% endif %}
   </template>
 </div>
