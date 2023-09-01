@@ -3,8 +3,8 @@ title: Upcoming Games
 description: Foothill High School Upcoming Games
 layout: main.webc
 ---
-<p webc:if="games.upcoming.length < 1">No Upcoming Games</p>
-<div webc:for="game of games.upcoming" class="box text-left">
+<p webc:if="today.games.upcoming.length < 1">No Upcoming Games</p>
+<div webc:for="game of today.games.upcoming" class="box text-left">
   <template webc:type="11ty" 11ty:type="njk">
     <h2 class="h4">{{ game["sport"] }} {{ game["level_abbr"] }} {% if game["opponent_schools"] != "TBA" %} vs {{ game["opponent_schools"] }}{% endif %}</h2>
     {% if game["event_title"] %}<h3 class="h5">{{ game["event_title"] }}</h3>{% endif %}

@@ -9,6 +9,7 @@
   <div id="menu-bg" aria-hidden="true"></div>
   <nav id="menu-nav" role="navigation" aria-label="Main Menu" aria-hidden="true" hidden>
     <a href="/">Today</a>
+    <a href="/tomorrow">Tomorrow</a>
     <a href="/week/">This Week</a>
     <a href="/events/">Events</a>
     <a href="/games/">Games</a>

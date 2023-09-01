@@ -1,18 +1,16 @@
 ---
-title: Today
-description: Today's Foothill High School Bell Schedule
+title: Tomorrow
+description: Tomorrow's Foothill High School Bell Schedule
 layout: main.webc
 ---
-<h2 @text="today.date.string"></h2>
-<clock></clock>
 <div class="box">
-  <h3 @text="today.schedule.name"></h3>
-  <template @html="today.schedule.html" webc:nokeep></template>
+  <h3 @text="tomorrow.schedule.name"></h3>
+  <template @html="tomorrow.schedule.html" webc:nokeep></template>
 </div>
 <div class="box" id="events">
-  <h3>Today's Events</h3>
-  <p webc:if="today.events.today.length < 1">No Events Today</p>
-  <div webc:for="event of today.events.today" class="box text-left">
+  <h3>Tomorrow's Events</h3>
+  <p webc:if="tomorrow.events.today.length < 1">No Events Tomorrow</p>
+  <div webc:for="event of tomorrow.events.today" class="box text-left">
     <template webc:type="11ty" 11ty:type="njk">
       <h4>{{ event["event"] }}</h4>
       {% if event["time"] or event["location"] %}<p>{{ event["time"] | formatTime }}{% if event["time"] and event["location"] %} &middot;{% endif %}{{ event["location"] }}</p>{% endif %}
@@ -20,9 +18,9 @@ layout: main.webc
   </div>
 </div>
 <div class="box" id="games">
-  <h3>Today's Games</h3>
-  <p webc:if="today.games.today.length < 1">No Games Today</p>
-  <div webc:for="game of today.games.today" class="box text-left">
+  <h3>Tomorrow's Games</h3>
+  <p webc:if="tomorrow.games.today.length < 1">No Games Tomorrow</p>
+  <div webc:for="game of tomorrow.games.today" class="box text-left">
     <template webc:type="11ty" 11ty:type="njk">
       <h4>{{ game["sport"] }} {{ game["level_abbr"] }} {% if game["opponent_schools"] != "TBA" %} vs {{ game["opponent_schools"] }}{% endif %}</h4>
       {% if game["event_title"] %}<h5>{{ game["event_title"] }}</h5>{% endif %}

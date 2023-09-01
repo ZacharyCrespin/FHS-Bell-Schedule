@@ -1,6 +1,6 @@
 <p id="clock"></p>
 <script>
-    function updateClock(){
+  function updateClock(){
     var date = new Date();
     var h = date.getHours();
     var m = date.getMinutes();
