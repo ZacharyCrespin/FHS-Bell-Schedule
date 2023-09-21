@@ -24,7 +24,7 @@ layout: main.webc
   <p webc:if="today.games.today.length < 1">No Games Today</p>
   <div webc:for="game of today.games.today" class="box text-left">
     <template webc:type="11ty" 11ty:type="njk">
-      <h4>{{ game["sport"] }} {{ game["level_abbr"] }} {% if game["opponent_schools"] != "TBA" %} vs {{ game["opponent_schools"] }}{% endif %}</h4>
+      <h4>{{ game["sport"] }}, {{ game["level_abbr"] }} {% if game["opponent_schools"] != "TBA" %} vs {{ game["opponent_schools"] }}{% endif %}</h4>
       {% if game["event_title"] %}<h5>{{ game["event_title"] }}</h5>{% endif %}
       {% if game["startAndEndTime"] or game["location"] %}<p>{{ game["startAndEndTime"] | formatTime }}{% if game["location"] %}{% if game["startAndEndTime"] %} &middot; {% endif %}{{ game["location"] }}{% if game["facility"] %}, {{ game["facility"] }}{% endif %}{% endif %}</p>{% endif %}
     </template>
