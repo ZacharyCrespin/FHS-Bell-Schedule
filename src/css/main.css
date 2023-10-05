@@ -7,8 +7,6 @@
 
   /* Typography */
   --font: "Inter", sans-serif;
-  --font-italic: "Georgia", serif;
-  --font-mono: "Consolas", 'Courier New', monospace;
 
   /* Borders */
   --radius: 6px;
@@ -30,6 +28,25 @@
 
 @supports (font-variation-settings: normal) {
   :root { --font: "Inter var", sans-serif; }
+}
+
+/* Themes */
+body[theme="light"], .theme-light {
+  --background: hsl(202 22% 90%);
+  --foreground: hsl(213 22% 10%);
+  --secondary: hsl(213 22% 30%);
+  --tertiary: hsl(213 22% 70%);
+  color-scheme: light;
+}
+body[theme="dark"], .theme-dark {
+  --background: hsl(213 22% 10%);
+  --foreground: hsl(202 22% 90%);
+  --secondary: hsl(213 22% 70%);
+  --tertiary: hsl(213 22% 30%);
+  color-scheme: dark;
+}
+body[theme="custom"] {
+  color-scheme: light;
 }
 
 html {font-size: 100%;} /* 16px */
@@ -104,7 +121,7 @@ button, input, select, textarea {
 
 .btn, button {
   display: inline-block;
-  background-color: transparent;
+  background-color: var(--background);
   border: 1px solid var(--foreground);
   color: var(--foreground);
   text-decoration: none;
@@ -123,6 +140,15 @@ button .filed,
   color: var(--background);
   cursor: pointer;
   transform: scale(1.05);
+}
+
+input, select, textarea {
+  background-color: var(--background);
+  border: 1px solid var(--foreground);
+  color: var(--foreground);
+  margin: 1em;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
 }
 
 table {

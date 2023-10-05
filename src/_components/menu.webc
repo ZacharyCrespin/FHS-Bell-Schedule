@@ -118,6 +118,9 @@
   #menu.open nav a:nth-of-type(6) {
     transition-delay: 0.35s;
   }
+  #menu.open nav a:nth-of-type(7) {
+    transition-delay: 0.4s;
+  }
 </style>
 
 <script>

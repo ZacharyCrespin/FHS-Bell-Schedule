@@ -43,6 +43,7 @@
   </head>
   <body>
     <template @html="content" webc:nokeep></template>
+    <script src="../js/loadTheme.js"></script>
     <script @raw="getBundle('js')" webc:keep></script>
     <script webc:keep async src="/analytics.js" data-ackee-server="https://analytics.zacharyc.site" data-ackee-domain-id="a6bcdbce-630a-45f0-b9a0-ea3db308595b"></script>
   </body>
