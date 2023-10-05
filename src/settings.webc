@@ -61,11 +61,26 @@ coloris: true
         "secondary": "hsl(213 22% 30%)",
         "tertiary": "hsl(213 22% 70%)",
       }
+      // Set the text to the default color
+      bgColorInput.value = "hsl(202 22% 90%)";
+      fgColorInput.value = "hsl(213 22% 10%)";
+      secColorInput.value = "hsl(213 22% 30%)";
+      tirColorInput.value = "hsl(213 22% 70%)";
+      // set the dispayed color to the default
+      bgColorInput.parentElement.style.color = "hsl(202 22% 90%)"
+      fgColorInput.parentElement.style.color = "hsl(202 22% 90%)"
+      secColorInput.parentElement.style.color = "hsl(202 22% 90%)"
+      tirColorInput.parentElement.style.color = "hsl(202 22% 90%)"
       // Show the custom color inputs
       customInputs.style.display = '';
     } else {
       // Hide the custom color inputs
       customInputs.style.display = 'none';
+      // Remve any custom colors being showen
+      document.documentElement.style.removeProperty("--background");
+      document.documentElement.style.removeProperty("--foreground");
+      document.documentElement.style.removeProperty("--secondary");
+      document.documentElement.style.removeProperty("--tertiary");
     }
     saveSettings();
     loadSettings();
