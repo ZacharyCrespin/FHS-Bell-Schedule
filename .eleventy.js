@@ -24,6 +24,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/fonts")
   eleventyConfig.addPassthroughCopy("src/icons")
   eleventyConfig.addPassthroughCopy("src/_redirects")
+  eleventyConfig.addPassthroughCopy("src/coloris.min.css")
+  eleventyConfig.addPassthroughCopy("src/coloris.min.js")
   eleventyConfig.addPassthroughCopy("src/favicon.ico")
   eleventyConfig.addPassthroughCopy("src/google9280d1828cb7dc65.html")
   eleventyConfig.addPassthroughCopy("src/manifest.json")

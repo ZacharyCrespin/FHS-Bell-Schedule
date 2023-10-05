@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" :href="getBundleFileUrl('css')" webc:keep>
 
+    <!-- Coloris -->
+    <link webc:if="coloris" webc:keep rel="stylesheet" href="/coloris.min.css">
+    <script webc:if="coloris" webc:keep src="/coloris.min.js"></script>
+
     <!-- PWA -->
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="hsl(202, 22%, 90%)">

@@ -2,6 +2,7 @@
 title: Settings
 description: Settings
 layout: main.webc
+coloris: true
 ---
 <div class="box">
   <label for="theme">Theme</label>
@@ -12,31 +13,37 @@ layout: main.webc
     <option value="custom">Custom</option>
   </select>
   <div id="customInputs" style="display: none;">
+    <hr>
     <label for="bgColorInput">Background</label>
-    <input id="bgColorInput" type="text" value="hsl(202 22% 90%)">
-    <br>
+    <input id="bgColorInput" type="text" data-coloris class="color-input" value="hsl(202 22% 90%)">
+    <br><hr>
     <label for="fgColorInput">Foreground <span class="light">(Text, Borders)</span></label>
-    <input id="fgColorInput" type="text" value="hsl(213 22% 10%)">
-    <br>
+    <input id="fgColorInput" type="text" data-coloris class="color-input" value="hsl(213 22% 10%)">
+    <br><hr>
     <label for="secColorInput">Secondary <span class="light">(Light Text, Hover)</span></label>
-    <input id="secColorInput" type="text" value="hsl(213 22% 30%)">
-    <br>
+    <input id="secColorInput" type="text" data-coloris class="color-input" value="hsl(213 22% 30%)">
+    <br><hr>
     <label for="tirColorInput">Tertiary <span class="light">(Dividers)</span></label>
-    <input id="tirColorInput" type="text" value="hsl(213 22% 70%)">
+    <input id="tirColorInput" type="text" data-coloris class="color-input" value="hsl(213 22% 70%)">
   </div>
 </div>
 <script>
-  const themeSelect = document.querySelector("#theme")
-  const customInputs = document.querySelector("#customInputs")
+  // Elements
+  const themeSelect = document.querySelector("#theme") // Main theme select
+  const customInputs = document.querySelector("#customInputs") // Custom inputs div
+  // Custom color inputs
   const bgColorInput = document.querySelector("#bgColorInput")
   const fgColorInput = document.querySelector("#fgColorInput")
   const secColorInput = document.querySelector("#secColorInput")
   const tirColorInput = document.querySelector("#tirColorInput")
 
+  // Deafult settins values
   let settings = {
     theme: "system",
     lastSave: null,
   }
+
+  // If settings are saved in localStorage show the curent vaues
   let localSettings = localStorage.getItem('fhsbs-settings')
   if (localSettings) {
     settings = JSON.parse(localSettings);
@@ -47,29 +54,35 @@ layout: main.webc
     const theme = themeSelect.value;
     settings.theme = theme;
     if (theme == 'custom') {
+      // Defaults colors for custom theme
       settings.customTheme = {
         "background": "hsl(202 22% 90%)",
         "foreground": "hsl(213 22% 10%)",
         "secondary": "hsl(213 22% 30%)",
         "tertiary": "hsl(213 22% 70%)",
       }
+      // Show the custom color inputs
       customInputs.style.display = '';
     } else {
+      // Hide the custom color inputs
       customInputs.style.display = 'none';
     }
     saveSettings();
     loadSettings();
   })
 
+  // Show the curent values in the inputs
   function displaySettings() {
     themeSelect.value = settings.theme
     if (settings.theme == 'custom') {
-      customInputs.style.display = '';
       bgColorInput.value = settings.customTheme.background
       fgColorInput.value = settings.customTheme.foreground
       secColorInput.value = settings.customTheme.secondary
       tirColorInput.value = settings.customTheme.tertiary
+      // Show the custom color inputs
+      customInputs.style.display = '';
     } else {
+      // Hide the custom color inputs
       customInputs.style.display = 'none';
     }
   }
@@ -105,4 +118,9 @@ layout: main.webc
     saveSettings();
     loadSettings();
   })
+
+  Coloris({
+    alpha: false,
+    formatToggle: true,
+  });
 </script>
