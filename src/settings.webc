@@ -6,7 +6,7 @@ coloris: true
 ---
 <div class="box">
   <label for="theme">Theme</label>
-  <select name="theme" id="theme">
+  <select name="theme" id="theme" class="input">
     <option value="system">Auto <span class="light">(default)</span></option>
     <option value="light">Light</option>
     <option value="dark">Dark</option>
@@ -15,16 +15,16 @@ coloris: true
   <div id="customInputs" style="display: none;">
     <hr>
     <label for="bgColorInput">Background</label>
-    <input id="bgColorInput" type="text" data-coloris class="color-input" value="hsl(202 22% 90%)">
+    <input id="bgColorInput" type="text" data-coloris class="input" value="hsl(202 22% 90%)">
     <br><hr>
     <label for="fgColorInput">Foreground <span class="light">(Text, Borders)</span></label>
-    <input id="fgColorInput" type="text" data-coloris class="color-input" value="hsl(213 22% 10%)">
+    <input id="fgColorInput" type="text" data-coloris class="input" value="hsl(213 22% 10%)">
     <br><hr>
     <label for="secColorInput">Secondary <span class="light">(Light Text, Hover)</span></label>
-    <input id="secColorInput" type="text" data-coloris class="color-input" value="hsl(213 22% 30%)">
+    <input id="secColorInput" type="text" data-coloris class="input" value="hsl(213 22% 30%)">
     <br><hr>
     <label for="tirColorInput">Tertiary <span class="light">(Dividers)</span></label>
-    <input id="tirColorInput" type="text" data-coloris class="color-input" value="hsl(213 22% 70%)">
+    <input id="tirColorInput" type="text" data-coloris class="input" value="hsl(213 22% 70%)">
   </div>
 </div>
 <script>
@@ -60,23 +60,23 @@ coloris: true
         "foreground": "hsl(213 22% 10%)",
         "secondary": "hsl(213 22% 30%)",
         "tertiary": "hsl(213 22% 70%)",
-      }
+      };
       // Set the text to the default color
       bgColorInput.value = "hsl(202 22% 90%)";
       fgColorInput.value = "hsl(213 22% 10%)";
       secColorInput.value = "hsl(213 22% 30%)";
       tirColorInput.value = "hsl(213 22% 70%)";
-      // set the dispayed color to the default
-      bgColorInput.parentElement.style.color = "hsl(202 22% 90%)"
-      fgColorInput.parentElement.style.color = "hsl(202 22% 90%)"
-      secColorInput.parentElement.style.color = "hsl(202 22% 90%)"
-      tirColorInput.parentElement.style.color = "hsl(202 22% 90%)"
+      // Set the dispayed color to the default
+      bgColorInput.parentElement.style.color = "hsl(202 22% 90%)";
+      fgColorInput.parentElement.style.color = "hsl(202 22% 90%)";
+      secColorInput.parentElement.style.color = "hsl(202 22% 90%)";
+      tirColorInput.parentElement.style.color = "hsl(202 22% 90%)";
       // Show the custom color inputs
       customInputs.style.display = '';
     } else {
       // Hide the custom color inputs
       customInputs.style.display = 'none';
-      // Remve any custom colors being showen
+      // Remove any custom colors being showen
       document.documentElement.style.removeProperty("--background");
       document.documentElement.style.removeProperty("--foreground");
       document.documentElement.style.removeProperty("--secondary");
@@ -90,10 +90,10 @@ coloris: true
   function displaySettings() {
     themeSelect.value = settings.theme
     if (settings.theme == 'custom') {
-      bgColorInput.value = settings.customTheme.background
-      fgColorInput.value = settings.customTheme.foreground
-      secColorInput.value = settings.customTheme.secondary
-      tirColorInput.value = settings.customTheme.tertiary
+      bgColorInput.value = settings.customTheme.background;
+      fgColorInput.value = settings.customTheme.foreground;
+      secColorInput.value = settings.customTheme.secondary;
+      tirColorInput.value = settings.customTheme.tertiary;
       // Show the custom color inputs
       customInputs.style.display = '';
     } else {
@@ -134,6 +134,7 @@ coloris: true
     loadSettings();
   })
 
+  // Don't alow for transparency
   Coloris({
     alpha: false,
     formatToggle: true,
