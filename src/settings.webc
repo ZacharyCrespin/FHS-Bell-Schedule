@@ -68,9 +68,9 @@ coloris: true
       tirColorInput.value = "hsl(213 22% 70%)";
       // Set the dispayed color to the default
       bgColorInput.parentElement.style.color = "hsl(202 22% 90%)";
-      fgColorInput.parentElement.style.color = "hsl(202 22% 90%)";
-      secColorInput.parentElement.style.color = "hsl(202 22% 90%)";
-      tirColorInput.parentElement.style.color = "hsl(202 22% 90%)";
+      fgColorInput.parentElement.style.color = "hsl(213 22% 10%)";
+      secColorInput.parentElement.style.color = "hsl(213 22% 30%)";
+      tirColorInput.parentElement.style.color = "hsl(213 22% 70%)";
       // Show the custom color inputs
       customInputs.style.display = '';
     } else {
@@ -134,9 +134,10 @@ coloris: true
     loadSettings();
   })
 
-  // Don't alow for transparency
   Coloris({
-    alpha: false,
+    themeMode: 'light',
+    alpha: false, // Don't allow transparency
+    format: 'hex',
     formatToggle: true,
   });
 </script>
