@@ -15,16 +15,16 @@ coloris: true
   <div id="customInputs" style="display: none;">
     <hr>
     <label for="bgColorInput">Background</label>
-    <input id="bgColorInput" type="text" data-coloris class="input" value="hsl(202 22% 90%)">
+    <input id="bgColorInput" type="text" data-coloris class="input" value="#e0e7eb">
     <br><hr>
     <label for="fgColorInput">Foreground <span class="light">(Text, Borders)</span></label>
-    <input id="fgColorInput" type="text" data-coloris class="input" value="hsl(213 22% 10%)">
+    <input id="fgColorInput" type="text" data-coloris class="input" value="#14191f">
     <br><hr>
     <label for="secColorInput">Secondary <span class="light">(Light Text, Hover)</span></label>
-    <input id="secColorInput" type="text" data-coloris class="input" value="hsl(213 22% 30%)">
+    <input id="secColorInput" type="text" data-coloris class="input" value="#3c4b5d">
     <br><hr>
     <label for="tirColorInput">Tertiary <span class="light">(Dividers)</span></label>
-    <input id="tirColorInput" type="text" data-coloris class="input" value="hsl(213 22% 70%)">
+    <input id="tirColorInput" type="text" data-coloris class="input" value="#a2b1c3">
   </div>
 </div>
 <script>
@@ -56,21 +56,21 @@ coloris: true
     if (theme == 'custom') {
       // Defaults colors for custom theme
       settings.customTheme = {
-        "background": "hsl(202 22% 90%)",
-        "foreground": "hsl(213 22% 10%)",
-        "secondary": "hsl(213 22% 30%)",
-        "tertiary": "hsl(213 22% 70%)",
+        "background": "#e0e7eb",
+        "foreground": "#14191f",
+        "secondary": "#3c4b5d",
+        "tertiary": "#a2b1c3",
       };
       // Set the text to the default color
-      bgColorInput.value = "hsl(202 22% 90%)";
-      fgColorInput.value = "hsl(213 22% 10%)";
-      secColorInput.value = "hsl(213 22% 30%)";
-      tirColorInput.value = "hsl(213 22% 70%)";
+      bgColorInput.value = "#e0e7eb";
+      fgColorInput.value = "#14191f";
+      secColorInput.value = "#3c4b5d";
+      tirColorInput.value = "#a2b1c3";
       // Set the dispayed color to the default
-      bgColorInput.parentElement.style.color = "hsl(202 22% 90%)";
-      fgColorInput.parentElement.style.color = "hsl(213 22% 10%)";
-      secColorInput.parentElement.style.color = "hsl(213 22% 30%)";
-      tirColorInput.parentElement.style.color = "hsl(213 22% 70%)";
+      bgColorInput.parentElement.style.color = "#e0e7eb";
+      fgColorInput.parentElement.style.color = "#14191f";
+      secColorInput.parentElement.style.color = "#3c4b5d";
+      tirColorInput.parentElement.style.color = "#a2b1c3";
       // Show the custom color inputs
       customInputs.style.display = '';
     } else {
@@ -134,6 +134,7 @@ coloris: true
     loadSettings();
   })
 
+  // Customize color inputs
   Coloris({
     themeMode: 'light',
     alpha: false, // Don't allow transparency
