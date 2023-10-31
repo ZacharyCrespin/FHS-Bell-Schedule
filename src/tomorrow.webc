@@ -13,7 +13,7 @@ layout: main.webc
   <div webc:for="event of tomorrow.events.today" class="box text-left">
     <template webc:type="11ty" 11ty:type="njk">
       <h4>{{ event["event"] }}</h4>
-      {% if event["time"] or event["location"] %}<p>{{ event["time"] | formatTime }}{% if event["time"] and event["location"] %} &middot;{% endif %}{{ event["location"] }}</p>{% endif %}
+      {% if event["time"] or event["location"] %}<p>{{ event["time"] | formatTime }}{% if event["time"] and event["location"] %} &middot; {% endif %}{{ event["location"] }}</p>{% endif %}
     </template>
   </div>
 </div>
