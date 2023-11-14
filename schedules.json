@@ -50,5 +50,9 @@
   "custom": {
     "name": "Custom Schedule",
     "html": "<p>Cheak the <a href='https://docs.google.com/document/d/1-6RJC9m_UcizT7hnWTvtjExrnIrW577n6YWBoNRmF7I/edit?usp=sharing'>daily bulletin</a> for today's schedule.</p>"
+  },
+  "virtuallearning": {
+    "name": "Virtual Learning",
+    "html": "<table><tbody><tr><td>0</td><td>10:30 - 10:50</td></tr><tr><td>1</td><td>10:55 - 11:15</td></tr><tr><td>2</td><td>11:20 - 11:40</td></tr><tr><td>3</td><td>11:45 - 12:05</td></tr><tr><td>Break</td><td>12:05 - 12:20</td></tr><tr><td>4</td><td>12:25 - 12:45</td></tr><tr><td>5</td><td>12:50 - 1:10</td></tr><tr><td>6</td><td>1:15 - 1:35</td></tr></tbody></table>"
   }
 }
