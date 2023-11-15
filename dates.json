@@ -56,8 +56,16 @@
     "schedule": "regular"
   },
   {
+    "date": "11/13/2023",
+    "schedule": "noschool"
+  },
+  {
     "date": "11/14/2023",
     "schedule": "virtuallearning"
+  },
+  {
+    "date": "11/15/2023",
+    "schedule": "regular"
   },
   {
     "date": "11/22/2023",
