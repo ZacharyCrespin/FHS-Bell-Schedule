@@ -48,18 +48,6 @@
   <body>
     <template @html="content" webc:nokeep></template>
     <script src="../js/loadTheme.js"></script>
-
-    <!-- Winter Snow -->
-    <div class="snow-contaner" aria-hidden="true">
-      <div class="snow snow-near"></div>
-      <div class="snow snow-near snow-alt"></div>
-      <div class="snow snow-mid"></div>
-      <div class="snow snow-mid snow-alt"></div>
-      <div class="snow snow-far"></div>
-      <div class="snow snow-far snow-alt"></div>
-    </div>
-    <link webc:keep rel="stylesheet" href="https://snow-zc.netlify.app/base64-snow.min.css">
-
     <script @raw="getBundle('js')" webc:keep></script>
     <script webc:keep async src="/analytics.js" data-ackee-server="https://analytics.zacharyc.site" data-ackee-domain-id="a6bcdbce-630a-45f0-b9a0-ea3db308595b"></script>
   </body>
