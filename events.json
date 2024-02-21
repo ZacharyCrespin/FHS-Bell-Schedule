@@ -221,6 +221,10 @@
   },
   {
     "date": "03/28/2024",
+    "event": "Graduation Speech Tryouts"
+  },
+  {
+    "date": "03/28/2024",
     "event": "Honor Roll Social"
   },
   {
@@ -257,12 +261,16 @@
     "event": "Open Mic Night"
   },
   {
+    "date": "04/18/2024",
+    "event": "Graduation Performance Tryouts"
+  },
+  {
     "date": "04/19/2024",
     "event": "AVID Senior Celebration"
   },
   {
     "date": "04/22/2024",
-    "event": "Senior Munch"
+    "event": "Disneyland Senior Munch"
   },
   {
     "date": "04/26/2024",
@@ -285,6 +293,10 @@
     "event": "College Acceptance Day"
   },
   {
+    "date": "05/01/2024",
+    "event": "Senior Signing Day"
+  },
+  {
     "date": "05/02/2024",
     "event": "Concert Band Spring Concert"
   },
@@ -305,10 +317,6 @@
     "event": "FHS Visual Art Senior Art Exhibition"
   },
   {
-    "date": "05/20/2024",
-    "event": "Senior Sunset"
-  },
-  {
     "date": "05/21/2024",
     "event": "Yearbook Distribution"
   },
@@ -317,17 +325,24 @@
     "event": "Presidential Volunteer Service Award Luncheon"
   },
   {
+    "date": "05/22/2024",
+    "event": "Senior Sunset"
+  },
+  {
     "date": "05/23/2024",
     "event": "Senior Awards Night"
   },
   {
+    "date": "05/23/2024",
+    "event": "Senior Finals"
+  },
+  {
     "date": "05/24/2024",
-    "event": "Senior Assembly/Reflections"
+    "event": "Senior Finals"
   },
   {
     "date": "05/28/2024",
-    "event": "Senior Picnic",
-    "time": "9:00am - 1:00pm"
+    "event": "Senior Reflections"
   },
   {
     "date": "05/29/2024",
@@ -337,6 +352,7 @@
   {
     "date": "05/30/2024",
     "event": "Graduation",
-    "time": "6:00pm"
+    "time": "6:00pm",
+    "location": "Northrup Stadium (Tustin High School)"
   }
 ]
