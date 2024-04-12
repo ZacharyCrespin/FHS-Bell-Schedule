@@ -208,8 +208,44 @@
     "schedule": "extendedlunch"
   },
   {
+    "date": "04/15/2024",
+    "schedule": "block"
+  },
+  {
+    "date": "04/16/2024",
+    "schedule": "block"
+  },
+  {
     "date": "04/17/2024",
-    "schedule": "regular"
+    "schedule": "block"
+  },
+  {
+    "date": "04/18/2024",
+    "schedule": "block"
+  },
+  {
+    "date": "04/19/2024",
+    "schedule": "block"
+  },
+  {
+    "date": "04/22/2024",
+    "schedule": "block"
+  },
+  {
+    "date": "04/23/2024",
+    "schedule": "block"
+  },
+  {
+    "date": "04/24/2024",
+    "schedule": "block"
+  },
+  {
+    "date": "04/25/2024",
+    "schedule": "block"
+  },
+  {
+    "date": "04/26/2024",
+    "schedule": "block"
   },
   {
     "date": "04/24/2024",
