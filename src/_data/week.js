@@ -2,7 +2,9 @@ const { DateTime } = require('luxon')
 const { getDate, getSchedule, getEvents, getGames } = require('../../get')
 
 async function getWeekDates() {
-  const today = DateTime.now().setZone('America/Los_Angeles')
+  // const today = DateTime.now().setZone('America/Los_Angeles')
+  const today = DateTime.fromFormat('05/31/2024', 'MM/dd/yyyy') // Shut down site
+
   let startOfWeek = today.startOf('week')
   let endOfWeek = today.endOf('week')
 

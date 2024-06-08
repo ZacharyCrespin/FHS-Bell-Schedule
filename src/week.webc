@@ -3,6 +3,7 @@ title: This Week
 description: This Week's Foothill High School Bell Schedules
 layout: main.webc
 ---
+<bye></bye>
 <div class="box" webc:for="day of week">
   <h2 @text="day.date.string"></h2>
   <h3 @text="day.schedule.name"></h3>

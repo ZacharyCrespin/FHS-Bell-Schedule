@@ -3,6 +3,7 @@ title: Upcoming Games
 description: Foothill High School Upcoming Games
 layout: main.webc
 ---
+<bye></bye>
 <p webc:if="today.games.upcoming.length < 1">No Upcoming Games</p>
 <div webc:for="game of today.games.upcoming" class="box text-left">
   <template webc:type="11ty" 11ty:type="njk">

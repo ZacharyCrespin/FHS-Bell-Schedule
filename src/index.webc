@@ -5,6 +5,7 @@ layout: main.webc
 ---
 <h2 @text="today.date.string"></h2>
 <clock></clock>
+<bye></bye>
 <div class="box">
   <h3 @text="today.schedule.name"></h3>
   <template @html="today.schedule.html" webc:nokeep></template>
