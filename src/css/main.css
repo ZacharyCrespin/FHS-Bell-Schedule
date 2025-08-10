@@ -212,3 +212,9 @@ hr {
     margin-inline: 0.5rem;
   }
 }
+
+@media print {
+  #menu-icon {
+    display: none !important;
+  }
+}
