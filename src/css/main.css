@@ -214,6 +214,10 @@ hr {
 }
 
 @media print {
+  :root {
+    --background: #ffffff !important;
+  }
+
   #menu-icon {
     display: none !important;
   }
