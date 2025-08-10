@@ -1,274 +1,142 @@
 [
   {
-    "date": "08/23/2023",
-    "schedule": "assembly"
-  },
-  {
-    "date": "08/25/2023",
-    "schedule": "assembly"
-  },
-  {
-    "date": "08/30/2023",
+    "date": "08/13/2025",
     "schedule": "latestart"
   },
   {
-    "date": "08/31/2023",
+    "date": "09/03/2025",
+    "schedule": "regular"
+  },
+  {
+    "date": "10/01/2025",
+    "schedule": "regular"
+  },
+  {
+    "date": "11/05/2025",
+    "schedule": "regular"
+  },
+  {
+    "date": "12/03/2025",
+    "schedule": "regular"
+  },
+  {
+    "date": "01/07/2026",
+    "schedule": "regular"
+  },
+  {
+    "date": "02/04/2026",
+    "schedule": "regular"
+  },
+  {
+    "date": "03/04/2026",
+    "schedule": "regular"
+  },
+  {
+    "date": "04/08/2026",
+    "schedule": "regular"
+  },
+  {
+    "date": "05/06/2026",
+    "schedule": "regular"
+  },
+  {
+    "date": "08/15/2025",
     "schedule": "assembly"
   },
   {
-    "date": "09/01/2023",
+    "date": "08/22/2025",
+    "schedule": "assembly"
+  },
+  {
+    "date": "10/16/2025",
+    "schedule": "assembly"
+  },
+  {
+    "date": "10/17/2025",
+    "schedule": "assembly"
+  },
+  {
+    "date": "01/23/2026",
+    "schedule": "assembly"
+  },
+  {
+    "date": "01/30/2026",
+    "schedule": "assembly"
+  },
+  {
+    "date": "04/10/2026",
+    "schedule": "assembly"
+  },
+  {
+    "date": "08/29/2025",
     "schedule": "minimum"
   },
   {
-    "date": "09/04/2023",
-    "schedule": "noschool"
+    "date": "10/24/2025",
+    "schedule": "minimum"
   },
   {
-    "date": "09/06/2023",
-    "schedule": "regular"
+    "date": "01/16/2026",
+    "schedule": "minimum"
   },
   {
-    "date": "09/07/2023",
-    "schedule": "regular"
+    "date": "05/26/2026",
+    "schedule": "minimum"
   },
   {
-    "date": "10/04/2023",
-    "schedule": "regular"
+    "date": "12/17/2025",
+    "schedule": "finals"
   },
   {
-    "date": "10/05/2023",
+    "date": "12/18/2025",
+    "schedule": "finals"
+  },
+  {
+    "date": "12/19/2025",
+    "schedule": "finals"
+  },
+  {
+    "date": "05/27/2026",
+    "schedule": "finals"
+  },
+  {
+    "date": "05/28/2026",
+    "schedule": "finals"
+  },
+  {
+    "date": "05/29/2026",
+    "schedule": "finals"
+  },
+  {
+    "date": "10/07/2025",
+    "schedule": "specialevent"
+  },
+  {
+    "date": "10/08/2025",
+    "schedule": "specialevent"
+  },
+  {
+    "date": "09/19/2025",
     "schedule": "specialassembly"
   },
   {
-    "date": "10/13/2023",
-    "schedule": "assembly"
-  },
-  {
-    "date": "10/19/2023",
-    "schedule": "extendedlunch"
-  },
-  {
-    "date": "10/20/2023",
-    "schedule": "minimum"
-  },
-  {
-    "date": "11/01/2023",
-    "schedule": "regular"
-  },
-  {
-    "date": "11/13/2023",
-    "schedule": "noschool"
-  },
-  {
-    "date": "11/14/2023",
-    "schedule": "virtuallearning"
-  },
-  {
-    "date": "11/15/2023",
-    "schedule": "regular"
-  },
-  {
-    "date": "11/22/2023",
-    "schedule": "noschool"
-  },
-  {
-    "date": "12/06/2023",
-    "schedule": "regular"
-  },
-  {
-    "date": "12/07/2023",
-    "schedule": "extendedlunch"
-  },
-  {
-    "date": "12/19/2023",
-    "schedule": "finals"
-  },
-  {
-    "date": "12/20/2023",
-    "schedule": "finals"
-  },
-  {
-    "date": "12/21/2023",
-    "schedule": "finals"
-  },
-  {
-    "date": "12/22/2023",
-    "schedule": "noschool"
-  },
-  {
-    "date": "12/23/2023",
-    "schedule": "noschool"
-  },
-  {
-    "date": "12/24/2023",
-    "schedule": "noschool"
-  },
-  {
-    "date": "12/25/2023",
-    "schedule": "noschool"
-  },
-  {
-    "date": "12/26/2023",
-    "schedule": "noschool"
-  },
-  {
-    "date": "12/27/2023",
-    "schedule": "noschool"
-  },
-  {
-    "date": "12/28/2023",
-    "schedule": "noschool"
-  },
-  {
-    "date": "12/29/2023",
-    "schedule": "noschool"
-  },
-  {
-    "date": "12/30/2023",
-    "schedule": "noschool"
-  },
-  {
-    "date": "12/31/2023",
-    "schedule": "noschool"
-  },
-  {
-    "date": "01/01/2024",
-    "schedule": "noschool"
-  },
-  {
-    "date": "01/02/2024",
-    "schedule": "noschool"
-  },
-  {
-    "date": "01/03/2024",
-    "schedule": "noschool"
-  },
-  {
-    "date": "01/04/2024",
-    "schedule": "noschool"
-  },
-  {
-    "date": "01/05/2024",
-    "schedule": "noschool"
-  },
-  {
-    "date": "01/06/2024",
-    "schedule": "noschool"
-  },
-  {
-    "date": "01/07/2024",
-    "schedule": "noschool"
-  },
-  {
-    "date": "01/10/2024",
-    "schedule": "latestart"
-  },
-  {
-    "date": "01/15/2024",
-    "schedule": "noschool"
-  },
-  {
-    "date": "01/26/2024",
-    "schedule": "assembly"
-  },
-  {
-    "date": "02/07/2024",
-    "schedule": "regular"
-  },
-  {
-    "date": "02/08/2024",
-    "schedule": "assembly"
-  },
-  {
-    "date": "03/06/2024",
-    "schedule": "regular"
-  },
-  {
-    "date": "03/07/2024",
-    "schedule": "extendedlunch"
-  },
-  {
-    "date": "03/15/2024",
-    "schedule": "minimum"
-  },
-  {
-    "date": "03/28/2024",
+    "date": "03/12/2026",
     "schedule": "specialassembly"
   },
   {
-    "date": "04/04/2024",
+    "date": "10/28/2025",
     "schedule": "extendedlunch"
   },
   {
-    "date": "04/05/2024",
-    "schedule": "assembly"
-  },
-  {
-    "date": "04/11/2024",
+    "date": "12/04/2025",
     "schedule": "extendedlunch"
   },
   {
-    "date": "04/15/2024",
-    "schedule": "block"
+    "date": "02/20/2026",
+    "schedule": "extendedlunch"
   },
   {
-    "date": "04/16/2024",
-    "schedule": "block"
-  },
-  {
-    "date": "04/17/2024",
-    "schedule": "block"
-  },
-  {
-    "date": "04/18/2024",
-    "schedule": "block"
-  },
-  {
-    "date": "04/19/2024",
-    "schedule": "block"
-  },
-  {
-    "date": "04/22/2024",
-    "schedule": "block"
-  },
-  {
-    "date": "04/23/2024",
-    "schedule": "block"
-  },
-  {
-    "date": "04/24/2024",
-    "schedule": "block"
-  },
-  {
-    "date": "04/25/2024",
-    "schedule": "block"
-  },
-  {
-    "date": "04/26/2024",
-    "schedule": "block"
-  },
-  {
-    "date": "04/24/2024",
-    "schedule": "regular"
-  },
-  {
-    "date": "05/22/2024",
-    "schedule": "regular"
-  },
-  {
-    "date": "05/28/2024",
-    "schedule": "minimum"
-  },
-  {
-    "date": "05/29/2024",
-    "schedule": "finals"
-  },
-  {
-    "date": "05/30/2024",
-    "schedule": "finals"
-  },
-  {
-    "date": "05/31/2024",
-    "schedule": "finals"
+    "date": "04/09/2026",
+    "schedule": "extendedlunch"
   }
 ]

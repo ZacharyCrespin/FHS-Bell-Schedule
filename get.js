@@ -44,7 +44,7 @@ function formatCalDate(date) {
 function isSummer(dateStr) {
   const date = DateTime.fromFormat(dateStr, 'MM/dd/yyyy');
   const start = DateTime.fromObject({ year: 2023, month: 6, day: 2 });
-  const end = DateTime.fromObject({ year: 2023, month: 8, day: 16 });
+  const end = DateTime.fromObject({ year: 2025, month: 8, day: 13 });
 
   return date > start && date < end;
 }
@@ -116,7 +116,7 @@ async function getGames(dateStr, includeUpcoming = true) {
   if (!includeUpcoming) {
     end = DateTime.fromISO(start).plus({ days: 1 }).toISODate()
   }
-  const gamesURL = `https://www.cifsshome.org/widget/calendar?school_id=175&ajax=1&start=${start}&end=${end}&timeZone=UTC`
+  const gamesURL = `https://www.cifsshome.org/widget/calendar?school_id=175&available_event_type_ids=away,home,neutral&event_type_ids=away,home,neutral&filters=year,sport,level,game_type,opponent,facility&ajax=1&start=${start}&end=${end}&timeZone=UTC`
 
   let today = []
   let upcoming = []
@@ -176,7 +176,7 @@ async function getEvents(dateStr, includeUpcoming = true) {
     }))
 
     // Combine tusd events and local json events
-    let allEvents = tusdEvents.concat(localEvents)
+    let allEvents = localEvents.concat(tusdEvents)
     // Make sure dates are sorted
     allEvents = allEvents.sort((a, b) => {
       const dateA = DateTime.fromFormat(a.date, 'MM/dd/yyyy');

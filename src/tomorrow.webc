@@ -3,7 +3,7 @@ title: Tomorrow
 description: Tomorrow's Foothill High School Bell Schedule
 layout: main.webc
 ---
-<bye></bye>
+<h2 @text="tomorrow.date.string"></h2>
 <div class="box">
   <h3 @text="tomorrow.schedule.name"></h3>
   <template @html="tomorrow.schedule.html" webc:nokeep></template>

@@ -5,7 +5,7 @@
   },
   "latestart": {
     "name": "Late Start",
-    "html": "<table><tbody><tr><td>0</td><td>8:55 - 9:40</td></tr><tr><td>1</td><td>9:46 - 10:31</td></tr><tr><td>2</td><td>10:37 - 11:22</td></tr><tr><td>FTV</td><td>11:22 - 11:32</td></tr><tr><td>3</td><td>11:32 - 12:17</td></tr><tr><td>Lunch</td><td>12:17 - 12:47</td></tr><tr><td>4</td><td>12:53 - 1:38</td></tr><tr><td>5</td><td>1:44 - 2:29</td></tr><tr><td>Break</td><td>2:29 - 2:44</td></tr><tr><td>6</td><td>2:50 - 3:35</td></tr></tbody></table>"
+    "html": "<table><tbody><tr><td>0</td><td>8:55 - 9:40</td></tr><tr><td>1</td><td>9:46 - 10:31</td></tr><tr><td>2</td><td>10:37 - 11:22</td></tr><tr><td>Announcements</td><td>11:22 - 11:32</td></tr><tr><td>3</td><td>11:32 - 12:17</td></tr><tr><td>Lunch</td><td>12:17 - 12:47</td></tr><tr><td>4</td><td>12:53 - 1:38</td></tr><tr><td>5</td><td>1:44 - 2:29</td></tr><tr><td>Break</td><td>2:29 - 2:44</td></tr><tr><td>6</td><td>2:50 - 3:35</td></tr></tbody></table>"
   },
   "ccr": {
     "name": "CCR",
@@ -29,11 +29,15 @@
   },
   "finals": {
     "name": "Finals",
-    "html": "<table><tbody><tr><td>1st Exam <span class='light'>(1, 2 or 3)</span></td><td>8:30 - 10:30</td></tr><tr><td>Break</td><td>10:30 - 10:45</td></tr><tr><td>Passing</b></td><td>10:45 - 10:50</td></tr><tr><td>2nd Exam <span class='light'>(4, 5 or 6/0)</span></td><td>10:50 - 12:50</td></tr></tbody></table>"
+    "html": "<table><tbody><tr><td>0 Period</td><td>7:25 - 8:22</td></tr><tr><td>1st Exam <span class='light'>(1, 2 or 3)</span></td><td>8:30 - 10:30</td></tr><tr><td>Break</td><td>10:30 - 10:45</td></tr><tr><td>Passing</b></td><td>10:45 - 10:50</td></tr><tr><td>2nd Exam <span class='light'>(4, 5 or 6/0)</span></td><td>10:50 - 12:50</td></tr></tbody></table>"
   },
   "block": {
     "name": "Block Testing",
     "html": "<table><tbody><tr><td>0</td><td>7:29  -  8:24</td></tr><tr><td>1st Block <span class='light'>(1/2)</span></td><td>8:30  - 10:31</td></tr><tr><td>Break</td><td>10:31 - 10:46</td></tr><tr><td>Announcements</td><td>10:52 - 10:57</td></tr><tr><td>2nd Block <span class='light'>(3/4)</span></td><td>10:57 - 12:58</td></tr><tr><td>Lunch</td><td>12:58 -  1:28</td></tr><tr><td>3rd Block <span class='light'>(5/6)</span></td><td>1:34  - 3:35</td></tr></tbody></table>"
+  },
+  "specialevent": {
+    "name": "Special Event",
+    "html": "<table><tbody><tr><td>0</td><td>7:36 - 8:24</td></tr><tr><td>1</td><td>8:30 - 9:16</td></tr><tr><td>2</td><td>9:22 - 10:08</td></tr><tr><td>Special Event</td><td>10:14 - 11:28</td></tr><tr><td>3</td><td>11:28 - 12:14</td></tr><tr><td>Lunch</td><td>12:14 - 12:44</td></tr><tr><td>4</td><td>12:50 - 1:36</td></tr><tr><td>5</td><td>1:42 - 2:28</td></tr><tr><td>Break</td><td>2:28 - 2:43</td></tr><tr><td>6</td><td>2:49 - 3:35</td></tr></tbody></table>"
   },
   "weekend": {
     "name": "No School",
@@ -50,9 +54,5 @@
   "custom": {
     "name": "Custom Schedule",
     "html": "<p>Cheak the <a href='https://docs.google.com/document/d/1-6RJC9m_UcizT7hnWTvtjExrnIrW577n6YWBoNRmF7I/edit?usp=sharing'>daily bulletin</a> for today's schedule.</p>"
-  },
-  "virtuallearning": {
-    "name": "Virtual Learning",
-    "html": "<table><tbody><tr><td>0</td><td>10:30 - 10:50</td></tr><tr><td>1</td><td>10:55 - 11:15</td></tr><tr><td>2</td><td>11:20 - 11:40</td></tr><tr><td>3</td><td>11:45 - 12:05</td></tr><tr><td>Break</td><td>12:05 - 12:20</td></tr><tr><td>4</td><td>12:25 - 12:45</td></tr><tr><td>5</td><td>12:50 - 1:10</td></tr><tr><td>6</td><td>1:15 - 1:35</td></tr></tbody></table>"
   }
 }

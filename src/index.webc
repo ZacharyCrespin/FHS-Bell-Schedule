@@ -5,7 +5,6 @@ layout: main.webc
 ---
 <h2 @text="today.date.string"></h2>
 <clock></clock>
-<bye></bye>
 <div class="box">
   <h3 @text="today.schedule.name"></h3>
   <template @html="today.schedule.html" webc:nokeep></template>
@@ -16,6 +15,7 @@ layout: main.webc
   <div webc:for="event of today.events.today" class="box text-left">
     <template webc:type="11ty" 11ty:type="njk">
       <h4>{{ event["event"] }}</h4>
+      {% if event["note"] %}<p>{{ event["note"] }}</p>{% endif %}
       {% if event["time"] or event["location"] %}<p>{{ event["time"] | formatTime }}{% if event["time"] and event["location"] %} &middot; {% endif %}{{ event["location"] }}</p>{% endif %}
     </template>
   </div>

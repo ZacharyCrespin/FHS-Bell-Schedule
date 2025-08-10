@@ -3,11 +3,11 @@ title: Upcoming Events
 description: Foothill High School Upcoming Events
 layout: main.webc
 ---
-<bye></bye>
 <p webc:if="today.events.upcoming.length < 1">No Upcoming Events</p>
 <div webc:for="event of today.events.upcoming" class="box text-left">
   <template webc:type="11ty" 11ty:type="njk">
     <h2 class="h4">{{ event["event"] }}</h2>
+    {% if event["note"] %}<p>{{ event["note"] }}</p>{% endif %}
     <p>{{ event["date"] | formatDate }}{% if event["time"] %} &middot; {{ event["time"] | formatTime }}{% endif %}{% if event["location"] %} &middot; {{ event["location"] }}{% endif %}</p>
   </template>
 </div>

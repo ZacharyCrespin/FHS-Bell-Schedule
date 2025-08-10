@@ -1,8 +1,7 @@
 const { DateTime } = require('luxon')
 const { getDate, getSchedule, getEvents, getGames } = require('../../get')
 
-// const dateStr = DateTime.now().setZone('America/Los_Angeles').toFormat('MM/dd/yyyy')
-const dateStr = '05/31/2024' // Shut down site
+const dateStr = DateTime.now().setZone('America/Los_Angeles').toFormat('MM/dd/yyyy')
 
 module.exports = async function() {
   const date = await getDate(dateStr)

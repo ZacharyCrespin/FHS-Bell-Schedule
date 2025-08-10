@@ -1,6 +1,6 @@
 {
   "name": "fhs-bell-schedule",
-  "version": "2.3.0",
+  "version": "3.0.0",
   "description": "",
   "scripts": {
     "start": "eleventy --serve --quiet",
@@ -13,16 +13,16 @@
     "node": ">=14"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-webc": "^0.11.1",
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-plugin-webc": "^0.11.2",
     "@sherby/eleventy-plugin-files-minifier": "^1.1.1",
     "11ty-external-file-downloader": "^1.0.3",
-    "axios": "^1.5.1",
-    "eslint": "^8.50.0",
+    "axios": "^1.11.0",
+    "eslint": "^9.33.0",
     "lissa-ordinal-suffix": "^1.0.2",
-    "luxon": "^3.4.3",
-    "stylelint": "^15.10.3",
-    "stylelint-config-standard": "^34.0.0",
+    "luxon": "^3.7.1",
+    "stylelint": "^16.23.1",
+    "stylelint-config-standard": "^39.0.0",
     "vdata-parser": "^0.1.5"
   }
 }

@@ -3,7 +3,6 @@ title: This Week
 description: This Week's Foothill High School Bell Schedules
 layout: main.webc
 ---
-<bye></bye>
 <div class="box" webc:for="day of week">
   <h2 @text="day.date.string"></h2>
   <h3 @text="day.schedule.name"></h3>
@@ -11,6 +10,7 @@ layout: main.webc
     <div webc:for="event of day.events" class="box text-left">
       <template webc:type="11ty" 11ty:type="njk">
         <h4>{{ event["event"] }}</h4>
+        {% if event["note"] %}<p>{{ event["note"] }}</p>{% endif %}
         {% if event["time"] or event["location"] %}<p>{{ event["time"] | formatTime }}{% if event["time"] and event["location"] %} &middot; {% endif %}{{ event["location"] }}</p>{% endif %}
       </template>
     </div>

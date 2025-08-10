@@ -4,7 +4,6 @@ description: Settings
 layout: main.webc
 coloris: true
 ---
-<bye></bye>
 <div class="box">
   <label for="theme">Theme</label>
   <select name="theme" id="theme" class="input">
