@@ -10,27 +10,14 @@ const dates = JSON.parse(fs.readFileSync('dates.json', 'utf-8'))
 const localEvents = JSON.parse(fs.readFileSync('events.json', 'utf-8'))
 
 // Helper Functions
-// Binary date search
-function singleDateSearch(list, date) {
-  date = DateTime.fromFormat(date, 'MM/dd/yyyy')
-
-  let low = 0
-  let high = list.length - 1
-
-  while (low <= high) {
-    let mid = Math.floor((low + high) / 2)
-    let midDate = DateTime.fromFormat(list[mid].date, 'MM/dd/yyyy')
-
-    if (midDate.equals(date)) {
-      return mid
-    } else if (midDate < date) {
-      low = mid + 1
-    } else {
-      high = mid - 1
-    }
-  }
-  return -1
+// Date search
+function dateSearch(list, date) {
+  const target = DateTime.fromFormat(date, 'MM/dd/yyyy');
+  return list.findIndex(item =>
+    DateTime.fromFormat(item.date, 'MM/dd/yyyy').equals(target)
+  );
 }
+
 
 // Format iCal Dates
 function formatCalDate(date) {
@@ -93,7 +80,7 @@ async function getSchedule(dateStr) {
   }
 
   // Search for a custom schedule
-  const custom = singleDateSearch(dates, date.short)
+  const custom = dateSearch(dates, date.short)
 
   // If there's a custom schedule set it
   if (custom != -1) {
