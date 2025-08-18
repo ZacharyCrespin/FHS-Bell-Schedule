@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" :href="getBundleFileUrl('css')" webc:keep>
 
+    <link rel="preload" href="/fonts/Inter/Inter.var.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
     <!-- Coloris -->
     <link webc:if="coloris" webc:keep rel="stylesheet" href="/coloris.min.css">
     <script webc:if="coloris" webc:keep src="/coloris.min.js"></script>
