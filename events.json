@@ -22,5 +22,22 @@
   {
     "date": "08/22/2025",
     "event": "Senior Talks"
+  },
+  {
+    "date": "08/27/2025",
+    "event": "Back to School Night",
+    "time": "6:00pm - 8:00pm"
+  },
+  {
+    "date": "10/15/2025",
+    "event": "Report Card Night"
+  },
+  {
+    "date": "01/15/2026",
+    "event": "Showcase Night"
+  },
+  {
+    "date": "05/28/2026",
+    "event": "Graduation"
   }
 ]
