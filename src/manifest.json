@@ -24,6 +24,7 @@
   ],
   "id": "/",
   "start_url": "/",
+  "display_override": ["minimal-ui", "standalone"],
   "display": "standalone",
   "orientation": "portrait",  
   "scope": "/",
@@ -31,7 +32,7 @@
     {
       "name": "Today",
       "short_name": "Today",
-      "description": "Today's Foothill High School Bell Schedule",
+      "description": "Today's Bell Schedule",
       "url": "/",
       "icons": [
         {
@@ -54,7 +55,7 @@
     {
       "name": "This Week",
       "short_name": "This Week",
-      "description": "This Week's Foothill High School Bell Schedules",
+      "description": "This Week's Bell Schedules",
       "url": "/week/",
       "icons": [
         {
@@ -77,7 +78,7 @@
     {
       "name": "Upcoming Events",
       "short_name": "Events",
-      "description": "Foothill High School Upcoming Events",
+      "description": "Upcoming Events",
       "url": "/events/",
       "icons": [
         {
@@ -100,7 +101,7 @@
     {
       "name": "Upcoming Games",
       "short_name": "Games",
-      "description": "Foothill High School Upcoming Games",
+      "description": "Upcoming Games",
       "url": "/games/",
       "icons": [
         {

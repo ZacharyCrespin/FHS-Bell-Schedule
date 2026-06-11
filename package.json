@@ -13,16 +13,16 @@
     "node": ">=14"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy": "^3.1.6",
     "@11ty/eleventy-plugin-webc": "^0.11.2",
     "@sherby/eleventy-plugin-files-minifier": "^1.1.1",
     "11ty-external-file-downloader": "^1.0.3",
-    "axios": "^1.11.0",
-    "eslint": "^9.33.0",
+    "axios": "^1.17.0",
+    "eslint": "^10.4.1",
     "lissa-ordinal-suffix": "^1.0.2",
-    "luxon": "^3.7.1",
-    "stylelint": "^16.23.1",
-    "stylelint-config-standard": "^39.0.0",
+    "luxon": "^3.7.2",
+    "stylelint": "^17.13.0",
+    "stylelint-config-standard": "^40.0.0",
     "vdata-parser": "^0.1.5"
   }
 }

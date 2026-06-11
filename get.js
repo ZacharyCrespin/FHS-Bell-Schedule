@@ -27,11 +27,11 @@ function formatCalDate(date) {
   return `${month}/${day}/${year}`;
 }
 
-// Is a date summer(2023)?
+// Is a date summer?
 function isSummer(dateStr) {
   const date = DateTime.fromFormat(dateStr, 'MM/dd/yyyy');
-  const start = DateTime.fromObject({ year: 2023, month: 6, day: 2 });
-  const end = DateTime.fromObject({ year: 2025, month: 8, day: 13 });
+  const start = DateTime.fromObject({ year: 2026, month: 5, day: 29 });
+  const end = DateTime.fromObject({ year: 2026, month: 8, day: 13 });
 
   return date > start && date < end;
 }
